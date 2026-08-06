@@ -1,5 +1,7 @@
 # SystemVerilog Refactor Dataset
 
+[English](README.md) | [简体中文](README_zh-CN.md)
+
 A provenance-first collection of OpenCores HDL projects refactored toward
 synthesizable SystemVerilog and validated with self-checking simulations.
 
