@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project": "ima_adpcm_enc_dec",
+  "category": "arithmetic_dsp_and_ecc",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/ima_adpcm_enc_dec/verilog/rtl/ima_adpcm_enc.v",
+      "sha256": "d42899540f76c8d0f85b24daff2c3977c70afb469147fb67193caab23a53c8c1"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/ima_adpcm_enc_dec/verilog/rtl/ima_adpcm_dec.v",
+      "sha256": "f49f59928c3d7ed095139e1df07ee1ad334f0b73c234fa68ed503a2ac48e53f2"
+    }
+  ],
+  "rtl_files": [
+    "rtl/blocks/ima_adpcm_enc.sv",
+    "rtl/blocks/ima_adpcm_dec.sv"
+  ],
+  "testbench": "tb/tb_ima_adpcm_equiv.sv",
+  "verification_checks": [
+    "64 deterministic sample transactions",
+    "cycle-accurate comparison against immutable legacy modules",
+    "ready/valid interface timing",
+    "encoded nibble and encoder predictor/index state",
+    "decoded sample output"
+  ],
+  "license_expression": "LicenseRef-OpenCores-Permissive",
+  "license_review": "source_license_file_identified",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "IMA_ADPCM_SV_PASS samples=64 cycle_equivalence=pass",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "Functional automation must pass; expert review remains mandatory before training approval."
+}

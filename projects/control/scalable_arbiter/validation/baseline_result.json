@@ -1,0 +1,10 @@
+{
+  "project": "scalable_arbiter",
+  "status": "pass",
+  "strategy": "full_core_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "checks": ["one-hot grant", "grant requires request", "select encoding", "all single requesters", "round-robin progress", "enable masking"]
+}

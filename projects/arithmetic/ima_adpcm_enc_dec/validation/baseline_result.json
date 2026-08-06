@@ -1,0 +1,10 @@
+{
+  "project": "ima_adpcm_enc_dec",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "cycle_equivalence",
+  "lint_errors": 0,
+  "checks": ["64 encoder transactions", "cycle-accurate legacy equivalence", "encoder state", "decoded samples", "ready/valid timing"]
+}

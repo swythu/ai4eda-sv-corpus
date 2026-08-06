@@ -1,0 +1,253 @@
+--- upstream/rtl/verilog/arbiter.v
++++ refactored/rtl/blocks/arbiter.sv
+@@ -15,6 +15,7 @@
+  */
+ 
+ `timescale 1ns / 1ps
++`default_nettype none
+ 
+ // Two synchronous arbiter implementations are provided:
+ // 'arbiter' and 'arbiter_x2'. Both are round-robin arbiters
+@@ -67,47 +68,47 @@
+ // some implemntation results.
+ 
+ module arbiter_x2 #(
+-	parameter width = 0,
+-	parameter select_width = 1
++	parameter int unsigned width = 0,
++	parameter int unsigned select_width = 1
+ )(
+-	input enable,
+-	input [width-1:0] req,
+-	output reg [width-1:0] grant,
+-	output reg [select_width-1:0] select,
+-	output reg valid,
++	input logic enable,
++	input logic [width-1:0] req,
++	output logic [width-1:0] grant,
++	output logic [select_width-1:0] select,
++	output logic valid,
+ 	
+-	input clock,
+-	input reset
++	input logic clock,
++	input logic reset
+ );
+ 
+-`include "functions.v"
++`include "functions.svh"
+ 
+ // 'width1' is the width of the first stage arbiters, which
+ // is the square root of 'width' rounded up to the nearest
+ // power of 2, calculated as: exp2(ceiling(log2(width)/2))
+-parameter width1 = 1 << ((clog2(width)/2) + (clog2(width)%2));
+-parameter select_width1 = clog2(width1);
++localparam int unsigned width1 = 1 << ((clog2(width)/2) + (clog2(width)%2));
++localparam int unsigned select_width1 = clog2(width1);
+ 
+ // 'width0' is the the width of the second stage arbiter,
+ // which is the number of arbiters in the first stage.
+-parameter width0 = width/width1;
+-parameter select_width0 = clog2(width0);
++localparam int unsigned width0 = width/width1;
++localparam int unsigned select_width0 = clog2(width0);
+ 
+ genvar g;
+ 
+-wire [width-1:0] grant1;
+-wire [(width0*select_width1)-1:0] select1;
+-wire [width0-1:0] enable1;
+-wire [width0-1:0] req0;
+-wire [width0-1:0] grant0;
+-wire [select_width0-1:0] select0;
+-wire valid0;
+-wire [select_width1-1:0] select_mux[width0-1:0];
++logic [width-1:0] grant1;
++logic [(width0*select_width1)-1:0] select1;
++logic [width0-1:0] enable1;
++logic [width0-1:0] req0;
++logic [width0-1:0] grant0;
++logic [select_width0-1:0] select0;
++logic valid0;
++logic [select_width1-1:0] select_mux[width0-1:0];
+ 
+ assign enable1 = grant0 & req0;
+ 
+ // Register the outputs.
+-always @(posedge clock, posedge reset)
++always_ff @(posedge clock or posedge reset)
+ begin
+ 	if(reset)
+ 	begin
+@@ -176,28 +177,28 @@
+ // for the output registers).
+ 
+ module arbiter #(
+-	parameter width = 0,
+-	parameter select_width = 1
++	parameter int unsigned width = 0,
++	parameter int unsigned select_width = 1
+ )(
+-	input enable,
+-	input [width-1:0] req,
+-	output reg [width-1:0] grant,
+-	output reg [select_width-1:0] select,
+-	output reg valid,
++	input logic enable,
++	input logic [width-1:0] req,
++	output logic [width-1:0] grant,
++	output logic [select_width-1:0] select,
++	output logic valid,
+ 	
+-	input clock,
+-	input reset
++	input logic clock,
++	input logic reset
+ );
+ 
+-`include "functions.v"
++`include "functions.svh"
+ 
+ genvar g;
+ 
+ // These wires interconnect arbiter nodes.
+-wire [2*width-2:0] interconnect_req;
+-wire [2*width-2:0] interconnect_grant;
+-wire [width-2:0] interconnect_select;
+-wire [mux_sum(width,clog2(width))-1:0] interconnect_mux;
++logic [2*width-2:0] interconnect_req;
++logic [2*width-2:0] interconnect_grant;
++logic [width-2:0] interconnect_select;
++logic [mux_sum(width,clog2(width))-1:0] interconnect_mux;
+ 
+ // Assign inputs to some interconnects.
+ assign interconnect_req[2*width-2-:width] = req;
+@@ -208,7 +209,7 @@
+ assign interconnect_mux[mux_sum(width,clog2(width))-1-:width/2] = interconnect_select[width-2-:width/2];
+ 
+ // Register some interconnects as outputs.
+-always @(posedge clock, posedge reset)
++always_ff @(posedge clock or posedge reset)
+ begin
+ 	if(reset)
+ 	begin
+@@ -272,11 +273,11 @@
+ endmodule
+ 
+ module mux_array #(
+-	parameter width = 0
++	parameter int unsigned width = 0
+ )(
+-	input [(2*width)-1:0] in,
+-	input [width-1:0] select,
+-	output [width-1:0] out
++	input logic [(2*width)-1:0] in,
++	input logic [width-1:0] select,
++	output logic [width-1:0] out
+ );
+ 
+ mux_node nodes[width-1:0] (
+@@ -288,9 +289,9 @@
+ endmodule
+ 
+ module mux_node (
+-	input [1:0] in,
+-	input select,
+-	output out
++	input logic [1:0] in,
++	input logic select,
++	output logic out
+ );
+ 
+ assign out = select ?  in[1] : in[0];
+@@ -304,20 +305,20 @@
+ // interconnected nodes to change state on the same clock.
+ 
+ module arbiter_node (
+-	input enable,
+-	input [1:0] req,
+-	output [1:0] grant,
+-	output select,
+-	output valid,
++	input logic enable,
++	input logic [1:0] req,
++	output logic [1:0] grant,
++	output logic select,
++	output logic valid,
+ 	
+-	input clock,
+-	input reset
++	input logic clock,
++	input logic reset
+ );
+ 
+ // The state determines which 'req' is granted. State '0'
+ // grants 'req[0]', state '1' grants 'req[1]'.
+-reg grant_state;
+-wire next_state;
++logic grant_state;
++logic next_state;
+ 
+ // The 'grant' of this stage is masked by 'enable', which
+ // carries the grants of the subsequent stages back to this
+@@ -377,7 +378,7 @@
+ assign next_state = (req[1] & ~req[0]) | (req[1] & grant_state);
+ 
+ // state register
+-always @(posedge clock, posedge reset)
++always_ff @(posedge clock or posedge reset)
+ begin
+ 	if(reset)
+ 		grant_state <= 0;
+@@ -386,3 +387,5 @@
+ end
+ 
+ endmodule
++
++`default_nettype wire
+--- upstream/rtl/verilog/functions.v
++++ refactored/include/functions.svh
+@@ -36,12 +36,11 @@
+ 	input integer number
+ );
+ integer i;
+-integer count;
+ begin
+ 	flog2 = 0;
+ 	for(i = 0; i < 32; i = i + 1)
+ 	begin
+-		if(number&(1<<i))
++		if((number & (1 << i)) != 0)
+ 			flog2 = i;
+ 	end
+ end
+@@ -59,7 +58,7 @@
+ 	count = 0;
+ 	for(i = 0; i < 32; i = i + 1)
+ 	begin
+-		if(number&(1<<i))
++		if((number & (1 << i)) != 0)
+ 		begin
+ 			clog2 = i;
+ 			count = count + 1;
+@@ -77,16 +76,16 @@
+ // compute the size of the interconnect for the arbiter's
+ // 'select' muxes
+ function integer mux_sum (
+-	input integer width, select_width
++	input integer mux_width, mux_select_width
+ );
+ integer i, number;
+ begin
+ 	mux_sum = 0;
+ 	number = 1;
+-	for(i = select_width; i > 0 && number <= width; i = i - 1)
++	for(i = mux_select_width; i > 0 && number <= mux_width; i = i - 1)
+ 	begin
+ 		mux_sum = mux_sum + i*(number);
+ 		number = number * 2;
+ 	end
+ end
+-endfunction
+\ No newline at end of file
++endfunction

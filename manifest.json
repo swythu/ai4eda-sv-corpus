@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "included": 14,
+  "included": 16,
   "excluded": 0,
   "projects": [
     {
@@ -13,6 +13,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/arithmetic/binary_to_bcd"
+    },
+    {
+      "name": "ima_adpcm_enc_dec",
+      "category": "arithmetic",
+      "upstream_project": "https://opencores.org/projects/ima_adpcm_enc_dec",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/ima_adpcm_enc_dec",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/arithmetic/ima_adpcm_enc_dec"
     },
     {
       "name": "tiny_spi",
@@ -68,6 +79,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/control/simple_pic"
+    },
+    {
+      "name": "scalable_arbiter",
+      "category": "control",
+      "upstream_project": "https://opencores.org/projects/scalable_arbiter",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/scalable_arbiter",
+      "license_expression": "ISC",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/control/scalable_arbiter"
     },
     {
       "name": "cdc_ufifo",

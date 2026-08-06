@@ -7,11 +7,13 @@ This is a multi-license collection. Original notices in source files are authori
 | Project | License expression | Upstream |
 |---|---|---|
 | binary_to_bcd | LGPL-2.1-or-later | https://opencores.org/projects/binary_to_bcd |
+| ima_adpcm_enc_dec | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/ima_adpcm_enc_dec |
 | tiny_spi | LGPL-2.1-or-later | https://opencores.org/projects/tiny_spi |
 | xge_mac | LGPL-2.1-or-later | https://opencores.org/projects/xge_mac |
 | pit | BSD-3-Clause | https://opencores.org/projects/pit |
 | simple_gpio | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/simple_gpio |
 | simple_pic | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/simple_pic |
+| scalable_arbiter | ISC | https://opencores.org/projects/scalable_arbiter |
 | cdc_ufifo | Apache-2.0 | https://opencores.org/projects/cdc_ufifo |
 | dma_axi32 | LicenseRef-LGPL-Unspecified-Version | https://opencores.org/projects/dma_axi |
 | dma_axi64 | LicenseRef-LGPL-Unspecified-Version | https://opencores.org/projects/dma_axi |

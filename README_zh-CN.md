@@ -26,7 +26,7 @@
 
 ## 当前范围
 
-- 共收录 14 个经过验证的项目；其中 4 个项目的许可证信息尚不完整或待确认；
+- 共收录 16 个经过验证的项目；其中 4 个项目的许可证信息尚不完整或待确认；
 - 保留上游源文件中的原始版权和许可证声明；
 - 每个项目包含 `ORIGIN.yml`、重构元数据或补丁、RTL 和测试资产；
 - 许可证存在歧义的项目按数据集维护者要求收录，并进行醒目标记；
@@ -65,13 +65,13 @@ python3 tools/run_all.py
 也可以指定工具路径：
 
 ```bash
-IVERILOG=/path/iverilog \\
-VVP=/path/vvp \\
-VERILATOR=/path/verilator \\
+IVERILOG=/path/iverilog \
+VVP=/path/vvp \
+VERILATOR=/path/verilator \
 python3 tools/run_all.py
 ```
 
-当前发布快照中 14/14 个项目通过编译、自检仿真和 lint 回归。详细信息见
+当前发布快照中 16/16 个项目通过编译、自检仿真和 lint 回归。详细信息见
 [`VALIDATION.md`](VALIDATION.md)。
 
 ## 版权与许可证
