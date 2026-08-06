@@ -32,6 +32,33 @@
 - 许可证存在歧义的项目按数据集维护者要求收录，并进行醒目标记；
 - 当前验证结果不代表形式等价、综合签核、时序收敛或量产认证。
 
+## IP 列表
+
+| IP | 分类 | 功能说明 | 当前验证 | 许可证 |
+|---|---|---|---|---|
+| [binary_to_bcd](projects/arithmetic/binary_to_bcd) | 算术 | 参数化二进制转 BCD 转换器。 | 边界向量功能检查 | `LGPL-2.1-or-later` |
+| [fixed_point_arithmetic_parameterized](projects/arithmetic/fixed_point_arithmetic_parameterized) | 算术 | 参数化定点加法、乘法和迭代除法单元。 | 数学参考模型检查 | `LicenseRef-Unknown` |
+| [ima_adpcm_enc_dec](projects/arithmetic/ima_adpcm_enc_dec) | 算术 | 带预测值和索引状态的 IMA ADPCM 音频编解码器。 | 64 组样本逐周期等价检查 | `LicenseRef-OpenCores-Permissive` |
+| [tiny_spi](projects/communication/tiny_spi) | 通信 | 紧凑型 Wishbone 控制 SPI 主机。 | Wishbone 与 4 字节 SPI 环回 | `LGPL-2.1-or-later` |
+| [rtfsimpleuart](projects/communication/rtfsimpleuart) | 通信 | 带 8N1 收发、波特率生成、缓冲和中断的 Wishbone UART。 | 双字节 8N1 协议环回 | `BSD-3-Clause` |
+| [xge_mac](projects/communication/xge_mac) | 通信 | 带 XGMII 接口的 10 Gigabit Ethernet MAC 数据通路。 | 18 个数据包 XGMII 环回 | `LGPL-2.1-or-later` |
+| [pit](projects/control/pit) | 控制 | 包含预分频器、计数器和标志的可编程间隔定时器。 | 寄存器、预分频和定时检查 | `BSD-3-Clause` |
+| [simple_gpio](projects/control/simple_gpio) | 控制 | 支持可编程引脚方向的 Wishbone GPIO 控制器。 | Wishbone 与双向 GPIO 检查 | `LicenseRef-OpenCores-Permissive` |
+| [simple_pic](projects/control/simple_pic) | 控制 | 支持屏蔽和电平/边沿模式的可编程中断控制器。 | 寄存器与中断模式检查 | `LicenseRef-OpenCores-Permissive` |
+| [scalable_arbiter](projects/control/scalable_arbiter) | 控制 | 输出独热授权和二进制选择的参数化轮询仲裁器。 | 独热、屏蔽与公平性检查 | `ISC` |
+| [cdc_ufifo](projects/interconnect/cdc_ufifo) | 互连/CDC | 用于有序跨时钟域传输的双时钟异步 FIFO。 | 双时钟域有序传输检查 | `Apache-2.0` |
+| [dma_axi32](projects/interconnect/dma_axi32) | 互连/CDC | 32 位数据通路的多通道 AXI DMA 集成顶层。 | 展开与复位/空闲冒烟检查 | `LicenseRef-LGPL-Unspecified-Version` |
+| [dma_axi64](projects/interconnect/dma_axi64) | 互连/CDC | 64 位数据通路的多通道 AXI DMA 集成顶层。 | 展开与复位/空闲冒烟检查 | `LicenseRef-LGPL-Unspecified-Version` |
+| [versatile_fifo](projects/interconnect/versatile_fifo) | 互连/CDC | 采用 Gray 指针两级同步的双向异步 FIFO。 | 双向异步时钟传输检查 | `LGPL-2.1-or-later` |
+| [wb_flash](projects/memory/wb_flash) | 存储 | 支持字节通道和等待周期应答的 Wishbone-to-Flash 接口。 | 字节通道与等待周期检查 | `LGPL-2.1-or-later` |
+| [configurable_crc_core](projects/security/configurable_crc_core) | 安全 | 参数化串行 CRC 生成与校验核心。 | 逐位 CRC-7 参考计分板 | `LicenseRef-Unknown` |
+| [sha_core](projects/security/sha_core) | 安全 | SHA-1 与 SHA-256 哈希核心。 | SHA-1/SHA-256 已知答案测试 | `LicenseRef-OpenCores-Permissive` |
+| [logicprobe](projects/verification/logicprobe) | 验证 | 包含采样捕获、读出复用和 UART 输出的嵌入式逻辑分析仪。 | 捕获、读出复用与 UART 检查 | `BSD-2-Clause` |
+| [oc_axi_bfm](projects/verification/oc_axi_bfm) | 验证 | 用于生成读写事务的 AXI4-Lite 总线功能主机模型。 | AXI4-Lite 握手场景检查 | `LicenseRef-Unknown` |
+
+“当前验证”列只表示仓库已经自动执行的检查。例如“复位/空闲冒烟检查”不代表
+DMA 搬运功能已经完整验证，也不代表综合、CDC、时序或量产签核。
+
 ## 目录结构
 
 ```text
