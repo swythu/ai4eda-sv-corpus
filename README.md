@@ -1,4 +1,4 @@
-# SystemVerilog Refactor Dataset
+# AI4EDA SystemVerilog Corpus
 
 [English](README.md) | [简体中文](README_zh-CN.md)
 

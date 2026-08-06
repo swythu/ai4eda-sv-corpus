@@ -1,4 +1,4 @@
-# SystemVerilog 重构数据集
+# AI4EDA SystemVerilog 标准化数据集
 
 [English](README.md) | [简体中文](README_zh-CN.md)
 
