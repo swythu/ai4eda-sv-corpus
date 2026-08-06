@@ -1,0 +1,455 @@
+--- upstream/qadd.v
++++ refactored/qadd.sv
+@@ -1,74 +1,36 @@
+-`timescale 1ns / 1ps
+-//////////////////////////////////////////////////////////////////////////////////
+-// Company: 
+-// Engineer: 
+-// 
+-// Create Date:    09:28:18 08/24/2011 
+-// Design Name: 
+-// Module Name:    q15_add 
+-// Project Name: 
+-// Target Devices: 
+-// Tool versions: 
+-// Description: 
+-//
+-// Dependencies: 
+-//
+-// Revision: 
+-// Revision 0.01 - File Created
+-// Additional Comments: 
+-//
+-//////////////////////////////////////////////////////////////////////////////////
+-module qadd(
+-    input [N-1:0] a,
+-    input [N-1:0] b,
+-    output [N-1:0] c
+-    );
+-//sign+16.15
+-
+-	//Parameterized values
+-	parameter Q = 15;
+-	parameter N = 32;
+-
+-reg [N-1:0] res;
+-
+-assign c = res;
+-
+-always @(a,b)
+-begin
+-	//both negative
+-	if(a[N-1] == 1 && b[N-1] == 1) begin
+-		//sign
+-		res[N-1] = 1;
+-		//whole
+-		res[N-2:0] = a[N-2:0] + b[N-2:0];
+-	end
+-	//both positive
+-	else if(a[N-1] == 0 && b[N-1] == 0) begin
+-		//sign
+-		res[N-1] = 0;
+-		//whole
+-		res[N-2:0] = a[N-2:0] + b[N-2:0];
+-	end
+-	//subtract a-b
+-	else if(a[N-1] == 0 && b[N-1] == 1) begin
+-		//sign
+-		if(a[N-2:0] > b[N-2:0])
+-			res[N-1] = 1;
+-		else
+-			res[N-1] = 0;
+-		//whole
+-		res[N-2:0] = a[N-2:0] - b[N-2:0];
+-	end
+-	//subtract b-a
+-	else begin
+-		//sign
+-		if(a[N-2:0] < b[N-2:0])
+-			res[N-1] = 1;
+-		else
+-			res[N-1] = 0;
+-		//whole
+-		res[N-2:0] = b[N-2:0] - a[N-2:0];
+-	end
+-end
+-
+-endmodule
++`default_nettype none
++
++module qadd #(
++  parameter int unsigned Q = 15,
++  parameter int unsigned N = 32
++) (
++  input  logic [N-1:0] a,
++  input  logic [N-1:0] b,
++  output logic [N-1:0] c
++);
++  localparam int unsigned MAG_W = N - 1;
++
++  logic [MAG_W-1:0] a_mag;
++  logic [MAG_W-1:0] b_mag;
++
++  initial begin
++    assert (N >= 2) else $fatal(1, "qadd requires N >= 2");
++    assert (Q < N) else $fatal(1, "qadd requires Q < N");
++  end
++
++  always_comb begin
++    a_mag = a[MAG_W-1:0];
++    b_mag = b[MAG_W-1:0];
++    c     = '0;
++
++    if (a[N-1] == b[N-1]) begin
++      c = {a[N-1], a_mag + b_mag};
++    end else if (a_mag >= b_mag) begin
++      c = {a[N-1], a_mag - b_mag};
++    end else begin
++      c = {b[N-1], b_mag - a_mag};
++    end
++  end
++endmodule
++
++`default_nettype wire
+--- upstream/qmult.v
++++ refactored/qmult.sv
+@@ -1,79 +1,27 @@
+-`timescale 1ns / 1ps
+-//////////////////////////////////////////////////////////////////////////////////
+-// Company: 
+-// Engineer: 
+-// 
+-// Create Date:    11:21:14 08/24/2011 
+-// Design Name: 
+-// Module Name:    q15_mult 
+-// Project Name: 
+-// Target Devices: 
+-// Tool versions: 
+-// Description: 
+-//
+-// Dependencies: 
+-//
+-// Revision: 
+-// Revision 0.01 - File Created
+-// Additional Comments: 
+-//
+-//////////////////////////////////////////////////////////////////////////////////
+-module qmult(
+-    input [N-1:0] a,
+-    input [N-1:0] b,
+-    output [N-1:0] c
+-    );
+-	 
+-	wire [2*N-1:0] a_ext;
+-	wire [2*N-1:0] b_ext;
+-	wire [2*N-1:0] r_ext;
+-	
+-	reg [2*N-1:0] a_mult;
+-	reg [2*N-1:0] b_mult;
+-	reg [2*N-1:0] result;
+-	reg [N-1:0] retVal;
+-	
+-	//Parameterized values
+-	parameter Q = 15;
+-	parameter N = 32;
+-
+-	qtwosComp #(Q,N) comp_a (a[30:0], a_ext);
+-
+-	qtwosComp #(Q,N) comp_b (b[30:0], b_ext);
+-	
+-	qtwosComp #(Q,N) comp_r (result[N-2+Q:Q], r_ext);
+-	
+-	assign c = retVal;
+-	
+-	always @(a_ext,b_ext)
+-	begin
+-		if(a[N-1] == 1)
+-			a_mult <= a_ext;
+-		else
+-			a_mult <= a;
+-			
+-		if(b[N-1] == 1)
+-			b_mult <= b_ext;
+-		else
+-			b_mult <= b;		
+-	end 
+-	
+-	always @(a_mult,b_mult)
+-	begin
+-		result <= a_mult * b_mult;
+-	end;
+-	
+-	always @(result,r_ext)
+-	begin		
+-		//sign
+-		if((a[N-1] == 1 && b[N-1] == 0) || (a[N-1] == 0 && b[N-1] == 1)) begin
+-			retVal[N-1] <= 1;
+-			retVal[N-2:0] <= r_ext[N-2:0];
+-		end
+-		else begin
+-			retVal[N-1] <= 0;
+-			retVal[N-2:0] <= result[N-2+Q:Q];
+-		end
+-	end
+-
+-endmodule
++`default_nettype none
++
++module qmult #(
++  parameter int unsigned Q = 15,
++  parameter int unsigned N = 32
++) (
++  input  logic [N-1:0] a,
++  input  logic [N-1:0] b,
++  output logic [N-1:0] c
++);
++  localparam int unsigned MAG_W = N - 1;
++
++  logic [(2*MAG_W)-1:0] magnitude_product;
++
++  initial begin
++    assert (N >= 2) else $fatal(1, "qmult requires N >= 2");
++    assert (Q < N) else $fatal(1, "qmult requires Q < N");
++  end
++
++  always_comb begin
++    magnitude_product = a[MAG_W-1:0] * b[MAG_W-1:0];
++    c[N-1]             = a[N-1] ^ b[N-1];
++    c[MAG_W-1:0]       = magnitude_product[Q +: MAG_W];
++  end
++endmodule
++
++`default_nettype wire
+--- upstream/qdiv.v
++++ refactored/qdiv.sv
+@@ -1,86 +1,90 @@
+-`timescale 1ns / 1ps
+-//////////////////////////////////////////////////////////////////////////////////
+-// Company: 
+-// Engineer: 
+-// 
+-// Create Date:    19:39:14 08/24/2011 
+-// Design Name: 
+-// Module Name:    divider 
+-// Project Name: 
+-// Target Devices: 
+-// Tool versions: 
+-// Description: 
+-//
+-// Dependencies: 
+-//
+-// Revision: 
+-// Revision 0.01 - File Created
+-// Additional Comments: 
+-//
+-//////////////////////////////////////////////////////////////////////////////////
+- 
+-module qdiv(
+-	input [N-1:0] dividend,
+-	input [N-1:0] divisor,
+-	input start,
+-	input clk,
+-	output [N-1:0] quotient_out,
+-	output complete
+-	);
+- 
+-	//Parameterized values
+-	parameter Q = 15;
+-	parameter N = 32;
+- 
+-	reg [N-1:0] quotient;
+-	reg [N-1:0] dividend_copy;
+-	reg [2*(N-1)-1:0] divider_copy;
+- 
+-	reg [5:0] bit; 
+-	reg done;
+- 
+-	initial done = 1;
+- 
+-	assign quotient_out = quotient;
+-	assign complete = done;
+- 
+-	always @( posedge clk ) 
+-	begin
+-		if( done && start ) begin
+- 
+-			done <= 1'b0;
+-			bit <= N+Q-2;
+-			quotient <= 0;
+-			dividend_copy <= {1'b0,dividend[N-2:0]};
+- 
+-			divider_copy[2*(N-1)-1] <= 0;
+-			divider_copy[2*(N-1)-2:N-2] <= divisor[N-2:0];
+-			divider_copy[N-3:0] <= 0;
+- 
+-			//set sign bit
+-			if((dividend[N-1] == 1 && divisor[N-1] == 0) || (dividend[N-1] == 0 && divisor[N-1] == 1))
+-				quotient[N-1] <= 1;
+-			else
+-				quotient[N-1] <= 0;
+-		end 
+-		else if(!done) begin
+-			//compare divisor/dividend
+-			if(dividend_copy >= divider_copy) begin
+-				//subtract
+-				dividend_copy <= dividend_copy - divider_copy;
+-				//set quotient
+-				quotient[bit] <= 1'b1;
+-			end
+- 
+-			//reduce divisor
+-			divider_copy <= divider_copy >> 1;
+-  
+-			//stop condition
+-			if(bit == 0)
+-				done <= 1'b1;
+-				
+-			//reduce bit counter
+-			bit <= bit - 1;	
+-		end
+-	end
+-endmodule
+\ No newline at end of file
++`default_nettype none
++
++module qdiv #(
++  parameter int unsigned Q = 15,
++  parameter int unsigned N = 32
++) (
++  input  logic         clk,
++  input  logic         rst_n,
++  input  logic         start,
++  input  logic [N-1:0] dividend,
++  input  logic [N-1:0] divisor,
++  output logic [N-1:0] quotient_out,
++  output logic         busy,
++  output logic         complete,
++  output logic         divide_by_zero
++);
++  localparam int unsigned MAG_W   = N - 1;
++  localparam int unsigned NUM_W   = MAG_W + Q;
++  localparam int unsigned COUNT_W = $clog2(NUM_W + 1);
++
++  logic [NUM_W-1:0] numerator_shift;
++  logic [NUM_W-1:0] quotient_work;
++  logic [MAG_W:0]    remainder;
++  logic [MAG_W-1:0]  divisor_mag;
++  logic               quotient_sign;
++  logic [COUNT_W-1:0] iterations_left;
++
++  logic [MAG_W:0]    shifted_remainder;
++  logic [NUM_W-1:0] next_quotient;
++
++  initial begin
++    assert (N >= 2) else $fatal(1, "qdiv requires N >= 2");
++    assert ((Q > 0) && (Q < N)) else $fatal(1, "qdiv requires 0 < Q < N");
++  end
++
++  always_comb begin
++    shifted_remainder = {remainder[MAG_W-1:0], numerator_shift[NUM_W-1]};
++    next_quotient     = quotient_work << 1;
++    if (shifted_remainder >= {1'b0, divisor_mag}) begin
++      shifted_remainder = shifted_remainder - {1'b0, divisor_mag};
++      next_quotient[0]  = 1'b1;
++    end
++  end
++
++  always_ff @(posedge clk or negedge rst_n) begin
++    if (!rst_n) begin
++      numerator_shift <= '0;
++      quotient_work   <= '0;
++      remainder       <= '0;
++      divisor_mag     <= '0;
++      quotient_sign   <= 1'b0;
++      iterations_left <= '0;
++      quotient_out    <= '0;
++      busy            <= 1'b0;
++      complete        <= 1'b0;
++      divide_by_zero  <= 1'b0;
++    end else begin
++      complete <= 1'b0;
++
++      if (start && !busy) begin
++        divide_by_zero <= (divisor[MAG_W-1:0] == '0);
++        if (divisor[MAG_W-1:0] == '0) begin
++          quotient_out <= '0;
++          complete     <= 1'b1;
++        end else begin
++          numerator_shift <= {{Q{1'b0}}, dividend[MAG_W-1:0]} << Q;
++          quotient_work   <= '0;
++          remainder       <= '0;
++          divisor_mag     <= divisor[MAG_W-1:0];
++          quotient_sign   <= dividend[N-1] ^ divisor[N-1];
++          iterations_left <= COUNT_W'(NUM_W);
++          busy            <= 1'b1;
++        end
++      end else if (busy) begin
++        numerator_shift <= numerator_shift << 1;
++        quotient_work   <= next_quotient;
++        remainder       <= shifted_remainder;
++        iterations_left <= iterations_left - 1'b1;
++
++        if (iterations_left == 1) begin
++          quotient_out <= {quotient_sign, next_quotient[MAG_W-1:0]};
++          busy         <= 1'b0;
++          complete     <= 1'b1;
++        end
++      end
++    end
++  end
++endmodule
++
++`default_nettype wire
+--- upstream/qtwosComp.v
++++ /dev/null
+@@ -1,50 +0,0 @@
+-`timescale 1ns / 1ps
+-//////////////////////////////////////////////////////////////////////////////////
+-// Company: 
+-// Engineer: 
+-// 
+-// Create Date:    13:44:20 08/24/2011 
+-// Design Name: 
+-// Module Name:    twosComp 
+-// Project Name: 
+-// Target Devices: 
+-// Tool versions: 
+-// Description: 
+-//
+-// Dependencies: 
+-//
+-// Revision: 
+-// Revision 0.01 - File Created
+-// Additional Comments: 
+-//
+-//////////////////////////////////////////////////////////////////////////////////
+-module qtwosComp(
+-    input [N-2:0] a,
+-    output [2*N-1:0] b
+-    );
+-	reg [2*N-1:0] data;
+-	reg [2*N-1:0] flip;
+-	reg [2*N-1:0] out;
+-	
+-	//Parameterized values
+-	parameter Q = 15;
+-	parameter N = 32;
+-	
+-	assign b = out;
+-	
+-	always @(a)
+-	begin
+-		data <= a;		//if you dont put the value into a 64b register, when you flip the bits it wont work right
+-	end
+-	
+-	always @(data)
+-	begin
+-		flip <= ~a;
+-	end
+-	
+-	always @(flip)
+-	begin
+-		out <= flip + 1;
+-	end
+-
+-endmodule

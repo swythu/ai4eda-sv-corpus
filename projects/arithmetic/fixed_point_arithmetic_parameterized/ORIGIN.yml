@@ -1,0 +1,8 @@
+name: "fixed_point_arithmetic_parameterized"
+category: "arithmetic"
+upstream_project: "https://opencores.org/projects/fixed_point_arithmetic_parameterized"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/fixed_point_arithmetic_parameterized"
+license_expression: "LicenseRef-Unknown"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

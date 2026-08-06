@@ -7,6 +7,7 @@ This is a multi-license collection. Original notices in source files are authori
 | Project | License expression | Upstream |
 |---|---|---|
 | binary_to_bcd | LGPL-2.1-or-later | https://opencores.org/projects/binary_to_bcd |
+| fixed_point_arithmetic_parameterized | LicenseRef-Unknown | https://opencores.org/projects/fixed_point_arithmetic_parameterized |
 | ima_adpcm_enc_dec | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/ima_adpcm_enc_dec |
 | tiny_spi | LGPL-2.1-or-later | https://opencores.org/projects/tiny_spi |
 | xge_mac | LGPL-2.1-or-later | https://opencores.org/projects/xge_mac |

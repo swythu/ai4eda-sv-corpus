@@ -21,7 +21,7 @@ Accellera, or other official certification.
 
 ## Scope
 
-- 16 verified projects; four have unresolved or incomplete license metadata.
+- 17 verified projects; five have unresolved or incomplete license metadata.
 - Original copyright and license headers are retained.
 - Every project has ORIGIN.yml, refactor metadata/patches, RTL, and tests.
 - License-ambiguous projects are included at the dataset owner's request and

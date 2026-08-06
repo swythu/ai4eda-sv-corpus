@@ -1,0 +1,10 @@
+{
+  "project": "fixed_point_arithmetic_parameterized",
+  "status": "pass",
+  "strategy": "full_refactor_with_bug_fixes",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "mathematical_reference",
+  "lint_errors": 0,
+  "checks": ["same-sign addition", "mixed-sign addition", "signed multiplication", "iterative division", "divide-by-zero"]
+}

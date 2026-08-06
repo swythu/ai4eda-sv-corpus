@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project": "fixed_point_arithmetic_parameterized",
+  "category": "arithmetic_dsp_and_ecc",
+  "strategy": "full_refactor_with_bug_fixes",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/fixed_point_arithmetic_parameterized/src/qadd.v",
+      "sha256": "a04149affe24bff297e0ae093cf84d09066897ce42564b733e3314237f0cb950"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/fixed_point_arithmetic_parameterized/src/qmult.v",
+      "sha256": "b1f62e5260cdc04e404af739009cd5f9a3dcc4c9faaba7be15fa80fae403e741"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/fixed_point_arithmetic_parameterized/src/qdiv.v",
+      "sha256": "10c22a41e4304cfa70febf429816ed8babaa68739a530129237ab30e17579fd5"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/fixed_point_arithmetic_parameterized/src/qtwosComp.v",
+      "sha256": "9df6e80be966de3e48b08806cc3159f78b93b1d98200d5f5c0965d91ea64e270"
+    }
+  ],
+  "rtl_files": [
+    "rtl/blocks/qadd.sv",
+    "rtl/blocks/qmult.sv",
+    "rtl/blocks/qdiv.sv"
+  ],
+  "testbench": "tb/tb_fixed_point.sv",
+  "verification_checks": [
+    "same-sign and mixed-sign sign-magnitude addition",
+    "signed fixed-point multiplication",
+    "multi-cycle restoring division",
+    "busy/complete handshake",
+    "divide-by-zero response"
+  ],
+  "intentional_changes": [
+    "correct mixed-sign addition sign selection",
+    "replace delta-cycle-dependent combinational nonblocking assignments",
+    "remove hard-coded 32-bit slices",
+    "add explicit reset and transaction status to qdiv",
+    "replace qtwosComp helper with direct magnitude arithmetic"
+  ],
+  "license_expression": "LicenseRef-Unknown",
+  "license_review": "no_explicit_license_identified_in_local_source",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "FIXED_POINT_SV_PASS checks=10 add_mult_div=pass",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "This is a corrected derivative, not strict legacy equivalence. Expert review remains mandatory before training approval."
+}
