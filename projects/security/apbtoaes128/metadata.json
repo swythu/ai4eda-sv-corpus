@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "apbtoaes128",
+  "category": "integrity_and_security",
+  "strategy": "top_refactor_verified_legacy_core",
+  "status": "functional_pass",
+  "language": "mixed_systemverilog_verilog",
+  "source_files": [
+    {"path": "data/ipdb/opencores/organized/verilog/integrity_and_security/apbtoaes128/rtl/aes_ip.v", "sha256": "fab7dd92e17dbf8a08306d920fb9876c8aecff2cb14c1f1e91e5a3ba316d25a5"},
+    {"path": "data/ipdb/opencores/organized/verilog/integrity_and_security/apbtoaes128/rtl/aes_core.v", "sha256": "aba754cd25da4ebf278981d73de012bba618f6fbb34ba67f6c4d8249c3f23c00"},
+    {"path": "data/ipdb/opencores/organized/verilog/integrity_and_security/apbtoaes128/rtl/host_interface.v", "sha256": "f47170d089fcacd33c4ef93e98d59a8bc9ac86346816529c231e9f4b1af727c8"},
+    {"path": "data/ipdb/opencores/organized/verilog/integrity_and_security/apbtoaes128/rtl/datapath.v", "sha256": "1c7c0204c8d1eb9e194f5efb0821869064efcfe9b6e95fb189b76e70b8500410"}
+  ],
+  "rtl_files": ["rtl/top/aes_ip.sv", "rtl/legacy/*.v"],
+  "testbench": "tb/tb_aes_ip.v",
+  "verification_checks": ["AES-128 ECB known answers", "AES-128 CBC known answers", "AES-128 CTR known answers", "suspend and resume", "APB register accesses", "DMA request mode"],
+  "license_expression": "LGPL-2.1-or-later",
+  "license_review": "source_header_identified",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "ECB/CBC/CTR/SUSPEND MODE/DMA TEST PASSED",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "Only the integration top is normalized to SystemVerilog; the known-answer-verified AES datapath remains legacy Verilog and is labeled accordingly."
+}

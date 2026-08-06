@@ -1,0 +1,10 @@
+{
+  "project": "pid_controller",
+  "status": "pass",
+  "strategy": "full_behavioral_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "mathematical_reference",
+  "lint_errors": 0,
+  "checks": ["Wishbone register access", "proportional term", "integral accumulation", "derivative term", "state reset", "overflow status"]
+}

@@ -21,7 +21,7 @@ Accellera, or other official certification.
 
 ## Scope
 
-- 19 verified projects; five have unresolved or incomplete license metadata.
+- 21 verified projects; six have unresolved or incomplete license metadata.
 - Original copyright and license headers are retained.
 - Every project has ORIGIN.yml, refactor metadata/patches, RTL, and tests.
 - License-ambiguous projects are included at the dataset owner's request and
@@ -35,6 +35,7 @@ Accellera, or other official certification.
 | [binary_to_bcd](projects/arithmetic/binary_to_bcd) | Arithmetic | Parameterized binary-to-BCD converter. | Boundary-vector functional checks | `LGPL-2.1-or-later` |
 | [fixed_point_arithmetic_parameterized](projects/arithmetic/fixed_point_arithmetic_parameterized) | Arithmetic | Parameterized fixed-point add, multiply, and iterative divide units. | Mathematical reference checks | `LicenseRef-Unknown` |
 | [ima_adpcm_enc_dec](projects/arithmetic/ima_adpcm_enc_dec) | Arithmetic | IMA ADPCM audio encoder and decoder with predictor/index state. | 64-sample cycle equivalence | `LicenseRef-OpenCores-Permissive` |
+| [pid_controller](projects/arithmetic/pid_controller) | Arithmetic | Wishbone PID controller with signed P/I/D state and overflow reporting. | Sequential mathematical reference checks | `LicenseRef-Unknown` |
 | [tiny_spi](projects/communication/tiny_spi) | Communication | Compact Wishbone-controlled SPI master. | Wishbone and 4-byte SPI loopback | `LGPL-2.1-or-later` |
 | [rtfsimpleuart](projects/communication/rtfsimpleuart) | Communication | Wishbone UART with 8N1 TX/RX, baud generation, buffering, and interrupts. | Two-byte 8N1 protocol loopback | `BSD-3-Clause` |
 | [xge_mac](projects/communication/xge_mac) | Communication | 10-Gigabit Ethernet MAC datapath with XGMII interfaces. | 18-packet XGMII loopback | `LGPL-2.1-or-later` |
@@ -48,6 +49,7 @@ Accellera, or other official certification.
 | [versatile_fifo](projects/interconnect/versatile_fifo) | Interconnect/CDC | Bidirectional asynchronous FIFO with Gray-pointer two-flop CDC. | Bidirectional asynchronous transfer | `LGPL-2.1-or-later` |
 | [wb_flash](projects/memory/wb_flash) | Memory | Wishbone-to-flash interface with byte lanes and wait-state acknowledgement. | Byte-lane and wait-state checks | `LGPL-2.1-or-later` |
 | [configurable_crc_core](projects/security/configurable_crc_core) | Security | Parameterized serial CRC generator/checker. | Per-bit CRC-7 reference scoreboard | `LicenseRef-Unknown` |
+| [apbtoaes128](projects/security/apbtoaes128) | Security | APB-connected AES-128 accelerator supporting ECB, CBC, and CTR modes. | Known-answer, suspend, and DMA tests | `LGPL-2.1-or-later` |
 | [sha_core](projects/security/sha_core) | Security | SHA-1 and SHA-256 hashing cores. | SHA-1/SHA-256 known-answer tests | `LicenseRef-OpenCores-Permissive` |
 | [logicprobe](projects/verification/logicprobe) | Verification | Embedded logic analyzer with capture, readout mux, and UART output. | Capture, read mux, and UART checks | `BSD-2-Clause` |
 | [oc_axi_bfm](projects/verification/oc_axi_bfm) | Verification | AXI4-Lite bus-functional master for read/write transaction generation. | AXI4-Lite handshake scenarios | `LicenseRef-Unknown` |
@@ -82,7 +84,7 @@ LICENSES/, ORIGIN.yml, and retained file headers.
 
 ## Publication warning
 
-Five projects use `LicenseRef-Unknown` or
+Six projects use `LicenseRef-Unknown` or
 `LicenseRef-LGPL-Unspecified-Version`. Perform a rights-holder and legal review
 before making the repository public. Keeping a repository private does not by
 itself resolve copyright restrictions.

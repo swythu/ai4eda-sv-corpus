@@ -1,0 +1,8 @@
+name: "pid_controller"
+category: "arithmetic"
+upstream_project: "https://opencores.org/projects/pid_controller"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/pid_controller"
+license_expression: "LicenseRef-Unknown"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

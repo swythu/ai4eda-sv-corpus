@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "included": 19,
+  "included": 21,
   "excluded": 0,
   "projects": [
     {
@@ -35,6 +35,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/arithmetic/ima_adpcm_enc_dec"
+    },
+    {
+      "name": "pid_controller",
+      "category": "arithmetic",
+      "upstream_project": "https://opencores.org/projects/pid_controller",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/pid_controller",
+      "license_expression": "LicenseRef-Unknown",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/arithmetic/pid_controller"
     },
     {
       "name": "tiny_spi",
@@ -178,6 +189,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/security/configurable_crc_core"
+    },
+    {
+      "name": "apbtoaes128",
+      "category": "security",
+      "upstream_project": "https://opencores.org/projects/apbtoaes128",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/integrity_and_security/apbtoaes128",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/security/apbtoaes128"
     },
     {
       "name": "sha_core",

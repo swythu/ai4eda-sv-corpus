@@ -26,7 +26,7 @@
 
 ## 当前范围
 
-- 共收录 19 个经过验证的项目；其中 5 个项目的许可证信息尚不完整或待确认；
+- 共收录 21 个经过验证的项目；其中 6 个项目的许可证信息尚不完整或待确认；
 - 保留上游源文件中的原始版权和许可证声明；
 - 每个项目包含 `ORIGIN.yml`、重构元数据或补丁、RTL 和测试资产；
 - 许可证存在歧义的项目按数据集维护者要求收录，并进行醒目标记；
@@ -39,6 +39,7 @@
 | [binary_to_bcd](projects/arithmetic/binary_to_bcd) | 算术 | 参数化二进制转 BCD 转换器。 | 边界向量功能检查 | `LGPL-2.1-or-later` |
 | [fixed_point_arithmetic_parameterized](projects/arithmetic/fixed_point_arithmetic_parameterized) | 算术 | 参数化定点加法、乘法和迭代除法单元。 | 数学参考模型检查 | `LicenseRef-Unknown` |
 | [ima_adpcm_enc_dec](projects/arithmetic/ima_adpcm_enc_dec) | 算术 | 带预测值和索引状态的 IMA ADPCM 音频编解码器。 | 64 组样本逐周期等价检查 | `LicenseRef-OpenCores-Permissive` |
+| [pid_controller](projects/arithmetic/pid_controller) | 算术 | 带有符号 P/I/D 状态和溢出报告的 Wishbone PID 控制器。 | 连续采样数学参考检查 | `LicenseRef-Unknown` |
 | [tiny_spi](projects/communication/tiny_spi) | 通信 | 紧凑型 Wishbone 控制 SPI 主机。 | Wishbone 与 4 字节 SPI 环回 | `LGPL-2.1-or-later` |
 | [rtfsimpleuart](projects/communication/rtfsimpleuart) | 通信 | 带 8N1 收发、波特率生成、缓冲和中断的 Wishbone UART。 | 双字节 8N1 协议环回 | `BSD-3-Clause` |
 | [xge_mac](projects/communication/xge_mac) | 通信 | 带 XGMII 接口的 10 Gigabit Ethernet MAC 数据通路。 | 18 个数据包 XGMII 环回 | `LGPL-2.1-or-later` |
@@ -52,6 +53,7 @@
 | [versatile_fifo](projects/interconnect/versatile_fifo) | 互连/CDC | 采用 Gray 指针两级同步的双向异步 FIFO。 | 双向异步时钟传输检查 | `LGPL-2.1-or-later` |
 | [wb_flash](projects/memory/wb_flash) | 存储 | 支持字节通道和等待周期应答的 Wishbone-to-Flash 接口。 | 字节通道与等待周期检查 | `LGPL-2.1-or-later` |
 | [configurable_crc_core](projects/security/configurable_crc_core) | 安全 | 参数化串行 CRC 生成与校验核心。 | 逐位 CRC-7 参考计分板 | `LicenseRef-Unknown` |
+| [apbtoaes128](projects/security/apbtoaes128) | 安全 | 支持 ECB、CBC 和 CTR 模式的 APB AES-128 加速器。 | 已知答案、暂停恢复与 DMA 测试 | `LGPL-2.1-or-later` |
 | [sha_core](projects/security/sha_core) | 安全 | SHA-1 与 SHA-256 哈希核心。 | SHA-1/SHA-256 已知答案测试 | `LicenseRef-OpenCores-Permissive` |
 | [logicprobe](projects/verification/logicprobe) | 验证 | 包含采样捕获、读出复用和 UART 输出的嵌入式逻辑分析仪。 | 捕获、读出复用与 UART 检查 | `BSD-2-Clause` |
 | [oc_axi_bfm](projects/verification/oc_axi_bfm) | 验证 | 用于生成读写事务的 AXI4-Lite 总线功能主机模型。 | AXI4-Lite 握手场景检查 | `LicenseRef-Unknown` |
@@ -98,7 +100,7 @@ VERILATOR=/path/verilator \
 python3 tools/run_all.py
 ```
 
-当前发布快照中 19/19 个项目通过编译、自检仿真和 lint 回归。详细信息见
+当前发布快照中 21/21 个项目通过编译、自检仿真和 lint 回归。详细信息见
 [`VALIDATION.md`](VALIDATION.md)。
 
 ## 版权与许可证
@@ -117,7 +119,7 @@ python3 tools/run_all.py
 
 ## 公开发布提示
 
-当前有 5 个项目使用 `LicenseRef-Unknown` 或
+当前有 6 个项目使用 `LicenseRef-Unknown` 或
 `LicenseRef-LGPL-Unspecified-Version`。公开传播或用于商业场景之前，应进一步
 核对 OpenCores 上游发布信息、联系权利人，并进行必要的版权或法律审查。
 仓库设为私有也不会自动消除版权义务。

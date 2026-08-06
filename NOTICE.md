@@ -9,6 +9,7 @@ This is a multi-license collection. Original notices in source files are authori
 | binary_to_bcd | LGPL-2.1-or-later | https://opencores.org/projects/binary_to_bcd |
 | fixed_point_arithmetic_parameterized | LicenseRef-Unknown | https://opencores.org/projects/fixed_point_arithmetic_parameterized |
 | ima_adpcm_enc_dec | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/ima_adpcm_enc_dec |
+| pid_controller | LicenseRef-Unknown | https://opencores.org/projects/pid_controller |
 | tiny_spi | LGPL-2.1-or-later | https://opencores.org/projects/tiny_spi |
 | rtfsimpleuart | BSD-3-Clause | https://opencores.org/projects/rtfsimpleuart |
 | xge_mac | LGPL-2.1-or-later | https://opencores.org/projects/xge_mac |
@@ -22,6 +23,7 @@ This is a multi-license collection. Original notices in source files are authori
 | versatile_fifo | LGPL-2.1-or-later | https://opencores.org/projects/versatile_fifo |
 | wb_flash | LGPL-2.1-or-later | https://opencores.org/projects/wb_flash |
 | configurable_crc_core | LicenseRef-Unknown | https://opencores.org/projects/configurable_crc_core |
+| apbtoaes128 | LGPL-2.1-or-later | https://opencores.org/projects/apbtoaes128 |
 | sha_core | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/sha_core |
 | logicprobe | BSD-2-Clause | https://opencores.org/projects/logicprobe |
 | oc_axi_bfm | LicenseRef-Unknown | https://opencores.org/projects/oc_axi_bfm |

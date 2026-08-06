@@ -1,7 +1,7 @@
 # Validation snapshot
 
 - Date: 2026-08-06
-- Result: 19/19 exported projects passed
+- Result: 21/21 exported projects passed
 - Simulator: Icarus Verilog 12.0 stable
 - Linter: Verilator 4.038
 - Checks: compilation, project self-checking simulation, and zero lint errors

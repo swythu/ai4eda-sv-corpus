@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project": "pid_controller",
+  "category": "arithmetic_dsp_and_ecc",
+  "strategy": "full_behavioral_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {"path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pid_controller/RTL/PID.v", "sha256": "deef3eabb822214c32d7715d544a80fcac3017ad9f813da1efe47f5a2c8744f6"},
+    {"path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pid_controller/RTL/16x16bit_multiplier_pipelined.v", "sha256": "32ed22eb530f2ed41b274c82ab7e5e0217f6d2c55bcc7ab1d71ec7c9a52f1d46"},
+    {"path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pid_controller/RTL/CLA_fixed.v", "sha256": "5bf43c5339abb8984b415e9d515f6a52b75d8cbadf83a2417ae6bfa7a6c554bf"}
+  ],
+  "rtl_files": ["rtl/blocks/pid_controller.sv"],
+  "testbench": "tb/tb_pid_controller.sv",
+  "verification_checks": ["Wishbone register access", "P/I/D reference equations", "two sequential samples", "integral state", "derivative history", "state reset", "overflow status"],
+  "intentional_changes": ["fix the bus width to a deterministic 32-bit Wishbone interface", "replace macro-selected address decoding", "compute signed P/I/D terms explicitly", "make a process-value write the sample trigger", "provide deterministic valid and overflow status"],
+  "license_expression": "LicenseRef-Unknown",
+  "license_review": "no_explicit_license_identified_in_local_source",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "PID_CONTROLLER_SV_PASS checks=11 outputs=12,8 reset=pass",
+  "expert_review": "pending",
+  "trainable": false
+}
