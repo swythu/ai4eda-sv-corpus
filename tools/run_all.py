@@ -10,6 +10,10 @@ for item in items:
  cp=subprocess.run([str(script)],cwd=p,text=True,capture_output=True,env=os.environ.copy())
  status="pass" if cp.returncode==0 else "fail"
  print(f"[{status.upper():4s}] {item['category']}/{item['name']}",flush=True)
+ if cp.returncode != 0:
+  for log in sorted((p/"validation").rglob("*.log")):
+   print(f"--- {log.relative_to(root)} ---",flush=True)
+   print(log.read_text(errors="replace")[-12000:],flush=True)
  results.append({"project":item["name"],"status":status,"detail":(cp.stdout+cp.stderr)[-4000:]})
 (root/"validation_summary.json").write_text(json.dumps(results,indent=2)+"\n")
 raise SystemExit(0 if all(x["status"]=="pass" for x in results) else 1)
