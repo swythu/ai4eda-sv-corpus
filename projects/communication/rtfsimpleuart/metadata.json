@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "rtfsimpleuart",
+  "category": "communication_peripherals",
+  "strategy": "full_refactor_with_bug_fixes",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {"path": "data/ipdb/opencores/organized/verilog/communication_peripherals/rtfsimpleuart/rtl/verilog/edge_det.v", "sha256": "be0c77fe6801b12dcd682aaaa97b664f3481df3d57c3ced5f37af9c2d1fdc6f8"},
+    {"path": "data/ipdb/opencores/organized/verilog/communication_peripherals/rtfsimpleuart/rtl/verilog/rtfSimpleUart.v", "sha256": "d03f8349b0baf7955e208b052432d5896a9c32380b6381b85f864ad4d7e034e2"},
+    {"path": "data/ipdb/opencores/organized/verilog/communication_peripherals/rtfsimpleuart/rtl/verilog/rtfSimpleUartRx.v", "sha256": "3bb29a9c4649bedda8aab7660dc03cb60f56cc5ff82616da9aa9f3f7307ac8c5"},
+    {"path": "data/ipdb/opencores/organized/verilog/communication_peripherals/rtfsimpleuart/rtl/verilog/rtfSimpleUartTx.v", "sha256": "258eb31d1c54433b5f48a64c49f91a25b8eb5e3f4cea0614ba7f15a33c488679"}
+  ],
+  "rtl_files": [
+    "rtl/blocks/edge_det.sv",
+    "rtl/blocks/rtfSimpleUart.sv",
+    "rtl/blocks/rtfSimpleUartRx.sv",
+    "rtl/blocks/rtfSimpleUartTx.sv"
+  ],
+  "testbench": "tb/tb_rtfsimpleuart.sv",
+  "verification_checks": [
+    "two-byte UART 8N1 serial loopback",
+    "single-entry transmit buffering while serializer is busy",
+    "Wishbone read/write acknowledge",
+    "receive framing and overrun status remain clear",
+    "transmit idle and completion state"
+  ],
+  "intentional_changes": [
+    "replace macro-driven counters with explicit UART state and bit counters",
+    "fix top-level register decoding to use the low address nibble",
+    "use blocking assignments in combinational read mux",
+    "add deterministic reset to synchronizers and receiver state",
+    "make 8x/16x oversampling selection explicit"
+  ],
+  "license_expression": "BSD-3-Clause",
+  "license_review": "source_header_identified",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "RTFSIMPLEUART_SV_PASS checks=10 loopback_bytes=2",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "Functional automation must pass; expert review remains mandatory before training approval."
+}

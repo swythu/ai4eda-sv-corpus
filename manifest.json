@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "included": 17,
+  "included": 19,
   "excluded": 0,
   "projects": [
     {
@@ -46,6 +46,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/communication/tiny_spi"
+    },
+    {
+      "name": "rtfsimpleuart",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/rtfsimpleuart",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/rtfsimpleuart",
+      "license_expression": "BSD-3-Clause",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/rtfsimpleuart"
     },
     {
       "name": "xge_mac",
@@ -134,6 +145,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/interconnect/dma_axi64"
+    },
+    {
+      "name": "versatile_fifo",
+      "category": "interconnect",
+      "upstream_project": "https://opencores.org/projects/versatile_fifo",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/versatile_fifo",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/interconnect/versatile_fifo"
     },
     {
       "name": "wb_flash",

@@ -21,7 +21,7 @@ Accellera, or other official certification.
 
 ## Scope
 
-- 17 verified projects; five have unresolved or incomplete license metadata.
+- 19 verified projects; five have unresolved or incomplete license metadata.
 - Original copyright and license headers are retained.
 - Every project has ORIGIN.yml, refactor metadata/patches, RTL, and tests.
 - License-ambiguous projects are included at the dataset owner's request and
@@ -54,7 +54,7 @@ LICENSES/, ORIGIN.yml, and retained file headers.
 
 ## Publication warning
 
-Four projects use `LicenseRef-Unknown` or
+Five projects use `LicenseRef-Unknown` or
 `LicenseRef-LGPL-Unspecified-Version`. Perform a rights-holder and legal review
 before making the repository public. Keeping a repository private does not by
 itself resolve copyright restrictions.

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "versatile_fifo",
+  "category": "control_buffering_and_data_movement",
+  "strategy": "core_refactor_with_cdc_hardening",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {"path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/versatile_fifo/rtl/verilog/async_fifo_dw_simplex_top.v", "sha256": "1069b381b6e8cb1f0a284f30c39f549c9cdb3fb50c335ce5009ded0e6476bb9f"},
+    {"path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/versatile_fifo/rtl/verilog/versatile_fifo_async_cmp.v", "sha256": "0f4e18d3322b3304d7530c642e015eba63f8540dec9b5198486b84c110647338"},
+    {"path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/versatile_fifo/rtl/verilog/dff_sr.v", "sha256": "bb5ad33c087494b25e71a3f6f92df4f4530f031672f394cc3416a1704c91af5b"},
+    {"path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/versatile_fifo/rtl/verilog/versatile_fifo_dual_port_ram_dc_dw.v", "sha256": "5bee0b6c9aa0a2427352d031d1d8828205215c1817cebcdd5f2abd909c6f26fe"}
+  ],
+  "rtl_files": [
+    "rtl/blocks/async_fifo_core.sv",
+    "rtl/blocks/async_fifo_dw_simplex_top.sv"
+  ],
+  "testbench": "tb/tb_versatile_fifo.sv",
+  "verification_checks": [
+    "six ordered A-to-B transfers",
+    "five ordered B-to-A transfers",
+    "independent 10 ns and 14 ns clocks",
+    "reset full/empty flags",
+    "Gray-coded pointers with two-stage CDC synchronization"
+  ],
+  "intentional_changes": [
+    "preserve the bidirectional simplex top-level behavior using two independent FIFO cores",
+    "replace asynchronous set/reset direction latches with conventional Gray-pointer full/empty detection",
+    "add two-flop pointer synchronizers marked async_reg",
+    "gate reads and writes when empty or full",
+    "use parameterized unpacked SystemVerilog memory"
+  ],
+  "license_expression": "LGPL-2.1-or-later",
+  "license_review": "source_header_identified",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "VERSATILE_FIFO_SV_PASS checks=13 a_to_b=6 b_to_a=5 cdc=gray2ff",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "The principal bidirectional asynchronous FIFO is normalized; specialized multi-queue and vendor variants remain legacy sources. Expert CDC review remains mandatory."
+}

@@ -26,7 +26,7 @@
 
 ## 当前范围
 
-- 共收录 17 个经过验证的项目；其中 5 个项目的许可证信息尚不完整或待确认；
+- 共收录 19 个经过验证的项目；其中 5 个项目的许可证信息尚不完整或待确认；
 - 保留上游源文件中的原始版权和许可证声明；
 - 每个项目包含 `ORIGIN.yml`、重构元数据或补丁、RTL 和测试资产；
 - 许可证存在歧义的项目按数据集维护者要求收录，并进行醒目标记；
@@ -71,7 +71,7 @@ VERILATOR=/path/verilator \
 python3 tools/run_all.py
 ```
 
-当前发布快照中 17/17 个项目通过编译、自检仿真和 lint 回归。详细信息见
+当前发布快照中 19/19 个项目通过编译、自检仿真和 lint 回归。详细信息见
 [`VALIDATION.md`](VALIDATION.md)。
 
 ## 版权与许可证
@@ -90,7 +90,7 @@ python3 tools/run_all.py
 
 ## 公开发布提示
 
-当前有 4 个项目使用 `LicenseRef-Unknown` 或
+当前有 5 个项目使用 `LicenseRef-Unknown` 或
 `LicenseRef-LGPL-Unspecified-Version`。公开传播或用于商业场景之前，应进一步
 核对 OpenCores 上游发布信息、联系权利人，并进行必要的版权或法律审查。
 仓库设为私有也不会自动消除版权义务。

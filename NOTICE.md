@@ -10,6 +10,7 @@ This is a multi-license collection. Original notices in source files are authori
 | fixed_point_arithmetic_parameterized | LicenseRef-Unknown | https://opencores.org/projects/fixed_point_arithmetic_parameterized |
 | ima_adpcm_enc_dec | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/ima_adpcm_enc_dec |
 | tiny_spi | LGPL-2.1-or-later | https://opencores.org/projects/tiny_spi |
+| rtfsimpleuart | BSD-3-Clause | https://opencores.org/projects/rtfsimpleuart |
 | xge_mac | LGPL-2.1-or-later | https://opencores.org/projects/xge_mac |
 | pit | BSD-3-Clause | https://opencores.org/projects/pit |
 | simple_gpio | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/simple_gpio |
@@ -18,6 +19,7 @@ This is a multi-license collection. Original notices in source files are authori
 | cdc_ufifo | Apache-2.0 | https://opencores.org/projects/cdc_ufifo |
 | dma_axi32 | LicenseRef-LGPL-Unspecified-Version | https://opencores.org/projects/dma_axi |
 | dma_axi64 | LicenseRef-LGPL-Unspecified-Version | https://opencores.org/projects/dma_axi |
+| versatile_fifo | LGPL-2.1-or-later | https://opencores.org/projects/versatile_fifo |
 | wb_flash | LGPL-2.1-or-later | https://opencores.org/projects/wb_flash |
 | configurable_crc_core | LicenseRef-Unknown | https://opencores.org/projects/configurable_crc_core |
 | sha_core | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/sha_core |

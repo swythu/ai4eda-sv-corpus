@@ -1,0 +1,10 @@
+{
+  "project": "versatile_fifo",
+  "status": "pass",
+  "strategy": "core_refactor_with_cdc_hardening",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "asynchronous_bidirectional_protocol",
+  "lint_errors": 0,
+  "checks": ["6 A-to-B words", "5 B-to-A words", "independent clocks", "FIFO ordering", "reset and empty flags", "Gray pointer 2FF CDC"]
+}

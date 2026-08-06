@@ -1,0 +1,10 @@
+{
+  "project": "rtfsimpleuart",
+  "status": "pass",
+  "strategy": "full_refactor_with_bug_fixes",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "protocol_loopback",
+  "lint_errors": 0,
+  "checks": ["UART 8N1 loopback", "back-to-back buffered bytes", "Wishbone acknowledge", "RX status", "TX idle/complete"]
+}
