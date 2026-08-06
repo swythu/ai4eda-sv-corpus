@@ -9,6 +9,7 @@ SOURCE="$SCRIPT_DIR"
 WORK="$SCRIPT_DIR/validation"
 REPORT="$SCRIPT_DIR/validation"
 mkdir -p "$WORK" "$REPORT"
+mkdir -p "$SOURCE/sim/verilog"
 
 status="fail"
 if "$IVERILOG" -g2012 -Wall -I "$SOURCE/rtl/include" -s tb \
