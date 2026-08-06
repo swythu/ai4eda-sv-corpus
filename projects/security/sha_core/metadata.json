@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "project": "sha_core",
+  "category": "integrity_and_security",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha1.v",
+      "sha256": "136f0798b291bc7fd7562d5e44975bdc140adb83228c39d1d2598e0ba0133a73"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha256.v",
+      "sha256": "1e7d1e5bc962f56f9225e8284a3da4183c25d9c6193edf8fa934dac7a4b300b9"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha512.v",
+      "sha256": "14f311849bfe56130cd1a1fbe1855d60dff9ad6223d26d6bf1674038f2ca16c3"
+    }
+  ],
+  "rtl_files": [
+    "rtl/blocks/sha1.sv",
+    "rtl/blocks/sha256.sv",
+    "rtl/blocks/sha512.sv"
+  ],
+  "testbenches": [
+    "tb/test_sha1.sv",
+    "tb/test_sha256.sv",
+    "tb/test_sha512.sv"
+  ],
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "SHA_CORE_SV_PASS digest_words=41 sha1=pass sha256=pass sha384=pass sha512=pass",
+  "verification_checks": [
+    "SHA-1 known digest: 5 words",
+    "SHA-256 known digest: 8 words",
+    "SHA-384 known digest: 12 words",
+    "SHA-512 known digest: 16 words",
+    "race-free falling-edge stimulus",
+    "41/41 digest word comparisons"
+  ],
+  "testbench_fix": "Upstream benches drove inputs on the DUT sampling edge and read one cycle too early; stimulus moved to falling edge and output pipeline latency made explicit.",
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false
+}

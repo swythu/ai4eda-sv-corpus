@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "project": "configurable_crc_core",
+  "category": "integrity_and_security",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/integrity_and_security/configurable_crc_core/rtl/cfg_crc.v",
+      "sha256": "400954ccc198b1208995d7589d1378afeaef19ef11ebb2285f7c56529fbfbd27"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/cfg_crc.sv"
+  ],
+  "testbench": "tb/tb_cfg_crc.sv",
+  "verification_checks": [
+    "5 input vectors",
+    "per-bit CRC-7 reference scoreboard"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "scripts/run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "CFG_CRC_SV_PASS vectors=5 per_bit_scoreboard=pass"
+}

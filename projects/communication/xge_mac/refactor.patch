@@ -1,0 +1,1447 @@
+--- original/rtl/fault_sm.v
++++ refactored/rtl/fault_sm.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "fault_sm.v"                                      ////
+@@ -57,20 +58,20 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg                     status_local_fault_crx;
+-reg                     status_remote_fault_crx;
++logic                     status_local_fault_crx;
++logic                     status_remote_fault_crx;
+ // End of automatics
+ 
+-reg    [1:0]  curr_state;
++logic    [1:0]  curr_state;
+ 
+-reg    [7:0]  col_cnt;
+-reg    [1:0]  fault_sequence;
+-reg    [1:0]  last_seq_type;
+-reg    [1:0]  link_fault;
+-reg    [2:0]  seq_cnt;
+-reg    [1:0]  seq_type;
++logic    [7:0]  col_cnt;
++logic    [1:0]  fault_sequence;
++logic    [1:0]  last_seq_type;
++logic    [1:0]  link_fault;
++logic    [2:0]  seq_cnt;
++logic    [1:0]  seq_type;
+ 
+-reg    [1:0]  seq_add;
++logic    [1:0]  seq_add;
+ 
+ /*AUTOWIRE*/
+ 
+@@ -82,7 +83,7 @@
+              SM_NEW_FAULT  = 2'd3;
+ 
+ 
+-always @(/*AS*/local_fault_msg_det or remote_fault_msg_det) begin
++always_comb begin
+ 
+     //---
+     // Fault indication. Indicate remote or local fault
+@@ -118,7 +119,7 @@
+ 
+ end
+ 
+-always @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
++always_ff @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
+ 
+     if (reset_xgmii_rx_n == 1'b0) begin
+ 
+@@ -142,7 +143,7 @@
+ 
+ end
+ 
+-always @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
++always_ff @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
+ 
+     if (reset_xgmii_rx_n == 1'b0) begin
+ 
+@@ -285,3 +286,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/generic_fifo.v
++++ refactored/rtl/generic_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "generic_fifo.v"                                  ////
+@@ -170,3 +171,4 @@
+ endgenerate
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/generic_fifo_ctrl.v
++++ refactored/rtl/generic_fifo_ctrl.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "generic_fifo_ctrl.v"                             ////
+@@ -95,24 +96,24 @@
+ 
+ // Registers
+ 
+-reg  [AWIDTH:0]   wr_ptr;
+-reg  [AWIDTH:0]   rd_ptr;
+-reg  [AWIDTH:0]   next_rd_ptr;
++logic  [AWIDTH:0]   wr_ptr;
++logic  [AWIDTH:0]   rd_ptr;
++logic  [AWIDTH:0]   next_rd_ptr;
+ 
+ // Combinatorial
+ 
+ wire [AWIDTH:0]   wr_gray;
+-reg  [AWIDTH:0]   wr_gray_reg;
+-reg  [AWIDTH:0]   wr_gray_meta;
+-reg  [AWIDTH:0]   wr_gray_sync;
+-reg  [AWIDTH:0]   wck_rd_ptr;
++logic  [AWIDTH:0]   wr_gray_reg;
++logic  [AWIDTH:0]   wr_gray_meta;
++logic  [AWIDTH:0]   wr_gray_sync;
++logic  [AWIDTH:0]   wck_rd_ptr;
+ wire [AWIDTH:0]   wck_level;
+ 
+ wire [AWIDTH:0]   rd_gray;
+-reg  [AWIDTH:0]   rd_gray_reg;
+-reg  [AWIDTH:0]   rd_gray_meta;
+-reg  [AWIDTH:0]   rd_gray_sync;
+-reg  [AWIDTH:0]   rck_wr_ptr;
++logic  [AWIDTH:0]   rd_gray_reg;
++logic  [AWIDTH:0]   rd_gray_meta;
++logic  [AWIDTH:0]   rd_gray_sync;
++logic  [AWIDTH:0]   rck_wr_ptr;
+ wire [AWIDTH:0]   rck_level;
+ 
+ wire [AWIDTH:0]   depth;
+@@ -138,8 +139,7 @@
+ //---
+ // Write Pointer
+ 
+-always @(posedge wclk or negedge wrst_n)
+-begin
++always_ff @(posedge wclk or negedge wrst_n) begin
+     if (!wrst_n) begin
+         wr_ptr <= {(AWIDTH+1){1'b0}};
+     end
+@@ -151,16 +151,14 @@
+ //---
+ // Read Pointer
+ 
+-always @(ren, rd_ptr, rck_wr_ptr)
+-begin
++always_comb begin
+     next_rd_ptr = rd_ptr;
+     if (ren && rd_ptr != rck_wr_ptr) begin
+         next_rd_ptr = rd_ptr + {{(AWIDTH){1'b0}}, 1'b1};
+     end
+ end
+ 
+-always @(posedge rclk or negedge rrst_n)
+-begin
++always_ff @(posedge rclk or negedge rrst_n) begin
+     if (!rrst_n) begin
+         rd_ptr <= {(AWIDTH+1){1'b0}};
+     end
+@@ -178,16 +176,14 @@
+ //---
+ // Gray to Binary conversion
+ 
+-always @(wr_gray_sync)
+-begin
++always_comb begin
+     rck_wr_ptr[AWIDTH] = wr_gray_sync[AWIDTH];
+     for (i = 0; i < AWIDTH; i = i + 1) begin
+         rck_wr_ptr[AWIDTH-i-1] = rck_wr_ptr[AWIDTH-i] ^ wr_gray_sync[AWIDTH-i-1];
+     end
+ end
+ 
+-always @(rd_gray_sync)
+-begin
++always_comb begin
+     wck_rd_ptr[AWIDTH] = rd_gray_sync[AWIDTH];
+     for (i = 0; i < AWIDTH; i = i + 1) begin
+         wck_rd_ptr[AWIDTH-i-1] = wck_rd_ptr[AWIDTH-i] ^ rd_gray_sync[AWIDTH-i-1];
+@@ -201,8 +197,7 @@
+     if (CLOCK_CROSSING) begin
+ 
+         // Instantiate metastability flops
+-        always @(posedge rclk or negedge rrst_n)
+-        begin
++        always_ff @(posedge rclk or negedge rrst_n) begin
+             if (!rrst_n) begin
+                 rd_gray_reg <= {(AWIDTH+1){1'b0}};
+                 wr_gray_meta <= {(AWIDTH+1){1'b0}};
+@@ -215,8 +210,7 @@
+             end
+         end
+ 
+-        always @(posedge wclk or negedge wrst_n)
+-        begin
++        always_ff @(posedge wclk or negedge wrst_n) begin
+             if (!wrst_n) begin
+                 wr_gray_reg <= {(AWIDTH+1){1'b0}};
+                 rd_gray_meta <= {(AWIDTH+1){1'b0}};
+@@ -232,8 +226,7 @@
+     else begin
+ 
+         // No clock domain crossing
+-        always @(wr_gray or rd_gray)
+-        begin
++        always_comb begin
+             wr_gray_sync = wr_gray;
+             rd_gray_sync = rd_gray;
+         end
+@@ -271,3 +264,4 @@
+ endgenerate
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/generic_mem_medium.v
++++ refactored/rtl/generic_mem_medium.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "generic_mem_medium.v"                            ////
+@@ -80,7 +81,7 @@
+ output [DWIDTH-1:0] rdata;
+ 
+ // Registered outputs
+-reg    [DWIDTH-1:0] rdata;
++logic    [DWIDTH-1:0] rdata;
+ 
+ 
+ //---
+@@ -88,12 +89,12 @@
+ 
+ // Registers
+ 
+-reg  [DWIDTH-1:0] mem_rdata;
+-reg  [AWIDTH-1:0] raddr_d1;
++logic  [DWIDTH-1:0] mem_rdata;
++logic  [AWIDTH-1:0] raddr_d1;
+ 
+ // Memory
+ 
+-reg  [DWIDTH-1:0] mem [0:RAM_DEPTH-1];
++logic  [DWIDTH-1:0] mem [0:RAM_DEPTH-1];
+ 
+ // Variables
+ 
+@@ -104,8 +105,7 @@
+ // Memory Write
+ 
+ // Generate synchronous write
+-always @(posedge wclk)
+-begin
++always_ff @(posedge wclk) begin
+     if (wen) begin
+         mem[waddr[AWIDTH-1:0]] <= wdata;
+     end
+@@ -129,8 +129,7 @@
+ //    mem_rdata = mem[raddr_d1[AWIDTH-1:0]];
+ //end
+ 
+-always @(posedge rclk)
+-begin
++always_ff @(posedge rclk) begin
+     if (!rrst_n) begin
+         mem_rdata <= {(DWIDTH){1'b0}};
+     end else if (ren) begin
+@@ -149,14 +148,12 @@
+ //    end
+ //end
+ 
+-always @(posedge rclk)
+-begin
++always_ff @(posedge rclk) begin
+     if (ren) begin
+         raddr_d1 <= raddr;
+     end
+ end
+-always @(raddr_d1, rclk)
+-begin
++always_comb begin
+     mem_rdata = mem[raddr_d1[AWIDTH-1:0]];
+ end
+ 
+@@ -166,8 +163,7 @@
+     if (REGISTER_READ) begin
+ 
+         // Generate registered output
+-        always @(posedge rclk or negedge rrst_n)
+-        begin
++        always_ff @(posedge rclk or negedge rrst_n) begin
+             if (!rrst_n) begin
+                 rdata <= {(DWIDTH){1'b0}};
+             end else if (roen) begin
+@@ -179,8 +175,7 @@
+     else begin
+ 
+         // Generate unregisters output
+-        always @(mem_rdata)
+-        begin
++        always_comb begin
+             rdata = mem_rdata;
+         end
+ 
+@@ -188,3 +183,4 @@
+ endgenerate
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/generic_mem_small.v
++++ refactored/rtl/generic_mem_small.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "generic_mem_small.v"                             ////
+@@ -80,7 +81,7 @@
+ output [DWIDTH-1:0] rdata;
+ 
+ // Registered outputs
+-reg    [DWIDTH-1:0] rdata;
++logic    [DWIDTH-1:0] rdata;
+ 
+ 
+ //---
+@@ -88,13 +89,13 @@
+ 
+ // Registers
+ 
+-reg  [DWIDTH-1:0] mem_rdata;
+-reg  [AWIDTH-1:0] raddr_d1;
++logic  [DWIDTH-1:0] mem_rdata;
++logic  [AWIDTH-1:0] raddr_d1;
+ 
+ 
+ // Memory
+ 
+-reg  [DWIDTH-1:0] mem [0:RAM_DEPTH-1];
++logic  [DWIDTH-1:0] mem [0:RAM_DEPTH-1];
+ 
+ // Variables
+ 
+@@ -105,8 +106,7 @@
+ // Memory Write
+ 
+ // Generate synchronous write
+-always @(posedge wclk)
+-begin
++always_ff @(posedge wclk) begin
+     if (wen) begin
+         mem[waddr[AWIDTH-1:0]] <= wdata;
+     end
+@@ -130,8 +130,7 @@
+ //    mem_rdata = mem[raddr_d1[AWIDTH-1:0]];
+ //end
+ 
+-always @(posedge rclk)
+-begin
++always_ff @(posedge rclk) begin
+     if (!rrst_n) begin
+         mem_rdata <= {(DWIDTH){1'b0}};
+     end else if (ren) begin
+@@ -150,14 +149,12 @@
+ //    end
+ //end
+ 
+-always @(posedge rclk)
+-begin
++always_ff @(posedge rclk) begin
+     if (ren) begin
+         raddr_d1 <= raddr;
+     end
+ end
+-always @(raddr_d1, rclk)
+-begin
++always_comb begin
+     mem_rdata = mem[raddr_d1[AWIDTH-1:0]];
+ end
+ 
+@@ -167,8 +164,7 @@
+     if (REGISTER_READ) begin
+ 
+         // Generate registered output
+-        always @(posedge rclk or negedge rrst_n)
+-        begin
++        always_ff @(posedge rclk or negedge rrst_n) begin
+             if (!rrst_n) begin
+                 rdata <= {(DWIDTH){1'b0}};
+             end else if (roen) begin
+@@ -180,8 +176,7 @@
+     else begin
+ 
+         // Generate unregisters output
+-        always @(mem_rdata)
+-        begin
++        always_comb begin
+             rdata = mem_rdata;
+         end
+ 
+@@ -189,3 +184,4 @@
+ endgenerate
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/meta_sync.v
++++ refactored/rtl/meta_sync.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "meta_sync.v"                                     ////
+@@ -73,3 +74,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/meta_sync_single.v
++++ refactored/rtl/meta_sync_single.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "meta_sync_single.v"                              ////
+@@ -52,7 +53,7 @@
+ 
+ output  out;
+ 
+-reg     out;
++logic     out;
+ 
+ 
+ 
+@@ -60,11 +61,11 @@
+ 
+     if (EDGE_DETECT) begin
+ 
+-      reg   meta;
+-      reg   edg1;
+-      reg   edg2;
++      logic   meta;
++      logic   edg1;
++      logic   edg2;
+ 
+-        always @(posedge clk or negedge reset_n) begin
++        always_ff @(posedge clk or negedge reset_n) begin
+ 
+             if (reset_n == 1'b0) begin
+                 meta <= 1'b0;
+@@ -83,9 +84,9 @@
+     end
+     else begin
+ 
+-      reg   meta;
++      logic   meta;
+ 
+-        always @(posedge clk or negedge reset_n) begin
++        always_ff @(posedge clk or negedge reset_n) begin
+ 
+             if (reset_n == 1'b0) begin
+                 meta <= 1'b0;
+@@ -103,3 +104,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/rx_data_fifo.v
++++ refactored/rtl/rx_data_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "rx_data_fifo.v"                                  ////
+@@ -93,3 +94,4 @@
+    
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/rx_dequeue.v
++++ refactored/rtl/rx_dequeue.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "rx_dequeue.v"                                    ////
+@@ -71,17 +72,17 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg                     pkt_rx_avail;
+-reg [63:0]              pkt_rx_data;
+-reg                     pkt_rx_eop;
+-reg                     pkt_rx_err;
+-reg [2:0]               pkt_rx_mod;
+-reg                     pkt_rx_sop;
+-reg                     pkt_rx_val;
+-reg                     status_rxdfifo_udflow_tog;
++logic                     pkt_rx_avail;
++logic [63:0]              pkt_rx_data;
++logic                     pkt_rx_eop;
++logic                     pkt_rx_err;
++logic [2:0]               pkt_rx_mod;
++logic                     pkt_rx_sop;
++logic                     pkt_rx_val;
++logic                     status_rxdfifo_udflow_tog;
+ // End of automatics
+ 
+-reg           end_eop;
++logic           end_eop;
+ 
+ /*AUTOWIRE*/
+ 
+@@ -92,7 +93,7 @@
+ 
+ 
+ 
+-always @(posedge clk_156m25 or negedge reset_156m25_n) begin
++always_ff @(posedge clk_156m25 or negedge reset_156m25_n) begin
+ 
+     if (reset_156m25_n == 1'b0) begin
+ 
+@@ -203,3 +204,4 @@
+ end
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/rx_enqueue.v
++++ refactored/rtl/rx_enqueue.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "rx_enqueue.v"                                    ////
+@@ -96,91 +97,91 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg [1:0]               local_fault_msg_det;
+-reg [1:0]               remote_fault_msg_det;
+-reg [63:0]              rxdfifo_wdata;
+-reg                     rxdfifo_wen;
+-reg [7:0]               rxdfifo_wstatus;
+-reg                     rxhfifo_ren;
+-reg [63:0]              rxhfifo_wdata;
+-reg                     rxhfifo_wen;
+-reg [7:0]               rxhfifo_wstatus;
+-reg [13:0]              rxsfifo_wdata;
+-reg                     rxsfifo_wen;
+-reg                     status_crc_error_tog;
+-reg                     status_fragment_error_tog;
+-reg                     status_lenght_error_tog;
+-reg                     status_pause_frame_rx_tog;
+-reg                     status_rxdfifo_ovflow_tog;
++logic [1:0]               local_fault_msg_det;
++logic [1:0]               remote_fault_msg_det;
++logic [63:0]              rxdfifo_wdata;
++logic                     rxdfifo_wen;
++logic [7:0]               rxdfifo_wstatus;
++logic                     rxhfifo_ren;
++logic [63:0]              rxhfifo_wdata;
++logic                     rxhfifo_wen;
++logic [7:0]               rxhfifo_wstatus;
++logic [13:0]              rxsfifo_wdata;
++logic                     rxsfifo_wen;
++logic                     status_crc_error_tog;
++logic                     status_fragment_error_tog;
++logic                     status_lenght_error_tog;
++logic                     status_pause_frame_rx_tog;
++logic                     status_rxdfifo_ovflow_tog;
+ // End of automatics
+ 
+ /*AUTOWIRE*/
+ 
+ 
+-reg [63:32]   xgmii_rxd_d1;
+-reg [7:4]     xgmii_rxc_d1;
++logic [63:32]   xgmii_rxd_d1;
++logic [7:4]     xgmii_rxc_d1;
+ 
+-reg [63:0]    xgxs_rxd_barrel;
+-reg [7:0]     xgxs_rxc_barrel;
++logic [63:0]    xgxs_rxd_barrel;
++logic [7:0]     xgxs_rxc_barrel;
+ 
+-reg [63:0]    xgxs_rxd_barrel_d1;
+-reg [7:0]     xgxs_rxc_barrel_d1;
++logic [63:0]    xgxs_rxd_barrel_d1;
++logic [7:0]     xgxs_rxc_barrel_d1;
+ 
+-reg           barrel_shift;
++logic           barrel_shift;
+ 
+-reg [31:0]    crc32_d64;
+-reg [31:0]    crc32_d8;
++logic [31:0]    crc32_d64;
++logic [31:0]    crc32_d8;
+ 
+-reg [3:0]     crc_bytes;
+-reg [3:0]     next_crc_bytes;
++logic [3:0]     crc_bytes;
++logic [3:0]     next_crc_bytes;
+ 
+-reg [63:0]    crc_shift_data;
+-reg           crc_start_8b;
+-reg           crc_done;
+-reg	      crc_good;
+-reg           crc_clear;
++logic [63:0]    crc_shift_data;
++logic           crc_start_8b;
++logic           crc_done;
++logic	      crc_good;
++logic           crc_clear;
+ 
+-reg [31:0]    crc_rx;
+-reg [31:0]    next_crc_rx;
++logic [31:0]    crc_rx;
++logic [31:0]    next_crc_rx;
+ 
+-reg [2:0]     curr_state;
+-reg [2:0]     next_state;
++logic [2:0]     curr_state;
++logic [2:0]     next_state;
+ 
+-reg [13:0]    curr_byte_cnt;
+-reg [13:0]    next_byte_cnt;
+-reg [13:0]    frame_lenght;
++logic [13:0]    curr_byte_cnt;
++logic [13:0]    next_byte_cnt;
++logic [13:0]    frame_lenght;
+ 
+-reg           frame_end_flag;
+-reg           next_frame_end_flag;
++logic           frame_end_flag;
++logic           next_frame_end_flag;
+ 
+-reg [2:0]     frame_end_bytes;
+-reg [2:0]     next_frame_end_bytes;
++logic [2:0]     frame_end_bytes;
++logic [2:0]     next_frame_end_bytes;
+ 
+-reg           fragment_error;
+-reg           rxd_ovflow_error;
++logic           fragment_error;
++logic           rxd_ovflow_error;
+ 
+-reg           lenght_error;
++logic           lenght_error;
+ 
+-reg           coding_error;
+-reg           next_coding_error;
++logic           coding_error;
++logic           next_coding_error;
+ 
+-reg [7:0]     addmask;
+-reg [7:0]     datamask;
++logic [7:0]     addmask;
++logic [7:0]     datamask;
+ 
+-reg           pause_frame;
+-reg           next_pause_frame;
+-reg           pause_frame_hold;
++logic           pause_frame;
++logic           next_pause_frame;
++logic           pause_frame_hold;
+ 
+-reg           good_pause_frame;
++logic           good_pause_frame;
+ 
+-reg           drop_data;
+-reg           next_drop_data;
++logic           drop_data;
++logic           next_drop_data;
+ 
+-reg           pkt_pending;
++logic           pkt_pending;
+ 
+-reg           rxhfifo_ren_d1;
++logic           rxhfifo_ren_d1;
+ 
+-reg           rxhfifo_ralmost_empty_d1;
++logic           rxhfifo_ralmost_empty_d1;
+ 
+ 
+ parameter [2:0]
+@@ -219,7 +220,7 @@
+     end
+ endfunction
+ 
+-always @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
++always_ff @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
+ 
+     if (reset_xgmii_rx_n == 1'b0) begin
+ 
+@@ -458,7 +459,7 @@
+ end
+ 
+ 
+-always @(/*AS*/crc32_d8 or crc_done or crc_rx or pause_frame_hold) begin
++always_comb begin
+ 
+ 
+     crc_good = 1'b0;
+@@ -477,7 +478,7 @@
+ 
+ end
+ 
+-always @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
++always_ff @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
+ 
+     if (reset_xgmii_rx_n == 1'b0) begin
+ 
+@@ -503,10 +504,7 @@
+ end
+ 
+ 
+-always @(/*AS*/coding_error or crc_rx or curr_byte_cnt or curr_state
+-         or datamask or frame_end_bytes or pause_frame
+-         or xgxs_rxc_barrel or xgxs_rxc_barrel_d1 or xgxs_rxd_barrel
+-         or xgxs_rxd_barrel_d1) begin
++always_comb begin
+ 
+     next_state = curr_state;
+ 
+@@ -791,7 +789,7 @@
+ end
+ 
+ 
+-always @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
++always_ff @(posedge clk_xgmii_rx or negedge reset_xgmii_rx_n) begin
+ 
+     if (reset_xgmii_rx_n == 1'b0) begin
+ 
+@@ -818,9 +816,7 @@
+ 
+ end
+ 
+-always @(/*AS*/crc_done or crc_good or drop_data or lenght_error
+-         or pkt_pending or rxdfifo_wfull or rxhfifo_ralmost_empty_d1
+-         or rxhfifo_rdata or rxhfifo_ren_d1 or rxhfifo_rstatus) begin
++always_comb begin
+ 
+     rxd_ovflow_error = 1'b0;
+ 
+@@ -873,3 +869,4 @@
+ end
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/rx_hold_fifo.v
++++ refactored/rtl/rx_hold_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "rx_hold_fifo.v"                                  ////
+@@ -89,3 +90,4 @@
+    
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/rx_stats_fifo.v
++++ refactored/rtl/rx_stats_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_hold_fifo.v"                                  ////
+@@ -84,3 +85,4 @@
+ );
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/stats.v
++++ refactored/rtl/stats.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "wishbone.v"                                      ////
+@@ -126,3 +127,4 @@
+                    .clear_stats_rx_pkts (clear_stats_rx_pkts));
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/stats_sm.v
++++ refactored/rtl/stats_sm.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "wishbone.v"                                      ////
+@@ -70,25 +71,25 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg [31:0]              stats_rx_octets;
+-reg [31:0]              stats_rx_pkts;
+-reg [31:0]              stats_tx_octets;
+-reg [31:0]              stats_tx_pkts;
++logic [31:0]              stats_rx_octets;
++logic [31:0]              stats_rx_pkts;
++logic [31:0]              stats_tx_octets;
++logic [31:0]              stats_tx_pkts;
+ // End of automatics
+ 
+ 
+ /*AUTOWIRE*/
+ 
+-reg           txsfifo_rempty_d1;
+-reg           rxsfifo_rempty_d1;
++logic           txsfifo_rempty_d1;
++logic           rxsfifo_rempty_d1;
+ 
+-reg [31:0]    next_stats_tx_octets;
+-reg [31:0]    next_stats_tx_pkts;
++logic [31:0]    next_stats_tx_octets;
++logic [31:0]    next_stats_tx_pkts;
+ 
+-reg [31:0]    next_stats_rx_octets;
+-reg [31:0]    next_stats_rx_pkts;
++logic [31:0]    next_stats_rx_octets;
++logic [31:0]    next_stats_rx_pkts;
+ 
+-always @(posedge wb_clk_i or posedge wb_rst_i) begin
++always_ff @(posedge wb_clk_i or posedge wb_rst_i) begin
+ 
+     if (wb_rst_i == 1'b1) begin
+ 
+@@ -117,11 +118,7 @@
+ 
+ end
+ 
+-always @(/*AS*/clear_stats_rx_octets or clear_stats_rx_pkts
+-         or clear_stats_tx_octets or clear_stats_tx_pkts
+-         or rxsfifo_rdata or rxsfifo_rempty_d1 or stats_rx_octets
+-         or stats_rx_pkts or stats_tx_octets or stats_tx_pkts
+-         or txsfifo_rdata or txsfifo_rempty_d1) begin
++always_comb begin
+ 
+     next_stats_tx_octets = {32{~clear_stats_tx_octets}} & stats_tx_octets;
+     next_stats_tx_pkts = {32{~clear_stats_tx_pkts}} & stats_tx_pkts;
+@@ -142,3 +139,4 @@
+ end
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/sync_clk_core.v
++++ refactored/rtl/sync_clk_core.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "sync_clk_core.v"                                 ////
+@@ -71,3 +72,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/sync_clk_wb.v
++++ refactored/rtl/sync_clk_wb.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "sync_clk_wb.v"                                   ////
+@@ -137,3 +138,4 @@
+                                          }));
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/sync_clk_xgmii_tx.v
++++ refactored/rtl/sync_clk_xgmii_tx.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "sync_clk_xgmii.v"                                ////
+@@ -82,3 +83,4 @@
+                                          }));
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/tx_data_fifo.v
++++ refactored/rtl/tx_data_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_data_fifo.v"                                  ////
+@@ -94,3 +95,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/tx_dequeue.v
++++ refactored/rtl/tx_dequeue.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_dequeue.v"                                    ////
+@@ -94,79 +95,79 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg                     status_txdfifo_udflow_tog;
+-reg                     txdfifo_ren;
+-reg                     txhfifo_ren;
+-reg [63:0]              txhfifo_wdata;
+-reg                     txhfifo_wen;
+-reg [7:0]               txhfifo_wstatus;
+-reg [13:0]              txsfifo_wdata;
+-reg                     txsfifo_wen;
+-reg [7:0]               xgmii_txc;
+-reg [63:0]              xgmii_txd;
++logic                     status_txdfifo_udflow_tog;
++logic                     txdfifo_ren;
++logic                     txhfifo_ren;
++logic [63:0]              txhfifo_wdata;
++logic                     txhfifo_wen;
++logic [7:0]               txhfifo_wstatus;
++logic [13:0]              txsfifo_wdata;
++logic                     txsfifo_wen;
++logic [7:0]               xgmii_txc;
++logic [63:0]              xgmii_txd;
+ // End of automatics
+ 
+ /*AUTOWIRE*/
+ 
+ 
+-reg   [63:0]    xgxs_txd;
+-reg   [7:0]     xgxs_txc;
++logic   [63:0]    xgxs_txd;
++logic   [7:0]     xgxs_txc;
+ 
+-reg   [63:0]    next_xgxs_txd;
+-reg   [7:0]     next_xgxs_txc;
++logic   [63:0]    next_xgxs_txd;
++logic   [7:0]     next_xgxs_txc;
+ 
+-reg   [2:0]     curr_state_enc;
+-reg   [2:0]     next_state_enc;
++logic   [2:0]     curr_state_enc;
++logic   [2:0]     next_state_enc;
+ 
+-reg   [0:0]     curr_state_pad;
+-reg   [0:0]     next_state_pad;
++logic   [0:0]     curr_state_pad;
++logic   [0:0]     next_state_pad;
+ 
+-reg             start_on_lane0;
+-reg             next_start_on_lane0;
++logic             start_on_lane0;
++logic             next_start_on_lane0;
+ 
+-reg   [2:0]     ifg_deficit;
+-reg   [2:0]     next_ifg_deficit;
++logic   [2:0]     ifg_deficit;
++logic   [2:0]     next_ifg_deficit;
+ 
+-reg             ifg_4b_add;
+-reg             next_ifg_4b_add;
++logic             ifg_4b_add;
++logic             next_ifg_4b_add;
+ 
+-reg             ifg_8b_add;
+-reg             next_ifg_8b_add;
++logic             ifg_8b_add;
++logic             next_ifg_8b_add;
+ 
+-reg             ifg_8b2_add;
+-reg             next_ifg_8b2_add;
++logic             ifg_8b2_add;
++logic             next_ifg_8b2_add;
+ 
+-reg   [7:0]     eop;
+-reg   [7:0]     next_eop;
++logic   [7:0]     eop;
++logic   [7:0]     next_eop;
+ 
+-reg   [63:32]   xgxs_txd_barrel;
+-reg   [7:4]     xgxs_txc_barrel;
++logic   [63:32]   xgxs_txd_barrel;
++logic   [7:4]     xgxs_txc_barrel;
+ 
+-reg   [63:0]    txhfifo_rdata_d1;
++logic   [63:0]    txhfifo_rdata_d1;
+ 
+-reg   [13:0]    add_cnt;
+-reg   [13:0]    byte_cnt;
++logic   [13:0]    add_cnt;
++logic   [13:0]    byte_cnt;
+ 
+-reg   [31:0]    crc32_d64;
+-reg   [31:0]    crc32_d8;
+-reg   [31:0]    crc32_tx;
++logic   [31:0]    crc32_d64;
++logic   [31:0]    crc32_d8;
++logic   [31:0]    crc32_tx;
+ 
+-reg   [63:0]    shift_crc_data;
+-reg   [3:0]     shift_crc_eop;
+-reg   [3:0]     shift_crc_cnt;
++logic   [63:0]    shift_crc_data;
++logic   [3:0]     shift_crc_eop;
++logic   [3:0]     shift_crc_cnt;
+ 
+-reg   [31:0]    crc_data;
++logic   [31:0]    crc_data;
+ 
+-reg             frame_available;
+-reg             next_frame_available;
++logic             frame_available;
++logic             next_frame_available;
+ 
+-reg   [63:0]    next_txhfifo_wdata;
+-reg   [7:0]     next_txhfifo_wstatus;
+-reg             next_txhfifo_wen;
++logic   [63:0]    next_txhfifo_wdata;
++logic   [7:0]     next_txhfifo_wstatus;
++logic             next_txhfifo_wen;
+ 
+-reg             txdfifo_ren_d1;
++logic             txdfifo_ren_d1;
+ 
+-reg             frame_end;
++logic             frame_end;
+ 
+ parameter [2:0]
+              SM_IDLE      = 3'd0,
+@@ -185,7 +186,7 @@
+ //---
+ // RC layer
+ 
+-always @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
++always_ff @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
+ 
+     if (reset_xgmii_tx_n == 1'b0) begin
+ 
+@@ -226,7 +227,7 @@
+ end
+ 
+ 
+-always @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
++always_ff @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
+ 
+     if (reset_xgmii_tx_n == 1'b0) begin
+ 
+@@ -314,11 +315,7 @@
+ 
+ end
+ 
+-always @(/*AS*/crc32_tx or ctrl_tx_enable_ctx or curr_state_enc or eop
+-         or frame_available or ifg_4b_add or ifg_8b2_add or ifg_8b_add
+-         or ifg_deficit or start_on_lane0 or status_local_fault_ctx
+-         or status_remote_fault_ctx or txhfifo_ralmost_empty
+-         or txhfifo_rdata_d1 or txhfifo_rempty or txhfifo_rstatus) begin
++always_comb begin
+ 
+     next_state_enc = curr_state_enc;
+ 
+@@ -713,8 +710,7 @@
+ end
+ 
+ 
+-always @(/*AS*/crc32_d64 or next_txhfifo_wstatus or txhfifo_wen
+-         or txhfifo_wstatus) begin
++always_comb begin
+ 
+     if (txhfifo_wen && txhfifo_wstatus[`TXSTATUS_SOP]) begin
+         crc_data = 32'hffffffff;
+@@ -732,9 +728,7 @@
+ 
+ end
+ 
+-always @(/*AS*/byte_cnt or curr_state_pad or txdfifo_rdata
+-         or txdfifo_rempty or txdfifo_ren_d1 or txdfifo_rstatus
+-         or txhfifo_walmost_full) begin
++always_comb begin
+ 
+     next_state_pad = curr_state_pad;
+ 
+@@ -851,7 +845,7 @@
+ end
+ 
+ 
+-always @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
++always_ff @(posedge clk_xgmii_tx or negedge reset_xgmii_tx_n) begin
+ 
+     if (reset_xgmii_tx_n == 1'b0) begin
+ 
+@@ -974,3 +968,4 @@
+ end
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/tx_enqueue.v
++++ refactored/rtl/tx_enqueue.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_enqueue.v"                                    ////
+@@ -73,17 +74,17 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg                     status_txdfifo_ovflow_tog;
+-reg [63:0]              txdfifo_wdata;
+-reg                     txdfifo_wen;
+-reg [7:0]               txdfifo_wstatus;
++logic                     status_txdfifo_ovflow_tog;
++logic [63:0]              txdfifo_wdata;
++logic                     txdfifo_wen;
++logic [7:0]               txdfifo_wstatus;
+ // End of automatics
+ 
+ /*AUTOWIRE*/
+ 
+ 
+-reg             txd_ovflow;
+-reg             next_txd_ovflow;
++logic             txd_ovflow;
++logic             next_txd_ovflow;
+ 
+ 
+ 
+@@ -95,7 +96,7 @@
+ 
+ 
+ 
+-always @(posedge clk_156m25 or negedge reset_156m25_n) begin
++always_ff @(posedge clk_156m25 or negedge reset_156m25_n) begin
+ 
+     if (reset_156m25_n == 1'b0) begin
+ 
+@@ -119,8 +120,7 @@
+ 
+ end
+ 
+-always @(/*AS*/pkt_tx_data or pkt_tx_eop or pkt_tx_mod or pkt_tx_sop
+-         or pkt_tx_val or txd_ovflow or txdfifo_wfull) begin
++always_comb begin
+ 
+     txdfifo_wstatus = `TXSTATUS_NONE;
+     txdfifo_wen = pkt_tx_val;
+@@ -176,3 +176,4 @@
+ 
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/tx_hold_fifo.v
++++ refactored/rtl/tx_hold_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_hold_fifo.v"                                  ////
+@@ -92,3 +93,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- original/rtl/tx_stats_fifo.v
++++ refactored/rtl/tx_stats_fifo.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "tx_hold_fifo.v"                                  ////
+@@ -84,3 +85,4 @@
+ );
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/wishbone_if.v
++++ refactored/rtl/wishbone_if.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "wishbone.v"                                      ////
+@@ -97,31 +98,31 @@
+ 
+ /*AUTOREG*/
+ // Beginning of automatic regs (for this module's undeclared outputs)
+-reg                     clear_stats_rx_octets;
+-reg                     clear_stats_rx_pkts;
+-reg                     clear_stats_tx_octets;
+-reg                     clear_stats_tx_pkts;
+-reg [31:0]              wb_dat_o;
+-reg                     wb_int_o;
++logic                     clear_stats_rx_octets;
++logic                     clear_stats_rx_pkts;
++logic                     clear_stats_tx_octets;
++logic                     clear_stats_tx_pkts;
++logic [31:0]              wb_dat_o;
++logic                     wb_int_o;
+ // End of automatics
+ 
+-reg [31:0]              next_wb_dat_o;
+-reg                     next_wb_int_o;
++logic [31:0]              next_wb_dat_o;
++logic                     next_wb_int_o;
+ 
+-reg  [0:0]              cpureg_config0;
+-reg  [0:0]              next_cpureg_config0;
++logic  [0:0]              cpureg_config0;
++logic  [0:0]              next_cpureg_config0;
+ 
+-reg  [9:0]              cpureg_int_pending;
+-reg  [9:0]              next_cpureg_int_pending;
++logic  [9:0]              cpureg_int_pending;
++logic  [9:0]              next_cpureg_int_pending;
+ 
+-reg  [9:0]              cpureg_int_mask;
+-reg  [9:0]              next_cpureg_int_mask;
++logic  [9:0]              cpureg_int_mask;
++logic  [9:0]              next_cpureg_int_mask;
+ 
+-reg                     cpuack;
+-reg                     next_cpuack;
++logic                     cpuack;
++logic                     next_cpuack;
+ 
+-reg                     status_remote_fault_d1;
+-reg                     status_local_fault_d1;
++logic                     status_remote_fault_d1;
++logic                     status_local_fault_d1;
+ 
+ /*AUTOWIRE*/
+ 
+@@ -158,10 +159,7 @@
+ 
+ assign wb_ack_o = cpuack && wb_stb_i;
+ 
+-always @(/*AS*/cpureg_config0 or cpureg_int_mask or cpureg_int_pending
+-         or int_sources or stats_rx_octets or stats_rx_pkts
+-         or stats_tx_octets or stats_tx_pkts or wb_adr_i or wb_cyc_i
+-         or wb_dat_i or wb_dat_o or wb_stb_i or wb_we_i) begin
++always_comb begin
+ 
+     next_wb_dat_o = wb_dat_o;
+ 
+@@ -265,7 +263,7 @@
+ 
+ end
+ 
+-always @(posedge wb_clk_i or posedge wb_rst_i) begin
++always_ff @(posedge wb_clk_i or posedge wb_rst_i) begin
+ 
+     if (wb_rst_i == 1'b1) begin
+ 
+@@ -301,3 +299,4 @@
+ end
+ 
+ endmodule
++`default_nettype wire
+--- original/rtl/xge_mac.v
++++ refactored/rtl/xge_mac.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  File name "xge_mac.v"                                       ////
+@@ -441,3 +442,4 @@
+                          .stats_rx_pkts         (stats_rx_pkts[31:0]));
+ 
+ endmodule
++`default_nettype wire
+--- original/tbench/tb_xge_mac.sv
++++ refactored/tbench/tb_xge_mac.sv
+@@ -49,7 +49,12 @@
+ /*AUTOREG*/
+ 
+ reg [7:0]     tx_buffer[0:10000];
+-integer       tx_length;
++integer       tx_length;
++
++// Payload scoreboard added by the standards-refactor validation flow.
++reg [7:0]     expected_buffer[0:31][0:10000];
++integer       expected_length[0:31];
++integer       scoreboard_errors;
+ 
+ reg           clk_156m25;
+ reg           clk_312m50;
+@@ -304,7 +309,8 @@
+ 
+ initial begin
+     tx_count = 0;
+-    rx_count = 0;
++    rx_count = 0;
++    scoreboard_errors = 0;
+ end
+ 
+ //---
+@@ -425,6 +431,11 @@
+   integer        i;
+     begin
+ 
++        expected_length[tx_count] = tx_length;
++        for (i = 0; i < tx_length; i = i + 1) begin
++            expected_buffer[tx_count][i] = tx_buffer[i];
++        end
++
+         $display("Transmit packet with length: %d", tx_length);
+ 
+         @(posedge clk_156m25);
+@@ -510,7 +521,7 @@
+   reg [31:0] data;
+     begin
+ 
+-        file_cmd = $fopen("../../tbench/verilog/packets_tx.txt", "r");
++        file_cmd = $fopen("../../tbench/systemverilog/packets_tx.txt", "r");
+         if (!file_cmd) $stop;
+ 
+         while (!$feof(file_cmd)) begin
+@@ -542,7 +553,19 @@
+         CpuRead(`CPUREG_STATSTXOCTETS, data);
+         CpuRead(`CPUREG_STATSRXOCTETS, data);
+ 
+-        $stop;
++        if (tx_count == 0) begin
++            $fatal(1, "No packets were transmitted");
++        end
++        if (rx_count != tx_count) begin
++            $fatal(1, "Packet-count mismatch: tx=%0d rx=%0d", tx_count, rx_count);
++        end
++        if (scoreboard_errors != 0) begin
++            $fatal(1, "Payload scoreboard failed with %0d errors", scoreboard_errors);
++        end
++
++        $display("XGE_MAC_REFACTORED_PASS packets=%0d scoreboard_errors=%0d",
++                 rx_count, scoreboard_errors);
++        $finish;
+ 
+     end
+ endtask
+@@ -559,45 +582,66 @@
+ //---
+ // Task to read a single packet from receive interface and display
+ 
+-task RxPacket;
+-  reg done;
+-    begin
+-
+-        done = 0;
+-
+-        pkt_rx_ren <= 1'b1;
+-        @(posedge clk_156m25);
+-
+-        while (!done) begin
+-
+-            if (pkt_rx_val) begin
+-
+-                if (pkt_rx_sop) begin
+-                    $display("\n\n------------------------");
+-                    $display("Received Packet");
+-                    $display("------------------------");
+-                end
+-
+-                $display("%x", pkt_rx_data);
+-
+-                if (pkt_rx_eop) begin
+-                    done <= 1;
+-                    pkt_rx_ren <= 1'b0;
+-                end
+-
+-                if (pkt_rx_eop) begin
+-                    $display("------------------------\n\n");
+-                end
+-
+-            end
+-
+-            @(posedge clk_156m25);
+-
+-        end
+-
+-        rx_count = rx_count + 1;
+-
+-    end
++task RxPacket;
++  reg done;
++  reg [7:0] actual_byte;
++  integer byte_index;
++  integer lane_index;
++    begin
++        done = 0;
++        byte_index = 0;
++        pkt_rx_ren <= 1'b1;
++        @(posedge clk_156m25);
++
++        while (!done) begin
++            if (pkt_rx_val) begin
++                if (pkt_rx_err) begin
++                    scoreboard_errors = scoreboard_errors + 1;
++                    $display("SCOREBOARD: pkt_rx_err asserted on packet %0d", rx_count);
++                end
++
++                for (lane_index = 0; lane_index < 8; lane_index = lane_index + 1) begin
++                    case (lane_index)
++                      0: actual_byte = pkt_rx_data[`LANE7];
++                      1: actual_byte = pkt_rx_data[`LANE6];
++                      2: actual_byte = pkt_rx_data[`LANE5];
++                      3: actual_byte = pkt_rx_data[`LANE4];
++                      4: actual_byte = pkt_rx_data[`LANE3];
++                      5: actual_byte = pkt_rx_data[`LANE2];
++                      6: actual_byte = pkt_rx_data[`LANE1];
++                      default: actual_byte = pkt_rx_data[`LANE0];
++                    endcase
++
++                    // The RX stream contains the four-byte Ethernet FCS.
++                    // Compare only the original payload; CRC handling is still
++                    // covered by pkt_rx_err from the receive datapath.
++                    if (byte_index < expected_length[rx_count]) begin
++                        if (actual_byte !== expected_buffer[rx_count][byte_index]) begin
++                            scoreboard_errors = scoreboard_errors + 1;
++                            $display("SCOREBOARD: packet=%0d byte=%0d expected=%02x actual=%02x",
++                                     rx_count, byte_index,
++                                     expected_buffer[rx_count][byte_index], actual_byte);
++                        end
++                        byte_index = byte_index + 1;
++                    end
++                end
++
++                if (pkt_rx_eop) begin
++                    if (byte_index != expected_length[rx_count]) begin
++                        scoreboard_errors = scoreboard_errors + 1;
++                        $display("SCOREBOARD: packet=%0d expected_length=%0d compared=%0d",
++                                 rx_count, expected_length[rx_count], byte_index);
++                    end
++                    done = 1;
++                    pkt_rx_ren <= 1'b0;
++                end
++            end
++
++            @(posedge clk_156m25);
++        end
++
++        rx_count = rx_count + 1;
++    end
+ endtask
+ 
+ initial begin
+@@ -620,4 +664,9 @@
+ 
+ end
+ 
+-endmodule
++initial begin
++    WaitNS(150000);
++    $fatal(1, "XGE MAC regression timed out: tx=%0d rx=%0d", tx_count, rx_count);
++end
++
++endmodule

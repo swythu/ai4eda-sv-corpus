@@ -1,0 +1,8 @@
+name: "pit"
+category: "control"
+upstream_project: "https://opencores.org/projects/pit"
+local_source_provenance: "data/ipdb/opencores/refactored_sv/pit"
+license_expression: "BSD-3-Clause"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

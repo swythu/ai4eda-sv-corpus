@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project": "tiny_spi",
+  "category": "communication_peripherals",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/tiny_spi/rtl/verilog/tiny_spi.v",
+      "sha256": "d245f2fc283557ae72345a1a0679631346357779097871748fdd580ab73712d4"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/tiny_spi.sv"
+  ],
+  "testbench": "tb/tb_tiny_spi.sv",
+  "verification_checks": [
+    "Wishbone access",
+    "4-byte serial loopback",
+    "reset determinism"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "scripts/run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "TINY_SPI_SV_PASS vectors=4 serial_loopback=pass wishbone=pass"
+}

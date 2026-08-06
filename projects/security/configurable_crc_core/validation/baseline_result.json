@@ -1,0 +1,14 @@
+{
+  "project": "configurable_crc_core",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "checks": [
+    "5 input vectors",
+    "per-bit CRC-7 reference scoreboard"
+  ]
+}

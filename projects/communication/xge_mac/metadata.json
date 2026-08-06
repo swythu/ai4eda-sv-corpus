@@ -1,0 +1,16 @@
+{
+  "project": "xge_mac",
+  "status": "pass",
+  "test_level": "functional_smoke",
+  "stimulus": "existing XGMII loopback packet test",
+  "checks": ["18 packet XGMII loopback", "payload byte scoreboard", "pkt_rx_err", "packet counts", "timeout", "Verilator lint"]
+  ,"compile": "pass"
+  ,"simulation": "pass"
+  ,"lint_errors": 0
+  ,"source": {"project": "xge_mac", "path": "data/ipdb/opencores/organized/sv/communication_peripherals/xge_mac", "top_sha256": "1321409bfbaebbd1c13c13dc6508e577782d642ea732db07ea709dfea4d2f359"}
+  ,"license": {"declared": "LGPL-2.1-or-later", "training_approved": false, "review_status": "pending"}
+  ,"refactor_kind": "standards_refactor"
+  ,"changes": ["24 RTL files migrated from .v to .sv", "185 reg declarations changed to logic", "26 sequential blocks changed to always_ff", "18 combinational blocks changed to always_comb", "default_nettype none in all RTL units", "18-packet payload scoreboard"]
+  ,"standard_evidence": ["IEEE 1800-2023 9.2.2.2 p.222", "IEEE 1800-2023 9.2.2.2.2 p.223", "IEEE 1800-2023 9.2.2.4 p.224", "IEEE 1800-2023 22.8", "IEEE 1800-2023 23.2.2.3 p.735"]
+  ,"review": {"expert_status": "pending", "trainable": false}
+}

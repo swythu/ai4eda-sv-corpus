@@ -1,0 +1,8 @@
+name: "tiny_spi"
+category: "communication"
+upstream_project: "https://opencores.org/projects/tiny_spi"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/tiny_spi"
+license_expression: "LGPL-2.1-or-later"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

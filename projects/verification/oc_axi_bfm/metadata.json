@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "oc_axi_bfm",
+  "category": "verification_assets",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/verification_assets/oc_axi_bfm/new_component.v",
+      "sha256": "4c6255f0ea21f98aed31382559b13882c64c21596e704276aa7b0405a75c6367"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/new_component.sv"
+  ],
+  "module": "new_component",
+  "testbench": "tb/tb_oc_axi_lite_master.sv",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "OC_AXI_BFM_SV_PASS checks=3 parallel_write=pass split_write=pass read=pass",
+  "verification_checks": [
+    "AXI-Lite simultaneous AW/W handshake",
+    "split AW then W handshake",
+    "AR/R read transaction",
+    "single-cycle done pulse",
+    "deterministic reset and PROT outputs"
+  ],
+  "behavioral_fixes": [
+    "replace synthesis-dependent initial state with complete synchronous reset",
+    "drive previously undriven ARPROT output"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "simple_pic",
+  "category": "control_buffering_and_data_movement",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/simple_pic/rtl/simple_pic.v",
+      "sha256": "d65b41e925dcc251e567309a4e1c6479040744f37d052aeb92904c46400afef4"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/simple_pic.sv"
+  ],
+  "testbench": "tb/tb_simple_pic.sv",
+  "verification_checks": [
+    "Wishbone register access",
+    "level interrupt",
+    "rising-edge interrupt",
+    "mask and clear"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "scripts/run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "SIMPLE_PIC_SV_PASS level_irq=pass rising_edge_irq=pass wishbone=pass"
+}

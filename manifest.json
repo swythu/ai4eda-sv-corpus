@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "included": 14,
+  "excluded": 0,
+  "projects": [
+    {
+      "name": "binary_to_bcd",
+      "category": "arithmetic",
+      "upstream_project": "https://opencores.org/projects/binary_to_bcd",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/binary_to_bcd",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/arithmetic/binary_to_bcd"
+    },
+    {
+      "name": "tiny_spi",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/tiny_spi",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/tiny_spi",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/tiny_spi"
+    },
+    {
+      "name": "xge_mac",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/xge_mac",
+      "local_source_provenance": "data/ipdb/opencores/refactored_sv/xge_mac",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/xge_mac"
+    },
+    {
+      "name": "pit",
+      "category": "control",
+      "upstream_project": "https://opencores.org/projects/pit",
+      "local_source_provenance": "data/ipdb/opencores/refactored_sv/pit",
+      "license_expression": "BSD-3-Clause",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/control/pit"
+    },
+    {
+      "name": "simple_gpio",
+      "category": "control",
+      "upstream_project": "https://opencores.org/projects/simple_gpio",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/simple_gpio",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/control/simple_gpio"
+    },
+    {
+      "name": "simple_pic",
+      "category": "control",
+      "upstream_project": "https://opencores.org/projects/simple_pic",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/simple_pic",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/control/simple_pic"
+    },
+    {
+      "name": "cdc_ufifo",
+      "category": "interconnect",
+      "upstream_project": "https://opencores.org/projects/cdc_ufifo",
+      "local_source_provenance": "data/ipdb/opencores/refactored_sv/cdc_ufifo",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/interconnect/cdc_ufifo"
+    },
+    {
+      "name": "dma_axi32",
+      "category": "interconnect",
+      "upstream_project": "https://opencores.org/projects/dma_axi",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/dma_axi32",
+      "license_expression": "LicenseRef-LGPL-Unspecified-Version",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/interconnect/dma_axi32"
+    },
+    {
+      "name": "dma_axi64",
+      "category": "interconnect",
+      "upstream_project": "https://opencores.org/projects/dma_axi",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/dma_axi64",
+      "license_expression": "LicenseRef-LGPL-Unspecified-Version",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/interconnect/dma_axi64"
+    },
+    {
+      "name": "wb_flash",
+      "category": "memory",
+      "upstream_project": "https://opencores.org/projects/wb_flash",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/interconnect_and_memory/wb_flash",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/memory/wb_flash"
+    },
+    {
+      "name": "configurable_crc_core",
+      "category": "security",
+      "upstream_project": "https://opencores.org/projects/configurable_crc_core",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/integrity_and_security/configurable_crc_core",
+      "license_expression": "LicenseRef-Unknown",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/security/configurable_crc_core"
+    },
+    {
+      "name": "sha_core",
+      "category": "security",
+      "upstream_project": "https://opencores.org/projects/sha_core",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/security/sha_core"
+    },
+    {
+      "name": "logicprobe",
+      "category": "verification",
+      "upstream_project": "https://opencores.org/projects/logicprobe",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/verification_assets/logicprobe",
+      "license_expression": "BSD-2-Clause",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/verification/logicprobe"
+    },
+    {
+      "name": "oc_axi_bfm",
+      "category": "verification",
+      "upstream_project": "https://opencores.org/projects/oc_axi_bfm",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/verification_assets/oc_axi_bfm",
+      "license_expression": "LicenseRef-Unknown",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/verification/oc_axi_bfm"
+    }
+  ]
+}

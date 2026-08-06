@@ -1,0 +1,103 @@
+--- data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/simple_gpio/rtl/simple_gpio.v
++++ data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/simple_gpio/rtl/top/simple_gpio.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ /////////////////////////////////////////////////////////////////////
+ ////                                                             ////
+ ////  OpenCores Simple General Purpose IO core                   ////
+@@ -87,7 +88,7 @@
+ 
+ 
+ // synopsys translate_off
+-`include "timescale.v"
++`include "timescale.svh"
+ // synopsys translate_on
+ 
+ module simple_gpio(
+@@ -117,8 +118,8 @@
+   //
+   // Module body
+   //
+-  reg [io:1] ctrl, line;                  // ControlRegister, LineRegister
+-  reg [io:1] lgpio, llgpio;               // LatchedGPIO pins
++  logic [io:1] ctrl, line;                  // ControlRegister, LineRegister
++  logic [io:1] lgpio, llgpio;               // LatchedGPIO pins
+ 
+   //
+   // perform parameter checks
+@@ -137,54 +138,55 @@
+   wire wb_acc = cyc_i & stb_i;            // WISHBONE access
+   wire wb_wr  = wb_acc & we_i;            // WISHBONE write access
+ 
+-  always @(posedge clk_i or negedge rst_i)
++  always_ff @(posedge clk_i or negedge rst_i)
+     if (~rst_i)
+       begin
+-          ctrl <= #1 {{io}{1'b0}};
+-          line <= #1 {{io}{1'b0}};
++          ctrl <= {io{1'b0}};
++          line <= {io{1'b0}};
+       end
+     else if (wb_wr)
+        if ( adr_i )
+-         line <= #1 dat_i[io-1:0];
++         line <= dat_i[io-1:0];
+        else
+-         ctrl <= #1 dat_i[io-1:0];
++         ctrl <= dat_i[io-1:0];
+ 
+ 
+-  reg [7:0] dat_o;
+-  always @(posedge clk_i)
++  logic [7:0] dat_o;
++  always_ff @(posedge clk_i)
+     if ( adr_i )
+-      dat_o <= #1 { {{8-io}{1'b0}}, llgpio};
++      dat_o <= { {(8-io){1'b0}}, llgpio};
+     else
+-      dat_o <= #1 { {{8-io}{1'b0}}, ctrl};
++      dat_o <= { {(8-io){1'b0}}, ctrl};
+ 
+-  reg ack_o;
+-  always @(posedge clk_i or negedge rst_i)
++  logic ack_o;
++  always_ff @(posedge clk_i or negedge rst_i)
+     if (~rst_i)
+-      ack_o <= #1 1'b0;
++      ack_o <= 1'b0;
+     else
+-      ack_o <= #1 wb_acc & !ack_o;
++      ack_o <= wb_acc & !ack_o;
+ 
+ 
+   //
+   // GPIO section
+ 
+   // latch GPIO input pins
+-  always @(posedge clk_i)
+-    lgpio <= #1 gpio;
++  always_ff @(posedge clk_i)
++    lgpio <= gpio;
+ 
+   // latch again (reduce meta-stability risc)
+-  always @(posedge clk_i)
+-    llgpio <= #1 lgpio;
++  always_ff @(posedge clk_i)
++    llgpio <= lgpio;
+ 
+   // assign GPIO outputs
+   integer n;
+-  reg [io:1] igpio; // temporary internal signal
++  logic [io:1] igpio; // temporary internal signal
+ 
+-  always @(ctrl or line)
++  always_comb
+     for(n=1;n<=io;n=n+1)
+-      igpio[n] <= ctrl[n] ? line[n] : 1'bz;
++      igpio[n] = ctrl[n] ? line[n] : 1'bz;
+ 
+   assign gpio = igpio;
+ 
+ endmodule
+ 
++`default_nettype wire

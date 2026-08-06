@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "wb_flash",
+  "category": "interconnect_and_memory",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/interconnect_and_memory/wb_flash/rtl/verilog/wb_flash.v",
+      "sha256": "aec0883966ef3d4413f2a971017a07a1b15dfed769f9cd78ef6fe3c836417083"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/wb_flash.sv"
+  ],
+  "testbench": "tb/tb_wb_flash.sv",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "WB_FLASH_SV_PASS checks=5 lanes=4 waitstate=pass read_write=pass",
+  "verification_checks": [
+    "4 byte-lane mappings",
+    "Wishbone wait-state acknowledgement",
+    "active-low flash controls",
+    "read-data replication"
+  ],
+  "behavioral_fix": "Wishbone waitstate/ack state returns to idle when cycle is released",
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false
+}

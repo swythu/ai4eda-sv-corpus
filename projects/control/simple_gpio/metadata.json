@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project": "simple_gpio",
+  "category": "control_buffering_and_data_movement",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/simple_gpio/rtl/simple_gpio.v",
+      "sha256": "3ded2ccea480d932e7d6c833a1d4e93603caa239c43d31c0db8238de33de4ac6"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/simple_gpio.sv"
+  ],
+  "testbench": "tb/tb_simple_gpio.sv",
+  "verification_checks": [
+    "Wishbone register access",
+    "bidirectional GPIO",
+    "input synchronizer"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "scripts/run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "SIMPLE_GPIO_SV_PASS wishbone=pass bidirectional_gpio=pass synchronizer=pass"
+}

@@ -1,0 +1,13 @@
+name: HDL regression
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: sudo apt-get update && sudo apt-get install -y iverilog verilator
+      - run: python3 tools/run_all.py

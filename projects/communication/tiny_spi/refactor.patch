@@ -1,0 +1,125 @@
+--- data/ipdb/opencores/organized/verilog/communication_peripherals/tiny_spi/rtl/verilog/tiny_spi.v
++++ data/ipdb/opencores/refactored/systemverilog/communication_peripherals/tiny_spi/rtl/top/tiny_spi.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //////////////////////////////////////////////////////////////////////
+ ////                                                              ////
+ ////  tiny_spi.v                                                  ////
+@@ -65,20 +66,20 @@
+    parameter DIV_WIDTH = BAUD_DIV ? $clog2(BAUD_DIV / 2 - 1) : BAUD_WIDTH;
+ 
+ 
+-   reg [7:0]	  sr8, bb8;
++   logic [7:0]	  sr8, bb8;
+    wire [7:0]	  sr8_sf;
+-   reg [BC_WIDTH - 1:0]		bc, bc_next;
+-   reg [DIV_WIDTH - 1:0]	ccr;
+-   reg [DIV_WIDTH - 1:0]	cc, cc_next;
++   logic [BC_WIDTH - 1:0]		bc, bc_next;
++   logic [DIV_WIDTH - 1:0]	ccr;
++   logic [DIV_WIDTH - 1:0]	cc, cc_next;
+    wire		  misod;
+    wire		  cstb, wstb, bstb, istb;
+-   reg		  sck;
+-   reg		  sf, ld;
+-   reg		  bba;   // buffer flag
+-   reg		  txren, txeen;
++   logic		  sck;
++   logic		  sf, ld;
++   logic		  bba;   // buffer flag
++   logic		  txren, txeen;
+    wire 	  txr, txe;
+    wire		  cpol, cpha;
+-   reg		  cpolr, cphar;
++   logic		  cpolr, cphar;
+    wire 	  wr;
+    // wire 	  cyc_i; // comment out for wishbone
+    // wire 	  ack_o; // comment out for wishbone
+@@ -102,21 +103,19 @@
+      PHASE2 = 2
+      ;
+ 
+-   reg [1:0] spi_seq, spi_seq_next;
++   logic [1:0] spi_seq, spi_seq_next;
+    always @(posedge clk_i or posedge rst_i)
+      if (rst_i)
+        spi_seq <= IDLE;
+      else
+        spi_seq <= spi_seq_next;
+ 
+-   always @(posedge clk_i)
+-     begin
++   always_ff @(posedge clk_i) begin
+ 	cc <= cc_next;
+ 	bc <= bc_next;
+      end
+ 
+-   always @(/*AS*/bba or bc or cc or ccr or cpha or cpol or spi_seq)
+-     begin
++   always_comb begin
+ 	sck = cpol;
+ 	cc_next = BAUD_DIV ? (BAUD_DIV / 2 - 1) : ccr;
+ 	bc_next = bc;
+@@ -176,40 +175,48 @@
+ 	endcase
+      end // always @ (...
+ 
+-   always @(posedge clk_i)
+-     begin
+-	if (cstb) // control reg
++   always_ff @(posedge clk_i or posedge rst_i) begin
++        if (rst_i) begin
++          cpolr <= 1'b0;
++          cphar <= 1'b0;
++          txren <= 1'b0;
++          txeen <= 1'b0;
++          ccr <= '0;
++          sr8 <= '0;
++          bb8 <= '0;
++        end else begin
++	if (cstb) // control logic
+ 	  { cpolr, cphar } <= dat_i;
+ 	else
+ 	  { cpolr, cphar } <= { cpolr, cphar };
+ 
+-	if (istb) // irq enable reg
++	if (istb) // irq enable logic
+ 	  { txren, txeen } <= dat_i;
+ 	else
+ 	  { txren, txeen } <= { txren, txeen };
+ 
+-	if (bstb) // baud reg
++	if (bstb) // baud logic
+ 	  ccr <= dat_i;
+ 	else
+ 	  ccr <= ccr;
+ 
+-	if (ld)   // shift reg
++	if (ld)   // shift logic
+ 	  sr8 <= bb8;
+ 	else if (sf)
+ 	  sr8 <= sr8_sf;
+ 	else
+ 	  sr8 <= sr8;
+ 
+-	if (wstb) // buffer reg
++	if (wstb) // buffer logic
+ 	  bb8 <= dat_i;
+ 	else if (ld)
+ 	  bb8 <= (spi_seq == IDLE) ? sr8 : sr8_sf;
+ 	else
+ 	  bb8 <= bb8;
++        end
+      end // always @ (posedge clk_i)
+ 
+-   always @(posedge clk_i or posedge rst_i)
+-     begin
++   always_ff @(posedge clk_i or posedge rst_i) begin
+ 	if (rst_i)
+ 	  bba <= 1'b0;
+ 	else if (wstb)
+@@ -230,3 +237,4 @@
+    assign misod = MISO;
+ 
+ endmodule
++`default_nettype wire

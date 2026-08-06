@@ -1,0 +1,8 @@
+name: "dma_axi32"
+category: "interconnect"
+upstream_project: "https://opencores.org/projects/dma_axi"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/dma_axi32"
+license_expression: "LicenseRef-LGPL-Unspecified-Version"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

@@ -1,0 +1,15 @@
+{
+  "project": "cdc_ufifo",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "lint_errors": 0,
+  "test_level": "self_checking_functional",
+  "checks": ["clock crossing", "ordered data", "qenable backpressure"]
+  ,"source": {"project": "cdc_ufifo", "revision": 2, "path": "data/ipdb/opencores/quarantine/cdc_ufifo/svn-r2/source/cdc_ufifo.sv", "sha256": "8fea2754527748e1a4ed813595393e5f386b7f862777c8fcb1826fc5739cff88"}
+  ,"license": {"declared": "Apache-2.0", "training_approved": false, "review_status": "pending"}
+  ,"refactor_kind": "validated_bugfix"
+  ,"changes": ["replace unsafe CDC pointer handling with binary/Gray pointers", "two-flop pointer synchronizers", "functional qenable backpressure", "self-checking asynchronous-clock testbench", "registered and combinational output modes"]
+  ,"standard_evidence": ["IEEE 1800-2023 9.2.2.2 p.222", "IEEE 1800-2023 9.2.2.4 p.224", "IEEE 1800-2023 22.8", "IEEE 1800-2023 23.2.2.3 p.735"]
+  ,"review": {"expert_status": "pending", "trainable": false}
+}

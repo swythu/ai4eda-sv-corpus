@@ -1,0 +1,551 @@
+--- original/rtl/pit_count.sv
++++ refactored/rtl/pit_count.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ ////////////////////////////////////////////////////////////////////////////////
+ //
+ //  Programable Interrupt Timer - Main Counter
+@@ -8,7 +9,7 @@
+ //  Downloaded from: http://www.opencores.org/projects/pit.....
+ //
+ ////////////////////////////////////////////////////////////////////////////////
+-// Copyright (c) 2011, Robert Hayes
++// Copyright (c) 2009, Robert Hayes
+ //
+ // All rights reserved.
+ //
+@@ -41,13 +42,13 @@
+   output logic [COUNT_SIZE-1:0] cnt_n,         // Modulo Counter value
+   output logic                  cnt_flag_o,    // Counter Rollover Flag
+   output logic                  pit_o,         // PIT output pulse
+-  input                         async_rst_b,   //
+-  input                         sync_reset,    // Syncronous reset signal
+-  input                         bus_clk,       // Reference Clock
+-  input                         counter_sync,  // Syncronous counter enable
+-  input                         prescale_out,  // Increment Counter
+-  input                         pit_flg_clr,   // Clear PIT Rollover Flag
+-  input        [COUNT_SIZE-1:0] mod_value      // Count Divisor
++  input                       async_rst_b,   //
++  input                       sync_reset,    // Syncronous reset signal
++  input                       bus_clk,       // Reference Clock
++  input                       counter_sync,  // Syncronous counter enable
++  input                       prescale_out,  // Increment Counter
++  input                       pit_flg_clr,   // Clear PIT Rollover Flag
++  input      [COUNT_SIZE-1:0] mod_value      // Count Divisor
+   );
+ 
+ // Warning: This counter has no saftynet if the mod_value changes while the counter
+@@ -93,3 +94,4 @@
+ 
+ endmodule  // pit_count
+ 
++`default_nettype wire
+--- original/rtl/pit_prescale.sv
++++ refactored/rtl/pit_prescale.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ ////////////////////////////////////////////////////////////////////////////////
+ //
+ //  Programable Interrupt Timer - Prescale Counter
+@@ -8,7 +9,7 @@
+ //  Downloaded from: http://www.opencores.org/projects/pit.....
+ //
+ ////////////////////////////////////////////////////////////////////////////////
+-// Copyright (c) 2011, Robert Hayes
++// Copyright (c) 2009, Robert Hayes
+ //
+ // All rights reserved.
+ //
+@@ -36,7 +37,7 @@
+ ////////////////////////////////////////////////////////////////////////////////
+ // 45678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+-module pit_prescale #(parameter COUNT_SIZE = 15,
++module pit_prescale #(parameter COUNT_SIZE = 16,
+                       parameter DECADE_CNTR = 1,
+ 		      parameter NO_PRESCALE = 0)
+   (
+@@ -56,11 +57,11 @@
+ //           register for"divisor" that captures on the falling edge of
+ //           "cnt_sync_o" or when "cnt_n" rolls over to eliminate this problem.
+ 
+-logic  [COUNT_SIZE-1:0] cnt_n;         // Div N counter
+-logic  [COUNT_SIZE-1:0] end_count;     // Psudo register for decoding
++logic    [COUNT_SIZE-1:0] cnt_n;         // Div N counter
++logic    [COUNT_SIZE-1:0] end_count;     // Psudo register for decoding
+ 
+-logic                   div_1;         // 
+-logic                   rollover;      // 
++logic                    div_1;         // 
++logic                    rollover;      // 
+ 
+ // This was going to be a "generate" block but iverilog does't support that
+ //  command so we'll just have to trust the compiler to simplify the logic based
+@@ -80,7 +81,7 @@
+           default: end_count = 20_000;
+         endcase
+     else
+-        unique case (divisor)
++        case (divisor)
+            0: end_count = 1;
+            1: end_count = 2;
+            2: end_count = 4;
+@@ -111,14 +112,16 @@
+ // If the "NO_PRESCALE" parameter is set the compiler should hopefully strip
+ //  these counter bits when the module is compiled because the only place the
+ //  register outputs go to drive a signal "rollover" that is already a constant.
+-always_ff @(posedge bus_clk or negedge async_rst_b)
+-  if ( !async_rst_b )
+-    cnt_n  <= 1;
+-  else if ( !counter_sync || rollover)
+-    cnt_n  <= 1;
++always_ff @(posedge bus_clk or negedge async_rst_b) begin
++  if (!async_rst_b)
++    cnt_n <= 'd1;
++  else if (sync_reset || !counter_sync || rollover)
++    cnt_n <= 'd1;
+   else
+-    cnt_n  <= cnt_n + 1;
++    cnt_n <= cnt_n + 1'b1;
++end
+ 
+ 
+ endmodule  // pit_prescale
+ 
++`default_nettype wire
+--- original/rtl/pit_regs.sv
++++ refactored/rtl/pit_regs.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ ////////////////////////////////////////////////////////////////////////////////
+ //
+ //  WISHBONE revB.2 compliant Programable Interrupt Timer - Control registers
+@@ -8,7 +9,7 @@
+ //  Downloaded from: http://www.opencores.org/projects/pit.....
+ //
+ ////////////////////////////////////////////////////////////////////////////////
+-// Copyright (c) 2011, Robert Hayes
++// Copyright (c) 2009, Robert Hayes
+ //
+ // All rights reserved.
+ //
+@@ -36,29 +37,29 @@
+ ////////////////////////////////////////////////////////////////////////////////
+ // 45678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+-module pit_regs #(parameter COUNT_SIZE = 16,
++module pit_regs #(parameter ARST_LVL = 1'b0,  // asynchronous reset level
++                  parameter COUNT_SIZE = 16,
+                   parameter NO_PRESCALE = 1'b0,
+                   parameter DWIDTH = 16)
+   (
+   output logic [COUNT_SIZE-1:0] mod_value,    // Main Counter Modulo Value
+-  output                 [ 3:0] pit_pre_scl,  // PIT Prescaler Value
++  output               [ 3:0] pit_pre_scl,  // PIT Prescaler Value
+   output logic                  pit_slave,    // PIT Slave Mode
+   output logic                  pit_flg_clr,  // Clear PIT Rollover Flag
+   output logic                  pit_ien,      // PIT Interrupt Enable
+   output logic                  cnt_sync_o,   // PIT Counter Enable
+   output logic                  pit_irq_o,    // PIT interrupt
+-  input                         bus_clk,      // Control register bus clock
+-  input                         async_rst_b,  // Async reset signal
+-  input                         sync_reset,   // Syncronous reset signal
+-  input                         pit_flag,     // PIT Rollover Flag
+-  input            [DWIDTH-1:0] write_bus,    // Write Data Bus
+-  input                  [ 3:0] write_regs,   // Write Register strobes
+-  input                         cnt_flag_o    // Counter Rollover Flag 
++  input                       bus_clk,      // Control register bus clock
++  input                       async_rst_b,  // Async reset signal
++  input                       sync_reset,   // Syncronous reset signal
++  input          [DWIDTH-1:0] write_bus,    // Write Data Bus
++  input                [ 3:0] write_regs,   // Write Register strobes
++  input                       cnt_flag_o    // Counter Rollover Flag 
+   );
+ 
+ 
+   // registers
+-  logic [ 3:0] pit_pre;   // Optional register for PIT Prescale Counter modulo
++  logic  [ 3:0] pit_pre;    // Optional register for PIT Prescale Counter modulo
+                           //  This register should be removed durning synthesis
+ 			  //  if the "NO_PRESCALE" parameter is set
+ 
+@@ -95,7 +96,7 @@
+       end
+     else
+       case (write_regs) // synopsys parallel_case
+-         4'b0011 :  // 16-bit write
++         4'b0011 :
+            begin
+              pit_slave   <= write_data[15];
+              pit_pre     <= write_data[11:8];
+@@ -103,13 +104,13 @@
+              pit_ien     <= write_data[1];
+              cnt_sync_o  <= write_data[0];
+            end
+-         4'b0001 :  // 8-bit low byte write
++         4'b0001 :
+            begin
+              pit_flg_clr <= write_data[2];
+              pit_ien     <= write_data[1];
+              cnt_sync_o  <= write_data[0];
+            end
+-         4'b0010 :  // 8-bit high byte write
++         4'b0010 :
+            begin
+              pit_slave   <= write_data[7];
+              pit_pre     <= write_data[3:0];
+@@ -133,3 +134,4 @@
+ 
+ 
+ endmodule  // pit_regs
++`default_nettype wire
+--- original/rtl/pit_top.sv
++++ refactored/rtl/pit_top.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ ////////////////////////////////////////////////////////////////////////////////
+ //
+ //  WISHBONE revB.2 compliant Programable Interrupt Timer - Top-level
+@@ -8,7 +9,7 @@
+ //  Downloaded from: http://www.opencores.org/projects/pit.....
+ //
+ ////////////////////////////////////////////////////////////////////////////////
+-// Copyright (c) 2011, Robert Hayes
++// Copyright (c) 2009, Robert Hayes
+ //
+ // All rights reserved.
+ //
+@@ -36,19 +37,26 @@
+ ////////////////////////////////////////////////////////////////////////////////
+ // 45678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+-module pit_top #(parameter D_WIDTH = 16,
+-                 parameter ARST_LVL = 1'b0,      // asynchronous reset level
+-                 parameter SINGLE_CYCLE = 1'b0,  // Add a wait state to bus transcation
+-                 parameter PRE_COUNT_SIZE = 15,  // Prescale Counter size
++module pit_top #(parameter ARST_LVL = 1'b0,      // asynchronous reset level
++                 parameter PRE_COUNT_SIZE = 16,  // Prescale Counter size
+                  parameter COUNT_SIZE = 16,      // Main counter size
+                  parameter DECADE_CNTR = 1'b1,   // Prescale rollover decode
+-                 parameter NO_PRESCALE = 1'b0)   // Remove prescale function
++                 parameter NO_PRESCALE = 1'b0,   // Remove prescale function
++                 parameter SINGLE_CYCLE = 1'b0,  // No bus wait state added
++		 parameter DWIDTH = 16)          // Data bus width
+   (
+   // Wishbone Signals
+-  wishbone_if.slave          wb,        // Wishbone interface instance
+-  output logic [D_WIDTH-1:0] wb_dat_o,  // databus output - Pseudo Register
+-  output logic               wb_ack,    // bus cycle acknowledge output
+-  input  logic               wb_stb,    // stobe/core select signal
++  output [DWIDTH-1:0] wb_dat_o,     // databus output
++  output              wb_ack_o,     // bus cycle acknowledge output
++  input               wb_clk_i,     // master clock input
++  input               wb_rst_i,     // synchronous active high reset
++  input               arst_i,       // asynchronous reset
++  input         [2:0] wb_adr_i,     // lower address bits
++  input  [DWIDTH-1:0] wb_dat_i,     // databus input
++  input               wb_we_i,      // write enable input
++  input               wb_stb_i,     // stobe/core select signal
++  input               wb_cyc_i,     // valid bus cycle input
++  input         [1:0] wb_sel_i,     // Select byte in word bus transaction
+   // PIT IO Signals
+   output              pit_o,        // PIT output pulse
+   output              pit_irq_o,    // PIT interrupt request signal output
+@@ -67,16 +75,30 @@
+   logic                  pit_slave;     // PIT in Slave Mode, ext_sync_i selected
+   logic           [ 3:0] pit_pre_scl;   // Prescaler modulo
+   logic                  counter_sync;  // 
+-  logic                  pit_flag;      //
++  logic                  pit_ien;       // PIT interrupt enable
+   
+   // Wishbone Bus interface
+-  pit_wb_bus #(.ARST_LVL    (ARST_LVL),
+-               .D_WIDTH     (D_WIDTH))
++  pit_wb_bus #(.ARST_LVL(ARST_LVL),
++               .SINGLE_CYCLE(SINGLE_CYCLE),
++               .DWIDTH(DWIDTH))
+     wishbone(
+-    // Wishbone Signals
+-    .wb           ( wb ),
+-    .wb_stb       ( wb_stb ),
+-    .wb_ack       ( wb_ack ),
++    .wb_dat_o     ( wb_dat_o ),
++    .wb_ack_o     ( wb_ack_o ),
++    .wb_clk_i     ( wb_clk_i ),
++    .wb_rst_i     ( wb_rst_i ),
++    .arst_i       ( arst_i ),
++    .wb_adr_i     ( wb_adr_i ),
++    .wb_dat_i     ( wb_dat_i ),
++    .wb_we_i      ( wb_we_i ),
++    .wb_stb_i     ( wb_stb_i ),
++    .wb_cyc_i     ( wb_cyc_i ),
++    .wb_sel_i     ( wb_sel_i ),
++    
++    // outputs
++    .write_regs   ( write_regs ),
++    .sync_reset   ( sync_reset ),
++    // inputs    
++    .async_rst_b  ( async_rst_b ),
+     .irq_source   ( cnt_flag_o ),
+     .read_regs    (               // in  -- status register bits
+ 		   { cnt_n,
+@@ -84,31 +106,66 @@
+ 		     {pit_slave, DECADE_CNTR, NO_PRESCALE, 1'b0, pit_pre_scl,
+ 		      5'b0, cnt_flag_o, pit_ien, cnt_sync_o}
+ 		   }
+-		  ),
+-    .*);
++		  )
++  );
+ 
+ // -----------------------------------------------------------------------------
+-  pit_regs #(.COUNT_SIZE(COUNT_SIZE),
++  pit_regs #(.ARST_LVL(ARST_LVL),
++             .COUNT_SIZE(COUNT_SIZE),
+ 	     .NO_PRESCALE(NO_PRESCALE),
+-             .D_WIDTH(D_WIDTH))
++             .DWIDTH(DWIDTH))
+     regs(
+-      .bus_clk      ( wb.wb_clk ),
+-      .write_bus    ( wb.wb_dat ),
+-      .*);
++    // outputs
++    .mod_value    ( mod_value ),
++    .pit_pre_scl  ( pit_pre_scl ),
++    .pit_slave    ( pit_slave ),
++    .pit_flg_clr  ( pit_flg_clr ),
++    .pit_ien      ( pit_ien ),
++    .cnt_sync_o   ( cnt_sync_o ),
++    .pit_irq_o    ( pit_irq_o ),
++    // inputs
++    .async_rst_b  ( async_rst_b ),
++    .sync_reset   ( sync_reset ),
++    .bus_clk      ( wb_clk_i ),
++    .write_bus    ( wb_dat_i ),
++    .write_regs   ( write_regs ),
++    .cnt_flag_o   ( cnt_flag_o )
++  );
+ 
+ // -----------------------------------------------------------------------------
+   pit_prescale #(.COUNT_SIZE(PRE_COUNT_SIZE),
+                  .DECADE_CNTR(DECADE_CNTR),
+ 		 .NO_PRESCALE(NO_PRESCALE))
+     prescale(
+-    .bus_clk      ( wb.wb_clk ),
+-    .divisor      ( pit_pre_scl ),
+-    .*);
++    // outputs
++    .prescale_out      ( prescale_out ),
++    .counter_sync      ( counter_sync ),
++    // inputs
++    .async_rst_b       ( async_rst_b ),
++    .sync_reset        ( sync_reset ),
++    .bus_clk           ( wb_clk_i ),
++    .cnt_sync_o        ( cnt_sync_o ),
++    .ext_sync_i        ( ext_sync_i ),
++    .pit_slave         ( pit_slave ),
++    .divisor           ( pit_pre_scl )
++  );
+ 
+ // -----------------------------------------------------------------------------
+   pit_count #(.COUNT_SIZE(COUNT_SIZE))
+     counter(
+-    .bus_clk      ( wb.wb_clk ),
+-    .*);
++    // outputs
++    .cnt_n             ( cnt_n ),
++    .cnt_flag_o        ( cnt_flag_o ),
++    .pit_o             ( pit_o ),
++    // inputs
++    .async_rst_b       ( async_rst_b ),
++    .sync_reset        ( sync_reset ),
++    .bus_clk           ( wb_clk_i ),
++    .counter_sync      ( counter_sync ),
++    .prescale_out      ( prescale_out ),
++    .pit_flg_clr       ( pit_flg_clr ),
++    .mod_value         ( mod_value )
++  );
+ 
+ endmodule // pit_top
++`default_nettype wire
+--- original/rtl/pit_wb_bus.sv
++++ refactored/rtl/pit_wb_bus.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ ////////////////////////////////////////////////////////////////////////////////
+ //
+ //  WISHBONE revB.2 compliant Programable Interrupt Timer - Bus interface
+@@ -8,7 +9,7 @@
+ //  Downloaded from: http://www.opencores.org/projects/pit.....
+ //
+ ////////////////////////////////////////////////////////////////////////////////
+-// Copyright (c) 2011, Robert Hayes
++// Copyright (c) 2009, Robert Hayes
+ //
+ // All rights reserved.
+ //
+@@ -36,68 +37,34 @@
+ ////////////////////////////////////////////////////////////////////////////////
+ // 45678901234567890123456789012345678901234567890123456789012345678901234567890
+ 
+-interface wishbone_if #(parameter D_WIDTH = 16,
+-                        parameter A_WIDTH = 3)
+-
+-  // These signals maintain their direction without regard to master or slave
+-  //  Some signals may not be connected in every instance of the interface usage
+-  (logic [D_WIDTH-1:0] wb_dat_i,  // databus input
+-   logic               wb_clk,    // master clock input
+-
+-   // These signals will change direction based on interface usage
+-   logic               arst,        // asynchronous reset
+-   logic               wb_rst,      // synchronous active high reset
+-   logic [A_WIDTH-1:0] wb_adr,      // lower address bits
+-   logic               wb_we,       // write enable input
+-   logic               wb_cyc,      // valid bus cycle input
+-   logic [2:0]         wb_sel       // Select bytes in word bus transaction
+-  );
+-  
+-  // Define the signal directions when the interface is used as a slave
+-  modport slave (input   wb_clk,
+-                         arst,
+-                         wb_rst,
+-                         wb_adr,
+-                         wb_dat_i,
+-                         wb_we,
+-                         wb_cyc,
+-                         wb_sel);
+-
+-  // define the signal directions when the interface is used as a master
+-  modport master (output wb_adr,
+-                         wb_we,
+-                         wb_cyc,
+-                         wb_sel,
+-                  input  wb_clk,
+-                         wb_dat_i,
+-                         arst,
+-                         wb_rst);
+-
+-endinterface  // wishbone_if  
+-  
+-module pit_wb_bus #(parameter D_WIDTH = 16,
+-                    parameter S_WIDTH = 2,
+-                    parameter A_WIDTH = 3,
+-                    parameter ARST_LVL = 1'b0,      // asynchronous reset level
+-                    parameter SINGLE_CYCLE = 1'b0)  // Add a wait state to bus transcation
++module pit_wb_bus #(parameter ARST_LVL = 1'b0,    // asynchronous reset level
++  		    parameter DWIDTH = 16,
++                    parameter SINGLE_CYCLE = 1'b0)
+   (
+   // Wishbone Signals
+-  wishbone_if.slave          wb,          // Define the interface instance name
+-  output logic [D_WIDTH-1:0] wb_dat_o,    // databus output - Pseudo Register
+-  output logic               wb_ack,      // bus cycle acknowledge output
+-  input  logic               wb_stb,      // stobe/core select signal
++  output logic  [DWIDTH-1:0] wb_dat_o,     // databus output - Pseudo Register
++  output                   wb_ack_o,     // bus cycle acknowledge output
++  input                    wb_clk_i,     // master clock input
++  input                    wb_rst_i,     // synchronous active high reset
++  input                    arst_i,       // asynchronous reset
++  input             [ 2:0] wb_adr_i,     // lower address bits
++  input       [DWIDTH-1:0] wb_dat_i,     // databus input
++  input                    wb_we_i,      // write enable input
++  input                    wb_stb_i,     // stobe/core select signal
++  input                    wb_cyc_i,     // valid bus cycle input
++  input              [1:0] wb_sel_i,     // Select byte in word bus transaction
+   // PIT Control Signals
+-  output logic       [ 3:0] write_regs,  // Decode write control register
+-  output                    async_rst_b, //
+-  output                    sync_reset,  //
+-  input                     irq_source,  //
+-  input              [47:0] read_regs    // status register bits
++  output logic        [ 3:0] write_regs,   // Decode write control register
++  output                   async_rst_b,  //
++  output                   sync_reset,   //
++  input                    irq_source,   //
++  input             [47:0] read_regs     // status register bits
+   );
+ 
+ 
+   // registers
+-  logic       bus_wait_state;  // Holdoff wb_ack for one clock to add wait state
+-  logic [2:0] addr_latch;      // Capture WISHBONE Address 
++  logic        bus_wait_state;  // Holdoff wb_ack_o for one clock to add wait state
++  logic  [2:0] addr_latch;      // Capture WISHBONE Address 
+ 
+   // Wires
+   logic       eight_bit_bus;
+@@ -111,21 +78,21 @@
+   //
+ 
+   // generate internal resets
+-  assign eight_bit_bus = (D_WIDTH == 8);
++  assign eight_bit_bus = (DWIDTH == 8);
+ 
+-  assign async_rst_b = wb.arst ^ ARST_LVL;
+-  assign sync_reset  = wb.wb_rst;
++  assign async_rst_b = arst_i ^ ARST_LVL;
++  assign sync_reset = wb_rst_i;
+ 
+   // generate wishbone signals
+-  assign module_sel = wb.wb_cyc && wb_stb;
+-  assign wb_wacc    = module_sel && wb.wb_we && (wb_ack || SINGLE_CYCLE);
+-  assign wb_racc    = module_sel && !wb.wb_we;
+-  assign wb_ack     = SINGLE_CYCLE ? module_sel : (bus_wait_state && module_sel);
+-  assign address    = SINGLE_CYCLE ? wb.wb_adr : addr_latch;
++  assign module_sel = wb_cyc_i && wb_stb_i;
++  assign wb_wacc    = module_sel && wb_we_i && (wb_ack_o || SINGLE_CYCLE);
++  assign wb_racc    = module_sel && !wb_we_i;
++  assign wb_ack_o   = SINGLE_CYCLE ? module_sel : (bus_wait_state && module_sel);
++  assign address    = SINGLE_CYCLE ? wb_adr_i : addr_latch;
+ 
+   // generate acknowledge output signal, By using register all accesses takes two cycles.
+   //  Accesses in back to back clock cycles are not possable.
+-  always_ff @(posedge wb.wb_clk or negedge async_rst_b)
++  always_ff @(posedge wb_clk_i or negedge async_rst_b)
+     if (!async_rst_b)
+       bus_wait_state <=  1'b0;
+     else if (sync_reset)
+@@ -135,26 +102,25 @@
+ 
+   // Capture address in first cycle of WISHBONE Bus tranaction
+   //  Only used when Wait states are enabled
+-  //  Synthesis tool should be enabled to remove these registers in SINGLE_CYCLE mode
+-  always_ff @(posedge wb.wb_clk)
++  always_ff @(posedge wb_clk_i)
+     if ( module_sel )                  // Clock gate for power saving
+-      addr_latch <= wb.wb_adr;
++      addr_latch <= wb_adr_i;
+ 
+   // WISHBONE Read Data Mux
+   always_comb
+       case ({eight_bit_bus, address}) // synopsys parallel_case
+       // 8 bit Bus, 8 bit Granularity
+-      4'b1_000: wb_dat_o = read_regs[ 7: 0];  // 8 bit read address 0
+-      4'b1_001: wb_dat_o = read_regs[15: 8];  // 8 bit read address 1
+-      4'b1_010: wb_dat_o = read_regs[23:16];  // 8 bit read address 2
+-      4'b1_011: wb_dat_o = read_regs[31:24];  // 8 bit read address 3
+-      4'b1_100: wb_dat_o = read_regs[39:32];  // 8 bit read address 4
+-      4'b1_101: wb_dat_o = read_regs[47:40];  // 8 bit read address 5
++      4'b1_000: wb_dat_o = DWIDTH'(read_regs[ 7: 0]);  // 8 bit read address 0
++      4'b1_001: wb_dat_o = DWIDTH'(read_regs[15: 8]);  // 8 bit read address 1
++      4'b1_010: wb_dat_o = DWIDTH'(read_regs[23:16]);  // 8 bit read address 2
++      4'b1_011: wb_dat_o = DWIDTH'(read_regs[31:24]);  // 8 bit read address 3
++      4'b1_100: wb_dat_o = DWIDTH'(read_regs[39:32]);  // 8 bit read address 4
++      4'b1_101: wb_dat_o = DWIDTH'(read_regs[47:40]);  // 8 bit read address 5
+       // 16 bit Bus, 16 bit Granularity
+-      4'b0_000: wb_dat_o = read_regs[15: 0];  // 16 bit read access address 0
+-      4'b0_001: wb_dat_o = read_regs[31:16];
+-      4'b0_010: wb_dat_o = read_regs[47:32];
+-      default:  wb_dat_o = '0;
++      4'b0_000: wb_dat_o = DWIDTH'(read_regs[15: 0]);  // 16 bit read access address 0
++      4'b0_001: wb_dat_o = DWIDTH'(read_regs[31:16]);
++      4'b0_010: wb_dat_o = DWIDTH'(read_regs[47:32]);
++      default:  wb_dat_o = 0;
+     endcase
+ 
+   // generate wishbone write register strobes -- one hot if 8 bit bus
+@@ -177,3 +143,4 @@
+ 
+     
+ endmodule  // pit_wb_bus
++`default_nettype wire

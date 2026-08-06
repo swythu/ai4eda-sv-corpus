@@ -1,0 +1,14 @@
+{
+  "project": "pit",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["16-bit registers", "8-bit registers", "timer flags", "prescaler"]
+  ,"source": {"project": "pit", "revision": 24, "path": "data/ipdb/opencores/quarantine/pit/svn-r24/source/rtl/sys_verilog", "tree_sha256": "db74bb043bd0cc84dd99151abe67c6667c90a3835bfdb3e5861bac4c96bc0ce2"}
+  ,"license": {"declared": "BSD-3-Clause-like", "training_approved": false, "review_status": "pending"}
+  ,"refactor_kind": "standards_refactor_and_bugfix"
+  ,"changes": ["flatten conflicting wishbone interface into explicit ports", "logic/always_comb/always_ff normalization", "explicit formerly implicit testbench signals", "16-bit prescaler width for divisor 32768", "synchronous prescaler reset"]
+  ,"standard_evidence": ["IEEE 1800-2023 9.2.2.2 p.222", "IEEE 1800-2023 9.2.2.4 p.224", "IEEE 1800-2023 23.2.2.3 p.735"]
+  ,"review": {"expert_status": "pending", "trainable": false}
+}

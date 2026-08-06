@@ -1,0 +1,10 @@
+{
+  "project": "xge_mac",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "lint_errors": 0,
+  "test_level": "self_checking_functional",
+  "stimulus": "existing XGMII loopback packet test",
+  "checks": ["18 packet XGMII loopback", "payload byte scoreboard", "pkt_rx_err", "packet counts", "timeout", "Verilator lint"]
+}

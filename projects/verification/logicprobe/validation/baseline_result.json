@@ -1,0 +1,17 @@
+{
+  "project": "logicprobe",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 1,
+  "checks": [
+    "512-sample capture reaches full",
+    "16/16 byte read mux mapping",
+    "UART start plus 8 LSB-first data bits",
+    "1303-clock UART bit timing",
+    "four-module hierarchy elaboration"
+  ]
+}

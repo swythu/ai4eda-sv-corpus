@@ -1,0 +1,163 @@
+--- data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/simple_pic/rtl/simple_pic.v
++++ data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/simple_pic/rtl/top/simple_pic.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ /////////////////////////////////////////////////////////////////////
+ ////                                                             ////
+ ////  OpenCores         Simple Programmable Interrupt Controller ////
+@@ -108,7 +109,7 @@
+ 
+ 
+ // synopsys translate_off
+-`include "timescale.v"
++`include "timescale.svh"
+ // synopsys translate_on
+ 
+ module simple_pic(
+@@ -144,8 +145,8 @@
+   //
+   //  Module body
+   //
+-  reg  [is:1] pol, edgen, pending, mask;   // register bank
+-  reg  [is:1] lirq, dirq;                  // latched irqs, delayed latched irqs
++  logic  [is:1] pol, edgen, pending, mask;   // register bank
++  logic  [is:1] lirq, dirq;                  // latched irqs, delayed latched irqs
+ 
+ 
+   //
+@@ -160,14 +161,16 @@
+   // synopsys translate_on
+ 
+   //
+-  // latch interrupt inputs
+-  always @(posedge clk_i)
+-    lirq <= #1 irq;
+-
+-  //
+-  // generate delayed latched irqs
+-  always @(posedge clk_i)
+-    dirq <= #1 lirq;
++  // Synchronize interrupt inputs with deterministic reset state.
++  always_ff @(posedge clk_i or negedge rst_i) begin
++    if (!rst_i) begin
++      lirq <= '0;
++      dirq <= '0;
++    end else begin
++      lirq <= irq;
++      dirq <= lirq;
++    end
++  end
+ 
+ 
+   //
+@@ -175,7 +178,7 @@
+   function trigger;
+     input edgen, pol, lirq, dirq;
+ 
+-    reg   edge_irq, level_irq;
++    logic   edge_irq, level_irq;
+   begin
+       edge_irq  = pol ? (lirq & ~dirq) : (dirq & ~lirq);
+       level_irq = pol ? lirq : ~lirq;
+@@ -184,64 +187,73 @@
+   end
+   endfunction
+ 
+-  reg  [is:1] irq_event;
++  logic  [is:1] irq_event;
+   integer n;
+-  always @(posedge clk_i)
+-    for(n=1; n<=is; n=n+1)
+-      irq_event[n] <= #1 trigger(edgen[n], pol[n], lirq[n], dirq[n]);
++  always_ff @(posedge clk_i or negedge rst_i) begin
++    if (!rst_i)
++      irq_event <= '0;
++    else
++      for (n=1; n<=is; n=n+1)
++        irq_event[n] <= trigger(edgen[n], pol[n], lirq[n], dirq[n]);
++  end
+ 
+   //
+   // generate wishbone register bank writes
+   wire wb_acc = cyc_i & stb_i;                   // WISHBONE access
+   wire wb_wr  = wb_acc & we_i;                   // WISHBONE write access
+ 
+-  always @(posedge clk_i or negedge rst_i)
++  always_ff @(posedge clk_i or negedge rst_i)
+     if (~rst_i)
+       begin
+-          pol   <= #1 {{is}{1'b0}};              // clear polarity register
+-          edgen <= #1 {{is}{1'b0}};              // clear edge enable register
+-          mask  <= #1 {{is}{1'b1}};              // mask all interrupts
++          pol   <= {is{1'b0}};              // clear polarity register
++          edgen <= {is{1'b0}};              // clear edge enable register
++          mask  <= {is{1'b1}};              // mask all interrupts
+       end
+     else if(wb_wr)                               // wishbone write cycle??
+       case (adr_i) // synopsys full_case parallel_case
+-        2'b00: edgen <= #1 dat_i[is-1:0];        // EDGE-ENABLE register
+-        2'b01: pol   <= #1 dat_i[is-1:0];        // POLARITY register
+-        2'b10: mask  <= #1 dat_i[is-1:0];        // MASK register
++        2'b00: edgen <= dat_i[is-1:0];        // EDGE-ENABLE register
++        2'b01: pol   <= dat_i[is-1:0];        // POLARITY register
++        2'b10: mask  <= dat_i[is-1:0];        // MASK register
+         2'b11: ;                                 // PENDING register is a special case (see below)
+       endcase
+ 
+ 
+     // pending register is a special case
+-    always @(posedge clk_i or negedge rst_i)
++    always_ff @(posedge clk_i or negedge rst_i)
+       if (~rst_i)
+-          pending <= #1 {{is}{1'b0}};            // clear all pending interrupts
++          pending <= {is{1'b0}};            // clear all pending interrupts
+       else if ( wb_wr & (&adr_i) )
+-          pending <= #1 (pending & ~dat_i[is-1:0]) | irq_event;
++          pending <= (pending & ~dat_i[is-1:0]) | irq_event;
+       else
+-          pending <= #1 pending | irq_event;
++          pending <= pending | irq_event;
+ 
+     //
+     // generate dat_o
+-    reg [7:0] dat_o;
+-    always @(posedge clk_i)
+-      case (adr_i) // synopsys full_case parallel_case
+-        2'b00: dat_o <= #1 { {{8-is}{1'b0}}, edgen};
+-        2'b01: dat_o <= #1 { {{8-is}{1'b0}}, pol};
+-        2'b10: dat_o <= #1 { {{8-is}{1'b0}}, mask};
+-        2'b11: dat_o <= #1 { {{8-is}{1'b0}}, pending};
++    logic [7:0] dat_o;
++    always_ff @(posedge clk_i or negedge rst_i)
++      if (!rst_i)
++        dat_o <= '0;
++      else case (adr_i) // synopsys full_case parallel_case
++        2'b00: dat_o <= { {(8-is){1'b0}}, edgen};
++        2'b01: dat_o <= { {(8-is){1'b0}}, pol};
++        2'b10: dat_o <= { {(8-is){1'b0}}, mask};
++        2'b11: dat_o <= { {(8-is){1'b0}}, pending};
+       endcase
+ 
+    //
+    // generate ack_o
+-   reg ack_o;
+-   always @(posedge clk_i)
+-     ack_o <= #1 wb_acc & !ack_o;
++   logic ack_o;
++   always_ff @(posedge clk_i or negedge rst_i)
++     if (!rst_i) ack_o <= 1'b0;
++     else ack_o <= wb_acc & !ack_o;
+ 
+   //
+   // generate CPU interrupt signal
+-  reg int_o;
+-  always @(posedge clk_i)
+-    int_o <= #1 |(pending & ~mask);
++  logic int_o;
++  always_ff @(posedge clk_i or negedge rst_i)
++    if (!rst_i) int_o <= 1'b0;
++    else int_o <= |(pending & ~mask);
+ 
+ endmodule
+ 
++`default_nettype wire

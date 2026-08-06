@@ -1,0 +1,15 @@
+{
+  "project": "binary_to_bcd",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 3,
+  "checks": [
+    "7 boundary vectors",
+    "binary-to-BCD",
+    "BCD-to-binary round trip"
+  ]
+}

@@ -1,0 +1,7 @@
+LGPL VERSION NOT IDENTIFIED
+
+The retained upstream file headers state that the work is licensed under the
+GNU Lesser General Public License (LGPL), but the inspected material does not
+identify a version or an "or later" option. This repository therefore does
+not infer a specific SPDX LGPL expression. Consult the authoritative upstream
+distribution or rights holder before redistribution.

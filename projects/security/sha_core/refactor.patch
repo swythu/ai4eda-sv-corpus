@@ -1,0 +1,313 @@
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha1.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/rtl/blocks/sha1.sv
+@@ -47,17 +47,18 @@
+ `define SHA1_K2 32'h8f1bbcdc
+ `define SHA1_K3 32'hca62c1d6
+ 
+-module sha1 (clk_i, rst_i, text_i, text_o, cmd_i, cmd_w_i, cmd_o);
+-
+-	input		clk_i; 	// global clock input
+-	input		rst_i; 	// global reset input , active high
+-	
+-	input	[31:0]	text_i;	// text input 32bit
+-	output	[31:0]	text_o;	// text output 32bit
+-	
+-	input	[2:0]	cmd_i;	// command input
+-	input		cmd_w_i;// command input write enable
+-	output	[3:0]	cmd_o;	// command output(status)
++`default_nettype none
++
++module sha1 (
++  input logic clk_i,
++  input logic rst_i,
++  input logic [31:0]	text_i,
++  output logic [31:0]	text_o,
++  input logic [2:0]	cmd_i,
++  input logic cmd_w_i,
++  output wire logic [3:0]	cmd_o
++);
++
+ 
+ 	/*
+ 		cmd
+@@ -85,25 +86,23 @@
+ 	*/
+ 	
+ 
+-    	reg	[3:0]	cmd;
+-    	wire	[3:0]	cmd_o;
+-    	
+-    	reg	[31:0]	text_o;
+-    	
+-    	reg	[6:0]	round;
++    	logic	[3:0]	cmd;
++
++
++    	logic	[6:0]	round;
+     	wire	[6:0]	round_plus_1;
+     	
+-    	reg	[2:0]	read_counter;
++    	logic	[2:0]	read_counter;
+     	
+-    	reg	[31:0]	H0,H1,H2,H3,H4;
+-    	reg	[31:0]	W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
+-    	reg	[31:0]	Wt,Kt;
+-    	reg	[31:0]	A,B,C,D,E;
+-
+-    	reg		busy;
++    	logic	[31:0]	H0,H1,H2,H3,H4;
++    	logic	[31:0]	W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
++    	logic	[31:0]	Wt,Kt;
++    	logic	[31:0]	A,B,C,D,E;
++
++    	logic		busy;
+     	
+     	assign cmd_o = cmd;
+-    	always @ (posedge clk_i)
++    	always_ff @(posedge clk_i)
+     	begin
+     		if (rst_i)
+     			cmd <= 'b0;
+@@ -143,7 +142,7 @@
+ 	//------------------------------------------------------------------	
+ 	// SHA round
+ 	//------------------------------------------------------------------
+-	always @(posedge clk_i)
++	always_ff @(posedge clk_i)
+ 	begin
+ 		if (rst_i)
+ 		begin
+@@ -530,7 +529,7 @@
+ 	//------------------------------------------------------------------	
+ 	// Kt generator
+ 	//------------------------------------------------------------------	
+-	always @ (posedge clk_i)
++	always_ff @(posedge clk_i)
+ 	begin
+ 		if (rst_i)
+ 		begin
+@@ -554,7 +553,7 @@
+ 	//------------------------------------------------------------------	
+ 	// read result 
+ 	//------------------------------------------------------------------	
+-	always @ (posedge clk_i)
++	always_ff @(posedge clk_i)
+ 	begin
+ 		if (rst_i)
+ 		begin
+@@ -591,4 +590,5 @@
+ 	end
+ 	
+ endmodule
+- +
++`default_nettype wire
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha256.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/rtl/blocks/sha256.sv
+@@ -110,17 +110,18 @@
+ `define K62 32'hbef9a3f7
+ `define K63 32'hc67178f2
+ 
+-module sha256 (clk_i, rst_i, text_i, text_o, cmd_i, cmd_w_i, cmd_o);
+-
+-        input           clk_i;  // global clock input
+-        input           rst_i;  // global reset input , active high
+-        
+-        input   [31:0]  text_i; // text input 32bit
+-        output  [31:0]  text_o; // text output 32bit
+-        
+-        input   [2:0]   cmd_i;  // command input
+-        input           cmd_w_i;// command input write enable
+-        output  [3:0]   cmd_o;  // command output(status)
++`default_nettype none
++
++module sha256 (
++  input logic clk_i,
++  input logic rst_i,
++  input logic [31:0] text_i,
++  output logic [31:0] text_o,
++  input logic [2:0]  cmd_i,
++  input logic cmd_w_i,
++  output wire logic [3:0]  cmd_o
++);
++
+ 
+         /*
+                 cmd
+@@ -148,25 +149,23 @@
+         */
+         
+ 
+-        reg     [3:0]   cmd;
+-        wire    [3:0]   cmd_o;
+-        
+-        reg     [31:0]  text_o;
+-        
+-        reg     [6:0]   round;
++        logic     [3:0]   cmd;
++
++
++        logic     [6:0]   round;
+         wire    [6:0]   round_plus_1;
+         
+-        reg     [2:0]   read_counter;
+-        
+-        reg     [31:0]  H0,H1,H2,H3,H4,H5,H6,H7;
+-        reg     [31:0]  W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
+-        reg     [31:0]  Wt,Kt;
+-        reg     [31:0]  A,B,C,D,E,F,G,H;
+-
+-        reg             busy;
++        logic     [2:0]   read_counter;
++        
++        logic     [31:0]  H0,H1,H2,H3,H4,H5,H6,H7;
++        logic     [31:0]  W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
++        logic     [31:0]  Wt,Kt;
++        logic     [31:0]  A,B,C,D,E,F,G,H;
++
++        logic             busy;
+         
+         assign cmd_o = cmd;
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                         cmd <= 'b0;
+@@ -214,7 +213,7 @@
+         //------------------------------------------------------------------    
+         // SHA round
+         //------------------------------------------------------------------
+-        always @(posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -650,7 +649,7 @@
+         //------------------------------------------------------------------    
+         // Kt generator
+         //------------------------------------------------------------------    
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -731,7 +730,7 @@
+         //------------------------------------------------------------------    
+         // read result 
+         //------------------------------------------------------------------    
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -771,4 +770,5 @@
+         end
+         
+ endmodule
+- 
++
++`default_nettype wire
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/rtl/sha512.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/rtl/blocks/sha512.sv
+@@ -135,17 +135,18 @@
+ `define K78 64'h5fcb6fab_3ad6faec
+ `define K79 64'h6c44198c_4a475817
+ 
+-module sha512 (clk_i, rst_i, text_i, text_o, cmd_i, cmd_w_i, cmd_o);
+-
+-        input           clk_i;  // global clock input
+-        input           rst_i;  // global reset input , active high
+-        
+-        input   [31:0]  text_i; // text input 32bit
+-        output  [31:0]  text_o; // text output 32bit
+-        
+-        input   [3:0]   cmd_i;  // command input
+-        input           cmd_w_i;// command input write enable
+-        output  [4:0]   cmd_o;  // command output(status)
++`default_nettype none
++
++module sha512 (
++  input logic clk_i,
++  input logic rst_i,
++  input logic [31:0] text_i,
++  output logic [31:0] text_o,
++  input logic [3:0]  cmd_i,
++  input logic cmd_w_i,
++  output wire logic [4:0]  cmd_o
++);
++
+ 
+         /*
+                 cmd
+@@ -177,25 +178,23 @@
+         */
+         
+ 
+-        reg     [4:0]   cmd;
+-        wire    [4:0]   cmd_o;
+-        
+-        reg     [31:0]  text_o;
+-        
+-        reg     [6:0]   round;
++        logic     [4:0]   cmd;
++
++
++        logic     [6:0]   round;
+         wire    [6:0]   round_plus_1;
+         
+-        reg     [4:0]   read_counter;
+-        
+-        reg     [63:0]  H0,H1,H2,H3,H4,H5,H6,H7;
+-        reg     [63:0]  W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
+-        reg     [63:0]  Wt,Kt;
+-        reg     [63:0]  A,B,C,D,E,F,G,H;
+-
+-        reg             busy;
++        logic     [4:0]   read_counter;
++        
++        logic     [63:0]  H0,H1,H2,H3,H4,H5,H6,H7;
++        logic     [63:0]  W0,W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11,W12,W13,W14;
++        logic     [63:0]  Wt,Kt;
++        logic     [63:0]  A,B,C,D,E,F,G,H;
++
++        logic             busy;
+         
+         assign cmd_o = cmd;
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                         cmd <= 'b0;
+@@ -249,7 +248,7 @@
+         //------------------------------------------------------------------    
+         // SHA round
+         //------------------------------------------------------------------
+-        always @(posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -827,7 +826,7 @@
+         //------------------------------------------------------------------    
+         // Kt generator
+         //------------------------------------------------------------------    
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -940,7 +939,7 @@
+         //------------------------------------------------------------------    
+         // read result 
+         //------------------------------------------------------------------    
+-        always @ (posedge clk_i)
++        always_ff @(posedge clk_i)
+         begin
+                 if (rst_i)
+                 begin
+@@ -1014,4 +1013,5 @@
+         end
+         
+ endmodule
+- 
++
++`default_nettype wire

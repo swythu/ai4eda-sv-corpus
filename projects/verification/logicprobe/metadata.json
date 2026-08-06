@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project": "logicprobe",
+  "category": "verification_assets",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/verification_assets/logicprobe/src/fpga/LogicProbe.v",
+      "sha256": "d053e6eb81e3eca2a9ecdd95906d0a893d6ef3e9ac5b9a59ef36dcd621475db5"
+    }
+  ],
+  "rtl_files": [
+    "rtl/top/LogicProbe.sv"
+  ],
+  "modules": [
+    "LogicProbe",
+    "LogicProbe_sampler",
+    "LogicProbe_xmtbuf",
+    "LogicProbe_xmt"
+  ],
+  "testbench": "tb/tb_logicprobe.sv",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "LOGICPROBE_SV_PASS sampler=pass uart=pass hierarchy=pass",
+  "verification_checks": [
+    "512-sample capture reaches full",
+    "16/16 byte read mux mapping",
+    "UART start plus 8 LSB-first data bits",
+    "1303-clock UART bit timing",
+    "four-module hierarchy elaboration"
+  ],
+  "license_review": "pending",
+  "expert_review": "pending",
+  "trainable": false
+}

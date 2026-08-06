@@ -1,0 +1,16 @@
+{
+  "project": "wb_flash",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 1,
+  "checks": [
+    "4 byte-lane mappings",
+    "Wishbone wait-state acknowledgement",
+    "active-low flash controls",
+    "read-data replication"
+  ]
+}

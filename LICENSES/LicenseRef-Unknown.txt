@@ -1,0 +1,8 @@
+NO LICENSE IDENTIFIED
+
+No explicit redistribution license was identified in the locally available
+upstream source. Copyright is retained by the respective rights holder(s).
+Inclusion records provenance and a research transformation; it is not a grant
+of permission. Do not redistribute or use this material outside the scope
+allowed by applicable law without obtaining permission or locating an
+authoritative license grant.

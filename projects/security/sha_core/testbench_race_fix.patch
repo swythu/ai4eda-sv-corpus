@@ -1,0 +1,542 @@
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/bench/test_sha1.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/tb/test_sha1.sv
+@@ -68,11 +68,11 @@
+ 	rst = 1'b0;
+ 	
+ 	test_SHA1;
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	$finish;
+ end
+@@ -104,72 +104,73 @@
+ 	#100;
+ 	
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 3'b010;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<16;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[16*32-1:15*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[3])
+-		@(posedge clk);
++		@(negedge clk);
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	#100;
+ 	
+ 	
+ 	tmp_i = all_message[511:0];
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 3'b110;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<16;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[16*32-1:15*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[3])
+-		@(posedge clk);
++		@(negedge clk);
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	cmd_i = 6'b001;
+ 	cmd_w_i = 1'b1;
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_w_i = 1'b0;
++	@(negedge clk);
+ 	for (i=0;i<5;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		#1;
+ 		tmp = tmp_o[5*32-1:4*32];
+ 		if (text_o !== tmp | (|text_o)===1'bx)
+@@ -182,11 +183,11 @@
+ 		end
+ 		tmp_o = tmp_o << 32;
+ 	end	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	#100;
+ end
+ endtask
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/bench/test_sha256.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/tb/test_sha256.sv
+@@ -68,11 +68,11 @@
+ 	rst = 1'b0;
+ 	
+ 	test_SHA256;
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	$finish;
+ end
+@@ -105,73 +105,74 @@
+ 	#100;
+ 	
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 3'b010;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<16;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[16*32-1:15*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[3])
+-		@(posedge clk);
++		@(negedge clk);
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	#100;
+ 	
+ 	
+ 	tmp_i = all_message[511:0];
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 3'b110;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<16;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[16*32-1:15*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[3])
+-		@(posedge clk);
++		@(negedge clk);
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	cmd_i = 3'b001;
+ 	cmd_w_i = 1'b1;
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_w_i = 1'b0;
++	@(negedge clk);
+ 	for (i=0;i<8;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		#1;
+ 		tmp = tmp_o[8*32-1:7*32];
+ 		if (text_o !== tmp | (|text_o)===1'bx)
+@@ -184,11 +185,11 @@
+ 		end
+ 		tmp_o = tmp_o << 32;
+ 	end	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	#100;
+ end
+ endtask
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/sha_core/bench/test_sha512.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/sha_core/tb/test_sha512.sv
+@@ -74,11 +74,11 @@
+ 	
+ 	test_SHA384;
+ 	test_SHA512;
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	$finish;
+ end
+@@ -110,74 +110,75 @@
+ 	#100;
+ 	
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 4'b0010;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<32;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[32*32-1:31*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[4])
+-		@(posedge clk);
+-	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++		@(negedge clk);
++	
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	#100;
+ 	
+ 	
+ 	tmp_i = all_message[1023:0];
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 4'b0110;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<32;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[32*32-1:31*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[4])
+-		@(posedge clk);
+-	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++		@(negedge clk);
++	
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	cmd_i = 4'b0001;
+ 	cmd_w_i = 1'b1;
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_w_i = 1'b0;
++	@(negedge clk);
+ 	for (i=0;i<12;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		#1;
+ 		tmp = tmp_o[12*32-1:11*32];
+ 		if (text_o !== tmp | (|text_o)===1'bx)
+@@ -190,11 +191,11 @@
+ 		end
+ 		tmp_o = tmp_o << 32;
+ 	end	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	#100;
+ end
+ endtask
+@@ -213,74 +214,75 @@
+ 	#100;
+ 	
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 4'b1010;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<32;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[32*32-1:31*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[4])
+-		@(posedge clk);
+-	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++		@(negedge clk);
++	
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	
+ 	#100;
+ 	
+ 	
+ 	tmp_i = all_message[1023:0];
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_i = 4'b1110;
+ 	cmd_w_i = 1'b1;
+ 	
+ 	for (i=0;i<32;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		cmd_w_i = 1'b0;
+ 		text_i = tmp_i[32*32-1:31*32];
+ 		tmp_i = tmp_i << 32;
+ 	end
+ 
+ 	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	while (cmd_o[4])
+-		@(posedge clk);
+-	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++		@(negedge clk);
++	
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 
+ 	cmd_i = 4'b1001;
+ 	cmd_w_i = 1'b1;
+ 	
+-	@(posedge clk);
++	@(negedge clk);
+ 	cmd_w_i = 1'b0;
++	@(negedge clk);
+ 	for (i=0;i<16;i=i+1)
+ 	begin
+-		@(posedge clk);
++		@(negedge clk);
+ 		#1;
+ 		tmp = tmp_o[16*32-1:15*32];
+ 		if (text_o !== tmp | (|text_o)===1'bx)
+@@ -293,11 +295,11 @@
+ 		end
+ 		tmp_o = tmp_o << 32;
+ 	end	
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
+-	@(posedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
++	@(negedge clk);
+ 	#100;
+ end
+ endtask

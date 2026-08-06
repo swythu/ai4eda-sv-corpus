@@ -1,0 +1,8 @@
+*.vvp
+*.vcd
+*.wlf
+*.log
+obj_dir/
+validation/work/
+validation_summary.json
+__pycache__/

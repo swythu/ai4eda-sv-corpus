@@ -1,0 +1,113 @@
+--- data/ipdb/opencores/organized/verilog/verification_assets/oc_axi_bfm/new_component.v
++++ data/ipdb/opencores/refactored/systemverilog/verification_assets/oc_axi_bfm/rtl/top/new_component.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ // new_component.v
+ 
+ // This file was auto-generated as a prototype implementation of a module
+@@ -37,27 +38,27 @@
+ 		input  wire        reset_reset       // reset_1.reset
+ 	);
+ 
+-  parameter IDLE=0, READ=1, WRITE=2;
+-  parameter N_AW_W=0, AW_NW=1, NAW_W=2, B_WAIT=3 ;
+-  parameter R_AR=0, R_R=1, R_RSP=2;
+-
+-  reg [1:0] state;
+-  reg [1:0] write_state;
+-  reg [1:0] read_state;
+-
+-  reg done_r;
+-  reg [31:0] r_data_r;
+-
+-  reg [31:0] axm_m0_awaddr_r  ;
+-  reg        axm_m0_awvalid_r ;
+-  reg [31:0] axm_m0_wdata_r   ;
+-  reg        axm_m0_wvalid_r  ;
+-  reg        axm_m0_bready_r  ;
+-  reg [31:0] axm_m0_araddr_r  ;
+-  reg        axm_m0_arvalid_r ;
+-  reg        axm_m0_rready_r  ;
+-  reg        axm_m0_wlast_r   ;
+-  reg [2:0]  axm_m0_awprot_r  ; 
++  localparam logic [1:0] IDLE=0, READ=1, WRITE=2;
++  localparam logic [1:0] N_AW_W=0, AW_NW=1, NAW_W=2, B_WAIT=3;
++  localparam logic [1:0] R_AR=0, R_R=1, R_RSP=2;
++
++  logic [1:0] state;
++  logic [1:0] write_state;
++  logic [1:0] read_state;
++
++  logic done_r;
++  logic [31:0] r_data_r;
++
++  logic [31:0] axm_m0_awaddr_r  ;
++  logic        axm_m0_awvalid_r ;
++  logic [31:0] axm_m0_wdata_r   ;
++  logic        axm_m0_wvalid_r  ;
++  logic        axm_m0_bready_r  ;
++  logic [31:0] axm_m0_araddr_r  ;
++  logic        axm_m0_arvalid_r ;
++  logic        axm_m0_rready_r  ;
++  logic        axm_m0_wlast_r   ;
++  logic [2:0]  axm_m0_awprot_r  ; 
+ 
+   assign done           = done_r          ;
+   assign axm_m0_awaddr  = axm_m0_awaddr_r ;
+@@ -70,32 +71,27 @@
+   assign axm_m0_rready  = axm_m0_rready_r ;
+   assign axm_m0_wlast   = axm_m0_wlast_r  ;
+   assign axm_m0_awprot  = axm_m0_awprot_r ;
++  assign axm_m0_arprot  = 3'b000;
+   assign r_data         = r_data_r        ;
+ 
+-  initial 
++  always_ff @(posedge clock_clk)
+   begin
+-    state = IDLE;
+-    done_r = 0;
+-    write_state = 0;
+-    done_r           = '0;
+-    axm_m0_awaddr_r  = '0;
+-    axm_m0_awvalid_r = '0;
+-    axm_m0_wdata_r   = '0;
+-    axm_m0_wvalid_r  = '0;
+-    axm_m0_bready_r  = '0;
+-    axm_m0_arvalid_r = '0;
+-    axm_m0_araddr_r  = '0;
+-    axm_m0_rready_r  = '0;
+-    axm_m0_wlast_r   = '0;
+-    axm_m0_awprot_r  = '0;
+-
+-  end
+-
+-  always @(posedge clock_clk)
+-  begin
+-    if(reset_reset)
+-    begin
+-      done_r <= 0;
++    if (reset_reset) begin
++      state             <= IDLE;
++      write_state       <= N_AW_W;
++      read_state        <= R_AR;
++      done_r            <= 1'b0;
++      r_data_r          <= '0;
++      axm_m0_awaddr_r   <= '0;
++      axm_m0_awvalid_r  <= 1'b0;
++      axm_m0_wdata_r    <= '0;
++      axm_m0_wvalid_r   <= 1'b0;
++      axm_m0_bready_r   <= 1'b0;
++      axm_m0_araddr_r   <= '0;
++      axm_m0_arvalid_r  <= 1'b0;
++      axm_m0_rready_r   <= 1'b0;
++      axm_m0_wlast_r    <= 1'b0;
++      axm_m0_awprot_r   <= 3'b000;
+     end
+     else
+     begin
+@@ -217,3 +213,5 @@
+ 
+ 
+ endmodule
++
++`default_nettype wire

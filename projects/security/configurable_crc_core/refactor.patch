@@ -1,0 +1,28 @@
+--- data/ipdb/opencores/organized/verilog/integrity_and_security/configurable_crc_core/rtl/cfg_crc.v
++++ data/ipdb/opencores/refactored/systemverilog/integrity_and_security/configurable_crc_core/rtl/top/cfg_crc.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ module  cfg_crc #(
+         parameter  datw = 6,
+         parameter  [datw - 1: 0] coff = 6'b10_0101
+@@ -7,13 +8,13 @@
+         input   rst_syn,
+         input   crc_en,
+         input   dat_i,
+-        output  reg  [datw - 2: 0] dat_o
++        output  logic  [datw - 2: 0] dat_o
+     );
+     
+     wire    lsb	= dat_i ^ dat_o[datw - 2];
+     integer i;
+ 	
+-    always@(posedge clk or posedge rst)  begin
++    always_ff @(posedge clk or posedge rst) begin
+         if (rst)    
+             dat_o    <= 0;
+         else if (rst_syn)
+@@ -31,3 +32,4 @@
+     end
+ 
+ endmodule
++`default_nettype wire

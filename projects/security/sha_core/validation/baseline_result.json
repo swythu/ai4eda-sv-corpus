@@ -1,0 +1,19 @@
+{
+  "project": "sha_core",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "known_answer_functional",
+  "known_answer_words": 41,
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "checks": [
+    "SHA-1 known digest: 5 words",
+    "SHA-256 known digest: 8 words",
+    "SHA-384 known digest: 12 words",
+    "SHA-512 known digest: 16 words",
+    "race-free falling-edge stimulus",
+    "41/41 digest word comparisons"
+  ]
+}

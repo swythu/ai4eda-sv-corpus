@@ -1,0 +1,15 @@
+{
+  "project": "tiny_spi",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 11,
+  "checks": [
+    "Wishbone access",
+    "4-byte serial loopback",
+    "reset determinism"
+  ]
+}

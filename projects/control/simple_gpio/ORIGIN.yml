@@ -1,0 +1,8 @@
+name: "simple_gpio"
+category: "control"
+upstream_project: "https://opencores.org/projects/simple_gpio"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/simple_gpio"
+license_expression: "LicenseRef-OpenCores-Permissive"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

@@ -1,0 +1,41 @@
+{
+  "project": "dma_axi32",
+  "status": "pass",
+  "strategy": "top_only",
+  "top_language": "systemverilog",
+  "internal_language": "verilog",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "reset_idle_smoke",
+  "lint_errors": 0,
+  "checks": [
+    "mixed-language elaboration",
+    "reset convergence",
+    "no unknown top outputs",
+    "no unexpected AXI request while idle"
+  ],
+  "source": {
+    "project": "dma_axi",
+    "variant": "dma_axi32",
+    "path": "data/ipdb/opencores/organized/verilog/control_buffering_and_data_movement/dma_axi/src/dma_axi32/dma_axi32.v",
+    "sha256": "21c552f8dd871f57ca633e372321a89a46fb525b0b21461ac5d03794b0bea8d1"
+  },
+  "derived_top_sha256": "11b72f911e71fcbff422f0289eeea2e50c074328e0b72b1ce5c43a4c4c63b0ee",
+  "legacy_internal_files": 51,
+  "legacy_internal_modified": false,
+  "license": {
+    "declared": "LGPL",
+    "training_approved": false,
+    "review_status": "pending"
+  },
+  "standard_evidence": [
+    "IEEE 1800-2023 9.2.2.2",
+    "IEEE 1800-2023 9.2.2.4",
+    "IEEE 1800-2023 22.8",
+    "IEEE 1800-2023 23.2.2.3"
+  ],
+  "review": {
+    "expert_status": "pending",
+    "trainable": false
+  }
+}

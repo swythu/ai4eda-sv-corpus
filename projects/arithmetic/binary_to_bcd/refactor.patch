@@ -1,0 +1,153 @@
+--- data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/binary_to_bcd/binary_to_bcd.v
++++ data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/binary_to_bcd/rtl/top/binary_to_bcd.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //---------------------------------------------------------------------------
+ // Binary to BCD converter, serial implementation, 1 clock per input bit.
+ //
+@@ -72,16 +73,16 @@
+ output [4*BCD_DIGITS_OUT_PP-1:0] dat_bcd_o;  // output bus
+ output done_o;                     // indicates conversion is done
+ 
+-reg [4*BCD_DIGITS_OUT_PP-1:0] dat_bcd_o;
++logic [4*BCD_DIGITS_OUT_PP-1:0] dat_bcd_o;
+ 
+ // Internal signal declarations
+ 
+-reg  [BITS_IN_PP-1:0] bin_reg;
+-reg  [4*BCD_DIGITS_OUT_PP-1:0] bcd_reg;
++logic  [BITS_IN_PP-1:0] bin_reg;
++logic  [4*BCD_DIGITS_OUT_PP-1:0] bcd_reg;
+ wire [BITS_IN_PP-1:0] bin_next;
+-reg  [4*BCD_DIGITS_OUT_PP-1:0] bcd_next;
+-reg  busy_bit;
+-reg  [BIT_COUNT_WIDTH_PP-1:0] bit_count;
++logic  [4*BCD_DIGITS_OUT_PP-1:0] bcd_next;
++logic  busy_bit;
++logic  [BIT_COUNT_WIDTH_PP-1:0] bit_count;
+ wire bit_count_done;
+ 
+ //--------------------------------------------------------------------------
+@@ -92,9 +93,9 @@
+   input [4*BCD_DIGITS_OUT_PP-1:0] din;
+   input newbit;
+   integer k;
+-  reg cin;
+-  reg [3:0] digit;
+-  reg [3:0] digit_less;
++  logic cin;
++  logic [3:0] digit;
++  logic [3:0] digit_less;
+   begin
+     cin = newbit;
+     for (k=0; k<BCD_DIGITS_OUT_PP; k=k+1)
+@@ -131,14 +132,12 @@
+ 
+ // Perform proper shifting, binary ASL and BCD ASL
+ assign bin_next = {bin_reg,1'b0};
+-always @(bcd_reg or bin_reg)
+-begin
+-  bcd_next <= bcd_asl(bcd_reg,bin_reg[BITS_IN_PP-1]);
++always_comb begin
++  bcd_next = bcd_asl(bcd_reg,bin_reg[BITS_IN_PP-1]);
+ end
+ 
+ // Busy bit, input and output registers
+-always @(posedge clk_i)
+-begin
++always_ff @(posedge clk_i) begin
+   if (rst_i)
+   begin
+     busy_bit <= 0;  // Synchronous reset
+@@ -164,8 +163,7 @@
+ assign done_o = ~busy_bit;
+ 
+ // Bit counter
+-always @(posedge clk_i)
+-begin
++always_ff @(posedge clk_i) begin
+   if (~busy_bit) bit_count <= 0;
+   else if (ce_i && ~bit_count_done) bit_count <= bit_count + 1;
+ end
+@@ -173,3 +171,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire
+--- data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/binary_to_bcd/bcd_to_binary.v
++++ data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/binary_to_bcd/rtl/top/bcd_to_binary.sv
+@@ -1,3 +1,4 @@
++`default_nettype none
+ //---------------------------------------------------------------------------
+ // BCD to binary converter, serial implementation, 1 clock per input bit.
+ //
+@@ -80,16 +81,16 @@
+ output [BITS_OUT_PP-1:0] dat_binary_o;      // output bus
+ output done_o;                     // indicates conversion is done
+ 
+-reg [BITS_OUT_PP-1:0] dat_binary_o;
++logic [BITS_OUT_PP-1:0] dat_binary_o;
+ 
+ // Internal signal declarations
+ 
+-reg  [BITS_OUT_PP-1:0] bin_reg;
+-reg  [4*BCD_DIGITS_IN_PP-1:0] bcd_reg;
++logic  [BITS_OUT_PP-1:0] bin_reg;
++logic  [4*BCD_DIGITS_IN_PP-1:0] bcd_reg;
+ wire [BITS_OUT_PP-1:0] bin_next;
+-reg  [4*BCD_DIGITS_IN_PP-1:0] bcd_next;
+-reg  busy_bit;
+-reg  [BIT_COUNT_WIDTH_PP-1:0] bit_count;
++logic  [4*BCD_DIGITS_IN_PP-1:0] bcd_next;
++logic  busy_bit;
++logic  [BIT_COUNT_WIDTH_PP-1:0] bit_count;
+ wire bit_count_done;
+ 
+ //--------------------------------------------------------------------------
+@@ -99,9 +100,9 @@
+ function [4*BCD_DIGITS_IN_PP-1:0] bcd_asr;
+   input [4*BCD_DIGITS_IN_PP-1:0] din;
+   integer k;
+-  reg cin;
+-  reg [3:0] digit;
+-  reg [3:0] digit_more;
++  logic cin;
++  logic [3:0] digit;
++  logic [3:0] digit_more;
+ 
+   begin
+     cin = 1'b0;
+@@ -138,15 +139,13 @@
+ 
+ // Perform proper shifting, binary ASL and BCD ASL
+ assign bin_next = {bcd_reg[0],bin_reg[BITS_OUT_PP-1:1]};
+-always @(bcd_reg)
+-begin
+-  bcd_next <= bcd_asr(bcd_reg);
++always_comb begin
++  bcd_next = bcd_asr(bcd_reg);
+ //  bcd_next <= bcd_reg >> 1;  Just for testing...
+ end
+ 
+ // Busy bit, input and output registers
+-always @(posedge clk_i)
+-begin
++always_ff @(posedge clk_i) begin
+   if (rst_i)
+   begin
+     busy_bit <= 0;  // Synchronous reset
+@@ -172,8 +171,7 @@
+ assign done_o = ~busy_bit;
+ 
+ // Bit counter
+-always @(posedge clk_i)
+-begin
++always_ff @(posedge clk_i) begin
+   if (~busy_bit) bit_count <= 0;
+   else if (ce_i && ~bit_count_done) bit_count <= bit_count + 1;
+ end
+@@ -181,3 +179,4 @@
+ 
+ endmodule
+ 
++`default_nettype wire

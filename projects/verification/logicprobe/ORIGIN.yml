@@ -1,0 +1,8 @@
+name: "logicprobe"
+category: "verification"
+upstream_project: "https://opencores.org/projects/logicprobe"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/verification_assets/logicprobe"
+license_expression: "BSD-2-Clause"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

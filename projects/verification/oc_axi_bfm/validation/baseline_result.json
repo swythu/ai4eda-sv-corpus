@@ -1,0 +1,17 @@
+{
+  "project": "oc_axi_bfm",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_protocol",
+  "lint_errors": 0,
+  "lint_warnings": 2,
+  "checks": [
+    "AXI-Lite simultaneous AW/W handshake",
+    "split AW then W handshake",
+    "AR/R read transaction",
+    "single-cycle done pulse",
+    "deterministic reset and PROT outputs"
+  ]
+}

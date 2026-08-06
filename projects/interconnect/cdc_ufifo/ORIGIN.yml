@@ -1,0 +1,8 @@
+name: "cdc_ufifo"
+category: "interconnect"
+upstream_project: "https://opencores.org/projects/cdc_ufifo"
+local_source_provenance: "data/ipdb/opencores/refactored_sv/cdc_ufifo"
+license_expression: "Apache-2.0"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

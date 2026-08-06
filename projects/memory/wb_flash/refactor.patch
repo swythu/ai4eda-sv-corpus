@@ -1,0 +1,122 @@
+--- data/ipdb/opencores/organized/verilog/interconnect_and_memory/wb_flash/rtl/verilog/wb_flash.v
++++ data/ipdb/opencores/refactored/systemverilog/interconnect_and_memory/wb_flash/rtl/top/wb_flash.sv
+@@ -37,68 +37,65 @@
+ ////                                                              ////
+ //////////////////////////////////////////////////////////////////////
+ 
+-module wb_flash(
+-    // Parallel FLASH Interface
+-    clk_i, nrst_i, wb_adr_i, wb_dat_o, wb_dat_i, wb_sel_i, wb_we_i,
+-    wb_stb_i, wb_cyc_i, wb_ack_o,
+-    flash_adr_o, flash_dat_o, flash_dat_i,
+-    flash_oe, flash_ce, flash_we
++`default_nettype none
++
++module wb_flash #(
++  parameter int unsigned aw = 19,
++  parameter int unsigned dw = 32,
++  parameter logic [3:0] ws = 4'hf
++) (
++  input logic clk_i,
++  input logic nrst_i,
++  input logic [aw-1:0] wb_adr_i,
++  output wire logic [dw-1:0] wb_dat_o,
++  input logic [dw-1:0] wb_dat_i,
++  input logic [3:0] wb_sel_i,
++  input logic wb_we_i,
++  input logic wb_stb_i,
++  input logic wb_cyc_i,
++  output logic wb_ack_o,
++  output wire logic [18:0] flash_adr_o,
++  output wire logic [7:0] flash_dat_o,
++  input logic [7:0] flash_dat_i,
++  output wire logic flash_oe,
++  output wire logic flash_ce,
++  output wire logic flash_we
+ );
+ 
+     //
+     // Default address and data bus width
+     //
+-    parameter aw = 19;   // number of address-bits
+-    parameter dw = 32;   // number of data-bits
+-    parameter ws = 4'hf; // number of wait-states
++
+ 
+     //
+     // FLASH interface
+     //
+-    input   clk_i;
+-    input   nrst_i;
+-    input   [aw-1:0] wb_adr_i;
+-    output  [dw-1:0] wb_dat_o;
+-    input   [dw-1:0] wb_dat_i;
+-    input   [3:0] wb_sel_i;
+-    input   wb_we_i;
+-    input   wb_stb_i;
+-    input   wb_cyc_i;
+-    output reg wb_ack_o;
+-    output  [18:0] flash_adr_o;
+-    output  [7:0] flash_dat_o;
+-    input   [7:0] flash_dat_i;
+-    output  flash_oe;
+-    output  flash_ce;
+-    output  flash_we;
+-    reg [3:0] waitstate;
+ 
+-    wire    [1:0] adr_low;
++
++    logic [3:0] waitstate;
++
++    wire logic [1:0] adr_low;
+ 
+     // Wishbone read/write accesses
+-    wire wb_acc = wb_cyc_i & wb_stb_i;    // WISHBONE access
+-    wire wb_wr  = wb_acc & wb_we_i;       // WISHBONE write access
+-    wire wb_rd  = wb_acc & !wb_we_i;      // WISHBONE read access
++    wire logic wb_acc = wb_cyc_i & wb_stb_i;    // WISHBONE access
++    wire logic wb_wr  = wb_acc & wb_we_i;       // WISHBONE write access
++    wire logic wb_rd  = wb_acc & !wb_we_i;      // WISHBONE read access
+ 
+-    always @(posedge clk_i or negedge nrst_i)
+-        if(~nrst_i)
+-        begin
+-            waitstate <= 4'b0;
+-                wb_ack_o <= 1'b0;
++    always_ff @(posedge clk_i or negedge nrst_i) begin
++        if (!nrst_i) begin
++            waitstate <= '0;
++            wb_ack_o  <= 1'b0;
++        end else if (!wb_acc) begin
++            waitstate <= '0;
++            wb_ack_o  <= 1'b0;
++        end else if (waitstate == ws) begin
++            waitstate <= '0;
++            wb_ack_o  <= 1'b1;
++        end else begin
++            waitstate <= waitstate + 1'b1;
++            wb_ack_o  <= 1'b0;
+         end
+-        else begin
+-                if(waitstate == 4'b0) begin
+-                    wb_ack_o <= 1'b0;
+-                    if(wb_acc) begin
+-                        waitstate <= waitstate + 1;
+-                    end
+-                end
+-                else begin
+-                    waitstate <= waitstate + 1;
+-                    if(waitstate == ws)
+-                        wb_ack_o <= 1'b1;
+-                end
+-         end
++    end
+ 
+     assign flash_ce = !wb_acc;
+     assign flash_we = !wb_wr;
+@@ -110,3 +107,5 @@
+     assign wb_dat_o = {flash_dat_i, flash_dat_i, flash_dat_i, flash_dat_i};
+ 
+ endmodule
++
++`default_nettype wire

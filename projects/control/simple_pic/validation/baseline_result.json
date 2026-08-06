@@ -1,0 +1,16 @@
+{
+  "project": "simple_pic",
+  "status": "pass",
+  "strategy": "full_refactor",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "self_checking_functional",
+  "lint_errors": 0,
+  "lint_warnings": 4,
+  "checks": [
+    "Wishbone register access",
+    "level interrupt",
+    "rising-edge interrupt",
+    "mask and clear"
+  ]
+}

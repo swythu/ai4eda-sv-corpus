@@ -1,0 +1,10 @@
+MULTI-LICENSE REPOSITORY
+
+Original and modified HDL files remain under their respective upstream
+licenses. This repository does not relicense third-party HDL.
+
+Repository-authored curation metadata, export tooling, and CI configuration
+are licensed under Apache-2.0 unless a file says otherwise.
+
+See NOTICE.md, LICENSES/, each project's ORIGIN.yml, and retained source
+headers before reuse.

@@ -1,0 +1,12 @@
+{
+  "project": "dma_axi32",
+  "status": "pass",
+  "strategy": "top_only",
+  "top_language": "systemverilog",
+  "internal_language": "verilog",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "reset_idle_smoke",
+  "lint_errors": 0,
+  "checks": ["mixed-language elaboration", "reset convergence", "no unknown top outputs", "no unexpected AXI request while idle"]
+}
