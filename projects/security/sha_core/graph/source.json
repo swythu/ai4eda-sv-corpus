@@ -1,0 +1,26 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "sha_core",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 3,
+    "diagnostic_count": 5,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "sha1",
+      "sha256",
+      "sha512"
+    ]
+  },
+  "source_files": [
+    "rtl/blocks/sha1.sv",
+    "rtl/blocks/sha256.sv",
+    "rtl/blocks/sha512.sv"
+  ]
+}

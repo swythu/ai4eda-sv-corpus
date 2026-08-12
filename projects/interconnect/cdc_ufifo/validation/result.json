@@ -1,0 +1,9 @@
+{
+  "project": "cdc_ufifo",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "lint_errors": 0,
+  "test_level": "self_checking_functional",
+  "checks": ["clock crossing", "ordered data", "qenable backpressure", "shadowed TRUE registered output", "shadowed FALSE combinational output"]
+}

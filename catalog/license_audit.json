@@ -1,0 +1,428 @@
+{
+  "findings": [
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "binary_to_bcd",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "fir_filter",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-Unknown",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "ima_adpcm_enc_dec",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-Unknown",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "pid_controller",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "pipelined_fft_64",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "pipelined_mac",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "cdc_handshake",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "reset_synchronizer",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "i2c",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "BSD-3-Clause",
+      "messages": [],
+      "project_id": "rtfsimpleuart",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "tiny_spi",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "BSD-2-Clause",
+      "messages": [],
+      "project_id": "uart2bus",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "xge_mac",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "BSD-3-Clause",
+      "messages": [],
+      "project_id": "pit",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "ISC",
+      "messages": [],
+      "project_id": "scalable_arbiter",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "simple_gpio",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "simple_pic",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "apb_register_bank",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "axi_lite_slice",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "cdc_ufifo",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-LGPL-Unspecified-Version",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "dma_axi32",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-LGPL-Unspecified-Version",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "dma_axi64",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "ready_valid_fifo",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "skid_buffer",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "versatile_fifo",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "wishbone_apb_bridge",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "ecc_ram",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "ot_sram_1p",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "ot_sram_2p",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "register_file",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "wb_flash",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "rv32i_microcore",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "apbtoaes128",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-Unknown",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "configurable_crc_core",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "sha_core",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "BSD-2-Clause",
+      "messages": [],
+      "project_id": "logicprobe",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LicenseRef-Unknown",
+      "messages": [
+        "redistribution evidence is not fully resolved",
+        "source is present in the working repository and must be excluded from a license-clean release artifact unless rights are resolved",
+        "legacy ORIGIN.yml says included; release_manifest status takes precedence"
+      ],
+      "project_id": "oc_axi_bfm",
+      "release_status": "metadata_only",
+      "severity": "warning",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "source_released",
+      "license_expression": "Apache-2.0",
+      "messages": [],
+      "project_id": "ready_valid_checker",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    },
+    {
+      "legacy_origin_decision": "included",
+      "license_expression": "LGPL-2.1-or-later",
+      "messages": [],
+      "project_id": "video_stream_scaler",
+      "release_status": "source_released",
+      "severity": "ok",
+      "source_present": true
+    }
+  ],
+  "policy": "warnings identify release blockers; a disclaimer does not create redistribution rights",
+  "release_blockers": [
+    "fixed_point_arithmetic_parameterized",
+    "ima_adpcm_enc_dec",
+    "pid_controller",
+    "pipelined_fft_64",
+    "i2c",
+    "simple_gpio",
+    "simple_pic",
+    "dma_axi32",
+    "dma_axi64",
+    "configurable_crc_core",
+    "sha_core",
+    "oc_axi_bfm"
+  ],
+  "schema_version": "license-audit/v1"
+}

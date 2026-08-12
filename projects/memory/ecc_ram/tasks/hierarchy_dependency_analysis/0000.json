@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "easy",
+  "family": "hierarchy_dependency_analysis",
+  "input_nodes": [
+    "project:ecc_ram",
+    "module:ecc_ram"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "ecc_ram",
+  "prompt": "Recover and explain the module dependency and instantiation hierarchy of ecc_ram, including the roles of ecc_ram. Identify graph evidence for each dependency.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "85559fcb89a7f77b",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:ecc_ram"
+  ],
+  "task_id": "ipgraph:ecc_ram:hierarchy_dependency_analysis:0000"
+}

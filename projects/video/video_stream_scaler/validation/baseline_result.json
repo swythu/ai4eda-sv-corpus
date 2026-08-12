@@ -1,0 +1,8 @@
+{
+  "project": "video_stream_scaler",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["identity scaling bit-exact golden", "2x downsample golden", "input gradient reproduction"]
+}

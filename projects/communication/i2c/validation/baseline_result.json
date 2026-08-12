@@ -1,0 +1,8 @@
+{
+  "project": "i2c",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["prescaler registers", "slave write and read-back", "invalid-address nack"]
+}

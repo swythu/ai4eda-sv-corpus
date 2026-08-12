@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "easy",
+  "family": "fault_localization_repair",
+  "input_nodes": [
+    "project:wishbone_apb_bridge",
+    "module:wishbone_apb_bridge"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "wishbone_apb_bridge",
+  "prompt": "Given a future failing regression for wishbone_apb_bridge, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "1f3896444ac7ce46",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "dev",
+  "target_nodes": [
+    "module:wishbone_apb_bridge"
+  ],
+  "task_id": "ipgraph:wishbone_apb_bridge:fault_localization_repair:0000"
+}

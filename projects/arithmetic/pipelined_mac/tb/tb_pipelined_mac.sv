@@ -1,0 +1,3 @@
+`timescale 1ns/1ps
+module tb_pipelined_mac;logic clk=0,rstn=0,ce=1,clr=0,v,vo;logic signed[7:0]a,b;logic signed[23:0]q;pipelined_mac#(.W(8),.OW(24))d(.clk_i(clk),.rst_ni(rstn),.ce_i(ce),.clear_i(clr),.valid_i(v),.a_i(a),.b_i(b),.valid_o(vo),.result_o(q));always#5 clk=~clk;
+initial begin v=0;a=0;b=0;repeat(2)@(negedge clk);rstn=1;v=1;a=-3;b=4;@(negedge clk);a=5;b=6;@(negedge clk);v=0;@(negedge clk);#1;if(q!==18)$fatal(1,"sum %0d",q);ce=0;repeat(3)@(negedge clk);if(q!==18)$fatal(1,"stall");ce=1;clr=1;@(negedge clk);clr=0;#1;if(q!==0)$fatal(1,"clear");$display("PIPELINED_MAC_PASS");$finish;end endmodule

@@ -1,0 +1,118 @@
+{
+  "arithmetic": [
+    "binary_to_bcd",
+    "fir_filter",
+    "fixed_point_arithmetic_parameterized",
+    "ima_adpcm_enc_dec",
+    "pid_controller",
+    "pipelined_fft_64",
+    "pipelined_mac"
+  ],
+  "cdc": [
+    "cdc_handshake",
+    "reset_synchronizer"
+  ],
+  "communication": [
+    "i2c",
+    "rtfsimpleuart",
+    "tiny_spi",
+    "uart2bus",
+    "xge_mac"
+  ],
+  "control": [
+    "pit",
+    "scalable_arbiter",
+    "simple_gpio",
+    "simple_pic"
+  ],
+  "interconnect": [
+    "apb_register_bank",
+    "axi_lite_slice",
+    "cdc_ufifo",
+    "dma_axi32",
+    "dma_axi64",
+    "ready_valid_fifo",
+    "skid_buffer",
+    "versatile_fifo",
+    "wishbone_apb_bridge"
+  ],
+  "memory": [
+    "ecc_ram",
+    "ot_sram_1p",
+    "ot_sram_2p",
+    "register_file",
+    "wb_flash"
+  ],
+  "processor": [
+    "rv32i_microcore"
+  ],
+  "protocol:APB": [
+    "apb_register_bank",
+    "apbtoaes128"
+  ],
+  "protocol:AXI": [
+    "axi_lite_slice",
+    "dma_axi32",
+    "dma_axi64",
+    "oc_axi_bfm"
+  ],
+  "protocol:FIFO": [
+    "versatile_fifo"
+  ],
+  "protocol:SPI": [
+    "tiny_spi"
+  ],
+  "protocol:UART": [
+    "rtfsimpleuart",
+    "uart2bus"
+  ],
+  "protocol:Wishbone": [
+    "i2c",
+    "pid_controller",
+    "pit",
+    "wb_flash",
+    "wishbone_apb_bridge",
+    "xge_mac"
+  ],
+  "protocol:native-module-interface": [
+    "binary_to_bcd",
+    "configurable_crc_core",
+    "ecc_ram",
+    "fir_filter",
+    "fixed_point_arithmetic_parameterized",
+    "ot_sram_1p",
+    "ot_sram_2p",
+    "pipelined_fft_64",
+    "pipelined_mac",
+    "register_file",
+    "reset_synchronizer",
+    "scalable_arbiter",
+    "sha_core",
+    "simple_gpio",
+    "simple_pic",
+    "video_stream_scaler"
+  ],
+  "protocol:ready-valid": [
+    "cdc_handshake",
+    "cdc_ufifo",
+    "ima_adpcm_enc_dec",
+    "logicprobe",
+    "ready_valid_checker",
+    "ready_valid_fifo",
+    "rv32i_microcore",
+    "skid_buffer"
+  ],
+  "security": [
+    "apbtoaes128",
+    "configurable_crc_core",
+    "sha_core"
+  ],
+  "verification": [
+    "logicprobe",
+    "oc_axi_bfm",
+    "ready_valid_checker"
+  ],
+  "video": [
+    "video_stream_scaler"
+  ]
+}

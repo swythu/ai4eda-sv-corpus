@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/task.schema.json",
+  "title": "IP Engineering Task",
+  "type": "object",
+  "required": ["schema_version", "task_id", "project_id", "family", "difficulty", "prompt", "input_nodes", "target_nodes", "allowed_context", "output_contract", "oracle", "split", "release_tier", "quality", "provenance"],
+  "properties": {
+    "schema_version": {"const": "ip-task/v1"},
+    "task_id": {"type": "string", "pattern": "^ipgraph:[a-z0-9_]+:[a-z_]+:[0-9]{4}$"},
+    "project_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "family": {"enum": ["functional_timing_understanding", "hierarchy_dependency_analysis", "hierarchical_rtl_generation", "reuse_integration", "fault_localization_repair", "verification_generation", "tool_result_analysis", "interface_modification", "hierarchical_integration", "cross_module_repair"]},
+    "difficulty": {"enum": ["easy", "medium", "hard"]},
+    "prompt": {"type": "string", "minLength": 1},
+    "input_nodes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "target_nodes": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "allowed_context": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "output_contract": {"type": "object"},
+    "oracle": {"type": "object"},
+    "split": {"enum": ["train", "dev", "public_test", "frozen_test"]},
+    "release_tier": {"enum": ["public", "private_until_release"]},
+    "quality": {
+      "type": "object",
+      "required": ["tool_validated", "mutation_validated", "expert_reviewed"],
+      "properties": {
+        "tool_validated": {"type": "boolean"},
+        "mutation_validated": {"type": "boolean"},
+        "expert_reviewed": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "provenance": {"type": "object"}
+  },
+  "additionalProperties": false
+}

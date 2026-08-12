@@ -1,0 +1,10 @@
+{
+  "project": "apbtoaes128",
+  "status": "pass",
+  "strategy": "top_refactor_verified_legacy_core",
+  "compile": "pass",
+  "simulation": "pass",
+  "simulation_level": "known_answer_and_protocol",
+  "lint_errors": 0,
+  "checks": ["AES-128 ECB", "AES-128 CBC", "AES-128 CTR", "suspend/resume", "APB register interface", "DMA request mode"]
+}

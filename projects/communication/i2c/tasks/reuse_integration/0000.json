@@ -1,0 +1,52 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "medium",
+  "family": "reuse_integration",
+  "input_nodes": [
+    "project:i2c",
+    "module:i2c_master_bit_ctrl",
+    "module:i2c_master_byte_ctrl",
+    "module:i2c_master_top"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "i2c",
+  "prompt": "Design a minimal wrapper plan to reuse i2c in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "56836dcd13c6c722",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:i2c_master_bit_ctrl",
+    "module:i2c_master_byte_ctrl",
+    "module:i2c_master_top"
+  ],
+  "task_id": "ipgraph:i2c:reuse_integration:0000"
+}

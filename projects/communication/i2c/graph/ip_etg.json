@@ -1,0 +1,3462 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:9d59e3ac11137ac518a16aa3b0d00fb3cb511347581f9b280166e4ee1e1253dc",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "9d59e3ac11137ac518a16aa3b0d00fb3cb511347581f9b280166e4ee1e1253dc"
+    },
+    {
+      "artifact_id": "sha256:181b1a23da54831aeb1cd2c027cb222cb5889deb2c1409b5edad01c7540aa152",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "include/i2c_master_defines.svh",
+      "release_status": "metadata_only",
+      "sha256": "181b1a23da54831aeb1cd2c027cb222cb5889deb2c1409b5edad01c7540aa152"
+    },
+    {
+      "artifact_id": "sha256:0833b736793bc11f640ed66357614c0f5cf30a548a7e515333b1e46438b2cb6b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "include/timescale.svh",
+      "release_status": "metadata_only",
+      "sha256": "0833b736793bc11f640ed66357614c0f5cf30a548a7e515333b1e46438b2cb6b"
+    },
+    {
+      "artifact_id": "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+    },
+    {
+      "artifact_id": "sha256:ae3903cde6c5c7e934a1596c2f6a60b9a22cd89d49b4019b3793f20a7016a916",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "ae3903cde6c5c7e934a1596c2f6a60b9a22cd89d49b4019b3793f20a7016a916"
+    },
+    {
+      "artifact_id": "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/i2c_master_bit_ctrl.sv",
+      "release_status": "metadata_only",
+      "sha256": "c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+    },
+    {
+      "artifact_id": "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/i2c_master_byte_ctrl.sv",
+      "release_status": "metadata_only",
+      "sha256": "906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+    },
+    {
+      "artifact_id": "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/i2c_master_top.sv",
+      "release_status": "metadata_only",
+      "sha256": "ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+    },
+    {
+      "artifact_id": "sha256:63a224de022d8fa5b72519c7e5cdfe4934978e1ffbe6a6654f3521e4e5963dc6",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "63a224de022d8fa5b72519c7e5cdfe4934978e1ffbe6a6654f3521e4e5963dc6"
+    },
+    {
+      "artifact_id": "sha256:a010e14529401887c5a3a27b9a53e66c33ae5300b89a2e6841dfa7579b0e7e38",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "a010e14529401887c5a3a27b9a53e66c33ae5300b89a2e6841dfa7579b0e7e38"
+    },
+    {
+      "artifact_id": "sha256:2901c6b975ea84cf3e6f2a86ba240b7e93821ca20050fe2c8028840106c73813",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "2901c6b975ea84cf3e6f2a86ba240b7e93821ca20050fe2c8028840106c73813"
+    },
+    {
+      "artifact_id": "sha256:70ae3d50c0d9738995152cc8d3cc463591c8ef7e9df0b8e8787ee588c7aa1c7b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "70ae3d50c0d9738995152cc8d3cc463591c8ef7e9df0b8e8787ee588c7aa1c7b"
+    },
+    {
+      "artifact_id": "sha256:d79fb160dc7cda4a7be5babddde52bb8489aecfadd4a7e68e762ea10adb4e4c4",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "d79fb160dc7cda4a7be5babddde52bb8489aecfadd4a7e68e762ea10adb4e4c4"
+    },
+    {
+      "artifact_id": "sha256:328ed3e9f70d956699810c00a8e69d57548d91bf92bcef52628f4391240e133e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "328ed3e9f70d956699810c00a8e69d57548d91bf92bcef52628f4391240e133e"
+    },
+    {
+      "artifact_id": "sha256:13e5ac9df35d87423b0de274554ad3892105819837f510b64adbbdfc48fd8c77",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "13e5ac9df35d87423b0de274554ad3892105819837f510b64adbbdfc48fd8c77"
+    },
+    {
+      "artifact_id": "sha256:f58e2883b18ebd54a738510d92c58e70cc6d4d2ca162df903a7b9f9ec6748c64",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "f58e2883b18ebd54a738510d92c58e70cc6d4d2ca162df903a7b9f9ec6748c64"
+    },
+    {
+      "artifact_id": "sha256:3ecb14ad93257160e241ff677a58183b89651d2f4814b31d2a7a19a1ba26cf5e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "3ecb14ad93257160e241ff677a58183b89651d2f4814b31d2a7a19a1ba26cf5e"
+    },
+    {
+      "artifact_id": "sha256:0e72d8f7782941003e1c9fbd3f60bbb097c0f725f67a0ed188a2e895e66a04d8",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "0e72d8f7782941003e1c9fbd3f60bbb097c0f725f67a0ed188a2e895e66a04d8"
+    },
+    {
+      "artifact_id": "sha256:223d296b1c2ef613c374495e06cb0706873e1958810ed392b2ca441aaae37ff7",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "223d296b1c2ef613c374495e06cb0706873e1958810ed392b2ca441aaae37ff7"
+    },
+    {
+      "artifact_id": "sha256:ddde10274ed08aceaa8646da0c8c51e9d30cc58b8c78f586005fe34709109220",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "ddde10274ed08aceaa8646da0c8c51e9d30cc58b8c78f586005fe34709109220"
+    },
+    {
+      "artifact_id": "sha256:b24c99602c59c066a38ffb647905bf7b4c2158882973f9df2d29060cdae5e1e6",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/i2c_slave_model.sv",
+      "release_status": "metadata_only",
+      "sha256": "b24c99602c59c066a38ffb647905bf7b4c2158882973f9df2d29060cdae5e1e6"
+    },
+    {
+      "artifact_id": "sha256:871c64ab745cae82aae9a6b8ecedc92c218432a6be2a7ecbf2935ccb9999e4fa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tst_bench_top.sv",
+      "release_status": "metadata_only",
+      "sha256": "871c64ab745cae82aae9a6b8ecedc92c218432a6be2a7ecbf2935ccb9999e4fa"
+    },
+    {
+      "artifact_id": "sha256:4dd51e001c636ca57b7bd0719c23ed0e9949749ab3303e6dc40d8c1148889212",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/wb_master_model.sv",
+      "release_status": "metadata_only",
+      "sha256": "4dd51e001c636ca57b7bd0719c23ed0e9949749ab3303e6dc40d8c1148889212"
+    },
+    {
+      "artifact_id": "sha256:778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "metadata_only",
+      "sha256": "778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-clock-clk",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-clock-clk_cnt",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "clock_domain:clk_cnt",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-al",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.al",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-busy",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-clk",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-clk_cnt",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.clk_cnt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-cmd",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.cmd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-cmd_ack",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.cmd_ack",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-din",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.din",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-dout",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.dout",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-ena",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.ena",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-nReset",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.nReset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-rst",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-scl_i",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.scl_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-scl_o",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.scl_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-scl_oen",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.scl_oen",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-sda_i",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.sda_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-sda_o",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.sda_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-port-sda_oen",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "port:i2c_master_bit_ctrl.sda_oen",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:i2c_master_bit_ctrl-reset-rst",
+      "source": "module:i2c_master_bit_ctrl",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-clock-clk",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-clock-clk_cnt",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "clock_domain:clk_cnt",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-ack_in",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.ack_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-ack_out",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.ack_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-clk",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-clk_cnt",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.clk_cnt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-cmd_ack",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.cmd_ack",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-din",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.din",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-dout",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.dout",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-ena",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.ena",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-i2c_al",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.i2c_al",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-i2c_busy",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.i2c_busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-nReset",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.nReset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-read",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.read",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-rst",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-scl_i",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.scl_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-scl_o",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.scl_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-scl_oen",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.scl_oen",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-sda_i",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.sda_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-sda_o",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.sda_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-sda_oen",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.sda_oen",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-start",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.start",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-stop",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.stop",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-port-write",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "port:i2c_master_byte_ctrl.write",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:i2c_master_byte_ctrl-reset-rst",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-clock-wb_clk_i",
+      "source": "module:i2c_master_top",
+      "target": "clock_domain:wb_clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-parameter-ARST_LVL",
+      "source": "module:i2c_master_top",
+      "target": "parameter:i2c_master_top.ARST_LVL",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-arst_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.arst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-scl_pad_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.scl_pad_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-scl_pad_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.scl_pad_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-scl_padoen_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.scl_padoen_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-sda_pad_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.sda_pad_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-sda_pad_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.sda_pad_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-sda_padoen_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.sda_padoen_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_ack_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_adr_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_clk_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_cyc_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_dat_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_dat_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_inta_o",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_inta_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_rst_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_stb_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:i2c_master_top-port-wb_we_i",
+      "source": "module:i2c_master_top",
+      "target": "port:i2c_master_top.wb_we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.rst",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-10",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.dout",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-11",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.scl_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-12",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.scl_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-13",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.scl_oen",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-14",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.sda_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-15",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.sda_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-16",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.sda_oen",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.nReset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.ena",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.clk_cnt",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.cmd",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.cmd_ack",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.busy",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.al",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-connection-9",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "port:i2c_master_bit_ctrl.din",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:i2c_master_byte_ctrl",
+      "target": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "target": "module:i2c_master_bit_ctrl",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.rst",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-10",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.din",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-11",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.cmd_ack",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-12",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.ack_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-13",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.dout",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-14",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.i2c_busy",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-15",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.i2c_al",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-16",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.scl_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-17",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.scl_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-18",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.scl_oen",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-19",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.sda_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.nReset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-20",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.sda_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-21",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.sda_oen",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.ena",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.clk_cnt",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.start",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.stop",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.read",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.write",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-connection-9",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "port:i2c_master_byte_ctrl.ack_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:i2c_master_top",
+      "target": "instance:i2c_master_top.byte_controller:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:i2c_master_top.byte_controller:1",
+      "target": "module:i2c_master_byte_ctrl",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "edge:project-contains-i2c_master_bit_ctrl",
+      "source": "project:i2c",
+      "target": "module:i2c_master_bit_ctrl",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "edge:project-contains-i2c_master_byte_ctrl",
+      "source": "project:i2c",
+      "target": "module:i2c_master_byte_ctrl",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "edge:project-contains-i2c_master_top",
+      "source": "project:i2c",
+      "target": "module:i2c_master_top",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9d59e3ac11137ac518a16aa3b0d00fb3cb511347581f9b280166e4ee1e1253dc"
+      ],
+      "id": "edge:project-license",
+      "source": "project:i2c",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:i2c",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:i2c",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:i2c",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:i2c",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "edge:project-source",
+      "source": "project:i2c",
+      "target": "source_revision:56836dcd13c6c722",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a010e14529401887c5a3a27b9a53e66c33ae5300b89a2e6841dfa7579b0e7e38"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-cross_module_repair-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2901c6b975ea84cf3e6f2a86ba240b7e93821ca20050fe2c8028840106c73813"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-cross_module_repair-0001",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:70ae3d50c0d9738995152cc8d3cc463591c8ef7e9df0b8e8787ee588c7aa1c7b"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-fault_localization_repair-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d79fb160dc7cda4a7be5babddde52bb8489aecfadd4a7e68e762ea10adb4e4c4"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-functional_timing_understanding-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:328ed3e9f70d956699810c00a8e69d57548d91bf92bcef52628f4391240e133e"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-hierarchical_integration-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:13e5ac9df35d87423b0de274554ad3892105819837f510b64adbbdfc48fd8c77"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-hierarchical_rtl_generation-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f58e2883b18ebd54a738510d92c58e70cc6d4d2ca162df903a7b9f9ec6748c64"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-hierarchy_dependency_analysis-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3ecb14ad93257160e241ff677a58183b89651d2f4814b31d2a7a19a1ba26cf5e"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-interface_modification-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0e72d8f7782941003e1c9fbd3f60bbb097c0f725f67a0ed188a2e895e66a04d8"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-reuse_integration-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:223d296b1c2ef613c374495e06cb0706873e1958810ed392b2ca441aaae37ff7"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-tool_result_analysis-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ddde10274ed08aceaa8646da0c8c51e9d30cc58b8c78f586005fe34709109220"
+      ],
+      "id": "edge:project-task-ipgraph-i2c-verification_generation-0000",
+      "source": "project:i2c",
+      "target": "task:ipgraph:i2c:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b24c99602c59c066a38ffb647905bf7b4c2158882973f9df2d29060cdae5e1e6"
+      ],
+      "id": "edge:project-testbench-115",
+      "source": "project:i2c",
+      "target": "testbench:tb/i2c_slave_model.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:871c64ab745cae82aae9a6b8ecedc92c218432a6be2a7ecbf2935ccb9999e4fa"
+      ],
+      "id": "edge:project-testbench-116",
+      "source": "project:i2c",
+      "target": "testbench:tb/tst_bench_top.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4dd51e001c636ca57b7bd0719c23ed0e9949749ab3303e6dc40d8c1148889212"
+      ],
+      "id": "edge:project-testbench-117",
+      "source": "project:i2c",
+      "target": "testbench:tb/wb_master_model.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:i2c:56836dcd13c6c722",
+  "graph_sha256": "e2557d1159f75ce8e96e96ebbd58f4fdc037d5a14eb6972a4115ed892f615878",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "i2c_master_bit_ctrl",
+          "i2c_master_byte_ctrl"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "i2c_master_bit_ctrl",
+          "i2c_master_byte_ctrl"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_cnt",
+      "label": "clk_cnt",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "i2c_master_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:wb_clk_i",
+      "label": "wb_clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clk",
+            "kind": "named",
+            "port": "clk"
+          },
+          {
+            "expression": "rst",
+            "kind": "named",
+            "port": "rst"
+          },
+          {
+            "expression": "nReset",
+            "kind": "named",
+            "port": "nReset"
+          },
+          {
+            "expression": "ena",
+            "kind": "named",
+            "port": "ena"
+          },
+          {
+            "expression": "clk_cnt",
+            "kind": "named",
+            "port": "clk_cnt"
+          },
+          {
+            "expression": "core_cmd",
+            "kind": "named",
+            "port": "cmd"
+          },
+          {
+            "expression": "core_ack",
+            "kind": "named",
+            "port": "cmd_ack"
+          },
+          {
+            "expression": "i2c_busy",
+            "kind": "named",
+            "port": "busy"
+          },
+          {
+            "expression": "i2c_al",
+            "kind": "named",
+            "port": "al"
+          },
+          {
+            "expression": "core_txd",
+            "kind": "named",
+            "port": "din"
+          },
+          {
+            "expression": "core_rxd",
+            "kind": "named",
+            "port": "dout"
+          },
+          {
+            "expression": "scl_i",
+            "kind": "named",
+            "port": "scl_i"
+          },
+          {
+            "expression": "scl_o",
+            "kind": "named",
+            "port": "scl_o"
+          },
+          {
+            "expression": "scl_oen",
+            "kind": "named",
+            "port": "scl_oen"
+          },
+          {
+            "expression": "sda_i",
+            "kind": "named",
+            "port": "sda_i"
+          },
+          {
+            "expression": "sda_o",
+            "kind": "named",
+            "port": "sda_o"
+          },
+          {
+            "expression": "sda_oen",
+            "kind": "named",
+            "port": "sda_oen"
+          }
+        ],
+        "declaration": "bit_controller ( .clk ( clk ), .rst ( rst ), .nReset ( nReset ), .ena ( ena ), .clk_cnt ( clk_cnt ), .cmd ( core_cmd ), .cmd_ack ( core_ack ), .busy ( i2c_busy ), .al ( i2c_al ), .din ( core_txd ), .dout ( core_rxd ), .scl_i ( scl_i ), .scl_o ( scl_o ), .scl_oen ( scl_oen ), .sda_i ( sda_i ), .sda_o ( sda_o ), .sda_oen ( sda_oen ) )",
+        "parent_module": "i2c_master_byte_ctrl",
+        "target_module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "instance:i2c_master_byte_ctrl.bit_controller:0",
+      "label": "bit_controller",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "wb_clk_i",
+            "kind": "named",
+            "port": "clk"
+          },
+          {
+            "expression": "wb_rst_i",
+            "kind": "named",
+            "port": "rst"
+          },
+          {
+            "expression": "rst_i",
+            "kind": "named",
+            "port": "nReset"
+          },
+          {
+            "expression": "core_en",
+            "kind": "named",
+            "port": "ena"
+          },
+          {
+            "expression": "prer",
+            "kind": "named",
+            "port": "clk_cnt"
+          },
+          {
+            "expression": "sta",
+            "kind": "named",
+            "port": "start"
+          },
+          {
+            "expression": "sto",
+            "kind": "named",
+            "port": "stop"
+          },
+          {
+            "expression": "rd",
+            "kind": "named",
+            "port": "read"
+          },
+          {
+            "expression": "wr",
+            "kind": "named",
+            "port": "write"
+          },
+          {
+            "expression": "ack",
+            "kind": "named",
+            "port": "ack_in"
+          },
+          {
+            "expression": "txr",
+            "kind": "named",
+            "port": "din"
+          },
+          {
+            "expression": "done",
+            "kind": "named",
+            "port": "cmd_ack"
+          },
+          {
+            "expression": "irxack",
+            "kind": "named",
+            "port": "ack_out"
+          },
+          {
+            "expression": "rxr",
+            "kind": "named",
+            "port": "dout"
+          },
+          {
+            "expression": "i2c_busy",
+            "kind": "named",
+            "port": "i2c_busy"
+          },
+          {
+            "expression": "i2c_al",
+            "kind": "named",
+            "port": "i2c_al"
+          },
+          {
+            "expression": "scl_pad_i",
+            "kind": "named",
+            "port": "scl_i"
+          },
+          {
+            "expression": "scl_pad_o",
+            "kind": "named",
+            "port": "scl_o"
+          },
+          {
+            "expression": "scl_padoen_o",
+            "kind": "named",
+            "port": "scl_oen"
+          },
+          {
+            "expression": "sda_pad_i",
+            "kind": "named",
+            "port": "sda_i"
+          },
+          {
+            "expression": "sda_pad_o",
+            "kind": "named",
+            "port": "sda_o"
+          },
+          {
+            "expression": "sda_padoen_o",
+            "kind": "named",
+            "port": "sda_oen"
+          }
+        ],
+        "declaration": "byte_controller ( .clk ( wb_clk_i ), .rst ( wb_rst_i ), .nReset ( rst_i ), .ena ( core_en ), .clk_cnt ( prer ), .start ( sta ), .stop ( sto ), .read ( rd ), .write ( wr ), .ack_in ( ack ), .din ( txr ), .cmd_ack ( done ), .ack_out ( irxack ), .dout ( rxr ), .i2c_busy ( i2c_busy ), .i2c_al ( i2c_al ), .scl_i ( scl_pad_i ), .scl_o ( scl_pad_o ), .scl_oen ( scl_padoen_o ), .sda_i ( sda_pad_i ), .sda_o ( sda_pad_o ), .sda_oen ( sda_padoen_o ) )",
+        "parent_module": "i2c_master_top",
+        "target_module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "instance:i2c_master_top.byte_controller:1",
+      "label": "byte_controller",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "attributes": {
+        "path": "rtl/i2c_master_bit_ctrl.sv"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "module:i2c_master_bit_ctrl",
+      "label": "i2c_master_bit_ctrl",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "attributes": {
+        "path": "rtl/i2c_master_byte_ctrl.sv"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "module:i2c_master_byte_ctrl",
+      "label": "i2c_master_byte_ctrl",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "attributes": {
+        "path": "rtl/i2c_master_top.sv"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "module:i2c_master_top",
+      "label": "i2c_master_top",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "parameter:i2c_master_top.ARST_LVL",
+      "label": "ARST_LVL",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c bus busy output logic al",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.al",
+      "label": "al",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// command complete acknowledge output logic busy",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.busy",
+      "label": "busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clk",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// core enable signal input wire [15:0] clk_cnt",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.clk_cnt",
+      "label": "clk_cnt",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock prescale value input wire [ 3:0] cmd",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.cmd",
+      "label": "cmd",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// command (from byte controller) output logic cmd_ack",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.cmd_ack",
+      "label": "cmd_ack",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c bus arbitration lost input wire din",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.din",
+      "label": "din",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dout",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.dout",
+      "label": "dout",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asynchronous active low reset input wire ena",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.ena",
+      "label": "ena",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous active high reset input wire nReset",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.nReset",
+      "label": "nReset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// system clock input wire rst",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire scl_i",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.scl_i",
+      "label": "scl_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c clock line input output wire scl_o",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.scl_o",
+      "label": "scl_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c clock line output output logic scl_oen",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.scl_oen",
+      "label": "scl_oen",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c clock line output enable (active low) input wire sda_i",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.sda_i",
+      "label": "sda_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c data line input output wire sda_o",
+        "direction": "input",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.sda_o",
+      "label": "sda_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// i2c data line output output logic sda_oen",
+        "direction": "output",
+        "module": "i2c_master_bit_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:c66fe6bf3e0c327341afd3675940c31c356668c4d43a73286ac9f0e5c8c8b50e"
+      ],
+      "id": "port:i2c_master_bit_ctrl.sda_oen",
+      "label": "sda_oen",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ack_in",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.ack_in",
+      "label": "ack_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ack_out",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.ack_out",
+      "label": "ack_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clk",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// core enable signal input wire [15:0] clk_cnt",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.clk_cnt",
+      "label": "clk_cnt",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// status outputs output logic cmd_ack",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.cmd_ack",
+      "label": "cmd_ack",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [7:0] din",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.din",
+      "label": "din",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [7:0] dout",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.dout",
+      "label": "dout",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asynchronous active low reset input wire ena",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.ena",
+      "label": "ena",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire i2c_al",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.i2c_al",
+      "label": "i2c_al",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire i2c_busy",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.i2c_busy",
+      "label": "i2c_busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous active high reset input wire nReset",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.nReset",
+      "label": "nReset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire read",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.read",
+      "label": "read",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// master clock input wire rst",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// I2C signals input wire scl_i",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.scl_i",
+      "label": "scl_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire scl_o",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.scl_o",
+      "label": "scl_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire scl_oen",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.scl_oen",
+      "label": "scl_oen",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire sda_i",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.sda_i",
+      "label": "sda_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire sda_o",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.sda_o",
+      "label": "sda_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire sda_oen",
+        "direction": "output",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.sda_oen",
+      "label": "sda_oen",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// 4x SCL // control inputs input wire start",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.start",
+      "label": "start",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire stop",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.stop",
+      "label": "stop",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire write",
+        "direction": "input",
+        "module": "i2c_master_byte_ctrl"
+      },
+      "evidence_refs": [
+        "sha256:906660a35f879709381ece3f50a262b340f88d4f4665adac926c9247629fb473"
+      ],
+      "id": "port:i2c_master_byte_ctrl.write",
+      "label": "write",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous active high reset input wire arst_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.arst_i",
+      "label": "arst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// interrupt request signal output // I2C signals // i2c clock line input wire scl_pad_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.scl_pad_i",
+      "label": "scl_pad_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// SCL-line input output wire scl_pad_o",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.scl_pad_o",
+      "label": "scl_pad_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// SCL-line output (always 1'b0) output wire scl_padoen_o",
+        "direction": "output",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.scl_padoen_o",
+      "label": "scl_padoen_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// SCL-line output enable (active low) // i2c data line input wire sda_pad_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.sda_pad_i",
+      "label": "sda_pad_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// SDA-line input output wire sda_pad_o",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.sda_pad_o",
+      "label": "sda_pad_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// SDA-line output (always 1'b0) output wire sda_padoen_o",
+        "direction": "output",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.sda_padoen_o",
+      "label": "sda_padoen_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// valid bus cycle input output logic wb_ack_o",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_ack_o",
+      "label": "wb_ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asynchronous reset input wire [2:0] wb_adr_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_adr_i",
+      "label": "wb_adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire wb_clk_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_clk_i",
+      "label": "wb_clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// stobe/core select signal input wire wb_cyc_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_cyc_i",
+      "label": "wb_cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// lower address bits input wire [7:0] wb_dat_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_dat_i",
+      "label": "wb_dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus input output logic [7:0] wb_dat_o",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_dat_o",
+      "label": "wb_dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bus cycle acknowledge output output logic wb_inta_o",
+        "direction": "output",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_inta_o",
+      "label": "wb_inta_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// master clock input input wire wb_rst_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_rst_i",
+      "label": "wb_rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write enable input input wire wb_stb_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_stb_i",
+      "label": "wb_stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus output input wire wb_we_i",
+        "direction": "input",
+        "module": "i2c_master_top"
+      },
+      "evidence_refs": [
+        "sha256:ad1ec4c0d03fc840990f75681d0d06056ebaa2d2b285d80e09c775f07323dca7"
+      ],
+      "id": "port:i2c_master_top.wb_we_i",
+      "label": "wb_we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "communication",
+        "compile_order": [
+          "include/i2c_master_defines.svh",
+          "include/timescale.svh",
+          "rtl/i2c_master_bit_ctrl.sv",
+          "rtl/i2c_master_byte_ctrl.sv",
+          "rtl/i2c_master_top.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "i2c_master_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:i2c",
+      "label": "i2c",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "protocol_contract:wishbone",
+      "label": "Wishbone",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "i2c_master_bit_ctrl",
+          "i2c_master_byte_ctrl"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst",
+      "label": "rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:56836dcd13c6c722",
+      "label": "56836dcd13c6c722",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:a010e14529401887c5a3a27b9a53e66c33ae5300b89a2e6841dfa7579b0e7e38"
+      ],
+      "id": "task:ipgraph:i2c:cross_module_repair:0000",
+      "label": "ipgraph:i2c:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:2901c6b975ea84cf3e6f2a86ba240b7e93821ca20050fe2c8028840106c73813"
+      ],
+      "id": "task:ipgraph:i2c:cross_module_repair:0001",
+      "label": "ipgraph:i2c:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:70ae3d50c0d9738995152cc8d3cc463591c8ef7e9df0b8e8787ee588c7aa1c7b"
+      ],
+      "id": "task:ipgraph:i2c:fault_localization_repair:0000",
+      "label": "ipgraph:i2c:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:d79fb160dc7cda4a7be5babddde52bb8489aecfadd4a7e68e762ea10adb4e4c4"
+      ],
+      "id": "task:ipgraph:i2c:functional_timing_understanding:0000",
+      "label": "ipgraph:i2c:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:328ed3e9f70d956699810c00a8e69d57548d91bf92bcef52628f4391240e133e"
+      ],
+      "id": "task:ipgraph:i2c:hierarchical_integration:0000",
+      "label": "ipgraph:i2c:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:13e5ac9df35d87423b0de274554ad3892105819837f510b64adbbdfc48fd8c77"
+      ],
+      "id": "task:ipgraph:i2c:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:i2c:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:f58e2883b18ebd54a738510d92c58e70cc6d4d2ca162df903a7b9f9ec6748c64"
+      ],
+      "id": "task:ipgraph:i2c:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:i2c:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:3ecb14ad93257160e241ff677a58183b89651d2f4814b31d2a7a19a1ba26cf5e"
+      ],
+      "id": "task:ipgraph:i2c:interface_modification:0000",
+      "label": "ipgraph:i2c:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:0e72d8f7782941003e1c9fbd3f60bbb097c0f725f67a0ed188a2e895e66a04d8"
+      ],
+      "id": "task:ipgraph:i2c:reuse_integration:0000",
+      "label": "ipgraph:i2c:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:223d296b1c2ef613c374495e06cb0706873e1958810ed392b2ca441aaae37ff7"
+      ],
+      "id": "task:ipgraph:i2c:tool_result_analysis:0000",
+      "label": "ipgraph:i2c:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:ddde10274ed08aceaa8646da0c8c51e9d30cc58b8c78f586005fe34709109220"
+      ],
+      "id": "task:ipgraph:i2c:verification_generation:0000",
+      "label": "ipgraph:i2c:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b24c99602c59c066a38ffb647905bf7b4c2158882973f9df2d29060cdae5e1e6"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:b24c99602c59c066a38ffb647905bf7b4c2158882973f9df2d29060cdae5e1e6"
+      ],
+      "id": "testbench:tb/i2c_slave_model.sv",
+      "label": "i2c_slave_model.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:871c64ab745cae82aae9a6b8ecedc92c218432a6be2a7ecbf2935ccb9999e4fa"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:871c64ab745cae82aae9a6b8ecedc92c218432a6be2a7ecbf2935ccb9999e4fa"
+      ],
+      "id": "testbench:tb/tst_bench_top.sv",
+      "label": "tst_bench_top.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4dd51e001c636ca57b7bd0719c23ed0e9949749ab3303e6dc40d8c1148889212"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:4dd51e001c636ca57b7bd0719c23ed0e9949749ab3303e6dc40d8c1148889212"
+      ],
+      "id": "testbench:tb/wb_master_model.sv",
+      "label": "wb_master_model.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "verification_obligation:000",
+      "label": "prescaler registers",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "verification_obligation:001",
+      "label": "slave write and read-back",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:56836dcd13c6c722f2cbcf4a595a51ee86494a80502de5ad1c8a07e4b89614c7"
+      ],
+      "id": "verification_obligation:002",
+      "label": "invalid-address nack",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "i2c",
+  "project_revision": "56836dcd13c6c722",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in i2c. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in i2c. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Given a future failing regression for i2c, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of i2c. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Create a DesignGraph integration plan for i2c that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Generate or complete synthesizable SystemVerilog for i2c from its released design contracts. Preserve the hierarchy and interfaces of i2c_master_bit_ctrl, i2c_master_byte_ctrl, i2c_master_top, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of i2c, including the roles of i2c_master_bit_ctrl, i2c_master_byte_ctrl, i2c_master_top. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Plan a cross-module interface modification for i2c. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Design a minimal wrapper plan to reuse i2c in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for i2c. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:i2c",
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "i2c",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for i2c. It must exercise the obligation: prescaler registers and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "56836dcd13c6c722",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:i2c_master_bit_ctrl",
+        "module:i2c_master_byte_ctrl",
+        "module:i2c_master_top"
+      ],
+      "task_id": "ipgraph:i2c:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:778ef00e53c06e3527e829c6aeb1b7bf5a496ceed56a7cfd0e9fef429617b352"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

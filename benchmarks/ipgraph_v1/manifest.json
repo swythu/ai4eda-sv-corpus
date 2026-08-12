@@ -1,0 +1,20 @@
+{
+  "frozen_task_set_sha256": "f50aa9eab6dd8da4b6ef504b81e8deabf050643413a0235f2813fadcfb18da71",
+  "project_count": 40,
+  "public_task_count": 328,
+  "release_target": "v0.1.0",
+  "schema_version": "ipgraph-benchmark/v1",
+  "split_commitment_sha256": "4246847de55f94af2524bf4ff97d425dd257775f1c7943317dab6405b57c35b6",
+  "split_counts": {
+    "dev": 6,
+    "frozen_test": 5,
+    "public_test": 5,
+    "train": 24
+  },
+  "splits_locked": true,
+  "status": "release_candidate_human_review_pending",
+  "task_count": 389,
+  "training_approval": "not_granted_q3_and_expert_review_pending",
+  "warning": "Task candidates are Q2-derived and answer-free; they are not Q3/Q4 paper training records.",
+  "withheld_frozen_task_count": 61
+}

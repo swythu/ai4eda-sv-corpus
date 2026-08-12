@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "project": "uart2bus",
+  "category": "communication_peripherals",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/uart2bus_top.v",
+      "sha256": "7462c0eefed77eba0906a4a90e290713c2bb1851d1d7986dd4388a4a2e32952c"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/uart_top.v",
+      "sha256": "b26c1232aea5434e0fadb8145b857d3de0f4dde8a2ee466ae855596bcb76d825"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/uart_parser.v",
+      "sha256": "eacad9a1aa162a6f9c1ceaec175bb257eab22c48784376ceb9946f0faa4453e6"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/uart_rx.v",
+      "sha256": "eca57ade813d467b6e6b5e183cef3783d6e5ee9fe8d3f545e09868b9d83590c4"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/uart_tx.v",
+      "sha256": "b39a57ce8d7a1752a5fecaa9c145666973c4684a626a2c6b80fffd676733ffcf"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/uart2bus/verilog/rtl/baud_gen.v",
+      "sha256": "4e874c5bbf70b1d6356d7b143f9eadef823d69eabf69f4be2ffb9fec80e362a2"
+    }
+  ],
+  "rtl_files": [
+    "rtl/baud_gen.sv",
+    "rtl/uart_rx.sv",
+    "rtl/uart_tx.sv",
+    "rtl/uart_top.sv",
+    "rtl/uart_parser.sv",
+    "rtl/uart2bus_top.sv"
+  ],
+  "testbench": "tb/tb_uart2bus_top.sv",
+  "verification_checks": [
+    "ascii write command",
+    "ascii read-back response",
+    "8N1 115200 serial framing"
+  ],
+  "license_expression": "BSD-2-Clause",
+  "license_review": "verified_from_upstream_license_txt",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "UART2BUS_SV_PASS ascii_write=pass ascii_readback=pass",
+  "refactor_kind": "standards_refactor_and_bugfix",
+  "changes": [
+    "default_nettype none/wire guards added",
+    "non-ANSI to ANSI-style port declarations",
+    "reg/wire to logic normalization with always_ff/always_comb",
+    "text macros converted to localparam (parser characters, FSM states, baud defaults)",
+    "baud rate defines converted to top-level parameters D_BAUD_FREQ/D_BAUD_LIMIT",
+    "combinational always blocks converted to always_comb with blocking assignments",
+    "testbench: self-checking scoreboard added; continuous serial sniffer with circular byte buffer so early DUT responses cannot be missed; watchdog added",
+    "testbench: reg_file_model address decoding made explicit (8-bit window of 16-bit bus)"
+  ],
+  "standard_evidence": ["IEEE 1800-2023 9.2.2.2", "IEEE 1800-2023 9.2.2.4", "IEEE 1800-2023 23.2.2.3"]
+}

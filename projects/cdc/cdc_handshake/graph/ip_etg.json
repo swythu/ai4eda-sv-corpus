@@ -1,0 +1,1222 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:623532320a9e93d207ac4b5a65fc9de63fcbabb1e58cdba6d552f3bea8c49e93",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "623532320a9e93d207ac4b5a65fc9de63fcbabb1e58cdba6d552f3bea8c49e93"
+    },
+    {
+      "artifact_id": "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+    },
+    {
+      "artifact_id": "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/cdc_handshake.sv",
+      "release_status": "source_released",
+      "sha256": "d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+    },
+    {
+      "artifact_id": "sha256:86914394abcc942f66ba00376e3bf5c54bee88d36074c187d8cec6609f8812f6",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "86914394abcc942f66ba00376e3bf5c54bee88d36074c187d8cec6609f8812f6"
+    },
+    {
+      "artifact_id": "sha256:7058becbe4438ec12d50189f86b65798f65b2b086db8007a7cceeabf2d07e553",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "7058becbe4438ec12d50189f86b65798f65b2b086db8007a7cceeabf2d07e553"
+    },
+    {
+      "artifact_id": "sha256:e5f3ec720be06af81a47e5208535ebdbcd7df08cde86ba2bc692b4eabb15112d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "e5f3ec720be06af81a47e5208535ebdbcd7df08cde86ba2bc692b4eabb15112d"
+    },
+    {
+      "artifact_id": "sha256:18b0a3db00bff8e92c8d61478b0cf45606c3e3ce03d9c0b12caefcca2846a7b3",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "18b0a3db00bff8e92c8d61478b0cf45606c3e3ce03d9c0b12caefcca2846a7b3"
+    },
+    {
+      "artifact_id": "sha256:123bc27fefdec062493a50e6fdb3f58daa714d8a94d24f6f1849fe64b1a6ffa1",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "123bc27fefdec062493a50e6fdb3f58daa714d8a94d24f6f1849fe64b1a6ffa1"
+    },
+    {
+      "artifact_id": "sha256:3bc2e89282fe6ddbe98fcccd0f57ac06b4ee9f29cb1b5c1f9c24f4da108a50c2",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "3bc2e89282fe6ddbe98fcccd0f57ac06b4ee9f29cb1b5c1f9c24f4da108a50c2"
+    },
+    {
+      "artifact_id": "sha256:1e3380b4176a6a99c3a1f9000d8763a7e9b5e7bc7adedb5169c605ff5b02d8bf",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "1e3380b4176a6a99c3a1f9000d8763a7e9b5e7bc7adedb5169c605ff5b02d8bf"
+    },
+    {
+      "artifact_id": "sha256:975d91004d65a6a06cbc80afc658cc42cd4d9d0f84b041df5a93b7d810805646",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "975d91004d65a6a06cbc80afc658cc42cd4d9d0f84b041df5a93b7d810805646"
+    },
+    {
+      "artifact_id": "sha256:a2e580cd120bc21b654cdfefa9424180aed077d8ef8f321d4ada788bdf966261",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_cdc_handshake.sv",
+      "release_status": "source_released",
+      "sha256": "a2e580cd120bc21b654cdfefa9424180aed077d8ef8f321d4ada788bdf966261"
+    },
+    {
+      "artifact_id": "sha256:46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-clock-dst_clk_i",
+      "source": "module:cdc_handshake",
+      "target": "clock_domain:dst_clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-clock-src_clk_i",
+      "source": "module:cdc_handshake",
+      "target": "clock_domain:src_clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-parameter-Width",
+      "source": "module:cdc_handshake",
+      "target": "parameter:cdc_handshake.Width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-dst_clk_i",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.dst_clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-dst_data_o",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.dst_data_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-dst_ready_i",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.dst_ready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-dst_rst_ni",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.dst_rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-dst_valid_o",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.dst_valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-src_clk_i",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.src_clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-src_data_i",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.src_data_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-src_ready_o",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.src_ready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-src_rst_ni",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.src_rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-port-src_valid_i",
+      "source": "module:cdc_handshake",
+      "target": "port:cdc_handshake.src_valid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-reset-dst_rst_ni",
+      "source": "module:cdc_handshake",
+      "target": "reset_domain:dst_rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:cdc_handshake-reset-src_rst_ni",
+      "source": "module:cdc_handshake",
+      "target": "reset_domain:src_rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "edge:project-contains-cdc_handshake",
+      "source": "project:cdc_handshake",
+      "target": "module:cdc_handshake",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:623532320a9e93d207ac4b5a65fc9de63fcbabb1e58cdba6d552f3bea8c49e93"
+      ],
+      "id": "edge:project-license",
+      "source": "project:cdc_handshake",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:cdc_handshake",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:cdc_handshake",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:cdc_handshake",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:cdc_handshake",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:cdc_handshake",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "edge:project-source",
+      "source": "project:cdc_handshake",
+      "target": "source_revision:05b05f29bb8dd334",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7058becbe4438ec12d50189f86b65798f65b2b086db8007a7cceeabf2d07e553"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-fault_localization_repair-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e5f3ec720be06af81a47e5208535ebdbcd7df08cde86ba2bc692b4eabb15112d"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-functional_timing_understanding-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:18b0a3db00bff8e92c8d61478b0cf45606c3e3ce03d9c0b12caefcca2846a7b3"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-hierarchical_rtl_generation-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:123bc27fefdec062493a50e6fdb3f58daa714d8a94d24f6f1849fe64b1a6ffa1"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-hierarchy_dependency_analysis-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3bc2e89282fe6ddbe98fcccd0f57ac06b4ee9f29cb1b5c1f9c24f4da108a50c2"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-reuse_integration-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1e3380b4176a6a99c3a1f9000d8763a7e9b5e7bc7adedb5169c605ff5b02d8bf"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-tool_result_analysis-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:975d91004d65a6a06cbc80afc658cc42cd4d9d0f84b041df5a93b7d810805646"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_handshake-verification_generation-0000",
+      "source": "project:cdc_handshake",
+      "target": "task:ipgraph:cdc_handshake:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a2e580cd120bc21b654cdfefa9424180aed077d8ef8f321d4ada788bdf966261"
+      ],
+      "id": "edge:project-testbench-22",
+      "source": "project:cdc_handshake",
+      "target": "testbench:tb/tb_cdc_handshake.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:cdc_handshake:05b05f29bb8dd334",
+  "graph_sha256": "3b3aaabbee548a8549e7fba6e4c77c8483082d3f5558b9a6624721be418476f0",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_handshake"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:dst_clk_i",
+      "label": "dst_clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_handshake"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:src_clk_i",
+      "label": "src_clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "attributes": {
+        "path": "rtl/cdc_handshake.sv"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "module:cdc_handshake",
+      "label": "cdc_handshake",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "parameter:cdc_handshake.Width",
+      "label": "Width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dst_clk_i",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.dst_clk_i",
+      "label": "dst_clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [Width-1:0] dst_data_o",
+        "direction": "output",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.dst_data_o",
+      "label": "dst_data_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dst_ready_i",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.dst_ready_i",
+      "label": "dst_ready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dst_rst_ni",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.dst_rst_ni",
+      "label": "dst_rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dst_valid_o",
+        "direction": "output",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.dst_valid_o",
+      "label": "dst_valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic src_clk_i",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.src_clk_i",
+      "label": "src_clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [Width-1:0] src_data_i",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.src_data_i",
+      "label": "src_data_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic src_ready_o",
+        "direction": "output",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.src_ready_o",
+      "label": "src_ready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic src_rst_ni",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.src_rst_ni",
+      "label": "src_rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic src_valid_i",
+        "direction": "input",
+        "module": "cdc_handshake"
+      },
+      "evidence_refs": [
+        "sha256:d1112b860f956dc0b97bda4b024ae2f8943814dde03af6d47e27d9da9d3abacd"
+      ],
+      "id": "port:cdc_handshake.src_valid_i",
+      "label": "src_valid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "cdc",
+        "compile_order": [
+          "rtl/cdc_handshake.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "cdc_handshake"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:cdc_handshake",
+      "label": "cdc_handshake",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_handshake"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:dst_rst_ni",
+      "label": "dst_rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_handshake"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:src_rst_ni",
+      "label": "src_rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:05b05f29bb8dd334",
+      "label": "05b05f29bb8dd334",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:7058becbe4438ec12d50189f86b65798f65b2b086db8007a7cceeabf2d07e553"
+      ],
+      "id": "task:ipgraph:cdc_handshake:fault_localization_repair:0000",
+      "label": "ipgraph:cdc_handshake:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:e5f3ec720be06af81a47e5208535ebdbcd7df08cde86ba2bc692b4eabb15112d"
+      ],
+      "id": "task:ipgraph:cdc_handshake:functional_timing_understanding:0000",
+      "label": "ipgraph:cdc_handshake:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:18b0a3db00bff8e92c8d61478b0cf45606c3e3ce03d9c0b12caefcca2846a7b3"
+      ],
+      "id": "task:ipgraph:cdc_handshake:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:cdc_handshake:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:123bc27fefdec062493a50e6fdb3f58daa714d8a94d24f6f1849fe64b1a6ffa1"
+      ],
+      "id": "task:ipgraph:cdc_handshake:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:cdc_handshake:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:3bc2e89282fe6ddbe98fcccd0f57ac06b4ee9f29cb1b5c1f9c24f4da108a50c2"
+      ],
+      "id": "task:ipgraph:cdc_handshake:reuse_integration:0000",
+      "label": "ipgraph:cdc_handshake:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:1e3380b4176a6a99c3a1f9000d8763a7e9b5e7bc7adedb5169c605ff5b02d8bf"
+      ],
+      "id": "task:ipgraph:cdc_handshake:tool_result_analysis:0000",
+      "label": "ipgraph:cdc_handshake:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:975d91004d65a6a06cbc80afc658cc42cd4d9d0f84b041df5a93b7d810805646"
+      ],
+      "id": "task:ipgraph:cdc_handshake:verification_generation:0000",
+      "label": "ipgraph:cdc_handshake:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:a2e580cd120bc21b654cdfefa9424180aed077d8ef8f321d4ada788bdf966261"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:a2e580cd120bc21b654cdfefa9424180aed077d8ef8f321d4ada788bdf966261"
+      ],
+      "id": "testbench:tb/tb_cdc_handshake.sv",
+      "label": "tb_cdc_handshake.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "verification_obligation:000",
+      "label": "asynchronous clock ratios",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "verification_obligation:001",
+      "label": "ordered bundled data",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "verification_obligation:002",
+      "label": "source backpressure",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:05b05f29bb8dd334e7a004655dbcd9e66be2ef4a4c357ceb3aa74674773f909a"
+      ],
+      "id": "verification_obligation:003",
+      "label": "destination backpressure",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "cdc_handshake",
+  "project_revision": "05b05f29bb8dd334",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Given a future failing regression for cdc_handshake, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of cdc_handshake. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Generate or complete synthesizable SystemVerilog for cdc_handshake from its released design contracts. Preserve the hierarchy and interfaces of cdc_handshake, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of cdc_handshake, including the roles of cdc_handshake. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Design a minimal wrapper plan to reuse cdc_handshake in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for cdc_handshake. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:cdc_handshake",
+        "module:cdc_handshake"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_handshake",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for cdc_handshake. It must exercise the obligation: asynchronous clock ratios and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "05b05f29bb8dd334",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_handshake"
+      ],
+      "task_id": "ipgraph:cdc_handshake:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:46e7da0884cb59c7e9a524c12d5bcabf31d61eb339ed19dd3d7c75ca294e3319"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

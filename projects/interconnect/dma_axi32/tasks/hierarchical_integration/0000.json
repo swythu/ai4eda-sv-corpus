@@ -1,0 +1,70 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "hard",
+  "family": "hierarchical_integration",
+  "input_nodes": [
+    "project:dma_axi32",
+    "module:dma_axi32",
+    "module:dma_axi32_apb_mux",
+    "module:dma_axi32_core0",
+    "module:dma_axi32_core0_arbiter",
+    "module:dma_axi32_core0_axim_cmd",
+    "module:dma_axi32_core0_axim_rd",
+    "module:dma_axi32_core0_axim_rdata",
+    "module:dma_axi32_core0_axim_resp",
+    "module:dma_axi32_core0_axim_timeout",
+    "module:dma_axi32_core0_axim_wdata",
+    "module:dma_axi32_core0_axim_wr",
+    "module:dma_axi32_core0_ch"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "dma_axi32",
+  "prompt": "Create a DesignGraph integration plan for dma_axi32 that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "70f66869bdf811e9",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "private_until_release",
+  "schema_version": "ip-task/v1",
+  "split": "frozen_test",
+  "target_nodes": [
+    "module:dma_axi32",
+    "module:dma_axi32_apb_mux",
+    "module:dma_axi32_core0",
+    "module:dma_axi32_core0_arbiter",
+    "module:dma_axi32_core0_axim_cmd",
+    "module:dma_axi32_core0_axim_rd",
+    "module:dma_axi32_core0_axim_rdata",
+    "module:dma_axi32_core0_axim_resp",
+    "module:dma_axi32_core0_axim_timeout",
+    "module:dma_axi32_core0_axim_wdata",
+    "module:dma_axi32_core0_axim_wr",
+    "module:dma_axi32_core0_ch"
+  ],
+  "task_id": "ipgraph:dma_axi32:hierarchical_integration:0000"
+}

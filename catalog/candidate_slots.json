@@ -1,0 +1,23 @@
+{
+  "schema_version": "ip-candidate-slots/v1",
+  "release_target": "v0.1.0",
+  "status": "15_of_15_admitted_at_q2",
+  "policy": "Admission records the implementation actually present in this release candidate; preferred upstream projects are not claimed when a repository-authored replacement was selected.",
+  "slots": [
+    {"slot_id":"memory-01","capability":"single-port SRAM","project_id":"ot_sram_1p","upstream":"lowRISC/OpenTitan","revision":"49df6acde4f81ce6e945153456373846f76379d9f","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"memory-02","capability":"dual-port SRAM","project_id":"ot_sram_2p","upstream":"lowRISC/OpenTitan","revision":"49df6acde4f81ce6e945153456373846f76379d9f","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"memory-03","capability":"register file","project_id":"register_file","upstream":"lowRISC/OpenTitan derivative","revision":"49df6acde4f81ce6e945153456373846f76379d9f","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"memory-04","capability":"ECC RAM","project_id":"ecc_ram","upstream":"lowRISC/OpenTitan derivative","revision":"49df6acde4f81ce6e945153456373846f76379d9f","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"stream-01","capability":"ready-valid FIFO","project_id":"ready_valid_fifo","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q3","status":"admitted"},
+    {"slot_id":"stream-02","capability":"skid buffer","project_id":"skid_buffer","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"bus-01","capability":"APB register bank","project_id":"apb_register_bank","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"bus-02","capability":"Wishbone-to-APB bridge","project_id":"wishbone_apb_bridge","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"bus-03","capability":"AXI-Lite register slice","project_id":"axi_lite_slice","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"cdc-01","capability":"reset synchronizer","project_id":"reset_synchronizer","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"cdc-02","capability":"bundled-data handshake synchronizer","project_id":"cdc_handshake","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"dsp-01","capability":"pipelined MAC","project_id":"pipelined_mac","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"dsp-02","capability":"streaming FIR","project_id":"fir_filter","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"},
+    {"slot_id":"processor-01","capability":"educational RV32I subset processor","project_id":"rv32i_microcore","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted","limitation":"This is not PicoRV32 and does not implement the full privileged or RV32I architectural surface."},
+    {"slot_id":"verification-01","capability":"ready-valid protocol checker","project_id":"ready_valid_checker","upstream":"repository-authored","revision":"v0.1.0","license":"Apache-2.0","quality":"Q2","status":"admitted"}
+  ]
+}

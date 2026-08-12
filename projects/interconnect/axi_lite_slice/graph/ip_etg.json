@@ -1,0 +1,1778 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:02c6e698db434cd2b02d43fbcefc2aa2b2014a3e2986f2acaed3e46a67ebeb1e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "02c6e698db434cd2b02d43fbcefc2aa2b2014a3e2986f2acaed3e46a67ebeb1e"
+    },
+    {
+      "artifact_id": "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+    },
+    {
+      "artifact_id": "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/axi_lite_slice.sv",
+      "release_status": "source_released",
+      "sha256": "19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+    },
+    {
+      "artifact_id": "sha256:2119800b56276c5eba41ee7c8ef9e91895d9006a48af3cd0c96e5dd82a45a8b7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "2119800b56276c5eba41ee7c8ef9e91895d9006a48af3cd0c96e5dd82a45a8b7"
+    },
+    {
+      "artifact_id": "sha256:cad61f06476970ce49d1c7e4834e5ea1fb6769e7e81069a6715e774401b90ef3",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "cad61f06476970ce49d1c7e4834e5ea1fb6769e7e81069a6715e774401b90ef3"
+    },
+    {
+      "artifact_id": "sha256:63989e67278ce4c2fd3d1c95b20d210ca6c9bcc02958962103bbb43aad57780c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "63989e67278ce4c2fd3d1c95b20d210ca6c9bcc02958962103bbb43aad57780c"
+    },
+    {
+      "artifact_id": "sha256:d9eb00d51a9d2d21d19826ccadbb028bd3588a55ef553792d18970a8ba8b88d3",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "d9eb00d51a9d2d21d19826ccadbb028bd3588a55ef553792d18970a8ba8b88d3"
+    },
+    {
+      "artifact_id": "sha256:c3e0d50e9a25d549a6efbb8da0d5ed921a1790c96daca4e0ffa889b4f9732b66",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "c3e0d50e9a25d549a6efbb8da0d5ed921a1790c96daca4e0ffa889b4f9732b66"
+    },
+    {
+      "artifact_id": "sha256:761a265d492a437086c0f6b3d389bd1d8950a961ebd4beae41d240554b2024b7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "761a265d492a437086c0f6b3d389bd1d8950a961ebd4beae41d240554b2024b7"
+    },
+    {
+      "artifact_id": "sha256:b56b0d6b12c8bac67f3e283d31eea466574249dd37abbcaace4a41946bd96a60",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "b56b0d6b12c8bac67f3e283d31eea466574249dd37abbcaace4a41946bd96a60"
+    },
+    {
+      "artifact_id": "sha256:1b7c86980b370917134001e6d4b1e2d8c35be1fe9700378c1cb8b759265e7e02",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "1b7c86980b370917134001e6d4b1e2d8c35be1fe9700378c1cb8b759265e7e02"
+    },
+    {
+      "artifact_id": "sha256:a3eaece57e6f239f91fe37bf0504cfd0ce806ee7c13026471b175256d063ee1b",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_axi_lite_slice.sv",
+      "release_status": "source_released",
+      "sha256": "a3eaece57e6f239f91fe37bf0504cfd0ce806ee7c13026471b175256d063ee1b"
+    },
+    {
+      "artifact_id": "sha256:95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-clock-clk_i",
+      "source": "module:axi_lite_slice",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-clk_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_araddr_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_araddr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_arready_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_arready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_arvalid_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_arvalid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_awaddr_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_awaddr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_awready_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_awready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_awvalid_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_awvalid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_bready_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_bready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_bresp_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_bresp_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_bvalid_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_bvalid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_rdata_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_rdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_rready_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_rready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_rresp_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_rresp_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_rvalid_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_rvalid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_wdata_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_wdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_wready_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_wready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_wstrb_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_wstrb_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-m_wvalid_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.m_wvalid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-rst_ni",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_araddr_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_araddr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_arready_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_arready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_arvalid_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_arvalid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_awaddr_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_awaddr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_awready_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_awready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_awvalid_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_awvalid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_bready_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_bready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_bresp_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_bresp_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_bvalid_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_bvalid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_rdata_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_rdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_rready_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_rready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_rresp_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_rresp_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_rvalid_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_rvalid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_wdata_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_wdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_wready_o",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_wready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_wstrb_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_wstrb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-port-s_wvalid_i",
+      "source": "module:axi_lite_slice",
+      "target": "port:axi_lite_slice.s_wvalid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:axi_lite_slice-reset-rst_ni",
+      "source": "module:axi_lite_slice",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "edge:project-contains-axi_lite_slice",
+      "source": "project:axi_lite_slice",
+      "target": "module:axi_lite_slice",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:02c6e698db434cd2b02d43fbcefc2aa2b2014a3e2986f2acaed3e46a67ebeb1e"
+      ],
+      "id": "edge:project-license",
+      "source": "project:axi_lite_slice",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:axi_lite_slice",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:axi_lite_slice",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:axi_lite_slice",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:axi_lite_slice",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:axi_lite_slice",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "edge:project-source",
+      "source": "project:axi_lite_slice",
+      "target": "source_revision:5562620791aaf025",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cad61f06476970ce49d1c7e4834e5ea1fb6769e7e81069a6715e774401b90ef3"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-fault_localization_repair-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:63989e67278ce4c2fd3d1c95b20d210ca6c9bcc02958962103bbb43aad57780c"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-functional_timing_understanding-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9eb00d51a9d2d21d19826ccadbb028bd3588a55ef553792d18970a8ba8b88d3"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-hierarchical_rtl_generation-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c3e0d50e9a25d549a6efbb8da0d5ed921a1790c96daca4e0ffa889b4f9732b66"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-hierarchy_dependency_analysis-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:761a265d492a437086c0f6b3d389bd1d8950a961ebd4beae41d240554b2024b7"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-reuse_integration-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b56b0d6b12c8bac67f3e283d31eea466574249dd37abbcaace4a41946bd96a60"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-tool_result_analysis-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1b7c86980b370917134001e6d4b1e2d8c35be1fe9700378c1cb8b759265e7e02"
+      ],
+      "id": "edge:project-task-ipgraph-axi_lite_slice-verification_generation-0000",
+      "source": "project:axi_lite_slice",
+      "target": "task:ipgraph:axi_lite_slice:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a3eaece57e6f239f91fe37bf0504cfd0ce806ee7c13026471b175256d063ee1b"
+      ],
+      "id": "edge:project-testbench-45",
+      "source": "project:axi_lite_slice",
+      "target": "testbench:tb/tb_axi_lite_slice.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:axi_lite_slice:5562620791aaf025",
+  "graph_sha256": "8445758859abc04e0c9e16f63e4d5b495cf82584941350489f5d55233f2ebb3b",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "axi_lite_slice"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "attributes": {
+        "path": "rtl/axi_lite_slice.sv"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "module:axi_lite_slice",
+      "label": "axi_lite_slice",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] m_araddr_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_araddr_o",
+      "label": "m_araddr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic m_arready_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_arready_i",
+      "label": "m_arready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic m_arvalid_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_arvalid_o",
+      "label": "m_arvalid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] m_awaddr_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_awaddr_o",
+      "label": "m_awaddr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic m_awready_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_awready_i",
+      "label": "m_awready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic m_awvalid_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_awvalid_o",
+      "label": "m_awvalid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic m_bready_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_bready_o",
+      "label": "m_bready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [1:0] m_bresp_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_bresp_i",
+      "label": "m_bresp_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic m_bvalid_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_bvalid_i",
+      "label": "m_bvalid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] m_rdata_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_rdata_i",
+      "label": "m_rdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic m_rready_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_rready_o",
+      "label": "m_rready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [1:0] m_rresp_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_rresp_i",
+      "label": "m_rresp_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic m_rvalid_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_rvalid_i",
+      "label": "m_rvalid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] m_wdata_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_wdata_o",
+      "label": "m_wdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic m_wready_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_wready_i",
+      "label": "m_wready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [3:0] m_wstrb_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_wstrb_o",
+      "label": "m_wstrb_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic m_wvalid_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.m_wvalid_o",
+      "label": "m_wvalid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] s_araddr_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_araddr_i",
+      "label": "s_araddr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic s_arready_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_arready_o",
+      "label": "s_arready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic s_arvalid_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_arvalid_i",
+      "label": "s_arvalid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] s_awaddr_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_awaddr_i",
+      "label": "s_awaddr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic s_awready_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_awready_o",
+      "label": "s_awready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic s_awvalid_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_awvalid_i",
+      "label": "s_awvalid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic s_bready_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_bready_i",
+      "label": "s_bready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [1:0] s_bresp_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_bresp_o",
+      "label": "s_bresp_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic s_bvalid_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_bvalid_o",
+      "label": "s_bvalid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] s_rdata_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_rdata_o",
+      "label": "s_rdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic s_rready_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_rready_i",
+      "label": "s_rready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [1:0] s_rresp_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_rresp_o",
+      "label": "s_rresp_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic s_rvalid_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_rvalid_o",
+      "label": "s_rvalid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] s_wdata_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_wdata_i",
+      "label": "s_wdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic s_wready_o",
+        "direction": "output",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_wready_o",
+      "label": "s_wready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [3:0] s_wstrb_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_wstrb_i",
+      "label": "s_wstrb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic s_wvalid_i",
+        "direction": "input",
+        "module": "axi_lite_slice"
+      },
+      "evidence_refs": [
+        "sha256:19c44798773902189bad5db6cc0f6e3be76d2cb0b704e74b6a974e3b152d4db8"
+      ],
+      "id": "port:axi_lite_slice.s_wvalid_i",
+      "label": "s_wvalid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/axi_lite_slice.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "axi_lite_slice"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:axi_lite_slice",
+      "label": "axi_lite_slice",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "protocol_contract:axi",
+      "label": "AXI",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "axi_lite_slice"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:5562620791aaf025",
+      "label": "5562620791aaf025",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:cad61f06476970ce49d1c7e4834e5ea1fb6769e7e81069a6715e774401b90ef3"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:fault_localization_repair:0000",
+      "label": "ipgraph:axi_lite_slice:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:63989e67278ce4c2fd3d1c95b20d210ca6c9bcc02958962103bbb43aad57780c"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:functional_timing_understanding:0000",
+      "label": "ipgraph:axi_lite_slice:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:d9eb00d51a9d2d21d19826ccadbb028bd3588a55ef553792d18970a8ba8b88d3"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:axi_lite_slice:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:c3e0d50e9a25d549a6efbb8da0d5ed921a1790c96daca4e0ffa889b4f9732b66"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:axi_lite_slice:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:761a265d492a437086c0f6b3d389bd1d8950a961ebd4beae41d240554b2024b7"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:reuse_integration:0000",
+      "label": "ipgraph:axi_lite_slice:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:b56b0d6b12c8bac67f3e283d31eea466574249dd37abbcaace4a41946bd96a60"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:tool_result_analysis:0000",
+      "label": "ipgraph:axi_lite_slice:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:1b7c86980b370917134001e6d4b1e2d8c35be1fe9700378c1cb8b759265e7e02"
+      ],
+      "id": "task:ipgraph:axi_lite_slice:verification_generation:0000",
+      "label": "ipgraph:axi_lite_slice:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:a3eaece57e6f239f91fe37bf0504cfd0ce806ee7c13026471b175256d063ee1b"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:a3eaece57e6f239f91fe37bf0504cfd0ce806ee7c13026471b175256d063ee1b"
+      ],
+      "id": "testbench:tb/tb_axi_lite_slice.sv",
+      "label": "tb_axi_lite_slice.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "verification_obligation:000",
+      "label": "independent AW/W ordering",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "verification_obligation:001",
+      "label": "read channel backpressure",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "verification_obligation:002",
+      "label": "write response backpressure",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:5562620791aaf025e15dc4bdb0b7406cdb354b8f9d0188bd0c59c7c37e029ada"
+      ],
+      "id": "verification_obligation:003",
+      "label": "payload stability",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "axi_lite_slice",
+  "project_revision": "5562620791aaf025",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Given a future failing regression for axi_lite_slice, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of axi_lite_slice. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Generate or complete synthesizable SystemVerilog for axi_lite_slice from its released design contracts. Preserve the hierarchy and interfaces of axi_lite_slice, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of axi_lite_slice, including the roles of axi_lite_slice. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Design a minimal wrapper plan to reuse axi_lite_slice in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for axi_lite_slice. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:axi_lite_slice",
+        "module:axi_lite_slice"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "axi_lite_slice",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for axi_lite_slice. It must exercise the obligation: independent AW/W ordering and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "5562620791aaf025",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:axi_lite_slice"
+      ],
+      "task_id": "ipgraph:axi_lite_slice:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:95cac20c20988ad554e2e1056b775cd2c03c2aa91bcbed368c1aee90ed511f3c"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

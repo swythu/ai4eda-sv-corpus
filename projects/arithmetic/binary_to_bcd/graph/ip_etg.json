@@ -1,0 +1,1628 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:95baa5a15c34ab06ad17dfc3f3a39682b4d83cc129d4802cb4e1e959b7fbc48b",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "95baa5a15c34ab06ad17dfc3f3a39682b4d83cc129d4802cb4e1e959b7fbc48b"
+    },
+    {
+      "artifact_id": "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+    },
+    {
+      "artifact_id": "sha256:f67a18006e33922063e6ef96265f623f288ae1979fb3c722fd6a93cd789c8282",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "f67a18006e33922063e6ef96265f623f288ae1979fb3c722fd6a93cd789c8282"
+    },
+    {
+      "artifact_id": "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/bcd_to_binary.sv",
+      "release_status": "source_released",
+      "sha256": "bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+    },
+    {
+      "artifact_id": "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/binary_to_bcd.sv",
+      "release_status": "source_released",
+      "sha256": "d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+    },
+    {
+      "artifact_id": "sha256:755231663c7b171ad49e8ec3b263fcf26a689d912e90494cdfa92f0ceabea3fa",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "755231663c7b171ad49e8ec3b263fcf26a689d912e90494cdfa92f0ceabea3fa"
+    },
+    {
+      "artifact_id": "sha256:a613affa49d4ccb6dac9d372d4e8ce2fd23033bde9943b1d04ac26618de1da51",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "a613affa49d4ccb6dac9d372d4e8ce2fd23033bde9943b1d04ac26618de1da51"
+    },
+    {
+      "artifact_id": "sha256:30cf171a241d6bc11e11bc67bbc449315d4a4b8cc2128acc9a2800bf4eaf4021",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "30cf171a241d6bc11e11bc67bbc449315d4a4b8cc2128acc9a2800bf4eaf4021"
+    },
+    {
+      "artifact_id": "sha256:1502261ee653fea51f5113ae87668fdbac1d5f8f91a3cc7185572887b657012c",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "1502261ee653fea51f5113ae87668fdbac1d5f8f91a3cc7185572887b657012c"
+    },
+    {
+      "artifact_id": "sha256:49c252db2810f1af2535a8d932ea8fb0ed04929900381ec79a86a95639bb19c6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "49c252db2810f1af2535a8d932ea8fb0ed04929900381ec79a86a95639bb19c6"
+    },
+    {
+      "artifact_id": "sha256:87a11c57c0ef791a3ba98d2637476b0e68f7ca92bc0bcd6c81e1f3202e0180cd",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "87a11c57c0ef791a3ba98d2637476b0e68f7ca92bc0bcd6c81e1f3202e0180cd"
+    },
+    {
+      "artifact_id": "sha256:dd266a69030d5a4e618a24766b17c1900ea8e9caa47d703434e957788e7006d5",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "dd266a69030d5a4e618a24766b17c1900ea8e9caa47d703434e957788e7006d5"
+    },
+    {
+      "artifact_id": "sha256:99aa9cbdb9f6a8d2d51c56f13c4dbd31d98272e3bdf0fda71368944e91863fd1",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "99aa9cbdb9f6a8d2d51c56f13c4dbd31d98272e3bdf0fda71368944e91863fd1"
+    },
+    {
+      "artifact_id": "sha256:5e27e1e555b08550fef42b57fbfea6744001aba569767ea7b436662bb42fa509",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "5e27e1e555b08550fef42b57fbfea6744001aba569767ea7b436662bb42fa509"
+    },
+    {
+      "artifact_id": "sha256:edc81fe0eaf917171d1e01bbcc446069a616d35df465680db1405e80e7e1d44c",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "edc81fe0eaf917171d1e01bbcc446069a616d35df465680db1405e80e7e1d44c"
+    },
+    {
+      "artifact_id": "sha256:2f94098596d5cda1051c692833a70513a905ed5e359a8d4fa20d2dba9dccf8e7",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "2f94098596d5cda1051c692833a70513a905ed5e359a8d4fa20d2dba9dccf8e7"
+    },
+    {
+      "artifact_id": "sha256:ebdb91702daf4bc4e349424a6de12ff73fc4b231c8318c42ce2bc68f0f8458ce",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "ebdb91702daf4bc4e349424a6de12ff73fc4b231c8318c42ce2bc68f0f8458ce"
+    },
+    {
+      "artifact_id": "sha256:48548bb61a7adbcafb54d49190f1becedca0f767260723b2817b8519c3077d18",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_binary_bcd.sv",
+      "release_status": "source_released",
+      "sha256": "48548bb61a7adbcafb54d49190f1becedca0f767260723b2817b8519c3077d18"
+    },
+    {
+      "artifact_id": "sha256:533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "source_released",
+      "sha256": "533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-clock-clk_i",
+      "source": "module:bcd_to_binary",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-ce_i",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.ce_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-clk_i",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-dat_bcd_i",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.dat_bcd_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-dat_binary_o",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.dat_binary_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-done_o",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.done_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-rst_i",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-port-start_i",
+      "source": "module:bcd_to_binary",
+      "target": "port:bcd_to_binary.start_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:bcd_to_binary-reset-rst_i",
+      "source": "module:bcd_to_binary",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-clock-clk_i",
+      "source": "module:binary_to_bcd",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-ce_i",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.ce_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-clk_i",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-dat_bcd_o",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.dat_bcd_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-dat_binary_i",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.dat_binary_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-done_o",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.done_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-rst_i",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-port-start_i",
+      "source": "module:binary_to_bcd",
+      "target": "port:binary_to_bcd.start_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:binary_to_bcd-reset-rst_i",
+      "source": "module:binary_to_bcd",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "edge:project-contains-bcd_to_binary",
+      "source": "project:binary_to_bcd",
+      "target": "module:bcd_to_binary",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "edge:project-contains-binary_to_bcd",
+      "source": "project:binary_to_bcd",
+      "target": "module:binary_to_bcd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:95baa5a15c34ab06ad17dfc3f3a39682b4d83cc129d4802cb4e1e959b7fbc48b"
+      ],
+      "id": "edge:project-license",
+      "source": "project:binary_to_bcd",
+      "target": "license:LGPL-2.1-or-later",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:binary_to_bcd",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:binary_to_bcd",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:binary_to_bcd",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:binary_to_bcd",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "edge:project-source",
+      "source": "project:binary_to_bcd",
+      "target": "source_revision:b158c502f7422dd7",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a613affa49d4ccb6dac9d372d4e8ce2fd23033bde9943b1d04ac26618de1da51"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-cross_module_repair-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:30cf171a241d6bc11e11bc67bbc449315d4a4b8cc2128acc9a2800bf4eaf4021"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-cross_module_repair-0001",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1502261ee653fea51f5113ae87668fdbac1d5f8f91a3cc7185572887b657012c"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-fault_localization_repair-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:49c252db2810f1af2535a8d932ea8fb0ed04929900381ec79a86a95639bb19c6"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-functional_timing_understanding-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:87a11c57c0ef791a3ba98d2637476b0e68f7ca92bc0bcd6c81e1f3202e0180cd"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-hierarchical_integration-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dd266a69030d5a4e618a24766b17c1900ea8e9caa47d703434e957788e7006d5"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-hierarchical_rtl_generation-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:99aa9cbdb9f6a8d2d51c56f13c4dbd31d98272e3bdf0fda71368944e91863fd1"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-hierarchy_dependency_analysis-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5e27e1e555b08550fef42b57fbfea6744001aba569767ea7b436662bb42fa509"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-interface_modification-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:edc81fe0eaf917171d1e01bbcc446069a616d35df465680db1405e80e7e1d44c"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-reuse_integration-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2f94098596d5cda1051c692833a70513a905ed5e359a8d4fa20d2dba9dccf8e7"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-tool_result_analysis-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ebdb91702daf4bc4e349424a6de12ff73fc4b231c8318c42ce2bc68f0f8458ce"
+      ],
+      "id": "edge:project-task-ipgraph-binary_to_bcd-verification_generation-0000",
+      "source": "project:binary_to_bcd",
+      "target": "task:ipgraph:binary_to_bcd:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:48548bb61a7adbcafb54d49190f1becedca0f767260723b2817b8519c3077d18"
+      ],
+      "id": "edge:project-testbench-25",
+      "source": "project:binary_to_bcd",
+      "target": "testbench:tb/tb_binary_bcd.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:binary_to_bcd:b158c502f7422dd7",
+  "graph_sha256": "5028208ffd10b4ea6ecb25d32eb4cd4884e7edb2ebaff1ef03db8e219af91229",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "bcd_to_binary",
+          "binary_to_bcd"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:LGPL-2.1-or-later",
+      "label": "LGPL-2.1-or-later",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "attributes": {
+        "path": "rtl/top/bcd_to_binary.sv"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "module:bcd_to_binary",
+      "label": "bcd_to_binary",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "attributes": {
+        "path": "rtl/top/binary_to_bcd.sv"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "module:binary_to_bcd",
+      "label": "binary_to_bcd",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock signal input ce_i;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.ce_i",
+      "label": "ce_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Width of bit counter // I/O declarations input clk_i;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// initiates a conversion input [4*BCD_DIGITS_IN_PP-1:0] dat_bcd_i;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.dat_bcd_i",
+      "label": "dat_bcd_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input bus output [BITS_OUT_PP-1:0] dat_binary_o;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.dat_binary_o",
+      "label": "dat_binary_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// output bus output done_o;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.done_o",
+      "label": "done_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock enable input input rst_i;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous reset input start_i;",
+        "direction": "none",
+        "module": "bcd_to_binary"
+      },
+      "evidence_refs": [
+        "sha256:bf1975c6f88cd81a3716983ce01061583f7abc98f7ff9511fda6faa7efcde3aa"
+      ],
+      "id": "port:bcd_to_binary.start_i",
+      "label": "start_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock signal input ce_i;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.ce_i",
+      "label": "ce_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Width of bit counter // I/O declarations input clk_i;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input bus output [4*BCD_DIGITS_OUT_PP-1:0] dat_bcd_o;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.dat_bcd_o",
+      "label": "dat_bcd_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// initiates a conversion input [BITS_IN_PP-1:0] dat_binary_i;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.dat_binary_i",
+      "label": "dat_binary_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// output bus output done_o;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.done_o",
+      "label": "done_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock enable input input rst_i;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous reset input start_i;",
+        "direction": "none",
+        "module": "binary_to_bcd"
+      },
+      "evidence_refs": [
+        "sha256:d95469d1efb0d0b0b1429afa56ff5c6c183831b214a7bcaf528c0fa0183723a3"
+      ],
+      "id": "port:binary_to_bcd.start_i",
+      "label": "start_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/top/bcd_to_binary.sv",
+          "rtl/top/binary_to_bcd.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "bcd_to_binary",
+          "binary_to_bcd"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:binary_to_bcd",
+      "label": "binary_to_bcd",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "bcd_to_binary",
+          "binary_to_bcd"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:b158c502f7422dd7",
+      "label": "b158c502f7422dd7",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:a613affa49d4ccb6dac9d372d4e8ce2fd23033bde9943b1d04ac26618de1da51"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:cross_module_repair:0000",
+      "label": "ipgraph:binary_to_bcd:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:30cf171a241d6bc11e11bc67bbc449315d4a4b8cc2128acc9a2800bf4eaf4021"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:cross_module_repair:0001",
+      "label": "ipgraph:binary_to_bcd:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:1502261ee653fea51f5113ae87668fdbac1d5f8f91a3cc7185572887b657012c"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:fault_localization_repair:0000",
+      "label": "ipgraph:binary_to_bcd:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:49c252db2810f1af2535a8d932ea8fb0ed04929900381ec79a86a95639bb19c6"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:functional_timing_understanding:0000",
+      "label": "ipgraph:binary_to_bcd:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:87a11c57c0ef791a3ba98d2637476b0e68f7ca92bc0bcd6c81e1f3202e0180cd"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:hierarchical_integration:0000",
+      "label": "ipgraph:binary_to_bcd:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:dd266a69030d5a4e618a24766b17c1900ea8e9caa47d703434e957788e7006d5"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:binary_to_bcd:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:99aa9cbdb9f6a8d2d51c56f13c4dbd31d98272e3bdf0fda71368944e91863fd1"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:binary_to_bcd:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:5e27e1e555b08550fef42b57fbfea6744001aba569767ea7b436662bb42fa509"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:interface_modification:0000",
+      "label": "ipgraph:binary_to_bcd:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:edc81fe0eaf917171d1e01bbcc446069a616d35df465680db1405e80e7e1d44c"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:reuse_integration:0000",
+      "label": "ipgraph:binary_to_bcd:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:2f94098596d5cda1051c692833a70513a905ed5e359a8d4fa20d2dba9dccf8e7"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:tool_result_analysis:0000",
+      "label": "ipgraph:binary_to_bcd:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:ebdb91702daf4bc4e349424a6de12ff73fc4b231c8318c42ce2bc68f0f8458ce"
+      ],
+      "id": "task:ipgraph:binary_to_bcd:verification_generation:0000",
+      "label": "ipgraph:binary_to_bcd:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:48548bb61a7adbcafb54d49190f1becedca0f767260723b2817b8519c3077d18"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:48548bb61a7adbcafb54d49190f1becedca0f767260723b2817b8519c3077d18"
+      ],
+      "id": "testbench:tb/tb_binary_bcd.sv",
+      "label": "tb_binary_bcd.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "verification_obligation:000",
+      "label": "7 boundary vectors",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "verification_obligation:001",
+      "label": "binary-to-BCD",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b158c502f7422dd7e3366ad666581d367e137fe0e8778596eebb6a7eec20db20"
+      ],
+      "id": "verification_obligation:002",
+      "label": "BCD-to-binary round trip",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "binary_to_bcd",
+  "project_revision": "b158c502f7422dd7",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in binary_to_bcd. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in binary_to_bcd. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Given a future failing regression for binary_to_bcd, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of binary_to_bcd. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Create a DesignGraph integration plan for binary_to_bcd that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Generate or complete synthesizable SystemVerilog for binary_to_bcd from its released design contracts. Preserve the hierarchy and interfaces of bcd_to_binary, binary_to_bcd, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of binary_to_bcd, including the roles of bcd_to_binary, binary_to_bcd. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Plan a cross-module interface modification for binary_to_bcd. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Design a minimal wrapper plan to reuse binary_to_bcd in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for binary_to_bcd. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:binary_to_bcd",
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "binary_to_bcd",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for binary_to_bcd. It must exercise the obligation: 7 boundary vectors and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b158c502f7422dd7",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:bcd_to_binary",
+        "module:binary_to_bcd"
+      ],
+      "task_id": "ipgraph:binary_to_bcd:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:533d62bd057149cd47c0077a801b818dfd8b079c8f41f5440ffe3914514e16b9"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

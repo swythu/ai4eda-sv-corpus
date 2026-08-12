@@ -1,0 +1,3240 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:e5f9c2d0c97b1d707043b7e0bd1649a6c25a49b58621df44d9f32bffc12e098a",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "e5f9c2d0c97b1d707043b7e0bd1649a6c25a49b58621df44d9f32bffc12e098a"
+    },
+    {
+      "artifact_id": "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+    },
+    {
+      "artifact_id": "sha256:4d14b904cfdb52c23e97bf53b9b5c15d38f67d87cc68b71bfc4d3496f0268a13",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "4d14b904cfdb52c23e97bf53b9b5c15d38f67d87cc68b71bfc4d3496f0268a13"
+    },
+    {
+      "artifact_id": "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/scaler.sv",
+      "release_status": "source_released",
+      "sha256": "7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+    },
+    {
+      "artifact_id": "sha256:538c7c9e27ccc09f513286c68929079dbf6b426ac7329bf1cce5a3be8cf62607",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "538c7c9e27ccc09f513286c68929079dbf6b426ac7329bf1cce5a3be8cf62607"
+    },
+    {
+      "artifact_id": "sha256:ba12327ed1d900b4cf4bb36a84b28763e91b914dea8ce9fb5a4ccb2641edc105",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "ba12327ed1d900b4cf4bb36a84b28763e91b914dea8ce9fb5a4ccb2641edc105"
+    },
+    {
+      "artifact_id": "sha256:cc4c8d6713353060acfb41fc9411450ed4af5124f8b83082a3458a8a6e38b310",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "cc4c8d6713353060acfb41fc9411450ed4af5124f8b83082a3458a8a6e38b310"
+    },
+    {
+      "artifact_id": "sha256:6b2c42e8596060f7e28fb509c5d4251f2f8d8c851f961a92fd3a680368b5c84a",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "6b2c42e8596060f7e28fb509c5d4251f2f8d8c851f961a92fd3a680368b5c84a"
+    },
+    {
+      "artifact_id": "sha256:cfb254f0c00d8a5904d4f4d797775b21ef781c266736895329f25a7b1995c4ef",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "cfb254f0c00d8a5904d4f4d797775b21ef781c266736895329f25a7b1995c4ef"
+    },
+    {
+      "artifact_id": "sha256:53281f8fc28a0b94bc65dfafab5c7925debd97d578266923955249a5551465f0",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "53281f8fc28a0b94bc65dfafab5c7925debd97d578266923955249a5551465f0"
+    },
+    {
+      "artifact_id": "sha256:5c9bb08a9007a711d2abb571533f0f5ed09a7a71fc9ad9b26f53fd639dfdc2b6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "5c9bb08a9007a711d2abb571533f0f5ed09a7a71fc9ad9b26f53fd639dfdc2b6"
+    },
+    {
+      "artifact_id": "sha256:e1f3eba7e985af0459e76229e4ea260e363be43593d793fc6b6cfb88282ecd2b",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "e1f3eba7e985af0459e76229e4ea260e363be43593d793fc6b6cfb88282ecd2b"
+    },
+    {
+      "artifact_id": "sha256:15e6460e7276d2104be49855bef21813d9649fe3adddc689421898333b28c813",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "15e6460e7276d2104be49855bef21813d9649fe3adddc689421898333b28c813"
+    },
+    {
+      "artifact_id": "sha256:f38d6472d8b99c54ad963c4b78ba8f4a518c95b486db76f0b6b6b1df5a986553",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "f38d6472d8b99c54ad963c4b78ba8f4a518c95b486db76f0b6b6b1df5a986553"
+    },
+    {
+      "artifact_id": "sha256:8e92536e0f3e87ac6d2c396fe6624c322b61f161566b6bd5809e8ca69b23729e",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "8e92536e0f3e87ac6d2c396fe6624c322b61f161566b6bd5809e8ca69b23729e"
+    },
+    {
+      "artifact_id": "sha256:5ee62ffc04c9cf6f64f0da5b51f525f05907595022af18d8fe404b9dbbb5c97d",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "5ee62ffc04c9cf6f64f0da5b51f525f05907595022af18d8fe404b9dbbb5c97d"
+    },
+    {
+      "artifact_id": "sha256:d6e9431ae3bb29da3062ddea61bc30d4567b48ddf5b6c823ea599f95aba58266",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_scaler.sv",
+      "release_status": "source_released",
+      "sha256": "d6e9431ae3bb29da3062ddea61bc30d4567b48ddf5b6c823ea599f95aba58266"
+    },
+    {
+      "artifact_id": "sha256:c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8"
+    },
+    {
+      "artifact_id": "sha256:174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "validation/work/g0.hex",
+      "release_status": "source_released",
+      "sha256": "174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37"
+    },
+    {
+      "artifact_id": "sha256:3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "validation/work/g1.hex",
+      "release_status": "source_released",
+      "sha256": "3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.addrA",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.dataA",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.weA",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.qA",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.addrB",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.dataB",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.weB",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "port:ramDualPort.qB",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:ramFifo",
+      "target": "instance:ramFifo.ram_inst_i:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:ramFifo.ram_inst_i:0",
+      "target": "module:ramDualPort",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.rst",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-10",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.readData00",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-11",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.readData01",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-12",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.readData10",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-13",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.readData11",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-14",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.readAddress",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.advanceRead1",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.advanceRead2",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.advanceWrite",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.forceRead",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.writeData",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.writeAddress",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.writeEnable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-connection-9",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "port:ramFifo.fillCount",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:streamScaler",
+      "target": "instance:streamScaler.ramRB:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:streamScaler.ramRB:1",
+      "target": "module:ramFifo",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:project-contains-ramDualPort",
+      "source": "project:video_stream_scaler",
+      "target": "module:ramDualPort",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:project-contains-ramFifo",
+      "source": "project:video_stream_scaler",
+      "target": "module:ramFifo",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:project-contains-streamScaler",
+      "source": "project:video_stream_scaler",
+      "target": "module:streamScaler",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e5f9c2d0c97b1d707043b7e0bd1649a6c25a49b58621df44d9f32bffc12e098a"
+      ],
+      "id": "edge:project-license",
+      "source": "project:video_stream_scaler",
+      "target": "license:LGPL-2.1-or-later",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:video_stream_scaler",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:video_stream_scaler",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:video_stream_scaler",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37",
+        "sha256:3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6",
+        "sha256:c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:video_stream_scaler",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "edge:project-source",
+      "source": "project:video_stream_scaler",
+      "target": "source_revision:31d11a0b0755f896",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ba12327ed1d900b4cf4bb36a84b28763e91b914dea8ce9fb5a4ccb2641edc105"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-cross_module_repair-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cc4c8d6713353060acfb41fc9411450ed4af5124f8b83082a3458a8a6e38b310"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-cross_module_repair-0001",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6b2c42e8596060f7e28fb509c5d4251f2f8d8c851f961a92fd3a680368b5c84a"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-fault_localization_repair-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb254f0c00d8a5904d4f4d797775b21ef781c266736895329f25a7b1995c4ef"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-functional_timing_understanding-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53281f8fc28a0b94bc65dfafab5c7925debd97d578266923955249a5551465f0"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-hierarchical_integration-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5c9bb08a9007a711d2abb571533f0f5ed09a7a71fc9ad9b26f53fd639dfdc2b6"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-hierarchical_rtl_generation-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e1f3eba7e985af0459e76229e4ea260e363be43593d793fc6b6cfb88282ecd2b"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-hierarchy_dependency_analysis-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:15e6460e7276d2104be49855bef21813d9649fe3adddc689421898333b28c813"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-interface_modification-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f38d6472d8b99c54ad963c4b78ba8f4a518c95b486db76f0b6b6b1df5a986553"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-reuse_integration-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8e92536e0f3e87ac6d2c396fe6624c322b61f161566b6bd5809e8ca69b23729e"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-tool_result_analysis-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5ee62ffc04c9cf6f64f0da5b51f525f05907595022af18d8fe404b9dbbb5c97d"
+      ],
+      "id": "edge:project-task-ipgraph-video_stream_scaler-verification_generation-0000",
+      "source": "project:video_stream_scaler",
+      "target": "task:ipgraph:video_stream_scaler:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d6e9431ae3bb29da3062ddea61bc30d4567b48ddf5b6c823ea599f95aba58266"
+      ],
+      "id": "edge:project-testbench-104",
+      "source": "project:video_stream_scaler",
+      "target": "testbench:tb/tb_scaler.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-clock-clk",
+      "source": "module:ramDualPort",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-parameter-ADDRESS_WIDTH",
+      "source": "module:ramDualPort",
+      "target": "parameter:ramDualPort.ADDRESS_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-parameter-DATA_WIDTH",
+      "source": "module:ramDualPort",
+      "target": "parameter:ramDualPort.DATA_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-addrA",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.addrA",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-addrB",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.addrB",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-clk",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-dataA",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.dataA",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-dataB",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.dataB",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-qA",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.qA",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-qB",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.qB",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-weA",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.weA",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramDualPort-port-weB",
+      "source": "module:ramDualPort",
+      "target": "port:ramDualPort.weB",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-clock-clk",
+      "source": "module:ramFifo",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-parameter-ADDRESS_WIDTH",
+      "source": "module:ramFifo",
+      "target": "parameter:ramFifo.ADDRESS_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-parameter-BUFFER_SIZE",
+      "source": "module:ramFifo",
+      "target": "parameter:ramFifo.BUFFER_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-parameter-BUFFER_SIZE_WIDTH",
+      "source": "module:ramFifo",
+      "target": "parameter:ramFifo.BUFFER_SIZE_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-parameter-DATA_WIDTH",
+      "source": "module:ramFifo",
+      "target": "parameter:ramFifo.DATA_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-advanceRead1",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.advanceRead1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-advanceRead2",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.advanceRead2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-advanceWrite",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.advanceWrite",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-clk",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-fillCount",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.fillCount",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-forceRead",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.forceRead",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-readAddress",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.readAddress",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-readData00",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.readData00",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-readData01",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.readData01",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-readData10",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.readData10",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-readData11",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.readData11",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-rst",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-writeAddress",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.writeAddress",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-writeData",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.writeData",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-port-writeEnable",
+      "source": "module:ramFifo",
+      "target": "port:ramFifo.writeEnable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:ramFifo-reset-rst",
+      "source": "module:ramFifo",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-clock-clk",
+      "source": "module:streamScaler",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-BUFFER_SIZE",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.BUFFER_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-BUFFER_SIZE_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.BUFFER_SIZE_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-CHANNELS",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.CHANNELS",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-COEFF_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.COEFF_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-DATA_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.DATA_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-DISCARD_CNT_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.DISCARD_CNT_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-FRACTION_BITS",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.FRACTION_BITS",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-INPUT_X_RES_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.INPUT_X_RES_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-INPUT_Y_RES_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.INPUT_Y_RES_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-OUTPUT_X_RES_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.OUTPUT_X_RES_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-OUTPUT_Y_RES_WIDTH",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.OUTPUT_Y_RES_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-SCALE_BITS",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.SCALE_BITS",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-SCALE_FRAC_BITS",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.SCALE_FRAC_BITS",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-parameter-SCALE_INT_BITS",
+      "source": "module:streamScaler",
+      "target": "parameter:streamScaler.SCALE_INT_BITS",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-clk",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-dIn",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.dIn",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-dInValid",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.dInValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-dOut",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.dOut",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-dOutValid",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.dOutValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-inputDiscardCnt",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.inputDiscardCnt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-inputXRes",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.inputXRes",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-inputYRes",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.inputYRes",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-leftOffset",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.leftOffset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-nearestNeighbor",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.nearestNeighbor",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-nextDin",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.nextDin",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-nextDout",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.nextDout",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-outputXRes",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.outputXRes",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-outputYRes",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.outputYRes",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-rst",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-start",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.start",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-topFracOffset",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.topFracOffset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-xScale",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.xScale",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-port-yScale",
+      "source": "module:streamScaler",
+      "target": "port:streamScaler.yScale",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "edge:streamScaler-reset-rst",
+      "source": "module:streamScaler",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:video_stream_scaler:31d11a0b0755f896",
+  "graph_sha256": "e2a4743639fc519c0e98163331e4d543376730d3e4bd9e271b07ef73aa93d216",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ramDualPort",
+          "ramFifo",
+          "streamScaler"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clk",
+            "kind": "named",
+            "port": "clk"
+          },
+          {
+            "expression": "((writeSelect[i] == 1'b1) && !forceRead && writeEnable) ? writeAddress : readAddress",
+            "kind": "named",
+            "port": "addrA"
+          },
+          {
+            "expression": "writeData",
+            "kind": "named",
+            "port": "dataA"
+          },
+          {
+            "expression": "((writeSelect[i] == 1'b1) && !forceRead) ? writeEnable : 1'b0",
+            "kind": "named",
+            "port": "weA"
+          },
+          {
+            "expression": "ramDataOutA[2**i]",
+            "kind": "named",
+            "port": "qA"
+          },
+          {
+            "expression": "readAddress + 1",
+            "kind": "named",
+            "port": "addrB"
+          },
+          {
+            "expression": "{DATA_WIDTH{1'b0}}",
+            "kind": "named",
+            "port": "dataB"
+          },
+          {
+            "expression": "1'b0",
+            "kind": "named",
+            "port": "weB"
+          },
+          {
+            "expression": "ramDataOutB[2**i]",
+            "kind": "named",
+            "port": "qB"
+          }
+        ],
+        "declaration": "ram_inst_i( .clk( clk ), //Port A is written to as well as read from. When writing, this port cannot be read from. //As long as the buffer is large enough, this will not cause any problem. .addrA( ((writeSelect[i] == 1'b1) && !forceRead && writeEnable) ? writeAddress : readAddress ), .dataA( writeData ), .weA( ((writeSelect[i] == 1'b1) && !forceRead) ? writeEnable : 1'b0 ), .qA( ramDataOutA[2**i] ), .addrB( readAddress + 1 ), .dataB( {DATA_WIDTH{1'b0}} ), .weB( 1'b0 ), .qB( ramDataOutB[2**i] ) )",
+        "parent_module": "ramFifo",
+        "target_module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "instance:ramFifo.ram_inst_i:0",
+      "label": "ram_inst_i",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clk",
+            "kind": "named",
+            "port": "clk"
+          },
+          {
+            "expression": "rst | start",
+            "kind": "named",
+            "port": "rst"
+          },
+          {
+            "expression": "advanceRead1",
+            "kind": "named",
+            "port": "advanceRead1"
+          },
+          {
+            "expression": "advanceRead2",
+            "kind": "named",
+            "port": "advanceRead2"
+          },
+          {
+            "expression": "advanceWrite",
+            "kind": "named",
+            "port": "advanceWrite"
+          },
+          {
+            "expression": "forceRead",
+            "kind": "named",
+            "port": "forceRead"
+          },
+          {
+            "expression": "dIn",
+            "kind": "named",
+            "port": "writeData"
+          },
+          {
+            "expression": "writeColCount",
+            "kind": "named",
+            "port": "writeAddress"
+          },
+          {
+            "expression": "dInValid & nextDin & enableNextDin & ~discardInput",
+            "kind": "named",
+            "port": "writeEnable"
+          },
+          {
+            "expression": "fillCount",
+            "kind": "named",
+            "port": "fillCount"
+          },
+          {
+            "expression": "readData00",
+            "kind": "named",
+            "port": "readData00"
+          },
+          {
+            "expression": "readData01",
+            "kind": "named",
+            "port": "readData01"
+          },
+          {
+            "expression": "readData10",
+            "kind": "named",
+            "port": "readData10"
+          },
+          {
+            "expression": "readData11",
+            "kind": "named",
+            "port": "readData11"
+          },
+          {
+            "expression": "readAddress",
+            "kind": "named",
+            "port": "readAddress"
+          }
+        ],
+        "declaration": "ramRB ( .clk( clk ), .rst( rst | start ), .advanceRead1( advanceRead1 ), .advanceRead2( advanceRead2 ), .advanceWrite( advanceWrite ), .forceRead( forceRead ), .writeData( dIn ), .writeAddress( writeColCount ), .writeEnable( dInValid & nextDin & enableNextDin & ~discardInput ), .fillCount( fillCount ), .readData00( readData00 ), .readData01( readData01 ), .readData10( readData10 ), .readData11( readData11 ), .readAddress( readAddress ) )",
+        "parent_module": "streamScaler",
+        "target_module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "instance:streamScaler.ramRB:1",
+      "label": "ramRB",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:LGPL-2.1-or-later",
+      "label": "LGPL-2.1-or-later",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "attributes": {
+        "path": "rtl/scaler.sv"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "module:ramDualPort",
+      "label": "ramDualPort",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "attributes": {
+        "path": "rtl/scaler.sv"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "module:ramFifo",
+      "label": "ramFifo",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "attributes": {
+        "path": "rtl/scaler.sv"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "module:streamScaler",
+      "label": "streamScaler",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramDualPort.ADDRESS_WIDTH",
+      "label": "ADDRESS_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramDualPort.DATA_WIDTH",
+      "label": "DATA_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramFifo.ADDRESS_WIDTH",
+      "label": "ADDRESS_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramFifo.BUFFER_SIZE",
+      "label": "BUFFER_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramFifo.BUFFER_SIZE_WIDTH",
+      "label": "BUFFER_SIZE_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:ramFifo.DATA_WIDTH",
+      "label": "DATA_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.BUFFER_SIZE",
+      "label": "BUFFER_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.BUFFER_SIZE_WIDTH",
+      "label": "BUFFER_SIZE_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.CHANNELS",
+      "label": "CHANNELS",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.COEFF_WIDTH",
+      "label": "COEFF_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.DATA_WIDTH",
+      "label": "DATA_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.DISCARD_CNT_WIDTH",
+      "label": "DISCARD_CNT_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.FRACTION_BITS",
+      "label": "FRACTION_BITS",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.INPUT_X_RES_WIDTH",
+      "label": "INPUT_X_RES_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.INPUT_Y_RES_WIDTH",
+      "label": "INPUT_Y_RES_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.OUTPUT_X_RES_WIDTH",
+      "label": "OUTPUT_X_RES_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.OUTPUT_Y_RES_WIDTH",
+      "label": "OUTPUT_Y_RES_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.SCALE_BITS",
+      "label": "SCALE_BITS",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.SCALE_FRAC_BITS",
+      "label": "SCALE_FRAC_BITS",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "parameter:streamScaler.SCALE_INT_BITS",
+      "label": "SCALE_INT_BITS",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [(ADDRESS_WIDTH-1):0] addrA",
+        "direction": "input",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.addrA",
+      "label": "addrA",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "addrB",
+        "direction": "inout",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.addrB",
+      "label": "addrB",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "clk",
+        "direction": "inout",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [(DATA_WIDTH-1):0] dataA",
+        "direction": "input",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.dataA",
+      "label": "dataA",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "dataB",
+        "direction": "inout",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.dataB",
+      "label": "dataB",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [(DATA_WIDTH-1):0] qA",
+        "direction": "output",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.qA",
+      "label": "qA",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "qB",
+        "direction": "inout",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.qB",
+      "label": "qB",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire weA",
+        "direction": "input",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.weA",
+      "label": "weA",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "weB",
+        "direction": "inout",
+        "module": "ramDualPort"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramDualPort.weB",
+      "label": "weB",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire advanceRead1",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.advanceRead1",
+      "label": "advanceRead1",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Advance selected read RAM by one input wire advanceRead2",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.advanceRead2",
+      "label": "advanceRead2",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Advance selected read RAM by two input wire advanceWrite",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.advanceWrite",
+      "label": "advanceWrite",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clk",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [BUFFER_SIZE_WIDTH-1:0] fillCount",
+        "direction": "output",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.fillCount",
+      "label": "fillCount",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Advance selected write RAM by one input wire forceRead",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.forceRead",
+      "label": "forceRead",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Read from second deepest RAM (second earliest data), at readAddress + 1 input wire [ADDRESS_WIDTH-1:0] readAddress",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.readAddress",
+      "label": "readAddress",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// yx output wire [DATA_WIDTH-1:0] readData00",
+        "direction": "output",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.readData00",
+      "label": "readData00",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Read from deepest RAM (earliest data), at readAddress output wire [DATA_WIDTH-1:0] readData01",
+        "direction": "output",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.readData01",
+      "label": "readData01",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Read from deepest RAM (earliest data), at readAddress + 1 output wire [DATA_WIDTH-1:0] readData10",
+        "direction": "output",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.readData10",
+      "label": "readData10",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Read from second deepest RAM (second earliest data), at readAddress output wire [DATA_WIDTH-1:0] readData11",
+        "direction": "output",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.readData11",
+      "label": "readData11",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire rst",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [ADDRESS_WIDTH-1:0] writeAddress",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.writeAddress",
+      "label": "writeAddress",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Disables writing to allow all data to be read out (RAM being written to cannot be read from normally) input wire [DATA_WIDTH-1:0] writeData",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.writeData",
+      "label": "writeData",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire writeEnable",
+        "direction": "input",
+        "module": "ramFifo"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:ramFifo.writeEnable",
+      "label": "writeEnable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//---------------------------Module IO----------------------------------------- //Clock and reset input wire clk",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//User interface //Input input wire [DATA_WIDTH*CHANNELS-1:0]dIn",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.dIn",
+      "label": "dIn",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire dInValid",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.dInValid",
+      "label": "dInValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Output output logic [DATA_WIDTH*CHANNELS-1:0] dOut",
+        "direction": "output",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.dOut",
+      "label": "dOut",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dOutValid",
+        "direction": "output",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.dOutValid",
+      "label": "dOutValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Control input wire [DISCARD_CNT_WIDTH-1:0] inputDiscardCnt",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.inputDiscardCnt",
+      "label": "inputDiscardCnt",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Number of input pixels to discard before processing data. Used for clipping input wire [INPUT_X_RES_WIDTH-1:0] inputXRes",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.inputXRes",
+      "label": "inputXRes",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Resolution of input data minus 1 input wire [INPUT_Y_RES_WIDTH-1:0] inputYRes",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.inputYRes",
+      "label": "inputYRes",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Scaling factors. Input resolution scaled up by 1/yScale. Format Q SCALE_INT_BITS.SCALE_FRAC_BITS input wire [OUTPUT_X_RES_WIDTH-1+SCALE_FRAC_BITS:0] leftOffset",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.leftOffset",
+      "label": "leftOffset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Fraction of input pixel to offset data vertically down. Format Q0.SCALE_FRAC_BITS input wire nearestNeighbor",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.nearestNeighbor",
+      "label": "nearestNeighbor",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire nextDin",
+        "direction": "output",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.nextDin",
+      "label": "nextDin",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//latency of 4 clock cycles after nextDout is asserted input wire nextDout",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.nextDout",
+      "label": "nextDout",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [OUTPUT_X_RES_WIDTH-1:0] outputXRes",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.outputXRes",
+      "label": "outputXRes",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Resolution of output data minus 1 input wire [OUTPUT_Y_RES_WIDTH-1:0] outputYRes",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.outputYRes",
+      "label": "outputYRes",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire rst",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire start",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.start",
+      "label": "start",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Integer/fraction of input pixel to offset output data horizontally right. Format Q OUTPUT_X_RES_WIDTH.SCALE_FRAC_BITS input wire [SCALE_FRAC_BITS-1:0] topFracOffset",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.topFracOffset",
+      "label": "topFracOffset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [SCALE_BITS-1:0] xScale",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.xScale",
+      "label": "xScale",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//Scaling factors. Input resolution scaled up by 1/xScale. Format Q SCALE_INT_BITS.SCALE_FRAC_BITS input wire [SCALE_BITS-1:0] yScale",
+        "direction": "input",
+        "module": "streamScaler"
+      },
+      "evidence_refs": [
+        "sha256:7f8f90593820e3e91c624087ae9d3147004ec361ef1ba6ec56f70bf79f565039"
+      ],
+      "id": "port:streamScaler.yScale",
+      "label": "yScale",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "video",
+        "compile_order": [
+          "rtl/scaler.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "streamScaler"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:video_stream_scaler",
+      "label": "video_stream_scaler",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ramFifo",
+          "streamScaler"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst",
+      "label": "rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:31d11a0b0755f896",
+      "label": "31d11a0b0755f896",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:ba12327ed1d900b4cf4bb36a84b28763e91b914dea8ce9fb5a4ccb2641edc105"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:cross_module_repair:0000",
+      "label": "ipgraph:video_stream_scaler:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:cc4c8d6713353060acfb41fc9411450ed4af5124f8b83082a3458a8a6e38b310"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:cross_module_repair:0001",
+      "label": "ipgraph:video_stream_scaler:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:6b2c42e8596060f7e28fb509c5d4251f2f8d8c851f961a92fd3a680368b5c84a"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:fault_localization_repair:0000",
+      "label": "ipgraph:video_stream_scaler:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:cfb254f0c00d8a5904d4f4d797775b21ef781c266736895329f25a7b1995c4ef"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:functional_timing_understanding:0000",
+      "label": "ipgraph:video_stream_scaler:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:53281f8fc28a0b94bc65dfafab5c7925debd97d578266923955249a5551465f0"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:hierarchical_integration:0000",
+      "label": "ipgraph:video_stream_scaler:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:5c9bb08a9007a711d2abb571533f0f5ed09a7a71fc9ad9b26f53fd639dfdc2b6"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:video_stream_scaler:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:e1f3eba7e985af0459e76229e4ea260e363be43593d793fc6b6cfb88282ecd2b"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:video_stream_scaler:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:15e6460e7276d2104be49855bef21813d9649fe3adddc689421898333b28c813"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:interface_modification:0000",
+      "label": "ipgraph:video_stream_scaler:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:f38d6472d8b99c54ad963c4b78ba8f4a518c95b486db76f0b6b6b1df5a986553"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:reuse_integration:0000",
+      "label": "ipgraph:video_stream_scaler:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:8e92536e0f3e87ac6d2c396fe6624c322b61f161566b6bd5809e8ca69b23729e"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:tool_result_analysis:0000",
+      "label": "ipgraph:video_stream_scaler:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:5ee62ffc04c9cf6f64f0da5b51f525f05907595022af18d8fe404b9dbbb5c97d"
+      ],
+      "id": "task:ipgraph:video_stream_scaler:verification_generation:0000",
+      "label": "ipgraph:video_stream_scaler:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d6e9431ae3bb29da3062ddea61bc30d4567b48ddf5b6c823ea599f95aba58266"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:d6e9431ae3bb29da3062ddea61bc30d4567b48ddf5b6c823ea599f95aba58266"
+      ],
+      "id": "testbench:tb/tb_scaler.sv",
+      "label": "tb_scaler.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37",
+        "sha256:3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6",
+        "sha256:c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37",
+        "sha256:3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6",
+        "sha256:c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "verification_obligation:000",
+      "label": "identity scaling bit-exact golden",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "verification_obligation:001",
+      "label": "2x downsample golden",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:31d11a0b0755f896dd515590a94b98ac261eeceff08e7f039c6fe63457859f7a"
+      ],
+      "id": "verification_obligation:002",
+      "label": "input gradient reproduction",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "video_stream_scaler",
+  "project_revision": "31d11a0b0755f896",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in video_stream_scaler. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in video_stream_scaler. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Given a future failing regression for video_stream_scaler, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of video_stream_scaler. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Create a DesignGraph integration plan for video_stream_scaler that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Generate or complete synthesizable SystemVerilog for video_stream_scaler from its released design contracts. Preserve the hierarchy and interfaces of ramDualPort, ramFifo, streamScaler, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of video_stream_scaler, including the roles of ramDualPort, ramFifo, streamScaler. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Plan a cross-module interface modification for video_stream_scaler. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Design a minimal wrapper plan to reuse video_stream_scaler in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for video_stream_scaler. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:video_stream_scaler",
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "video_stream_scaler",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for video_stream_scaler. It must exercise the obligation: identity scaling bit-exact golden and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "31d11a0b0755f896",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ramDualPort",
+        "module:ramFifo",
+        "module:streamScaler"
+      ],
+      "task_id": "ipgraph:video_stream_scaler:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:174d05804656317385b2249d10dfc23746839a6c2742cbda55f1c829e1e21e37",
+      "sha256:3a7ea0663ee607447f6ab0b92bbb74adf166177cb64c3be47d537a76e76ff9a6",
+      "sha256:c5a73a9c2ea50037b08309b208707d1cc3786df3c5e5cac3fd38a6aebca75af8"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

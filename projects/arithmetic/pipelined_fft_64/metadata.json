@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "project": "pipelined_fft_64",
+  "category": "arithmetic_dsp_and_ecc",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/usfft64_2b.v",
+      "sha256": "4bde93c41766f8dac2bfca16f38cedcb470515ab29fae84d767c348fc90e60c2"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/fft8.v",
+      "sha256": "90609008e5b34297ef04e3ed79b3b9f118d1f30146364dad4716c5af0a1d130b"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/rotator64_v.v",
+      "sha256": "bcc70a1c39e9993ca41dbaca02b09f9913f8dc7b64229c40dd1b9658c9f84ee8"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/cnorm.v",
+      "sha256": "61abf7bd1b3a358715297b82e3586b118b4a8da3af14e7d87dd7e1b422d94591"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/bufram64c1.v",
+      "sha256": "2a7847f6f4de1517464da2982cd9ef097e3f0104104e42de6afba9d6d201ebed"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/ram2x64c_1.v",
+      "sha256": "206d5c5c1ca2ab8aa283abf4856bcf78e0d83915286d3e6bb994ed2891b132b7"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/ram64.v",
+      "sha256": "bbd782163750bf6b735cbfef1142db840148497ede0558b2c39dc2c4728d992b"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/mpu707.v",
+      "sha256": "7d910a897679176336b3612ee1ce6c22bc760a3d0e08c4e01c8aa8d5c1bf6c54"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/arithmetic_dsp_and_ecc/pipelined_fft_64/RTL/WROM64.v",
+      "sha256": "fbdf19758e30704278e1271595471aab75276a8749058603dd216671ce6487a9"
+    }
+  ],
+  "rtl_files": [
+    "rtl/mpu707.sv",
+    "rtl/ram64.sv",
+    "rtl/ram2x64c_1.sv",
+    "rtl/bufram64c1.sv",
+    "rtl/WROM64.sv",
+    "rtl/rotator64.sv",
+    "rtl/fft8.sv",
+    "rtl/cnorm.sv",
+    "rtl/usfft64_2b.sv"
+  ],
+  "testbench": "tb/tb_usfft64_2b.sv",
+  "verification_checks": [
+    "full output frame",
+    "bit-exact golden match vs original Verilog",
+    "spectral peak at stimulus bin",
+    "no overflow"
+  ],
+  "license_expression": "LicenseRef-OpenCores-Permissive",
+  "license_review": "verified_from_retained_source_headers",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "FFT64_SV_PASS golden_match=pass peak_bin2=pass",
+  "refactor_kind": "standards_refactor_and_bugfix",
+  "changes": [
+    "default_nettype none/wire guards added",
+    "non-ANSI to ANSI-style port declarations",
+    "reg/wire to logic normalization with always_ff/always_comb",
+    "lost upstream include FFT64_CONFIG.inc replaced by module parameters nb/nw (defaults 12/16 per original TB documentation)",
+    "USFFT64param* text macros mapped to parameters and explicit ifdefs",
+    "parameter constants converted to localparam",
+    "intra-assignment #1 delays removed from RTL",
+    "testbench: replaced display-only bench with self-checking golden comparison; golden frame captured from original Verilog sources (tb/golden.txt); watchdog added"
+  ],
+  "standard_evidence": ["IEEE 1800-2023 9.2.2.2", "IEEE 1800-2023 9.2.2.4", "IEEE 1800-2023 23.2.2.3"]
+}

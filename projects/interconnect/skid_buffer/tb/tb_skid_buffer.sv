@@ -1,0 +1,3 @@
+`timescale 1ns/1ps
+module tb_skid_buffer;logic clk=0,rstn=0,clr,vi,ro,vo,ri;logic[7:0]di,do_;skid_buffer#(.Width(8))dut(.clk_i(clk),.rst_ni(rstn),.clear_i(clr),.data_i(di),.valid_i(vi),.ready_o(ro),.data_o(do_),.valid_o(vo),.ready_i(ri));always#5 clk=~clk;
+initial begin clr=0;vi=0;ri=0;di=0;repeat(2)@(negedge clk);rstn=1;vi=1;di=8'h11;@(negedge clk);di=8'h22;@(negedge clk);vi=0;if(ro)$fatal(1,"capacity");repeat(2)begin#1;if(do_!==8'h11)$fatal(1,"stable");@(negedge clk);end ri=1;#1;if(do_!==8'h11)$fatal(1,"first");@(negedge clk);#1;if(do_!==8'h22)$fatal(1,"second");@(negedge clk);ri=0;clr=1;@(negedge clk);clr=0;#1;if(vo)$fatal(1,"clear");$display("SKID_BUFFER_PASS");$finish;end endmodule

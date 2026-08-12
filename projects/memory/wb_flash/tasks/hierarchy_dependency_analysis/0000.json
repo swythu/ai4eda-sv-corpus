@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "easy",
+  "family": "hierarchy_dependency_analysis",
+  "input_nodes": [
+    "project:wb_flash",
+    "module:wb_flash"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "wb_flash",
+  "prompt": "Recover and explain the module dependency and instantiation hierarchy of wb_flash, including the roles of wb_flash. Identify graph evidence for each dependency.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "f4046197646a8ebd",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "private_until_release",
+  "schema_version": "ip-task/v1",
+  "split": "frozen_test",
+  "target_nodes": [
+    "module:wb_flash"
+  ],
+  "task_id": "ipgraph:wb_flash:hierarchy_dependency_analysis:0000"
+}

@@ -1,0 +1,8 @@
+name: "pipelined_fft_64"
+category: "arithmetic"
+upstream_project: "https://opencores.org/projects/usfft64_2b"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/pipelined_fft_64"
+license_expression: "LicenseRef-OpenCores-Permissive"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

@@ -1,0 +1,1998 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:610e06370e4e0096c33824bac6dbce61aac4ac6f4035d6d97e1b7509ee78f6c6",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "610e06370e4e0096c33824bac6dbce61aac4ac6f4035d6d97e1b7509ee78f6c6"
+    },
+    {
+      "artifact_id": "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+    },
+    {
+      "artifact_id": "sha256:594071b54ec26682b91d7ff856e0249ed27ad9edd94fe23a74a0ba733481152b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "594071b54ec26682b91d7ff856e0249ed27ad9edd94fe23a74a0ba733481152b"
+    },
+    {
+      "artifact_id": "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/sha1.sv",
+      "release_status": "metadata_only",
+      "sha256": "0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+    },
+    {
+      "artifact_id": "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/sha256.sv",
+      "release_status": "metadata_only",
+      "sha256": "2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+    },
+    {
+      "artifact_id": "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/sha512.sv",
+      "release_status": "metadata_only",
+      "sha256": "8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+    },
+    {
+      "artifact_id": "sha256:5a2ef85a30b80d0d54f23d94d8e282d18d74c8878e18e71c312c12fd5d5b2f37",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "5a2ef85a30b80d0d54f23d94d8e282d18d74c8878e18e71c312c12fd5d5b2f37"
+    },
+    {
+      "artifact_id": "sha256:2e605d2701acba77fab5cde7681e71541ab751ce4d12fc8736451a545cbb11e5",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "2e605d2701acba77fab5cde7681e71541ab751ce4d12fc8736451a545cbb11e5"
+    },
+    {
+      "artifact_id": "sha256:3e3b343d0a745f6a3c75bfc3b900345ffa8146d83fc5f12ed2206b1dfd256b95",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "3e3b343d0a745f6a3c75bfc3b900345ffa8146d83fc5f12ed2206b1dfd256b95"
+    },
+    {
+      "artifact_id": "sha256:f4d7df46792e2d6622e49fe644e32da4582343518f3919287ec9f494886d0345",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "f4d7df46792e2d6622e49fe644e32da4582343518f3919287ec9f494886d0345"
+    },
+    {
+      "artifact_id": "sha256:d49fca57953603d2cdfde2cd874a97a398d6a10503efc1b01a39ba74042ec02d",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "d49fca57953603d2cdfde2cd874a97a398d6a10503efc1b01a39ba74042ec02d"
+    },
+    {
+      "artifact_id": "sha256:79267990675d9ea960d2036adc472ddf499c70ef2fb216a536a341a53807ad93",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "79267990675d9ea960d2036adc472ddf499c70ef2fb216a536a341a53807ad93"
+    },
+    {
+      "artifact_id": "sha256:bd4454b6b441779f8ab1344d0da7db343715f95cec3c0e368216b4f683ac1937",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "bd4454b6b441779f8ab1344d0da7db343715f95cec3c0e368216b4f683ac1937"
+    },
+    {
+      "artifact_id": "sha256:7cba68d299adb993d9d402388578739395a6d5902cfb01132a4437a26d307f81",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "7cba68d299adb993d9d402388578739395a6d5902cfb01132a4437a26d307f81"
+    },
+    {
+      "artifact_id": "sha256:fd3b433a0760545a540602c7cee688cd0fa574293bbdd65ba89cdbfad03cb52c",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "fd3b433a0760545a540602c7cee688cd0fa574293bbdd65ba89cdbfad03cb52c"
+    },
+    {
+      "artifact_id": "sha256:0f9b05b0e619c025eb0a26a47c791782e7c9d855d28dda7e0039aaa292da9061",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "0f9b05b0e619c025eb0a26a47c791782e7c9d855d28dda7e0039aaa292da9061"
+    },
+    {
+      "artifact_id": "sha256:24518260fcc1e413d3e34bf331571bdf63d9b3d87192efe5277af5b8f51fd063",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "24518260fcc1e413d3e34bf331571bdf63d9b3d87192efe5277af5b8f51fd063"
+    },
+    {
+      "artifact_id": "sha256:facb0301c7963c57a37bbda8c1d5c2220fbc13a4715e0a5f09d7f659710f7b0e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "facb0301c7963c57a37bbda8c1d5c2220fbc13a4715e0a5f09d7f659710f7b0e"
+    },
+    {
+      "artifact_id": "sha256:8bf09e6ec3c1ff3fab62a34af8edde71cecddc627e5becdfc5ba68350ae30673",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/test_sha1.sv",
+      "release_status": "metadata_only",
+      "sha256": "8bf09e6ec3c1ff3fab62a34af8edde71cecddc627e5becdfc5ba68350ae30673"
+    },
+    {
+      "artifact_id": "sha256:b8baa8cde742b49cb8b3e322cbed82e4d2209e8502bf0e32dfc737fdb69b5ec9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/test_sha256.sv",
+      "release_status": "metadata_only",
+      "sha256": "b8baa8cde742b49cb8b3e322cbed82e4d2209e8502bf0e32dfc737fdb69b5ec9"
+    },
+    {
+      "artifact_id": "sha256:4fa47019bbf106b4ef3e2e08838862da82b51f9f9b2258251498d5dfc07a7ad3",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/test_sha512.sv",
+      "release_status": "metadata_only",
+      "sha256": "4fa47019bbf106b4ef3e2e08838862da82b51f9f9b2258251498d5dfc07a7ad3"
+    },
+    {
+      "artifact_id": "sha256:44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "metadata_only",
+      "sha256": "44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:project-contains-sha1",
+      "source": "project:sha_core",
+      "target": "module:sha1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:project-contains-sha256",
+      "source": "project:sha_core",
+      "target": "module:sha256",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:project-contains-sha512",
+      "source": "project:sha_core",
+      "target": "module:sha512",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:610e06370e4e0096c33824bac6dbce61aac4ac6f4035d6d97e1b7509ee78f6c6"
+      ],
+      "id": "edge:project-license",
+      "source": "project:sha_core",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:sha_core",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:sha_core",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:sha_core",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:sha_core",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:sha_core",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-obligation-005",
+      "source": "project:sha_core",
+      "target": "verification_obligation:005",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:sha_core",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "edge:project-source",
+      "source": "project:sha_core",
+      "target": "source_revision:820141491d22fd9e",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2e605d2701acba77fab5cde7681e71541ab751ce4d12fc8736451a545cbb11e5"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-cross_module_repair-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3e3b343d0a745f6a3c75bfc3b900345ffa8146d83fc5f12ed2206b1dfd256b95"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-cross_module_repair-0001",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f4d7df46792e2d6622e49fe644e32da4582343518f3919287ec9f494886d0345"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-fault_localization_repair-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d49fca57953603d2cdfde2cd874a97a398d6a10503efc1b01a39ba74042ec02d"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-functional_timing_understanding-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79267990675d9ea960d2036adc472ddf499c70ef2fb216a536a341a53807ad93"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-hierarchical_integration-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bd4454b6b441779f8ab1344d0da7db343715f95cec3c0e368216b4f683ac1937"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-hierarchical_rtl_generation-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7cba68d299adb993d9d402388578739395a6d5902cfb01132a4437a26d307f81"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-hierarchy_dependency_analysis-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:fd3b433a0760545a540602c7cee688cd0fa574293bbdd65ba89cdbfad03cb52c"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-interface_modification-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0f9b05b0e619c025eb0a26a47c791782e7c9d855d28dda7e0039aaa292da9061"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-reuse_integration-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:24518260fcc1e413d3e34bf331571bdf63d9b3d87192efe5277af5b8f51fd063"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-tool_result_analysis-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:facb0301c7963c57a37bbda8c1d5c2220fbc13a4715e0a5f09d7f659710f7b0e"
+      ],
+      "id": "edge:project-task-ipgraph-sha_core-verification_generation-0000",
+      "source": "project:sha_core",
+      "target": "task:ipgraph:sha_core:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8bf09e6ec3c1ff3fab62a34af8edde71cecddc627e5becdfc5ba68350ae30673"
+      ],
+      "id": "edge:project-testbench-38",
+      "source": "project:sha_core",
+      "target": "testbench:tb/test_sha1.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b8baa8cde742b49cb8b3e322cbed82e4d2209e8502bf0e32dfc737fdb69b5ec9"
+      ],
+      "id": "edge:project-testbench-39",
+      "source": "project:sha_core",
+      "target": "testbench:tb/test_sha256.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4fa47019bbf106b4ef3e2e08838862da82b51f9f9b2258251498d5dfc07a7ad3"
+      ],
+      "id": "edge:project-testbench-40",
+      "source": "project:sha_core",
+      "target": "testbench:tb/test_sha512.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-clock-clk_i",
+      "source": "module:sha1",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-clk_i",
+      "source": "module:sha1",
+      "target": "port:sha1.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-cmd_i",
+      "source": "module:sha1",
+      "target": "port:sha1.cmd_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-cmd_o",
+      "source": "module:sha1",
+      "target": "port:sha1.cmd_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-cmd_w_i",
+      "source": "module:sha1",
+      "target": "port:sha1.cmd_w_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-rst_i",
+      "source": "module:sha1",
+      "target": "port:sha1.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-text_i",
+      "source": "module:sha1",
+      "target": "port:sha1.text_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-port-text_o",
+      "source": "module:sha1",
+      "target": "port:sha1.text_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "edge:sha1-reset-rst_i",
+      "source": "module:sha1",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-clock-clk_i",
+      "source": "module:sha256",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-clk_i",
+      "source": "module:sha256",
+      "target": "port:sha256.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-cmd_i",
+      "source": "module:sha256",
+      "target": "port:sha256.cmd_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-cmd_o",
+      "source": "module:sha256",
+      "target": "port:sha256.cmd_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-cmd_w_i",
+      "source": "module:sha256",
+      "target": "port:sha256.cmd_w_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-rst_i",
+      "source": "module:sha256",
+      "target": "port:sha256.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-text_i",
+      "source": "module:sha256",
+      "target": "port:sha256.text_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-port-text_o",
+      "source": "module:sha256",
+      "target": "port:sha256.text_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "edge:sha256-reset-rst_i",
+      "source": "module:sha256",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-clock-clk_i",
+      "source": "module:sha512",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-clk_i",
+      "source": "module:sha512",
+      "target": "port:sha512.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-cmd_i",
+      "source": "module:sha512",
+      "target": "port:sha512.cmd_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-cmd_o",
+      "source": "module:sha512",
+      "target": "port:sha512.cmd_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-cmd_w_i",
+      "source": "module:sha512",
+      "target": "port:sha512.cmd_w_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-rst_i",
+      "source": "module:sha512",
+      "target": "port:sha512.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-text_i",
+      "source": "module:sha512",
+      "target": "port:sha512.text_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-port-text_o",
+      "source": "module:sha512",
+      "target": "port:sha512.text_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "edge:sha512-reset-rst_i",
+      "source": "module:sha512",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:sha_core:820141491d22fd9e",
+  "graph_sha256": "8bec0ab56e2154a16b3c78e2538b09392dafb5980df68e4d3e8881a818e477e5",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "sha1",
+          "sha256",
+          "sha512"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/sha1.sv"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "module:sha1",
+      "label": "sha1",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/sha256.sv"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "module:sha256",
+      "label": "sha256",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/sha512.sv"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "module:sha512",
+      "label": "sha512",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [2:0] cmd_i",
+        "direction": "input",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.cmd_i",
+      "label": "cmd_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic [3:0] cmd_o",
+        "direction": "output",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.cmd_o",
+      "label": "cmd_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cmd_w_i",
+        "direction": "input",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.cmd_w_i",
+      "label": "cmd_w_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] text_i",
+        "direction": "input",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.text_i",
+      "label": "text_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] text_o",
+        "direction": "output",
+        "module": "sha1"
+      },
+      "evidence_refs": [
+        "sha256:0388b418c60f2db2c83ab2dfd41f5f82476e8ed67c0244eccb83a59718f021a0"
+      ],
+      "id": "port:sha1.text_o",
+      "label": "text_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [2:0] cmd_i",
+        "direction": "input",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.cmd_i",
+      "label": "cmd_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic [3:0] cmd_o",
+        "direction": "output",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.cmd_o",
+      "label": "cmd_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cmd_w_i",
+        "direction": "input",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.cmd_w_i",
+      "label": "cmd_w_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] text_i",
+        "direction": "input",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.text_i",
+      "label": "text_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] text_o",
+        "direction": "output",
+        "module": "sha256"
+      },
+      "evidence_refs": [
+        "sha256:2bca16a3ba783ecc95e597086b171a45988a3d1ef3bed783342ffedde7643a5e"
+      ],
+      "id": "port:sha256.text_o",
+      "label": "text_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [3:0] cmd_i",
+        "direction": "input",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.cmd_i",
+      "label": "cmd_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic [4:0] cmd_o",
+        "direction": "output",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.cmd_o",
+      "label": "cmd_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cmd_w_i",
+        "direction": "input",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.cmd_w_i",
+      "label": "cmd_w_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] text_i",
+        "direction": "input",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.text_i",
+      "label": "text_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] text_o",
+        "direction": "output",
+        "module": "sha512"
+      },
+      "evidence_refs": [
+        "sha256:8f48d9089740a0c3cf3ea1a8aed16c0498a88a09eca606cf71c16e6feec68ea1"
+      ],
+      "id": "port:sha512.text_o",
+      "label": "text_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "security",
+        "compile_order": [
+          "rtl/blocks/sha1.sv",
+          "rtl/blocks/sha256.sv",
+          "rtl/blocks/sha512.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "sha1",
+          "sha256",
+          "sha512"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:sha_core",
+      "label": "sha_core",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "sha1",
+          "sha256",
+          "sha512"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:820141491d22fd9e",
+      "label": "820141491d22fd9e",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:2e605d2701acba77fab5cde7681e71541ab751ce4d12fc8736451a545cbb11e5"
+      ],
+      "id": "task:ipgraph:sha_core:cross_module_repair:0000",
+      "label": "ipgraph:sha_core:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:3e3b343d0a745f6a3c75bfc3b900345ffa8146d83fc5f12ed2206b1dfd256b95"
+      ],
+      "id": "task:ipgraph:sha_core:cross_module_repair:0001",
+      "label": "ipgraph:sha_core:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:f4d7df46792e2d6622e49fe644e32da4582343518f3919287ec9f494886d0345"
+      ],
+      "id": "task:ipgraph:sha_core:fault_localization_repair:0000",
+      "label": "ipgraph:sha_core:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:d49fca57953603d2cdfde2cd874a97a398d6a10503efc1b01a39ba74042ec02d"
+      ],
+      "id": "task:ipgraph:sha_core:functional_timing_understanding:0000",
+      "label": "ipgraph:sha_core:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:79267990675d9ea960d2036adc472ddf499c70ef2fb216a536a341a53807ad93"
+      ],
+      "id": "task:ipgraph:sha_core:hierarchical_integration:0000",
+      "label": "ipgraph:sha_core:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:bd4454b6b441779f8ab1344d0da7db343715f95cec3c0e368216b4f683ac1937"
+      ],
+      "id": "task:ipgraph:sha_core:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:sha_core:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:7cba68d299adb993d9d402388578739395a6d5902cfb01132a4437a26d307f81"
+      ],
+      "id": "task:ipgraph:sha_core:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:sha_core:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:fd3b433a0760545a540602c7cee688cd0fa574293bbdd65ba89cdbfad03cb52c"
+      ],
+      "id": "task:ipgraph:sha_core:interface_modification:0000",
+      "label": "ipgraph:sha_core:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:0f9b05b0e619c025eb0a26a47c791782e7c9d855d28dda7e0039aaa292da9061"
+      ],
+      "id": "task:ipgraph:sha_core:reuse_integration:0000",
+      "label": "ipgraph:sha_core:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:24518260fcc1e413d3e34bf331571bdf63d9b3d87192efe5277af5b8f51fd063"
+      ],
+      "id": "task:ipgraph:sha_core:tool_result_analysis:0000",
+      "label": "ipgraph:sha_core:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:facb0301c7963c57a37bbda8c1d5c2220fbc13a4715e0a5f09d7f659710f7b0e"
+      ],
+      "id": "task:ipgraph:sha_core:verification_generation:0000",
+      "label": "ipgraph:sha_core:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:8bf09e6ec3c1ff3fab62a34af8edde71cecddc627e5becdfc5ba68350ae30673"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:8bf09e6ec3c1ff3fab62a34af8edde71cecddc627e5becdfc5ba68350ae30673"
+      ],
+      "id": "testbench:tb/test_sha1.sv",
+      "label": "test_sha1.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b8baa8cde742b49cb8b3e322cbed82e4d2209e8502bf0e32dfc737fdb69b5ec9"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:b8baa8cde742b49cb8b3e322cbed82e4d2209e8502bf0e32dfc737fdb69b5ec9"
+      ],
+      "id": "testbench:tb/test_sha256.sv",
+      "label": "test_sha256.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4fa47019bbf106b4ef3e2e08838862da82b51f9f9b2258251498d5dfc07a7ad3"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:4fa47019bbf106b4ef3e2e08838862da82b51f9f9b2258251498d5dfc07a7ad3"
+      ],
+      "id": "testbench:tb/test_sha512.sv",
+      "label": "test_sha512.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:000",
+      "label": "SHA-1 known digest: 5 words",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:001",
+      "label": "SHA-256 known digest: 8 words",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:002",
+      "label": "SHA-384 known digest: 12 words",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:003",
+      "label": "SHA-512 known digest: 16 words",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:004",
+      "label": "race-free falling-edge stimulus",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:820141491d22fd9e66f5ca61e257cdf90057a0054f2c22fdf55e5712c44b4053"
+      ],
+      "id": "verification_obligation:005",
+      "label": "41/41 digest word comparisons",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "sha_core",
+  "project_revision": "820141491d22fd9e",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in sha_core. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in sha_core. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Given a future failing regression for sha_core, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of sha_core. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Create a DesignGraph integration plan for sha_core that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Generate or complete synthesizable SystemVerilog for sha_core from its released design contracts. Preserve the hierarchy and interfaces of sha1, sha256, sha512, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of sha_core, including the roles of sha1, sha256, sha512. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Plan a cross-module interface modification for sha_core. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Design a minimal wrapper plan to reuse sha_core in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for sha_core. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:sha_core",
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "sha_core",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for sha_core. It must exercise the obligation: SHA-1 known digest: 5 words and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "820141491d22fd9e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:sha1",
+        "module:sha256",
+        "module:sha512"
+      ],
+      "task_id": "ipgraph:sha_core:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:44194ca28a5d5d517ac36d81f0ad2555446dcb77f0a03309e339c373cb10cd68"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

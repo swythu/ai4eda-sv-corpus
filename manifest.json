@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "included": 21,
+  "included": 40,
   "excluded": 0,
   "projects": [
     {
@@ -13,6 +13,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/arithmetic/binary_to_bcd"
+    },
+    {
+      "name": "fir_filter",
+      "category": "arithmetic",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original parameterized four-tap streaming FIR.",
+      "public_export_decision": "source_released",
+      "path": "projects/arithmetic/fir_filter",
+      "upstream_revision": "v0.1.0"
     },
     {
       "name": "fixed_point_arithmetic_parameterized",
@@ -48,15 +59,59 @@
       "path": "projects/arithmetic/pid_controller"
     },
     {
-      "name": "tiny_spi",
-      "category": "communication",
-      "upstream_project": "https://opencores.org/projects/tiny_spi",
-      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/tiny_spi",
-      "license_expression": "LGPL-2.1-or-later",
+      "name": "pipelined_fft_64",
+      "category": "arithmetic",
+      "upstream_project": "https://opencores.org/projects/usfft64_2b",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/arithmetic_dsp_and_ecc/pipelined_fft_64",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
       "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
-      "path": "projects/communication/tiny_spi"
+      "path": "projects/arithmetic/pipelined_fft_64"
+    },
+    {
+      "name": "pipelined_mac",
+      "category": "arithmetic",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original ready/valid signed multiply-accumulate pipeline.",
+      "public_export_decision": "source_released",
+      "path": "projects/arithmetic/pipelined_mac",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "cdc_handshake",
+      "category": "cdc",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original two-phase bundled-data CDC handshake.",
+      "public_export_decision": "source_released",
+      "path": "projects/cdc/cdc_handshake",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "reset_synchronizer",
+      "category": "cdc",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original asynchronous-assert synchronous-release reset synchronizer.",
+      "public_export_decision": "source_released",
+      "path": "projects/cdc/reset_synchronizer",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "i2c",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/i2c",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/i2c",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/i2c"
     },
     {
       "name": "rtfsimpleuart",
@@ -68,6 +123,28 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/communication/rtfsimpleuart"
+    },
+    {
+      "name": "tiny_spi",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/tiny_spi",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/tiny_spi",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/tiny_spi"
+    },
+    {
+      "name": "uart2bus",
+      "category": "communication",
+      "upstream_project": "https://opencores.org/projects/uart2bus",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/uart2bus",
+      "license_expression": "BSD-2-Clause",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/communication/uart2bus"
     },
     {
       "name": "xge_mac",
@@ -92,6 +169,17 @@
       "path": "projects/control/pit"
     },
     {
+      "name": "scalable_arbiter",
+      "category": "control",
+      "upstream_project": "https://opencores.org/projects/scalable_arbiter",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/scalable_arbiter",
+      "license_expression": "ISC",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/control/scalable_arbiter"
+    },
+    {
       "name": "simple_gpio",
       "category": "control",
       "upstream_project": "https://opencores.org/projects/simple_gpio",
@@ -114,15 +202,26 @@
       "path": "projects/control/simple_pic"
     },
     {
-      "name": "scalable_arbiter",
-      "category": "control",
-      "upstream_project": "https://opencores.org/projects/scalable_arbiter",
-      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/control_buffering_and_data_movement/scalable_arbiter",
-      "license_expression": "ISC",
-      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
-      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
-      "public_export_decision": "included",
-      "path": "projects/control/scalable_arbiter"
+      "name": "apb_register_bank",
+      "category": "interconnect",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original APB4 register-bank IP.",
+      "public_export_decision": "source_released",
+      "path": "projects/interconnect/apb_register_bank",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "axi_lite_slice",
+      "category": "interconnect",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original AXI-Lite five-channel elastic register slice.",
+      "public_export_decision": "source_released",
+      "path": "projects/interconnect/axi_lite_slice",
+      "upstream_revision": "v0.1.0"
     },
     {
       "name": "cdc_ufifo",
@@ -158,6 +257,28 @@
       "path": "projects/interconnect/dma_axi64"
     },
     {
+      "name": "ready_valid_fifo",
+      "category": "interconnect",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original reusable ready/valid FIFO.",
+      "public_export_decision": "source_released",
+      "path": "projects/interconnect/ready_valid_fifo",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "skid_buffer",
+      "category": "interconnect",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original two-entry elastic skid buffer.",
+      "public_export_decision": "source_released",
+      "path": "projects/interconnect/skid_buffer",
+      "upstream_revision": "v0.1.0"
+    },
+    {
       "name": "versatile_fifo",
       "category": "interconnect",
       "upstream_project": "https://opencores.org/projects/versatile_fifo",
@@ -167,6 +288,61 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/interconnect/versatile_fifo"
+    },
+    {
+      "name": "wishbone_apb_bridge",
+      "category": "interconnect",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored RTL under Apache-2.0.",
+      "modification_status": "Original single-outstanding Wishbone-to-APB bridge.",
+      "public_export_decision": "source_released",
+      "path": "projects/interconnect/wishbone_apb_bridge",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "ecc_ram",
+      "category": "memory",
+      "upstream_project": "https://github.com/lowRISC/opentitan",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "OpenTitan source files carry SPDX-License-Identifier: Apache-2.0.",
+      "modification_status": "Dependency-closed 32-bit SECDED RAM derivative with explicit injection ports for validation.",
+      "public_export_decision": "source_released",
+      "path": "projects/memory/ecc_ram",
+      "upstream_revision": "49df6acde4f81ce6e945153456373846f76379d9f"
+    },
+    {
+      "name": "ot_sram_1p",
+      "category": "memory",
+      "upstream_project": "https://github.com/lowRISC/opentitan",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Upstream file carries SPDX-License-Identifier: Apache-2.0.",
+      "modification_status": "Dependency-closed SystemVerilog derivative; configuration structs and project assertion macros removed.",
+      "public_export_decision": "source_released",
+      "path": "projects/memory/ot_sram_1p",
+      "upstream_revision": "49df6acde4f81ce6e945153456373846f76379d9f"
+    },
+    {
+      "name": "ot_sram_2p",
+      "category": "memory",
+      "upstream_project": "https://github.com/lowRISC/opentitan",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Upstream file carries SPDX-License-Identifier: Apache-2.0.",
+      "modification_status": "Dependency-closed SystemVerilog derivative; configuration structs and project assertion macros removed.",
+      "public_export_decision": "source_released",
+      "path": "projects/memory/ot_sram_2p",
+      "upstream_revision": "49df6acde4f81ce6e945153456373846f76379d9f"
+    },
+    {
+      "name": "register_file",
+      "category": "memory",
+      "upstream_project": "https://github.com/lowRISC/opentitan",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Derived from Apache-2.0 OpenTitan 1R1W storage semantics; derivative carries attribution.",
+      "modification_status": "SystemVerilog 2R1W register-file specialization with hardwired-zero option and bypass.",
+      "public_export_decision": "source_released",
+      "path": "projects/memory/register_file",
+      "upstream_revision": "49df6acde4f81ce6e945153456373846f76379d9f"
     },
     {
       "name": "wb_flash",
@@ -180,15 +356,15 @@
       "path": "projects/memory/wb_flash"
     },
     {
-      "name": "configurable_crc_core",
-      "category": "security",
-      "upstream_project": "https://opencores.org/projects/configurable_crc_core",
-      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/integrity_and_security/configurable_crc_core",
-      "license_expression": "LicenseRef-Unknown",
-      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
-      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
-      "public_export_decision": "included",
-      "path": "projects/security/configurable_crc_core"
+      "name": "rv32i_microcore",
+      "category": "processor",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored educational RV32I subset under Apache-2.0.",
+      "modification_status": "Original multi-cycle RV32I subset core; not represented as PicoRV32.",
+      "public_export_decision": "source_released",
+      "path": "projects/processor/rv32i_microcore",
+      "upstream_revision": "v0.1.0"
     },
     {
       "name": "apbtoaes128",
@@ -200,6 +376,17 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/security/apbtoaes128"
+    },
+    {
+      "name": "configurable_crc_core",
+      "category": "security",
+      "upstream_project": "https://opencores.org/projects/configurable_crc_core",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/integrity_and_security/configurable_crc_core",
+      "license_expression": "LicenseRef-Unknown",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/security/configurable_crc_core"
     },
     {
       "name": "sha_core",
@@ -233,6 +420,28 @@
       "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
       "public_export_decision": "included",
       "path": "projects/verification/oc_axi_bfm"
+    },
+    {
+      "name": "ready_valid_checker",
+      "category": "verification",
+      "upstream_project": "repository-authored",
+      "license_expression": "Apache-2.0",
+      "license_evidence": "Repository-authored verification IP under Apache-2.0.",
+      "modification_status": "Original synthesizable ready/valid protocol checker.",
+      "public_export_decision": "source_released",
+      "path": "projects/verification/ready_valid_checker",
+      "upstream_revision": "v0.1.0"
+    },
+    {
+      "name": "video_stream_scaler",
+      "category": "video",
+      "upstream_project": "https://opencores.org/projects/video_stream_scaler",
+      "local_source_provenance": "data/ipdb/opencores/refactored/systemverilog/video_and_media/video_stream_scaler",
+      "license_expression": "LGPL-2.1-or-later",
+      "license_evidence": "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md.",
+      "modification_status": "Modified SystemVerilog derivative; see refactor patch and metadata.",
+      "public_export_decision": "included",
+      "path": "projects/video/video_stream_scaler"
     }
   ]
 }

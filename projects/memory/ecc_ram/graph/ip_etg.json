@@ -1,0 +1,1175 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:6a7ebf1f78493d2c2e30b06c2e46e616e1e0dbd91029dd9f160e81a7e54b5a01",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "6a7ebf1f78493d2c2e30b06c2e46e616e1e0dbd91029dd9f160e81a7e54b5a01"
+    },
+    {
+      "artifact_id": "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+    },
+    {
+      "artifact_id": "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/ecc_ram.sv",
+      "release_status": "source_released",
+      "sha256": "a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+    },
+    {
+      "artifact_id": "sha256:a53708fabed843448d654dd8371c0271e9efbdd357da85e3b54daab7b41a0c3e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "a53708fabed843448d654dd8371c0271e9efbdd357da85e3b54daab7b41a0c3e"
+    },
+    {
+      "artifact_id": "sha256:d8a4f83e4f8fdb90c2120abfc9f1651ff0248b26a106201b02c934d84f4dcf16",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "d8a4f83e4f8fdb90c2120abfc9f1651ff0248b26a106201b02c934d84f4dcf16"
+    },
+    {
+      "artifact_id": "sha256:faa3c5b26f93da8c9d2eba0a410a27f01ed8728dde6d4829fa60b55b8d9790be",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "faa3c5b26f93da8c9d2eba0a410a27f01ed8728dde6d4829fa60b55b8d9790be"
+    },
+    {
+      "artifact_id": "sha256:4b2711baf1ff1e7333779e8c95612bfea930af0362fa3ae24fda9cbdc24eb6b1",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "4b2711baf1ff1e7333779e8c95612bfea930af0362fa3ae24fda9cbdc24eb6b1"
+    },
+    {
+      "artifact_id": "sha256:35330252bd70e9b2af71e59ce6f8e9bbea9ac7fcf0c60fd8b0111a6a4a271d1f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "35330252bd70e9b2af71e59ce6f8e9bbea9ac7fcf0c60fd8b0111a6a4a271d1f"
+    },
+    {
+      "artifact_id": "sha256:3aba4e0f393b7676b6fa649636d87f79da1ac05dd0071feff90651c058cfc4fa",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "3aba4e0f393b7676b6fa649636d87f79da1ac05dd0071feff90651c058cfc4fa"
+    },
+    {
+      "artifact_id": "sha256:32ad855f46af9893dafe4535498cf260b1a3deca4ef798331687bb3e8e43016a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "32ad855f46af9893dafe4535498cf260b1a3deca4ef798331687bb3e8e43016a"
+    },
+    {
+      "artifact_id": "sha256:22dbd15f7b3a326539453cf5f06ad9b3ba66c29896893bbdee28739e7f10e524",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "22dbd15f7b3a326539453cf5f06ad9b3ba66c29896893bbdee28739e7f10e524"
+    },
+    {
+      "artifact_id": "sha256:afd9a8c6f9121edb36583b51bd2e6640a67baadf1f08b54fec46daa684465105",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_ecc_ram.sv",
+      "release_status": "source_released",
+      "sha256": "afd9a8c6f9121edb36583b51bd2e6640a67baadf1f08b54fec46daa684465105"
+    },
+    {
+      "artifact_id": "sha256:d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-clock-clk_i",
+      "source": "module:ecc_ram",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-parameter-AddrWidth",
+      "source": "module:ecc_ram",
+      "target": "parameter:ecc_ram.AddrWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-parameter-Depth",
+      "source": "module:ecc_ram",
+      "target": "parameter:ecc_ram.Depth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-addr_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.addr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-clk_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-corrected_o",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.corrected_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-inject_bit_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.inject_bit_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-inject_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.inject_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-rdata_o",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.rdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-req_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.req_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-uncorrectable_o",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.uncorrectable_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-wdata_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.wdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:ecc_ram-port-write_i",
+      "source": "module:ecc_ram",
+      "target": "port:ecc_ram.write_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "edge:project-contains-ecc_ram",
+      "source": "project:ecc_ram",
+      "target": "module:ecc_ram",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6a7ebf1f78493d2c2e30b06c2e46e616e1e0dbd91029dd9f160e81a7e54b5a01"
+      ],
+      "id": "edge:project-license",
+      "source": "project:ecc_ram",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:ecc_ram",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:ecc_ram",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:ecc_ram",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:ecc_ram",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:ecc_ram",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "edge:project-source",
+      "source": "project:ecc_ram",
+      "target": "source_revision:85559fcb89a7f77b",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d8a4f83e4f8fdb90c2120abfc9f1651ff0248b26a106201b02c934d84f4dcf16"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-fault_localization_repair-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:faa3c5b26f93da8c9d2eba0a410a27f01ed8728dde6d4829fa60b55b8d9790be"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-functional_timing_understanding-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4b2711baf1ff1e7333779e8c95612bfea930af0362fa3ae24fda9cbdc24eb6b1"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-hierarchical_rtl_generation-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:35330252bd70e9b2af71e59ce6f8e9bbea9ac7fcf0c60fd8b0111a6a4a271d1f"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-hierarchy_dependency_analysis-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3aba4e0f393b7676b6fa649636d87f79da1ac05dd0071feff90651c058cfc4fa"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-reuse_integration-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:32ad855f46af9893dafe4535498cf260b1a3deca4ef798331687bb3e8e43016a"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-tool_result_analysis-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:22dbd15f7b3a326539453cf5f06ad9b3ba66c29896893bbdee28739e7f10e524"
+      ],
+      "id": "edge:project-task-ipgraph-ecc_ram-verification_generation-0000",
+      "source": "project:ecc_ram",
+      "target": "task:ipgraph:ecc_ram:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:afd9a8c6f9121edb36583b51bd2e6640a67baadf1f08b54fec46daa684465105"
+      ],
+      "id": "edge:project-testbench-20",
+      "source": "project:ecc_ram",
+      "target": "testbench:tb/tb_ecc_ram.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:ecc_ram:85559fcb89a7f77b",
+  "graph_sha256": "3a1c0eaee8f3525baad1f01b7313845fbd0d6e4912e860cf25413419896c3492",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ecc_ram"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "attributes": {
+        "path": "rtl/ecc_ram.sv"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "module:ecc_ram",
+      "label": "ecc_ram",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "parameter:ecc_ram.AddrWidth",
+      "label": "AddrWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "parameter:ecc_ram.Depth",
+      "label": "Depth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[AddrWidth-1:0]addr_i",
+        "direction": "input",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.addr_i",
+      "label": "addr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic corrected_o",
+        "direction": "output",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.corrected_o",
+      "label": "corrected_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[5:0]inject_bit_i",
+        "direction": "input",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.inject_bit_i",
+      "label": "inject_bit_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic inject_i",
+        "direction": "input",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.inject_i",
+      "label": "inject_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic[31:0]rdata_o",
+        "direction": "output",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.rdata_o",
+      "label": "rdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "req_i",
+        "direction": "inout",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.req_i",
+      "label": "req_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "uncorrectable_o",
+        "direction": "inout",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.uncorrectable_o",
+      "label": "uncorrectable_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[31:0]wdata_i",
+        "direction": "input",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.wdata_i",
+      "label": "wdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "write_i",
+        "direction": "inout",
+        "module": "ecc_ram"
+      },
+      "evidence_refs": [
+        "sha256:a29437896ad94b4cb13920439937004641e516d47e5f989dd66b083624057236"
+      ],
+      "id": "port:ecc_ram.write_i",
+      "label": "write_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "memory",
+        "compile_order": [
+          "rtl/ecc_ram.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "ecc_ram"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:ecc_ram",
+      "label": "ecc_ram",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:85559fcb89a7f77b",
+      "label": "85559fcb89a7f77b",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:d8a4f83e4f8fdb90c2120abfc9f1651ff0248b26a106201b02c934d84f4dcf16"
+      ],
+      "id": "task:ipgraph:ecc_ram:fault_localization_repair:0000",
+      "label": "ipgraph:ecc_ram:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:faa3c5b26f93da8c9d2eba0a410a27f01ed8728dde6d4829fa60b55b8d9790be"
+      ],
+      "id": "task:ipgraph:ecc_ram:functional_timing_understanding:0000",
+      "label": "ipgraph:ecc_ram:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:4b2711baf1ff1e7333779e8c95612bfea930af0362fa3ae24fda9cbdc24eb6b1"
+      ],
+      "id": "task:ipgraph:ecc_ram:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:ecc_ram:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:35330252bd70e9b2af71e59ce6f8e9bbea9ac7fcf0c60fd8b0111a6a4a271d1f"
+      ],
+      "id": "task:ipgraph:ecc_ram:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:ecc_ram:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:3aba4e0f393b7676b6fa649636d87f79da1ac05dd0071feff90651c058cfc4fa"
+      ],
+      "id": "task:ipgraph:ecc_ram:reuse_integration:0000",
+      "label": "ipgraph:ecc_ram:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:32ad855f46af9893dafe4535498cf260b1a3deca4ef798331687bb3e8e43016a"
+      ],
+      "id": "task:ipgraph:ecc_ram:tool_result_analysis:0000",
+      "label": "ipgraph:ecc_ram:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:22dbd15f7b3a326539453cf5f06ad9b3ba66c29896893bbdee28739e7f10e524"
+      ],
+      "id": "task:ipgraph:ecc_ram:verification_generation:0000",
+      "label": "ipgraph:ecc_ram:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:afd9a8c6f9121edb36583b51bd2e6640a67baadf1f08b54fec46daa684465105"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:afd9a8c6f9121edb36583b51bd2e6640a67baadf1f08b54fec46daa684465105"
+      ],
+      "id": "testbench:tb/tb_ecc_ram.sv",
+      "label": "tb_ecc_ram.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "verification_obligation:000",
+      "label": "clean read",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "verification_obligation:001",
+      "label": "all 32 single-bit data errors corrected",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "verification_obligation:002",
+      "label": "single parity-bit error detected",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:85559fcb89a7f77bb5bf4d3ed51fdbb6281a953e9f95de3da544fc07a5fd7d7d"
+      ],
+      "id": "verification_obligation:003",
+      "label": "representative double-bit error uncorrectable",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "ecc_ram",
+  "project_revision": "85559fcb89a7f77b",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Given a future failing regression for ecc_ram, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of ecc_ram. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Generate or complete synthesizable SystemVerilog for ecc_ram from its released design contracts. Preserve the hierarchy and interfaces of ecc_ram, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of ecc_ram, including the roles of ecc_ram. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Design a minimal wrapper plan to reuse ecc_ram in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for ecc_ram. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:ecc_ram",
+        "module:ecc_ram"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ecc_ram",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for ecc_ram. It must exercise the obligation: clean read and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "85559fcb89a7f77b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ecc_ram"
+      ],
+      "task_id": "ipgraph:ecc_ram:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:d9baf7e35418546a2ab9b5646c91f268290aae017d599a95a2dbcfc7ab36f696"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

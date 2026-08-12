@@ -1,0 +1,2467 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:e91ad7f20c06ac647ccb7028742ece10aa5f8915dc125fefc98a5caa7915f7a3",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "e91ad7f20c06ac647ccb7028742ece10aa5f8915dc125fefc98a5caa7915f7a3"
+    },
+    {
+      "artifact_id": "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+    },
+    {
+      "artifact_id": "sha256:e61ba345149e3b2235ee9da36e54deb3b11b4a06a266e2820cbec93df1749061",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "e61ba345149e3b2235ee9da36e54deb3b11b4a06a266e2820cbec93df1749061"
+    },
+    {
+      "artifact_id": "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/LogicProbe.sv",
+      "release_status": "source_released",
+      "sha256": "c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+    },
+    {
+      "artifact_id": "sha256:eafffd1a80f98adc626a5d7ab1426c918d9c62cc9cb1514e2cd2a7f51193df77",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "eafffd1a80f98adc626a5d7ab1426c918d9c62cc9cb1514e2cd2a7f51193df77"
+    },
+    {
+      "artifact_id": "sha256:7028f2c277f798d521ac84c742e864ef6a8991d2762a4c09f74050ef594bb405",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "7028f2c277f798d521ac84c742e864ef6a8991d2762a4c09f74050ef594bb405"
+    },
+    {
+      "artifact_id": "sha256:584f5820a68b833dbc8e68c94f4f6f7496c12caadba8036cc43c1a683bcb5a6b",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "584f5820a68b833dbc8e68c94f4f6f7496c12caadba8036cc43c1a683bcb5a6b"
+    },
+    {
+      "artifact_id": "sha256:9f024bdf5c56b629c8a397537875fa5af3ff122c09eb07a5786a7c5591c19033",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "9f024bdf5c56b629c8a397537875fa5af3ff122c09eb07a5786a7c5591c19033"
+    },
+    {
+      "artifact_id": "sha256:9080b899484043c030acb52512842161ff1da7661543a896035d6ab836c96d93",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "9080b899484043c030acb52512842161ff1da7661543a896035d6ab836c96d93"
+    },
+    {
+      "artifact_id": "sha256:f755d9d7dd3f3f9ed1474fad33f07035de8e9075273c33f827e655add9b1087c",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "f755d9d7dd3f3f9ed1474fad33f07035de8e9075273c33f827e655add9b1087c"
+    },
+    {
+      "artifact_id": "sha256:7265db71d6194c64c2b12892b2f0d5c2e3ea2ddaabeea253025d97176ebb88ea",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "7265db71d6194c64c2b12892b2f0d5c2e3ea2ddaabeea253025d97176ebb88ea"
+    },
+    {
+      "artifact_id": "sha256:afc6d2e118c8935fcfbf73b71007b36ded5517e92fd460ef72c19bae7657bf95",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "afc6d2e118c8935fcfbf73b71007b36ded5517e92fd460ef72c19bae7657bf95"
+    },
+    {
+      "artifact_id": "sha256:8d5111d66643c3ae51fc1b6ecd6760468548977285ae29f580269f90ae147c15",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "8d5111d66643c3ae51fc1b6ecd6760468548977285ae29f580269f90ae147c15"
+    },
+    {
+      "artifact_id": "sha256:2aec0b79e06334995a2dc20f4d67564086f18d0edd8d2bd9d5ae64914fa67ac7",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "2aec0b79e06334995a2dc20f4d67564086f18d0edd8d2bd9d5ae64914fa67ac7"
+    },
+    {
+      "artifact_id": "sha256:8e6439ab9d838a829b0a18d1a8e15eca1749a42629cac2d50a2431daf9efb458",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "8e6439ab9d838a829b0a18d1a8e15eca1749a42629cac2d50a2431daf9efb458"
+    },
+    {
+      "artifact_id": "sha256:33df734eb3201212399b04d560a7e920d919ee0921f58a63e952b15bbc0de99d",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "33df734eb3201212399b04d560a7e920d919ee0921f58a63e952b15bbc0de99d"
+    },
+    {
+      "artifact_id": "sha256:5c91257d21a7f1afccdd7089fe4cbbd6434866df969d0756625adc173400f506",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_logicprobe.sv",
+      "release_status": "source_released",
+      "sha256": "5c91257d21a7f1afccdd7089fe4cbbd6434866df969d0756625adc173400f506"
+    },
+    {
+      "artifact_id": "sha256:111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "source_released",
+      "sha256": "111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-clock-clock",
+      "source": "module:LogicProbe",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-channels",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.channels",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-clock",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-reset",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-sample",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.sample",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-serial_out",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.serial_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-port-trigger",
+      "source": "module:LogicProbe",
+      "target": "port:LogicProbe.trigger",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe-reset-reset",
+      "source": "module:LogicProbe",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-clock-clock",
+      "source": "module:LogicProbe_sampler",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-clock",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-data_in",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.data_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-data_out",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.data_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-full",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.full",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-rdaddr",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.rdaddr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-reset",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-sample",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.sample",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-port-trigger",
+      "source": "module:LogicProbe_sampler",
+      "target": "port:LogicProbe_sampler.trigger",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_sampler-reset-reset",
+      "source": "module:LogicProbe_sampler",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-clock-clock",
+      "source": "module:LogicProbe_xmt",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-clock",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-empty",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.empty",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-load",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.load",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-parallel_in",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.parallel_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-reset",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-port-serial_out",
+      "source": "module:LogicProbe_xmt",
+      "target": "port:LogicProbe_xmt.serial_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmt-reset-reset",
+      "source": "module:LogicProbe_xmt",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-clock-clock",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-clock",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-data_in",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.data_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-ready",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.ready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-reset",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-serial_out",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.serial_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-port-write",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "port:LogicProbe_xmtbuf.write",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:LogicProbe_xmtbuf-reset-reset",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.trigger",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.sample",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.data_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.full",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.rdaddr",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "port:LogicProbe_sampler.data_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:LogicProbe",
+      "target": "instance:LogicProbe.sampler:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:LogicProbe.sampler:0",
+      "target": "module:LogicProbe_sampler",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.write",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.ready",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.data_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "port:LogicProbe_xmtbuf.serial_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:LogicProbe",
+      "target": "instance:LogicProbe.xmtbuf:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:LogicProbe.xmtbuf:1",
+      "target": "module:LogicProbe_xmtbuf",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.load",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.empty",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-4",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.parallel_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-connection-5",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "port:LogicProbe_xmt.serial_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:LogicProbe_xmtbuf",
+      "target": "instance:LogicProbe_xmtbuf.xmt:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:LogicProbe_xmtbuf.xmt:2",
+      "target": "module:LogicProbe_xmt",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:project-contains-LogicProbe",
+      "source": "project:logicprobe",
+      "target": "module:LogicProbe",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:project-contains-LogicProbe_sampler",
+      "source": "project:logicprobe",
+      "target": "module:LogicProbe_sampler",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:project-contains-LogicProbe_xmt",
+      "source": "project:logicprobe",
+      "target": "module:LogicProbe_xmt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "edge:project-contains-LogicProbe_xmtbuf",
+      "source": "project:logicprobe",
+      "target": "module:LogicProbe_xmtbuf",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e91ad7f20c06ac647ccb7028742ece10aa5f8915dc125fefc98a5caa7915f7a3"
+      ],
+      "id": "edge:project-license",
+      "source": "project:logicprobe",
+      "target": "license:BSD-2-Clause",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:logicprobe",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:logicprobe",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:logicprobe",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:logicprobe",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:logicprobe",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:logicprobe",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "edge:project-source",
+      "source": "project:logicprobe",
+      "target": "source_revision:025633701d1585af",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7028f2c277f798d521ac84c742e864ef6a8991d2762a4c09f74050ef594bb405"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-cross_module_repair-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:584f5820a68b833dbc8e68c94f4f6f7496c12caadba8036cc43c1a683bcb5a6b"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-cross_module_repair-0001",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9f024bdf5c56b629c8a397537875fa5af3ff122c09eb07a5786a7c5591c19033"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-fault_localization_repair-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9080b899484043c030acb52512842161ff1da7661543a896035d6ab836c96d93"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-functional_timing_understanding-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f755d9d7dd3f3f9ed1474fad33f07035de8e9075273c33f827e655add9b1087c"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-hierarchical_integration-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7265db71d6194c64c2b12892b2f0d5c2e3ea2ddaabeea253025d97176ebb88ea"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-hierarchical_rtl_generation-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:afc6d2e118c8935fcfbf73b71007b36ded5517e92fd460ef72c19bae7657bf95"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-hierarchy_dependency_analysis-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8d5111d66643c3ae51fc1b6ecd6760468548977285ae29f580269f90ae147c15"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-interface_modification-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2aec0b79e06334995a2dc20f4d67564086f18d0edd8d2bd9d5ae64914fa67ac7"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-reuse_integration-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8e6439ab9d838a829b0a18d1a8e15eca1749a42629cac2d50a2431daf9efb458"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-tool_result_analysis-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:33df734eb3201212399b04d560a7e920d919ee0921f58a63e952b15bbc0de99d"
+      ],
+      "id": "edge:project-task-ipgraph-logicprobe-verification_generation-0000",
+      "source": "project:logicprobe",
+      "target": "task:ipgraph:logicprobe:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5c91257d21a7f1afccdd7089fe4cbbd6434866df969d0756625adc173400f506"
+      ],
+      "id": "edge:project-testbench-71",
+      "source": "project:logicprobe",
+      "target": "testbench:tb/tb_logicprobe.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:logicprobe:025633701d1585af",
+  "graph_sha256": "482631e82c2483ffde68df846f643d9814bd5c6bedf6adba0128753e8f167d02",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "LogicProbe",
+          "LogicProbe_sampler",
+          "LogicProbe_xmt",
+          "LogicProbe_xmtbuf"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clock",
+      "label": "clock",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "reset",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "trigger",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "sample",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "channels",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "full",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "rdaddr",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "data",
+            "kind": "ordered",
+            "port": ""
+          }
+        ],
+        "declaration": "sampler(clock, reset, trigger, sample, channels, full, rdaddr, data)",
+        "parent_module": "LogicProbe",
+        "target_module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "instance:LogicProbe.sampler:0",
+      "label": "sampler",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "reset",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "write",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "ready",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "data",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "serial_out",
+            "kind": "ordered",
+            "port": ""
+          }
+        ],
+        "declaration": "xmtbuf(clock, reset, write, ready, data, serial_out)",
+        "parent_module": "LogicProbe",
+        "target_module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "instance:LogicProbe.xmtbuf:1",
+      "label": "xmtbuf",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "reset",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "load",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "empty",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "data_hold",
+            "kind": "ordered",
+            "port": ""
+          },
+          {
+            "expression": "serial_out",
+            "kind": "ordered",
+            "port": ""
+          }
+        ],
+        "declaration": "xmt(clock, reset, load, empty, data_hold, serial_out)",
+        "parent_module": "LogicProbe_xmtbuf",
+        "target_module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "instance:LogicProbe_xmtbuf.xmt:2",
+      "label": "xmt",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:BSD-2-Clause",
+      "label": "BSD-2-Clause",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "attributes": {
+        "path": "rtl/top/LogicProbe.sv"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "module:LogicProbe",
+      "label": "LogicProbe",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "attributes": {
+        "path": "rtl/top/LogicProbe.sv"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "module:LogicProbe_sampler",
+      "label": "LogicProbe_sampler",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "attributes": {
+        "path": "rtl/top/LogicProbe.sv"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "module:LogicProbe_xmt",
+      "label": "LogicProbe_xmt",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "attributes": {
+        "path": "rtl/top/LogicProbe.sv"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "module:LogicProbe_xmtbuf",
+      "label": "LogicProbe_xmtbuf",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [127:0] channels",
+        "direction": "input",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.channels",
+      "label": "channels",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic sample",
+        "direction": "input",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.sample",
+      "label": "sample",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic serial_out",
+        "direction": "output",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.serial_out",
+      "label": "serial_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic trigger",
+        "direction": "input",
+        "module": "LogicProbe"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe.trigger",
+      "label": "trigger",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [127:0] data_in",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.data_in",
+      "label": "data_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [7:0] data_out",
+        "direction": "output",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.data_out",
+      "label": "data_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic full",
+        "direction": "output",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.full",
+      "label": "full",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [12:0] rdaddr",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.rdaddr",
+      "label": "rdaddr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic sample",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.sample",
+      "label": "sample",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic trigger",
+        "direction": "input",
+        "module": "LogicProbe_sampler"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_sampler.trigger",
+      "label": "trigger",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic empty",
+        "direction": "output",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.empty",
+      "label": "empty",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic load",
+        "direction": "input",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.load",
+      "label": "load",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [7:0] parallel_in",
+        "direction": "input",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.parallel_in",
+      "label": "parallel_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic serial_out",
+        "direction": "output",
+        "module": "LogicProbe_xmt"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmt.serial_out",
+      "label": "serial_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [7:0] data_in",
+        "direction": "input",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.data_in",
+      "label": "data_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ready",
+        "direction": "output",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.ready",
+      "label": "ready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic serial_out",
+        "direction": "output",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.serial_out",
+      "label": "serial_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic write",
+        "direction": "input",
+        "module": "LogicProbe_xmtbuf"
+      },
+      "evidence_refs": [
+        "sha256:c9bd0f306c07837a777dad3488ccaba9ef73c0eb65db0336b7fd91659385f16c"
+      ],
+      "id": "port:LogicProbe_xmtbuf.write",
+      "label": "write",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "verification",
+        "compile_order": [
+          "rtl/top/LogicProbe.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "LogicProbe"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:logicprobe",
+      "label": "logicprobe",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "LogicProbe",
+          "LogicProbe_sampler",
+          "LogicProbe_xmt",
+          "LogicProbe_xmtbuf"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset",
+      "label": "reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:025633701d1585af",
+      "label": "025633701d1585af",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:7028f2c277f798d521ac84c742e864ef6a8991d2762a4c09f74050ef594bb405"
+      ],
+      "id": "task:ipgraph:logicprobe:cross_module_repair:0000",
+      "label": "ipgraph:logicprobe:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:584f5820a68b833dbc8e68c94f4f6f7496c12caadba8036cc43c1a683bcb5a6b"
+      ],
+      "id": "task:ipgraph:logicprobe:cross_module_repair:0001",
+      "label": "ipgraph:logicprobe:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:9f024bdf5c56b629c8a397537875fa5af3ff122c09eb07a5786a7c5591c19033"
+      ],
+      "id": "task:ipgraph:logicprobe:fault_localization_repair:0000",
+      "label": "ipgraph:logicprobe:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:9080b899484043c030acb52512842161ff1da7661543a896035d6ab836c96d93"
+      ],
+      "id": "task:ipgraph:logicprobe:functional_timing_understanding:0000",
+      "label": "ipgraph:logicprobe:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:f755d9d7dd3f3f9ed1474fad33f07035de8e9075273c33f827e655add9b1087c"
+      ],
+      "id": "task:ipgraph:logicprobe:hierarchical_integration:0000",
+      "label": "ipgraph:logicprobe:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:7265db71d6194c64c2b12892b2f0d5c2e3ea2ddaabeea253025d97176ebb88ea"
+      ],
+      "id": "task:ipgraph:logicprobe:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:logicprobe:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:afc6d2e118c8935fcfbf73b71007b36ded5517e92fd460ef72c19bae7657bf95"
+      ],
+      "id": "task:ipgraph:logicprobe:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:logicprobe:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:8d5111d66643c3ae51fc1b6ecd6760468548977285ae29f580269f90ae147c15"
+      ],
+      "id": "task:ipgraph:logicprobe:interface_modification:0000",
+      "label": "ipgraph:logicprobe:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:2aec0b79e06334995a2dc20f4d67564086f18d0edd8d2bd9d5ae64914fa67ac7"
+      ],
+      "id": "task:ipgraph:logicprobe:reuse_integration:0000",
+      "label": "ipgraph:logicprobe:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:8e6439ab9d838a829b0a18d1a8e15eca1749a42629cac2d50a2431daf9efb458"
+      ],
+      "id": "task:ipgraph:logicprobe:tool_result_analysis:0000",
+      "label": "ipgraph:logicprobe:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:33df734eb3201212399b04d560a7e920d919ee0921f58a63e952b15bbc0de99d"
+      ],
+      "id": "task:ipgraph:logicprobe:verification_generation:0000",
+      "label": "ipgraph:logicprobe:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:5c91257d21a7f1afccdd7089fe4cbbd6434866df969d0756625adc173400f506"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:5c91257d21a7f1afccdd7089fe4cbbd6434866df969d0756625adc173400f506"
+      ],
+      "id": "testbench:tb/tb_logicprobe.sv",
+      "label": "tb_logicprobe.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "verification_obligation:000",
+      "label": "512-sample capture reaches full",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "verification_obligation:001",
+      "label": "16/16 byte read mux mapping",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "verification_obligation:002",
+      "label": "UART start plus 8 LSB-first data bits",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "verification_obligation:003",
+      "label": "1303-clock UART bit timing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:025633701d1585afad42dc1ec33f9a771d23b9b08ce951a67bd1537e23dd938e"
+      ],
+      "id": "verification_obligation:004",
+      "label": "four-module hierarchy elaboration",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "logicprobe",
+  "project_revision": "025633701d1585af",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in logicprobe. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in logicprobe. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Given a future failing regression for logicprobe, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of logicprobe. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Create a DesignGraph integration plan for logicprobe that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Generate or complete synthesizable SystemVerilog for logicprobe from its released design contracts. Preserve the hierarchy and interfaces of LogicProbe, LogicProbe_sampler, LogicProbe_xmt, LogicProbe_xmtbuf, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of logicprobe, including the roles of LogicProbe, LogicProbe_sampler, LogicProbe_xmt, LogicProbe_xmtbuf. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Plan a cross-module interface modification for logicprobe. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Design a minimal wrapper plan to reuse logicprobe in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for logicprobe. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:logicprobe",
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "logicprobe",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for logicprobe. It must exercise the obligation: 512-sample capture reaches full and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "025633701d1585af",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:LogicProbe",
+        "module:LogicProbe_sampler",
+        "module:LogicProbe_xmt",
+        "module:LogicProbe_xmtbuf"
+      ],
+      "task_id": "ipgraph:logicprobe:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:111dab576a3f329f5011cb4392f3d1a8b815bfcbab159e317da2e2f4b724bb18"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

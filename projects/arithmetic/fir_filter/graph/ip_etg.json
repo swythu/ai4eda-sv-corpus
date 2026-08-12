@@ -1,0 +1,1212 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:258209531b2a912f4300d3b71eac90b717860f1432f7f5742360d0ab841d859e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "258209531b2a912f4300d3b71eac90b717860f1432f7f5742360d0ab841d859e"
+    },
+    {
+      "artifact_id": "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+    },
+    {
+      "artifact_id": "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/fir_filter.sv",
+      "release_status": "source_released",
+      "sha256": "3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+    },
+    {
+      "artifact_id": "sha256:147efe2cc59a23cf38b17bf1971ca7a35d7d4fed8acd914062f5e48570300427",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "147efe2cc59a23cf38b17bf1971ca7a35d7d4fed8acd914062f5e48570300427"
+    },
+    {
+      "artifact_id": "sha256:1b3432b1fb077145fa9e4b1631b0a63a7106f1478f15269bd8ef7138053fef30",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "1b3432b1fb077145fa9e4b1631b0a63a7106f1478f15269bd8ef7138053fef30"
+    },
+    {
+      "artifact_id": "sha256:c458aaf19faed5d10c15efd21408f6125c5048255beb7e5d69738bc5df2b0d9c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "c458aaf19faed5d10c15efd21408f6125c5048255beb7e5d69738bc5df2b0d9c"
+    },
+    {
+      "artifact_id": "sha256:8ad2508e028e50bdddfa601ed7ba07ab60d05dfc7068db0d53b90c3b11299d4d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "8ad2508e028e50bdddfa601ed7ba07ab60d05dfc7068db0d53b90c3b11299d4d"
+    },
+    {
+      "artifact_id": "sha256:a56e18f2b16bcedc78c043dda43430978fc7a671ec7cb530f091ea42835656fa",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "a56e18f2b16bcedc78c043dda43430978fc7a671ec7cb530f091ea42835656fa"
+    },
+    {
+      "artifact_id": "sha256:a6d24c286f4aef9e5b39ad34c5b2abf912298392463e549fd8c0604f27faf8b9",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "a6d24c286f4aef9e5b39ad34c5b2abf912298392463e549fd8c0604f27faf8b9"
+    },
+    {
+      "artifact_id": "sha256:755a7c451b8bec2ba319a07ab03bc01886e3ddfcfa394364c6f96bffec4cbebc",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "755a7c451b8bec2ba319a07ab03bc01886e3ddfcfa394364c6f96bffec4cbebc"
+    },
+    {
+      "artifact_id": "sha256:7b75a78d9a3b808fd87e3ec54b1b256e7a1620d9fb79a5bf0dc0acb44303fd73",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "7b75a78d9a3b808fd87e3ec54b1b256e7a1620d9fb79a5bf0dc0acb44303fd73"
+    },
+    {
+      "artifact_id": "sha256:d683a7cb7f97bfbda9bd8e12c229ab022c5f6c25f6279b4d40c0a28107926b7a",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_fir_filter.sv",
+      "release_status": "source_released",
+      "sha256": "d683a7cb7f97bfbda9bd8e12c229ab022c5f6c25f6279b4d40c0a28107926b7a"
+    },
+    {
+      "artifact_id": "sha256:a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-clock-clk_i",
+      "source": "module:fir_filter",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-C0",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.C0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-C1",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.C1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-C2",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.C2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-C3",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.C3",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-CW",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.CW",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-OW",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.OW",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-parameter-W",
+      "source": "module:fir_filter",
+      "target": "parameter:fir_filter.W",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-clk_i",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-rst_ni",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-sample_i",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.sample_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-sample_o",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.sample_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-valid_i",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.valid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-port-valid_o",
+      "source": "module:fir_filter",
+      "target": "port:fir_filter.valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:fir_filter-reset-rst_ni",
+      "source": "module:fir_filter",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "edge:project-contains-fir_filter",
+      "source": "project:fir_filter",
+      "target": "module:fir_filter",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:258209531b2a912f4300d3b71eac90b717860f1432f7f5742360d0ab841d859e"
+      ],
+      "id": "edge:project-license",
+      "source": "project:fir_filter",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:fir_filter",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:fir_filter",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:fir_filter",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:fir_filter",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:fir_filter",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "edge:project-source",
+      "source": "project:fir_filter",
+      "target": "source_revision:e6dddfe6a4a0d274",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1b3432b1fb077145fa9e4b1631b0a63a7106f1478f15269bd8ef7138053fef30"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-fault_localization_repair-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c458aaf19faed5d10c15efd21408f6125c5048255beb7e5d69738bc5df2b0d9c"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-functional_timing_understanding-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ad2508e028e50bdddfa601ed7ba07ab60d05dfc7068db0d53b90c3b11299d4d"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-hierarchical_rtl_generation-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a56e18f2b16bcedc78c043dda43430978fc7a671ec7cb530f091ea42835656fa"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-hierarchy_dependency_analysis-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a6d24c286f4aef9e5b39ad34c5b2abf912298392463e549fd8c0604f27faf8b9"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-reuse_integration-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:755a7c451b8bec2ba319a07ab03bc01886e3ddfcfa394364c6f96bffec4cbebc"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-tool_result_analysis-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7b75a78d9a3b808fd87e3ec54b1b256e7a1620d9fb79a5bf0dc0acb44303fd73"
+      ],
+      "id": "edge:project-task-ipgraph-fir_filter-verification_generation-0000",
+      "source": "project:fir_filter",
+      "target": "task:ipgraph:fir_filter:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d683a7cb7f97bfbda9bd8e12c229ab022c5f6c25f6279b4d40c0a28107926b7a"
+      ],
+      "id": "edge:project-testbench-22",
+      "source": "project:fir_filter",
+      "target": "testbench:tb/tb_fir_filter.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:fir_filter:e6dddfe6a4a0d274",
+  "graph_sha256": "e9c6bf4449c06cab64e3a1b294ad330efbf91641cdaf935210ca8df4c143d6f0",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "fir_filter"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "attributes": {
+        "path": "rtl/fir_filter.sv"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "module:fir_filter",
+      "label": "fir_filter",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.C0",
+      "label": "C0",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.C1",
+      "label": "C1",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.C2",
+      "label": "C2",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.C3",
+      "label": "C3",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.CW",
+      "label": "CW",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.OW",
+      "label": "OW",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "parameter:fir_filter.W",
+      "label": "W",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic signed [W-1:0] sample_i",
+        "direction": "input",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.sample_i",
+      "label": "sample_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic signed [OW-1:0] sample_o",
+        "direction": "output",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.sample_o",
+      "label": "sample_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic valid_i",
+        "direction": "input",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.valid_i",
+      "label": "valid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid_o",
+        "direction": "output",
+        "module": "fir_filter"
+      },
+      "evidence_refs": [
+        "sha256:3478dcd8a358c6ffaa982b339a4b10379c97624d29afd55408a3d2645db294b8"
+      ],
+      "id": "port:fir_filter.valid_o",
+      "label": "valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/fir_filter.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "fir_filter"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:fir_filter",
+      "label": "fir_filter",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "fir_filter"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:e6dddfe6a4a0d274",
+      "label": "e6dddfe6a4a0d274",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:1b3432b1fb077145fa9e4b1631b0a63a7106f1478f15269bd8ef7138053fef30"
+      ],
+      "id": "task:ipgraph:fir_filter:fault_localization_repair:0000",
+      "label": "ipgraph:fir_filter:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:c458aaf19faed5d10c15efd21408f6125c5048255beb7e5d69738bc5df2b0d9c"
+      ],
+      "id": "task:ipgraph:fir_filter:functional_timing_understanding:0000",
+      "label": "ipgraph:fir_filter:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:8ad2508e028e50bdddfa601ed7ba07ab60d05dfc7068db0d53b90c3b11299d4d"
+      ],
+      "id": "task:ipgraph:fir_filter:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:fir_filter:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:a56e18f2b16bcedc78c043dda43430978fc7a671ec7cb530f091ea42835656fa"
+      ],
+      "id": "task:ipgraph:fir_filter:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:fir_filter:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:a6d24c286f4aef9e5b39ad34c5b2abf912298392463e549fd8c0604f27faf8b9"
+      ],
+      "id": "task:ipgraph:fir_filter:reuse_integration:0000",
+      "label": "ipgraph:fir_filter:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:755a7c451b8bec2ba319a07ab03bc01886e3ddfcfa394364c6f96bffec4cbebc"
+      ],
+      "id": "task:ipgraph:fir_filter:tool_result_analysis:0000",
+      "label": "ipgraph:fir_filter:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:7b75a78d9a3b808fd87e3ec54b1b256e7a1620d9fb79a5bf0dc0acb44303fd73"
+      ],
+      "id": "task:ipgraph:fir_filter:verification_generation:0000",
+      "label": "ipgraph:fir_filter:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d683a7cb7f97bfbda9bd8e12c229ab022c5f6c25f6279b4d40c0a28107926b7a"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:d683a7cb7f97bfbda9bd8e12c229ab022c5f6c25f6279b4d40c0a28107926b7a"
+      ],
+      "id": "testbench:tb/tb_fir_filter.sv",
+      "label": "tb_fir_filter.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "verification_obligation:000",
+      "label": "impulse response",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "verification_obligation:001",
+      "label": "signed samples",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "verification_obligation:002",
+      "label": "valid bubbles",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:e6dddfe6a4a0d274961f172aa0b8bf9ff37ed0de2471c156451907d38405613f"
+      ],
+      "id": "verification_obligation:003",
+      "label": "reset history",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "fir_filter",
+  "project_revision": "e6dddfe6a4a0d274",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Given a future failing regression for fir_filter, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of fir_filter. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Generate or complete synthesizable SystemVerilog for fir_filter from its released design contracts. Preserve the hierarchy and interfaces of fir_filter, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of fir_filter, including the roles of fir_filter. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Design a minimal wrapper plan to reuse fir_filter in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for fir_filter. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:fir_filter",
+        "module:fir_filter"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fir_filter",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for fir_filter. It must exercise the obligation: impulse response and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "e6dddfe6a4a0d274",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:fir_filter"
+      ],
+      "task_id": "ipgraph:fir_filter:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:a7a0a018e091f391a9cf33302883479f7ce8fb804f9483164ee5789c36076c28"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

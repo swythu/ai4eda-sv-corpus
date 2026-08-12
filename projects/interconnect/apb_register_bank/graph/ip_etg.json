@@ -1,0 +1,1203 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:64b85f89f25d33c08d08b8408eed28f38384bf78625321acc64bbf9320855a41",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "64b85f89f25d33c08d08b8408eed28f38384bf78625321acc64bbf9320855a41"
+    },
+    {
+      "artifact_id": "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+    },
+    {
+      "artifact_id": "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/apb_register_bank.sv",
+      "release_status": "source_released",
+      "sha256": "9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+    },
+    {
+      "artifact_id": "sha256:3254ed4350e2f9f042072de10ae507cc1b5d71ccbf9762693eeb799c501ca01e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "3254ed4350e2f9f042072de10ae507cc1b5d71ccbf9762693eeb799c501ca01e"
+    },
+    {
+      "artifact_id": "sha256:627d53ed0970a9126e3856627d718b986f7d2a3950dc0b3a56ec80a1b390dc51",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "627d53ed0970a9126e3856627d718b986f7d2a3950dc0b3a56ec80a1b390dc51"
+    },
+    {
+      "artifact_id": "sha256:2f640afe4b127ef41cbb56de0bcb2f09a0e7a70ef72874d2f029d22491c32872",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "2f640afe4b127ef41cbb56de0bcb2f09a0e7a70ef72874d2f029d22491c32872"
+    },
+    {
+      "artifact_id": "sha256:4095613866bc5ef916a9b9b7de3f917c7e5d1163ad0e6d013c68fd58c4b6540d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "4095613866bc5ef916a9b9b7de3f917c7e5d1163ad0e6d013c68fd58c4b6540d"
+    },
+    {
+      "artifact_id": "sha256:b6574a749255cf5cd05bc6f23d32573a4663838b0637b2a77e73f52e2e3cd664",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "b6574a749255cf5cd05bc6f23d32573a4663838b0637b2a77e73f52e2e3cd664"
+    },
+    {
+      "artifact_id": "sha256:8c73bd5101a4325bc949a63311a2a5479abbffbb5650cb923903d02b7775d3f9",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "8c73bd5101a4325bc949a63311a2a5479abbffbb5650cb923903d02b7775d3f9"
+    },
+    {
+      "artifact_id": "sha256:628cee0270f807b301209155a0990d13bc67a3b1c1fc8e118da0a570a9bfab92",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "628cee0270f807b301209155a0990d13bc67a3b1c1fc8e118da0a570a9bfab92"
+    },
+    {
+      "artifact_id": "sha256:9622590d932353e96021419380fe34e9a2ee9a35f0b18765306758dc8f0160d5",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "9622590d932353e96021419380fe34e9a2ee9a35f0b18765306758dc8f0160d5"
+    },
+    {
+      "artifact_id": "sha256:12101e24051dbdfe636a1840694d08ad2874c033092fad658f0a8affe9b8a1e6",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_apb_register_bank.sv",
+      "release_status": "source_released",
+      "sha256": "12101e24051dbdfe636a1840694d08ad2874c033092fad658f0a8affe9b8a1e6"
+    },
+    {
+      "artifact_id": "sha256:4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-control_o",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.control_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-paddr_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.paddr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pclk_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pclk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-penable_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.penable_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-prdata_o",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.prdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pready_o",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-preset_ni",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.preset_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-psel_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.psel_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pslverr_o",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pslverr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pstrb_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pstrb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pwdata_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pwdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-pwrite_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.pwrite_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-port-status_i",
+      "source": "module:apb_register_bank",
+      "target": "port:apb_register_bank.status_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:apb_register_bank-reset-preset_ni",
+      "source": "module:apb_register_bank",
+      "target": "reset_domain:preset_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "edge:project-contains-apb_register_bank",
+      "source": "project:apb_register_bank",
+      "target": "module:apb_register_bank",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:64b85f89f25d33c08d08b8408eed28f38384bf78625321acc64bbf9320855a41"
+      ],
+      "id": "edge:project-license",
+      "source": "project:apb_register_bank",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:apb_register_bank",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:apb_register_bank",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:apb_register_bank",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:apb_register_bank",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:apb_register_bank",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "edge:project-source",
+      "source": "project:apb_register_bank",
+      "target": "source_revision:aeed458a7a42d92e",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:627d53ed0970a9126e3856627d718b986f7d2a3950dc0b3a56ec80a1b390dc51"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-fault_localization_repair-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2f640afe4b127ef41cbb56de0bcb2f09a0e7a70ef72874d2f029d22491c32872"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-functional_timing_understanding-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4095613866bc5ef916a9b9b7de3f917c7e5d1163ad0e6d013c68fd58c4b6540d"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-hierarchical_rtl_generation-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b6574a749255cf5cd05bc6f23d32573a4663838b0637b2a77e73f52e2e3cd664"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-hierarchy_dependency_analysis-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8c73bd5101a4325bc949a63311a2a5479abbffbb5650cb923903d02b7775d3f9"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-reuse_integration-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:628cee0270f807b301209155a0990d13bc67a3b1c1fc8e118da0a570a9bfab92"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-tool_result_analysis-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9622590d932353e96021419380fe34e9a2ee9a35f0b18765306758dc8f0160d5"
+      ],
+      "id": "edge:project-task-ipgraph-apb_register_bank-verification_generation-0000",
+      "source": "project:apb_register_bank",
+      "target": "task:ipgraph:apb_register_bank:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:12101e24051dbdfe636a1840694d08ad2874c033092fad658f0a8affe9b8a1e6"
+      ],
+      "id": "edge:project-testbench-21",
+      "source": "project:apb_register_bank",
+      "target": "testbench:tb/tb_apb_register_bank.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:apb_register_bank:aeed458a7a42d92e",
+  "graph_sha256": "888557164a1a5e3c6fafde0a1b3d03f8c9134a0273c4dc2f62c6767b3b830e8d",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "attributes": {
+        "path": "rtl/apb_register_bank.sv"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "module:apb_register_bank",
+      "label": "apb_register_bank",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] control_o",
+        "direction": "output",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.control_o",
+      "label": "control_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [7:0] paddr_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.paddr_i",
+      "label": "paddr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic pclk_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pclk_i",
+      "label": "pclk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic penable_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.penable_i",
+      "label": "penable_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] prdata_o",
+        "direction": "output",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.prdata_o",
+      "label": "prdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic pready_o",
+        "direction": "output",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pready_o",
+      "label": "pready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic preset_ni",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.preset_ni",
+      "label": "preset_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic psel_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.psel_i",
+      "label": "psel_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic pslverr_o",
+        "direction": "output",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pslverr_o",
+      "label": "pslverr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [3:0] pstrb_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pstrb_i",
+      "label": "pstrb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] pwdata_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pwdata_i",
+      "label": "pwdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic pwrite_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.pwrite_i",
+      "label": "pwrite_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] status_i",
+        "direction": "input",
+        "module": "apb_register_bank"
+      },
+      "evidence_refs": [
+        "sha256:9275fbfa3abd25b76ba624da8a16882acef29369936b6b1dd881f77aa6c2dc1c"
+      ],
+      "id": "port:apb_register_bank.status_i",
+      "label": "status_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/apb_register_bank.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "apb_register_bank"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:apb_register_bank",
+      "label": "apb_register_bank",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "protocol_contract:apb",
+      "label": "APB",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "apb_register_bank"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:preset_ni",
+      "label": "preset_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:aeed458a7a42d92e",
+      "label": "aeed458a7a42d92e",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:627d53ed0970a9126e3856627d718b986f7d2a3950dc0b3a56ec80a1b390dc51"
+      ],
+      "id": "task:ipgraph:apb_register_bank:fault_localization_repair:0000",
+      "label": "ipgraph:apb_register_bank:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:2f640afe4b127ef41cbb56de0bcb2f09a0e7a70ef72874d2f029d22491c32872"
+      ],
+      "id": "task:ipgraph:apb_register_bank:functional_timing_understanding:0000",
+      "label": "ipgraph:apb_register_bank:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:4095613866bc5ef916a9b9b7de3f917c7e5d1163ad0e6d013c68fd58c4b6540d"
+      ],
+      "id": "task:ipgraph:apb_register_bank:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:apb_register_bank:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:b6574a749255cf5cd05bc6f23d32573a4663838b0637b2a77e73f52e2e3cd664"
+      ],
+      "id": "task:ipgraph:apb_register_bank:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:apb_register_bank:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:8c73bd5101a4325bc949a63311a2a5479abbffbb5650cb923903d02b7775d3f9"
+      ],
+      "id": "task:ipgraph:apb_register_bank:reuse_integration:0000",
+      "label": "ipgraph:apb_register_bank:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:628cee0270f807b301209155a0990d13bc67a3b1c1fc8e118da0a570a9bfab92"
+      ],
+      "id": "task:ipgraph:apb_register_bank:tool_result_analysis:0000",
+      "label": "ipgraph:apb_register_bank:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:9622590d932353e96021419380fe34e9a2ee9a35f0b18765306758dc8f0160d5"
+      ],
+      "id": "task:ipgraph:apb_register_bank:verification_generation:0000",
+      "label": "ipgraph:apb_register_bank:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:12101e24051dbdfe636a1840694d08ad2874c033092fad658f0a8affe9b8a1e6"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:12101e24051dbdfe636a1840694d08ad2874c033092fad658f0a8affe9b8a1e6"
+      ],
+      "id": "testbench:tb/tb_apb_register_bank.sv",
+      "label": "tb_apb_register_bank.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "verification_obligation:000",
+      "label": "APB setup/access timing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "verification_obligation:001",
+      "label": "byte strobes",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "verification_obligation:002",
+      "label": "read-only status",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:aeed458a7a42d92e7baf04ff8ea766c98052bd34deb62c149993b696a572eac2"
+      ],
+      "id": "verification_obligation:003",
+      "label": "invalid address error",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "apb_register_bank",
+  "project_revision": "aeed458a7a42d92e",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Given a future failing regression for apb_register_bank, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of apb_register_bank. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Generate or complete synthesizable SystemVerilog for apb_register_bank from its released design contracts. Preserve the hierarchy and interfaces of apb_register_bank, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of apb_register_bank, including the roles of apb_register_bank. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Design a minimal wrapper plan to reuse apb_register_bank in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for apb_register_bank. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:apb_register_bank",
+        "module:apb_register_bank"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "apb_register_bank",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for apb_register_bank. It must exercise the obligation: APB setup/access timing and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "aeed458a7a42d92e",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:apb_register_bank"
+      ],
+      "task_id": "ipgraph:apb_register_bank:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:4995ba16146503e8f183d6d19124066b1761ee96f92a4dc22a14909ccf5bc038"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

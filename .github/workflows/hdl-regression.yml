@@ -10,4 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - run: sudo apt-get update && sudo apt-get install -y iverilog verilator
+      - run: python3 -m pip install -r requirements-dev.txt
+      - run: python3 tools/run_ipgraph_checks.py
       - run: python3 tools/run_all.py

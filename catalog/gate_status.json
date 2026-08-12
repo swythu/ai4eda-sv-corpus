@@ -1,0 +1,38 @@
+{
+  "automated_engineering_gate": {
+    "projects": 40,
+    "quality_counts": {
+      "Q2": 39,
+      "Q3": 1
+    },
+    "splits_locked": true,
+    "status": "pass",
+    "task_candidates": 389
+  },
+  "expert_review_gate": {
+    "required_review_records": 200,
+    "required_tasks": 100,
+    "status": "pending",
+    "tasks_with_two_independent_reviewers": 0,
+    "valid_review_records": 0
+  },
+  "license_gate": {
+    "note": "metadata_only entries may remain catalogued, but pending_review source cannot enter a final public source release.",
+    "release_status_counts": {
+      "metadata_only": 12,
+      "source_released": 28
+    },
+    "status": "pass"
+  },
+  "mutation_gate": {
+    "note": "Only task records backed by a passing campaign may be promoted to Q3.",
+    "projects_with_summary": 1,
+    "q3_train_tasks": 4,
+    "status": "pass",
+    "train_tasks": 221
+  },
+  "overall_status": "blocked",
+  "paper_training_approved": false,
+  "release_target": "v0.1.0",
+  "schema_version": "ipgraph-release-gates/v1"
+}

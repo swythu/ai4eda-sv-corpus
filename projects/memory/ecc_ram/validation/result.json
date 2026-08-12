@@ -1,0 +1,1 @@
+{"project":"ecc_ram","status":"pass","compile":"pass","simulation":"pass","test_level":"self_checking_functional","lint_errors":0,"checks":["SECDED clean","single correction","double detection"]}

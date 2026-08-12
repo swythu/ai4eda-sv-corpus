@@ -1,0 +1,1 @@
+{"project":"ready_valid_checker","category":"verification","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["payload stability violation","valid withdrawal violation","sticky error and clear","legal transfer"],"expert_review":"pending","trainable":false}

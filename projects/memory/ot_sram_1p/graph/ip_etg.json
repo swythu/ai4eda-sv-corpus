@@ -1,0 +1,1169 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:a0d030ad43125ae9d579c1f9f21553f025538b07e52c0737a1c463854de4e7c8",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "a0d030ad43125ae9d579c1f9f21553f025538b07e52c0737a1c463854de4e7c8"
+    },
+    {
+      "artifact_id": "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+    },
+    {
+      "artifact_id": "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/ot_sram_1p.sv",
+      "release_status": "source_released",
+      "sha256": "2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+    },
+    {
+      "artifact_id": "sha256:0082cd770796992a8c5564651012d0d72366677a63cbf1aaf385ac765605f7ad",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "0082cd770796992a8c5564651012d0d72366677a63cbf1aaf385ac765605f7ad"
+    },
+    {
+      "artifact_id": "sha256:2f8fa69edb355b42ffe89f0f809dce4150509bcc7c4384924e4aad9435c9c8d7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "2f8fa69edb355b42ffe89f0f809dce4150509bcc7c4384924e4aad9435c9c8d7"
+    },
+    {
+      "artifact_id": "sha256:75e3529d20c9b8a07ad15192fa866f5e56288bacf9665706600f4307b73af98c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "75e3529d20c9b8a07ad15192fa866f5e56288bacf9665706600f4307b73af98c"
+    },
+    {
+      "artifact_id": "sha256:a884f0d37c7046ae4adc56324cbb0e28b2e088b8d6b9273ad9fdcaa90d111b1a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "a884f0d37c7046ae4adc56324cbb0e28b2e088b8d6b9273ad9fdcaa90d111b1a"
+    },
+    {
+      "artifact_id": "sha256:7f5603e21e2a7c83b506618c41bf3b58aacf0b47a568b964434b67f4ce0d9fc7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "7f5603e21e2a7c83b506618c41bf3b58aacf0b47a568b964434b67f4ce0d9fc7"
+    },
+    {
+      "artifact_id": "sha256:2904bea16359db4bf1de61f337c25f40139bd8dbebea748cf81dfb5e6c0c7414",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "2904bea16359db4bf1de61f337c25f40139bd8dbebea748cf81dfb5e6c0c7414"
+    },
+    {
+      "artifact_id": "sha256:7dfab25c8f3dec2425a557b5689eb1f4f3dacb0b3de4303365433af49bc9a7fe",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "7dfab25c8f3dec2425a557b5689eb1f4f3dacb0b3de4303365433af49bc9a7fe"
+    },
+    {
+      "artifact_id": "sha256:10e03af3c0ba6b7207f5482518aee5c9ae4f0a81130898564ab478345b932162",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "10e03af3c0ba6b7207f5482518aee5c9ae4f0a81130898564ab478345b932162"
+    },
+    {
+      "artifact_id": "sha256:20f543f1315e96c540176dcdff83a3c372b92d4be0a426e0cda73aeea5c6d261",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_ot_sram_1p.sv",
+      "release_status": "source_released",
+      "sha256": "20f543f1315e96c540176dcdff83a3c372b92d4be0a426e0cda73aeea5c6d261"
+    },
+    {
+      "artifact_id": "sha256:ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-clock-clk_i",
+      "source": "module:ot_sram_1p",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-parameter-AddrWidth",
+      "source": "module:ot_sram_1p",
+      "target": "parameter:ot_sram_1p.AddrWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-parameter-DataBitsPerMask",
+      "source": "module:ot_sram_1p",
+      "target": "parameter:ot_sram_1p.DataBitsPerMask",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-parameter-Depth",
+      "source": "module:ot_sram_1p",
+      "target": "parameter:ot_sram_1p.Depth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-parameter-MaskWidth",
+      "source": "module:ot_sram_1p",
+      "target": "parameter:ot_sram_1p.MaskWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-parameter-Width",
+      "source": "module:ot_sram_1p",
+      "target": "parameter:ot_sram_1p.Width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-addr_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.addr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-clk_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-rdata_o",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.rdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-req_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.req_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-wdata_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.wdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-wmask_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.wmask_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:ot_sram_1p-port-write_i",
+      "source": "module:ot_sram_1p",
+      "target": "port:ot_sram_1p.write_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "edge:project-contains-ot_sram_1p",
+      "source": "project:ot_sram_1p",
+      "target": "module:ot_sram_1p",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a0d030ad43125ae9d579c1f9f21553f025538b07e52c0737a1c463854de4e7c8"
+      ],
+      "id": "edge:project-license",
+      "source": "project:ot_sram_1p",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:ot_sram_1p",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:ot_sram_1p",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:ot_sram_1p",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:ot_sram_1p",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:ot_sram_1p",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "edge:project-source",
+      "source": "project:ot_sram_1p",
+      "target": "source_revision:b027ca4652a67213",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2f8fa69edb355b42ffe89f0f809dce4150509bcc7c4384924e4aad9435c9c8d7"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-fault_localization_repair-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:75e3529d20c9b8a07ad15192fa866f5e56288bacf9665706600f4307b73af98c"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-functional_timing_understanding-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a884f0d37c7046ae4adc56324cbb0e28b2e088b8d6b9273ad9fdcaa90d111b1a"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-hierarchical_rtl_generation-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7f5603e21e2a7c83b506618c41bf3b58aacf0b47a568b964434b67f4ce0d9fc7"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-hierarchy_dependency_analysis-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2904bea16359db4bf1de61f337c25f40139bd8dbebea748cf81dfb5e6c0c7414"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-reuse_integration-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7dfab25c8f3dec2425a557b5689eb1f4f3dacb0b3de4303365433af49bc9a7fe"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-tool_result_analysis-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:10e03af3c0ba6b7207f5482518aee5c9ae4f0a81130898564ab478345b932162"
+      ],
+      "id": "edge:project-task-ipgraph-ot_sram_1p-verification_generation-0000",
+      "source": "project:ot_sram_1p",
+      "target": "task:ipgraph:ot_sram_1p:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:20f543f1315e96c540176dcdff83a3c372b92d4be0a426e0cda73aeea5c6d261"
+      ],
+      "id": "edge:project-testbench-20",
+      "source": "project:ot_sram_1p",
+      "target": "testbench:tb/tb_ot_sram_1p.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:ot_sram_1p:b027ca4652a67213",
+  "graph_sha256": "00025958fef66b754dce1ae1962462424806fef6a9c81709f10a15d53d4ffdb1",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ot_sram_1p"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "attributes": {
+        "path": "rtl/ot_sram_1p.sv"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "module:ot_sram_1p",
+      "label": "ot_sram_1p",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "parameter:ot_sram_1p.AddrWidth",
+      "label": "AddrWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "parameter:ot_sram_1p.DataBitsPerMask",
+      "label": "DataBitsPerMask",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "parameter:ot_sram_1p.Depth",
+      "label": "Depth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "parameter:ot_sram_1p.MaskWidth",
+      "label": "MaskWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "parameter:ot_sram_1p.Width",
+      "label": "Width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [AddrWidth-1:0] addr_i",
+        "direction": "input",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.addr_i",
+      "label": "addr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [Width-1:0] rdata_o",
+        "direction": "output",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.rdata_o",
+      "label": "rdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "req_i",
+        "direction": "inout",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.req_i",
+      "label": "req_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [Width-1:0] wdata_i",
+        "direction": "input",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.wdata_i",
+      "label": "wdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [MaskWidth-1:0] wmask_i",
+        "direction": "input",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.wmask_i",
+      "label": "wmask_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "write_i",
+        "direction": "inout",
+        "module": "ot_sram_1p"
+      },
+      "evidence_refs": [
+        "sha256:2b8a5c54ed33e4a7d1bd524861e16641c7e211d9a5e698886e17232f33d42412"
+      ],
+      "id": "port:ot_sram_1p.write_i",
+      "label": "write_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "memory",
+        "compile_order": [
+          "rtl/ot_sram_1p.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "ot_sram_1p"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:ot_sram_1p",
+      "label": "ot_sram_1p",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:b027ca4652a67213",
+      "label": "b027ca4652a67213",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:2f8fa69edb355b42ffe89f0f809dce4150509bcc7c4384924e4aad9435c9c8d7"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:fault_localization_repair:0000",
+      "label": "ipgraph:ot_sram_1p:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:75e3529d20c9b8a07ad15192fa866f5e56288bacf9665706600f4307b73af98c"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:functional_timing_understanding:0000",
+      "label": "ipgraph:ot_sram_1p:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:a884f0d37c7046ae4adc56324cbb0e28b2e088b8d6b9273ad9fdcaa90d111b1a"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:ot_sram_1p:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:7f5603e21e2a7c83b506618c41bf3b58aacf0b47a568b964434b67f4ce0d9fc7"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:ot_sram_1p:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:2904bea16359db4bf1de61f337c25f40139bd8dbebea748cf81dfb5e6c0c7414"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:reuse_integration:0000",
+      "label": "ipgraph:ot_sram_1p:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:7dfab25c8f3dec2425a557b5689eb1f4f3dacb0b3de4303365433af49bc9a7fe"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:tool_result_analysis:0000",
+      "label": "ipgraph:ot_sram_1p:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:10e03af3c0ba6b7207f5482518aee5c9ae4f0a81130898564ab478345b932162"
+      ],
+      "id": "task:ipgraph:ot_sram_1p:verification_generation:0000",
+      "label": "ipgraph:ot_sram_1p:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:20f543f1315e96c540176dcdff83a3c372b92d4be0a426e0cda73aeea5c6d261"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:20f543f1315e96c540176dcdff83a3c372b92d4be0a426e0cda73aeea5c6d261"
+      ],
+      "id": "testbench:tb/tb_ot_sram_1p.sv",
+      "label": "tb_ot_sram_1p.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "verification_obligation:000",
+      "label": "one-cycle synchronous read",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "verification_obligation:001",
+      "label": "full-word write",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "verification_obligation:002",
+      "label": "byte-masked write",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:b027ca4652a6721303ef4789a5c1fa1dd4525a0ad94f9bb235148b3f0ed1702f"
+      ],
+      "id": "verification_obligation:003",
+      "label": "request gating",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "ot_sram_1p",
+  "project_revision": "b027ca4652a67213",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Given a future failing regression for ot_sram_1p, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of ot_sram_1p. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Generate or complete synthesizable SystemVerilog for ot_sram_1p from its released design contracts. Preserve the hierarchy and interfaces of ot_sram_1p, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of ot_sram_1p, including the roles of ot_sram_1p. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Design a minimal wrapper plan to reuse ot_sram_1p in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for ot_sram_1p. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:ot_sram_1p",
+        "module:ot_sram_1p"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ot_sram_1p",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for ot_sram_1p. It must exercise the obligation: one-cycle synchronous read and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "b027ca4652a67213",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ot_sram_1p"
+      ],
+      "task_id": "ipgraph:ot_sram_1p:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:ab3c88863a83d2210219b5a0626568c177fc573256ab31d605831f0a1e4e8cd0"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

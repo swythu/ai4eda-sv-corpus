@@ -1,0 +1,3 @@
+jsonschema>=4.23,<5
+pyslang>=8.0,<10
+PyYAML>=6.0,<7

@@ -1,0 +1,8 @@
+name: "i2c"
+category: "communication"
+upstream_project: "https://opencores.org/projects/i2c"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/i2c"
+license_expression: "LicenseRef-OpenCores-Permissive"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

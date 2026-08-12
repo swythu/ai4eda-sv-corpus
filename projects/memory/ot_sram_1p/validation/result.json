@@ -1,0 +1,1 @@
+{"project":"ot_sram_1p","status":"pass","compile":"pass","simulation":"pass","test_level":"self_checking_functional","lint_errors":0,"checks":["synchronous read","masked write","request gating"]}

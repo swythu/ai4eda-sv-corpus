@@ -1,0 +1,1 @@
+{"project":"cdc_handshake","category":"cdc","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["asynchronous clock ratios","ordered bundled data","source backpressure","destination backpressure"],"expert_review":"pending","trainable":false}

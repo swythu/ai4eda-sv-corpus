@@ -1,0 +1,1159 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:512e317b16d87eb8eb39725c487dbcf86ef92580cc8ae23254924081bf2aa333",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "512e317b16d87eb8eb39725c487dbcf86ef92580cc8ae23254924081bf2aa333"
+    },
+    {
+      "artifact_id": "sha256:105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+    },
+    {
+      "artifact_id": "sha256:cdbeebc5d2e8effbb3ec2f9003c775b8b3db57e3118f2d0fc77bafbb5ec22a15",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "cdbeebc5d2e8effbb3ec2f9003c775b8b3db57e3118f2d0fc77bafbb5ec22a15"
+    },
+    {
+      "artifact_id": "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/cdc_ufifo.sv",
+      "release_status": "source_released",
+      "sha256": "31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+    },
+    {
+      "artifact_id": "sha256:219f7203af4f3e98a936873e5bcc5fcbbc5f053efa4347499db8bc51d52274ce",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "run.sh",
+      "release_status": "source_released",
+      "sha256": "219f7203af4f3e98a936873e5bcc5fcbbc5f053efa4347499db8bc51d52274ce"
+    },
+    {
+      "artifact_id": "sha256:430fb6da99a1303647c2f1680b83f03db04886bdd9b409118cc91d3e8a760a06",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "430fb6da99a1303647c2f1680b83f03db04886bdd9b409118cc91d3e8a760a06"
+    },
+    {
+      "artifact_id": "sha256:5330b5580c04ce19dc36e787697fa49b019623fbea99fe8131d7a3ea00f0a8ed",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "5330b5580c04ce19dc36e787697fa49b019623fbea99fe8131d7a3ea00f0a8ed"
+    },
+    {
+      "artifact_id": "sha256:4b61e68863e9c445967c75d90091b75e26e5fa03e8d8124823517914f5b74080",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "4b61e68863e9c445967c75d90091b75e26e5fa03e8d8124823517914f5b74080"
+    },
+    {
+      "artifact_id": "sha256:088f1276a2f09e82f02a98abf7dfd034706465539547d82f12e2c03d4890d1e8",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "088f1276a2f09e82f02a98abf7dfd034706465539547d82f12e2c03d4890d1e8"
+    },
+    {
+      "artifact_id": "sha256:d63c651d2c7d16f044c89ee4900dc4dfc5c4512fcbc26ce5f67ed19d90f265cd",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "d63c651d2c7d16f044c89ee4900dc4dfc5c4512fcbc26ce5f67ed19d90f265cd"
+    },
+    {
+      "artifact_id": "sha256:e24f683205454577b849927d258625c862b6605d7e9f1f4f896182f6ceb2d63c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "e24f683205454577b849927d258625c862b6605d7e9f1f4f896182f6ceb2d63c"
+    },
+    {
+      "artifact_id": "sha256:4bb0e67d7e21df39352e3622215ee4ed0f6229a7e0dbd68383395248176edf33",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "4bb0e67d7e21df39352e3622215ee4ed0f6229a7e0dbd68383395248176edf33"
+    },
+    {
+      "artifact_id": "sha256:3f91103c99cdfefe4fcdd78e7d2f9aa71729debc53060bec1230f036610827d5",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_cdc_ufifo.sv",
+      "release_status": "source_released",
+      "sha256": "3f91103c99cdfefe4fcdd78e7d2f9aa71729debc53060bec1230f036610827d5"
+    },
+    {
+      "artifact_id": "sha256:23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-clock-in_clk",
+      "source": "module:cdc_ufifo",
+      "target": "clock_domain:in_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-clock-q_clk",
+      "source": "module:cdc_ufifo",
+      "target": "clock_domain:q_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-parameter-lpm_depth",
+      "source": "module:cdc_ufifo",
+      "target": "parameter:cdc_ufifo.lpm_depth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-parameter-lpm_width",
+      "source": "module:cdc_ufifo",
+      "target": "parameter:cdc_ufifo.lpm_width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-parameter-realization",
+      "source": "module:cdc_ufifo",
+      "target": "parameter:cdc_ufifo.realization",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-parameter-shadowed",
+      "source": "module:cdc_ufifo",
+      "target": "parameter:cdc_ufifo.shadowed",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-d",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.d",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-denable",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.denable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-in_clk",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.in_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-q",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-q_clk",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.q_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-qenable",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.qenable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-ready",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.ready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-port-reset",
+      "source": "module:cdc_ufifo",
+      "target": "port:cdc_ufifo.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:cdc_ufifo-reset-reset",
+      "source": "module:cdc_ufifo",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "edge:project-contains-cdc_ufifo",
+      "source": "project:cdc_ufifo",
+      "target": "module:cdc_ufifo",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:512e317b16d87eb8eb39725c487dbcf86ef92580cc8ae23254924081bf2aa333"
+      ],
+      "id": "edge:project-license",
+      "source": "project:cdc_ufifo",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:cdc_ufifo",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:cdc_ufifo",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+      ],
+      "id": "edge:project-source",
+      "source": "project:cdc_ufifo",
+      "target": "source_revision:105cbddd2bda2b7d",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:430fb6da99a1303647c2f1680b83f03db04886bdd9b409118cc91d3e8a760a06"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-fault_localization_repair-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5330b5580c04ce19dc36e787697fa49b019623fbea99fe8131d7a3ea00f0a8ed"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-functional_timing_understanding-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4b61e68863e9c445967c75d90091b75e26e5fa03e8d8124823517914f5b74080"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-hierarchical_rtl_generation-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:088f1276a2f09e82f02a98abf7dfd034706465539547d82f12e2c03d4890d1e8"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-hierarchy_dependency_analysis-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d63c651d2c7d16f044c89ee4900dc4dfc5c4512fcbc26ce5f67ed19d90f265cd"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-reuse_integration-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e24f683205454577b849927d258625c862b6605d7e9f1f4f896182f6ceb2d63c"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-tool_result_analysis-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4bb0e67d7e21df39352e3622215ee4ed0f6229a7e0dbd68383395248176edf33"
+      ],
+      "id": "edge:project-task-ipgraph-cdc_ufifo-verification_generation-0000",
+      "source": "project:cdc_ufifo",
+      "target": "task:ipgraph:cdc_ufifo:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3f91103c99cdfefe4fcdd78e7d2f9aa71729debc53060bec1230f036610827d5"
+      ],
+      "id": "edge:project-testbench-19",
+      "source": "project:cdc_ufifo",
+      "target": "testbench:tb/tb_cdc_ufifo.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:cdc_ufifo:105cbddd2bda2b7d",
+  "graph_sha256": "3adeae0db2313f28c7c4a5ca14ef5eb71c48d83e0bc632067108f9ce3e89f7dc",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_ufifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:in_clk",
+      "label": "in_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_ufifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:q_clk",
+      "label": "q_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "attributes": {
+        "path": "rtl/cdc_ufifo.sv"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "module:cdc_ufifo",
+      "label": "cdc_ufifo",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "parameter:cdc_ufifo.lpm_depth",
+      "label": "lpm_depth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "parameter:cdc_ufifo.lpm_width",
+      "label": "lpm_width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "parameter:cdc_ufifo.realization",
+      "label": "realization",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "parameter:cdc_ufifo.shadowed",
+      "label": "shadowed",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [lpm_width-1:0] d",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.d",
+      "label": "d",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic denable",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.denable",
+      "label": "denable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic in_clk",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.in_clk",
+      "label": "in_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [lpm_width-1:0] q",
+        "direction": "output",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.q",
+      "label": "q",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic q_clk",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.q_clk",
+      "label": "q_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic qenable",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.qenable",
+      "label": "qenable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ready",
+        "direction": "output",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.ready",
+      "label": "ready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "cdc_ufifo"
+      },
+      "evidence_refs": [
+        "sha256:31955a628d0d65a59a200305b49392e35845c08ea949b1e877ebe0f302088457"
+      ],
+      "id": "port:cdc_ufifo.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/cdc_ufifo.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "cdc_ufifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:cdc_ufifo",
+      "label": "cdc_ufifo",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cdc_ufifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset",
+      "label": "reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:105cbddd2bda2b7d",
+      "label": "105cbddd2bda2b7d",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:430fb6da99a1303647c2f1680b83f03db04886bdd9b409118cc91d3e8a760a06"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:fault_localization_repair:0000",
+      "label": "ipgraph:cdc_ufifo:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:5330b5580c04ce19dc36e787697fa49b019623fbea99fe8131d7a3ea00f0a8ed"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:functional_timing_understanding:0000",
+      "label": "ipgraph:cdc_ufifo:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:4b61e68863e9c445967c75d90091b75e26e5fa03e8d8124823517914f5b74080"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:cdc_ufifo:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:088f1276a2f09e82f02a98abf7dfd034706465539547d82f12e2c03d4890d1e8"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:cdc_ufifo:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:d63c651d2c7d16f044c89ee4900dc4dfc5c4512fcbc26ce5f67ed19d90f265cd"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:reuse_integration:0000",
+      "label": "ipgraph:cdc_ufifo:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:e24f683205454577b849927d258625c862b6605d7e9f1f4f896182f6ceb2d63c"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:tool_result_analysis:0000",
+      "label": "ipgraph:cdc_ufifo:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:4bb0e67d7e21df39352e3622215ee4ed0f6229a7e0dbd68383395248176edf33"
+      ],
+      "id": "task:ipgraph:cdc_ufifo:verification_generation:0000",
+      "label": "ipgraph:cdc_ufifo:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:3f91103c99cdfefe4fcdd78e7d2f9aa71729debc53060bec1230f036610827d5"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:3f91103c99cdfefe4fcdd78e7d2f9aa71729debc53060bec1230f036610827d5"
+      ],
+      "id": "testbench:tb/tb_cdc_ufifo.sv",
+      "label": "tb_cdc_ufifo.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:105cbddd2bda2b7d281f13f2eb93ba43f0f06c3b882fd59f5b16b44a60e44ea4"
+      ],
+      "id": "verification_obligation:000",
+      "label": "project self-checking regression remains passing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "cdc_ufifo",
+  "project_revision": "105cbddd2bda2b7d",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Given a future failing regression for cdc_ufifo, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of cdc_ufifo. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Generate or complete synthesizable SystemVerilog for cdc_ufifo from its released design contracts. Preserve the hierarchy and interfaces of cdc_ufifo, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of cdc_ufifo, including the roles of cdc_ufifo. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Design a minimal wrapper plan to reuse cdc_ufifo in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for cdc_ufifo. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:cdc_ufifo",
+        "module:cdc_ufifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "cdc_ufifo",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for cdc_ufifo. It must exercise the obligation: project self-checking regression remains passing and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "105cbddd2bda2b7d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cdc_ufifo"
+      ],
+      "task_id": "ipgraph:cdc_ufifo:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:23d8bd05d31e59ee0636054ff95fed86fcce2cebe0d29fbefc0816a78c6b26d1"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

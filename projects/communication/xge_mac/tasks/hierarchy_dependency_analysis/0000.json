@@ -1,0 +1,70 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "medium",
+  "family": "hierarchy_dependency_analysis",
+  "input_nodes": [
+    "project:xge_mac",
+    "module:fault_sm",
+    "module:generic_fifo",
+    "module:generic_fifo_ctrl",
+    "module:generic_mem_medium",
+    "module:generic_mem_small",
+    "module:meta_sync",
+    "module:meta_sync_single",
+    "module:rx_data_fifo",
+    "module:rx_dequeue",
+    "module:rx_enqueue",
+    "module:rx_hold_fifo",
+    "module:rx_stats_fifo"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "xge_mac",
+  "prompt": "Recover and explain the module dependency and instantiation hierarchy of xge_mac, including the roles of fault_sm, generic_fifo, generic_fifo_ctrl, generic_mem_medium, generic_mem_small, meta_sync, meta_sync_single, rx_data_fifo, rx_dequeue, rx_enqueue, rx_hold_fifo, rx_stats_fifo. Identify graph evidence for each dependency.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "c621123cb106fb69",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "public_test",
+  "target_nodes": [
+    "module:fault_sm",
+    "module:generic_fifo",
+    "module:generic_fifo_ctrl",
+    "module:generic_mem_medium",
+    "module:generic_mem_small",
+    "module:meta_sync",
+    "module:meta_sync_single",
+    "module:rx_data_fifo",
+    "module:rx_dequeue",
+    "module:rx_enqueue",
+    "module:rx_hold_fifo",
+    "module:rx_stats_fifo"
+  ],
+  "task_id": "ipgraph:xge_mac:hierarchy_dependency_analysis:0000"
+}

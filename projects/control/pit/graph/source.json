@@ -1,0 +1,26 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "pit",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 5,
+    "diagnostic_count": 55,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "pit_top"
+    ]
+  },
+  "source_files": [
+    "rtl/pit_count.sv",
+    "rtl/pit_prescale.sv",
+    "rtl/pit_regs.sv",
+    "rtl/pit_top.sv",
+    "rtl/pit_wb_bus.sv"
+  ]
+}

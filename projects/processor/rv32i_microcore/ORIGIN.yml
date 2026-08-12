@@ -1,0 +1,8 @@
+name: rv32i_microcore
+category: processor
+upstream_project: repository-authored
+upstream_revision: v0.1.0
+license_expression: Apache-2.0
+license_evidence: "Repository-authored educational RV32I subset under Apache-2.0."
+modification_status: "Original multi-cycle RV32I subset core; not represented as PicoRV32."
+public_export_decision: source_released

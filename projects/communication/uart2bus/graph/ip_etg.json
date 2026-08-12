@@ -1,0 +1,3860 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:e9ce183f43ee940e5993c8e41f7a91782b83623cc3840dcdfbe54a38f3c602b3",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "e9ce183f43ee940e5993c8e41f7a91782b83623cc3840dcdfbe54a38f3c602b3"
+    },
+    {
+      "artifact_id": "sha256:20c8e9cd758382c83c8c301808dd2c68e41553c8483983fe2df63a6ffc32652d",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "include/timescale.svh",
+      "release_status": "source_released",
+      "sha256": "20c8e9cd758382c83c8c301808dd2c68e41553c8483983fe2df63a6ffc32652d"
+    },
+    {
+      "artifact_id": "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+    },
+    {
+      "artifact_id": "sha256:514c6d23173b5796942fdfb5e91248d48569487c763e9a0ae2a43634edc5073c",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "514c6d23173b5796942fdfb5e91248d48569487c763e9a0ae2a43634edc5073c"
+    },
+    {
+      "artifact_id": "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/baud_gen.sv",
+      "release_status": "source_released",
+      "sha256": "399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+    },
+    {
+      "artifact_id": "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/uart2bus_top.sv",
+      "release_status": "source_released",
+      "sha256": "b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+    },
+    {
+      "artifact_id": "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/uart_parser.sv",
+      "release_status": "source_released",
+      "sha256": "ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+    },
+    {
+      "artifact_id": "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/uart_rx.sv",
+      "release_status": "source_released",
+      "sha256": "c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+    },
+    {
+      "artifact_id": "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/uart_top.sv",
+      "release_status": "source_released",
+      "sha256": "273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+    },
+    {
+      "artifact_id": "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/uart_tx.sv",
+      "release_status": "source_released",
+      "sha256": "045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+    },
+    {
+      "artifact_id": "sha256:5ddc7cc9c717ce9fe104eb4765eb120d897b6f6b01e454c6e7456acd0e4e3b1b",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "5ddc7cc9c717ce9fe104eb4765eb120d897b6f6b01e454c6e7456acd0e4e3b1b"
+    },
+    {
+      "artifact_id": "sha256:e0986e8158e598ce117cad66a00de4d1100621bf12471deb76e2dd19e478919a",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "e0986e8158e598ce117cad66a00de4d1100621bf12471deb76e2dd19e478919a"
+    },
+    {
+      "artifact_id": "sha256:90e5b239e145267a72ee332e315ed36acc6e659332c9b45c59e4e1479a597e73",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "90e5b239e145267a72ee332e315ed36acc6e659332c9b45c59e4e1479a597e73"
+    },
+    {
+      "artifact_id": "sha256:0782ad32a27002abf7dc080f6f96ec20e7e35a19b4f3ac90327c72eff55084f5",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "0782ad32a27002abf7dc080f6f96ec20e7e35a19b4f3ac90327c72eff55084f5"
+    },
+    {
+      "artifact_id": "sha256:cd0f80d25e4c01e13d51046fa771d727cf09c960c8dfa8a4b0676d138519c701",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "cd0f80d25e4c01e13d51046fa771d727cf09c960c8dfa8a4b0676d138519c701"
+    },
+    {
+      "artifact_id": "sha256:8375f5a2d567029a502aa739b4cc85f1696ee92e09d120596d3d764818311e2e",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "8375f5a2d567029a502aa739b4cc85f1696ee92e09d120596d3d764818311e2e"
+    },
+    {
+      "artifact_id": "sha256:b64780228098a99eaeddf177d710988e7806d6aa7f995b247aa1435c5b9cf895",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "b64780228098a99eaeddf177d710988e7806d6aa7f995b247aa1435c5b9cf895"
+    },
+    {
+      "artifact_id": "sha256:4e091da90dc9ae2345ac0a1b2176b49dde1a8d5883c720598fefa3e710417e7f",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "4e091da90dc9ae2345ac0a1b2176b49dde1a8d5883c720598fefa3e710417e7f"
+    },
+    {
+      "artifact_id": "sha256:d32511adb8c759a633f01a6d5e41f9225ae3603b6c75221019696e32199201fb",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "d32511adb8c759a633f01a6d5e41f9225ae3603b6c75221019696e32199201fb"
+    },
+    {
+      "artifact_id": "sha256:f081f38a81642e2c3001e829fcff6a3a3fcace1c82fb08c9d926238cfdae79bc",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "f081f38a81642e2c3001e829fcff6a3a3fcace1c82fb08c9d926238cfdae79bc"
+    },
+    {
+      "artifact_id": "sha256:d2683be04d7d11db4dbfd2b873078ea42cac7e4c76e57c776ef361be33f7768a",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "d2683be04d7d11db4dbfd2b873078ea42cac7e4c76e57c776ef361be33f7768a"
+    },
+    {
+      "artifact_id": "sha256:c6da1e7cb9fac6edec2c1471f800f1719a5ea21bf4478cf7e5933cf373899b5d",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "c6da1e7cb9fac6edec2c1471f800f1719a5ea21bf4478cf7e5933cf373899b5d"
+    },
+    {
+      "artifact_id": "sha256:80c4c451d768bc3752ef6cc5da7cd2f40be5cc461de42f0d62ebd09ec5a3d3af",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/reg_file_model.sv",
+      "release_status": "source_released",
+      "sha256": "80c4c451d768bc3752ef6cc5da7cd2f40be5cc461de42f0d62ebd09ec5a3d3af"
+    },
+    {
+      "artifact_id": "sha256:1e3e11818f73f5630afaceb043d8b7140f9f5503fcebd17c8fd92f55f14657c0",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_uart2bus_top.sv",
+      "release_status": "source_released",
+      "sha256": "1e3e11818f73f5630afaceb043d8b7140f9f5503fcebd17c8fd92f55f14657c0"
+    },
+    {
+      "artifact_id": "sha256:31b13432bf8e0b61429a8a98deaa22a64346c836e88b9e5c602c754dd9df877e",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/uart_tasks.svh",
+      "release_status": "source_released",
+      "sha256": "31b13432bf8e0b61429a8a98deaa22a64346c836e88b9e5c602c754dd9df877e"
+    },
+    {
+      "artifact_id": "sha256:4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b",
+      "license_expression": "BSD-2-Clause",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-clock-clock",
+      "source": "module:baud_gen",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-port-baud_freq",
+      "source": "module:baud_gen",
+      "target": "port:baud_gen.baud_freq",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-port-baud_limit",
+      "source": "module:baud_gen",
+      "target": "port:baud_gen.baud_limit",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-port-ce_16",
+      "source": "module:baud_gen",
+      "target": "port:baud_gen.ce_16",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-port-clock",
+      "source": "module:baud_gen",
+      "target": "port:baud_gen.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-port-reset",
+      "source": "module:baud_gen",
+      "target": "port:baud_gen.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:baud_gen-reset-reset",
+      "source": "module:baud_gen",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-10",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.baud_limit",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-11",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.baud_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.ser_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.ser_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.new_rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.new_tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.tx_busy",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-connection-9",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "port:uart_top.baud_freq",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:uart2bus_top",
+      "target": "instance:uart2bus_top.uart1:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:uart2bus_top.uart1:0",
+      "target": "module:uart_top",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-10",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_rd_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-11",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_read",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-12",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_req",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-13",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_gnt",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.new_rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.new_tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.tx_busy",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_address",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_wr_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-connection-9",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "port:uart_parser.int_write",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:uart2bus_top",
+      "target": "instance:uart2bus_top.uart_parser1:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:uart2bus_top.uart_parser1:1",
+      "target": "module:uart_parser",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "port:baud_gen.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "port:baud_gen.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "port:baud_gen.ce_16",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "port:baud_gen.baud_freq",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-connection-4",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "port:baud_gen.baud_limit",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:uart_top",
+      "target": "instance:uart_top.baud_gen_1:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:uart_top.baud_gen_1:2",
+      "target": "module:baud_gen",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-0",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-1",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-2",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.ce_16",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-3",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.ser_in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-4",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-connection-5",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "port:uart_rx.new_rx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-contained",
+      "source": "module:uart_top",
+      "target": "instance:uart_top.uart_rx_1:3",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-3-target",
+      "source": "instance:uart_top.uart_rx_1:3",
+      "target": "module:uart_rx",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-0",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-1",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-2",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.ce_16",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-3",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-4",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.new_tx_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-5",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.ser_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-connection-6",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "port:uart_tx.tx_busy",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-contained",
+      "source": "module:uart_top",
+      "target": "instance:uart_top.uart_tx_1:4",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:instance-4-target",
+      "source": "instance:uart_top.uart_tx_1:4",
+      "target": "module:uart_tx",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "edge:project-contains-baud_gen",
+      "source": "project:uart2bus",
+      "target": "module:baud_gen",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:project-contains-uart2bus_top",
+      "source": "project:uart2bus",
+      "target": "module:uart2bus_top",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:project-contains-uart_parser",
+      "source": "project:uart2bus",
+      "target": "module:uart_parser",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:project-contains-uart_rx",
+      "source": "project:uart2bus",
+      "target": "module:uart_rx",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:project-contains-uart_top",
+      "source": "project:uart2bus",
+      "target": "module:uart_top",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:project-contains-uart_tx",
+      "source": "project:uart2bus",
+      "target": "module:uart_tx",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e9ce183f43ee940e5993c8e41f7a91782b83623cc3840dcdfbe54a38f3c602b3"
+      ],
+      "id": "edge:project-license",
+      "source": "project:uart2bus",
+      "target": "license:BSD-2-Clause",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:uart2bus",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:uart2bus",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:uart2bus",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:uart2bus",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "edge:project-source",
+      "source": "project:uart2bus",
+      "target": "source_revision:f40fbfd6e6377ed3",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e0986e8158e598ce117cad66a00de4d1100621bf12471deb76e2dd19e478919a"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-cross_module_repair-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:90e5b239e145267a72ee332e315ed36acc6e659332c9b45c59e4e1479a597e73"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-cross_module_repair-0001",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0782ad32a27002abf7dc080f6f96ec20e7e35a19b4f3ac90327c72eff55084f5"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-fault_localization_repair-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cd0f80d25e4c01e13d51046fa771d727cf09c960c8dfa8a4b0676d138519c701"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-functional_timing_understanding-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8375f5a2d567029a502aa739b4cc85f1696ee92e09d120596d3d764818311e2e"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-hierarchical_integration-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b64780228098a99eaeddf177d710988e7806d6aa7f995b247aa1435c5b9cf895"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-hierarchical_rtl_generation-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4e091da90dc9ae2345ac0a1b2176b49dde1a8d5883c720598fefa3e710417e7f"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-hierarchy_dependency_analysis-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d32511adb8c759a633f01a6d5e41f9225ae3603b6c75221019696e32199201fb"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-interface_modification-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f081f38a81642e2c3001e829fcff6a3a3fcace1c82fb08c9d926238cfdae79bc"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-reuse_integration-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d2683be04d7d11db4dbfd2b873078ea42cac7e4c76e57c776ef361be33f7768a"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-tool_result_analysis-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6da1e7cb9fac6edec2c1471f800f1719a5ea21bf4478cf7e5933cf373899b5d"
+      ],
+      "id": "edge:project-task-ipgraph-uart2bus-verification_generation-0000",
+      "source": "project:uart2bus",
+      "target": "task:ipgraph:uart2bus:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:80c4c451d768bc3752ef6cc5da7cd2f40be5cc461de42f0d62ebd09ec5a3d3af"
+      ],
+      "id": "edge:project-testbench-136",
+      "source": "project:uart2bus",
+      "target": "testbench:tb/reg_file_model.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1e3e11818f73f5630afaceb043d8b7140f9f5503fcebd17c8fd92f55f14657c0"
+      ],
+      "id": "edge:project-testbench-137",
+      "source": "project:uart2bus",
+      "target": "testbench:tb/tb_uart2bus_top.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:31b13432bf8e0b61429a8a98deaa22a64346c836e88b9e5c602c754dd9df877e"
+      ],
+      "id": "edge:project-testbench-138",
+      "source": "project:uart2bus",
+      "target": "testbench:tb/uart_tasks.svh",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-clock-clock",
+      "source": "module:uart2bus_top",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-parameter-D_BAUD_FREQ",
+      "source": "module:uart2bus_top",
+      "target": "parameter:uart2bus_top.D_BAUD_FREQ",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-parameter-D_BAUD_LIMIT",
+      "source": "module:uart2bus_top",
+      "target": "parameter:uart2bus_top.D_BAUD_LIMIT",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-clock",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_address",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_address",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_gnt",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_gnt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_rd_data",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_rd_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_read",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_read",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_req",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_req",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_wr_data",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_wr_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-int_write",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.int_write",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-reset",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-ser_in",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.ser_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-port-ser_out",
+      "source": "module:uart2bus_top",
+      "target": "port:uart2bus_top.ser_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "edge:uart2bus_top-reset-reset",
+      "source": "module:uart2bus_top",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-clock-clock",
+      "source": "module:uart_parser",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-parameter-AW",
+      "source": "module:uart_parser",
+      "target": "parameter:uart_parser.AW",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-clock",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_address",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_address",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_gnt",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_gnt",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_rd_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_rd_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_read",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_read",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_req",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_req",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_wr_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_wr_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-int_write",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.int_write",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-new_rx_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.new_rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-new_tx_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.new_tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-reset",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-rx_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-tx_busy",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.tx_busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-port-tx_data",
+      "source": "module:uart_parser",
+      "target": "port:uart_parser.tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "edge:uart_parser-reset-reset",
+      "source": "module:uart_parser",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-clock-clock",
+      "source": "module:uart_rx",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-ce_16",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.ce_16",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-clock",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-new_rx_data",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.new_rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-reset",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-rx_data",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-port-ser_in",
+      "source": "module:uart_rx",
+      "target": "port:uart_rx.ser_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "edge:uart_rx-reset-reset",
+      "source": "module:uart_rx",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-clock-baud_clk",
+      "source": "module:uart_top",
+      "target": "clock_domain:baud_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-clock-clock",
+      "source": "module:uart_top",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-baud_clk",
+      "source": "module:uart_top",
+      "target": "port:uart_top.baud_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-baud_freq",
+      "source": "module:uart_top",
+      "target": "port:uart_top.baud_freq",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-baud_limit",
+      "source": "module:uart_top",
+      "target": "port:uart_top.baud_limit",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-clock",
+      "source": "module:uart_top",
+      "target": "port:uart_top.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-new_rx_data",
+      "source": "module:uart_top",
+      "target": "port:uart_top.new_rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-new_tx_data",
+      "source": "module:uart_top",
+      "target": "port:uart_top.new_tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-reset",
+      "source": "module:uart_top",
+      "target": "port:uart_top.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-rx_data",
+      "source": "module:uart_top",
+      "target": "port:uart_top.rx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-ser_in",
+      "source": "module:uart_top",
+      "target": "port:uart_top.ser_in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-ser_out",
+      "source": "module:uart_top",
+      "target": "port:uart_top.ser_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-tx_busy",
+      "source": "module:uart_top",
+      "target": "port:uart_top.tx_busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-port-tx_data",
+      "source": "module:uart_top",
+      "target": "port:uart_top.tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "edge:uart_top-reset-reset",
+      "source": "module:uart_top",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-clock-clock",
+      "source": "module:uart_tx",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-ce_16",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.ce_16",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-clock",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-new_tx_data",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.new_tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-reset",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-ser_out",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.ser_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-tx_busy",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.tx_busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-port-tx_data",
+      "source": "module:uart_tx",
+      "target": "port:uart_tx.tx_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "edge:uart_tx-reset-reset",
+      "source": "module:uart_tx",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:uart2bus:f40fbfd6e6377ed3",
+  "graph_sha256": "845dd271cedacf675dd3ed8d99a0c5d174161647a6addf4c5c9637b3b456c3bb",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "uart_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:baud_clk",
+      "label": "baud_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "baud_gen",
+          "uart2bus_top",
+          "uart_parser",
+          "uart_rx",
+          "uart_top",
+          "uart_tx"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clock",
+      "label": "clock",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          },
+          {
+            "expression": "ser_in",
+            "kind": "named",
+            "port": "ser_in"
+          },
+          {
+            "expression": "ser_out",
+            "kind": "named",
+            "port": "ser_out"
+          },
+          {
+            "expression": "rx_data",
+            "kind": "named",
+            "port": "rx_data"
+          },
+          {
+            "expression": "new_rx_data",
+            "kind": "named",
+            "port": "new_rx_data"
+          },
+          {
+            "expression": "tx_data",
+            "kind": "named",
+            "port": "tx_data"
+          },
+          {
+            "expression": "new_tx_data",
+            "kind": "named",
+            "port": "new_tx_data"
+          },
+          {
+            "expression": "tx_busy",
+            "kind": "named",
+            "port": "tx_busy"
+          },
+          {
+            "expression": "baud_freq",
+            "kind": "named",
+            "port": "baud_freq"
+          },
+          {
+            "expression": "baud_limit",
+            "kind": "named",
+            "port": "baud_limit"
+          },
+          {
+            "expression": "baud_clk",
+            "kind": "named",
+            "port": "baud_clk"
+          }
+        ],
+        "declaration": "uart1 ( .clock(clock), .reset(reset), .ser_in(ser_in), .ser_out(ser_out), .rx_data(rx_data), .new_rx_data(new_rx_data), .tx_data(tx_data), .new_tx_data(new_tx_data), .tx_busy(tx_busy), .baud_freq(baud_freq), .baud_limit(baud_limit), .baud_clk(baud_clk) )",
+        "parent_module": "uart2bus_top",
+        "target_module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "instance:uart2bus_top.uart1:0",
+      "label": "uart1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          },
+          {
+            "expression": "rx_data",
+            "kind": "named",
+            "port": "rx_data"
+          },
+          {
+            "expression": "new_rx_data",
+            "kind": "named",
+            "port": "new_rx_data"
+          },
+          {
+            "expression": "tx_data",
+            "kind": "named",
+            "port": "tx_data"
+          },
+          {
+            "expression": "new_tx_data",
+            "kind": "named",
+            "port": "new_tx_data"
+          },
+          {
+            "expression": "tx_busy",
+            "kind": "named",
+            "port": "tx_busy"
+          },
+          {
+            "expression": "int_address",
+            "kind": "named",
+            "port": "int_address"
+          },
+          {
+            "expression": "int_wr_data",
+            "kind": "named",
+            "port": "int_wr_data"
+          },
+          {
+            "expression": "int_write",
+            "kind": "named",
+            "port": "int_write"
+          },
+          {
+            "expression": "int_rd_data",
+            "kind": "named",
+            "port": "int_rd_data"
+          },
+          {
+            "expression": "int_read",
+            "kind": "named",
+            "port": "int_read"
+          },
+          {
+            "expression": "int_req",
+            "kind": "named",
+            "port": "int_req"
+          },
+          {
+            "expression": "int_gnt",
+            "kind": "named",
+            "port": "int_gnt"
+          }
+        ],
+        "declaration": "uart_parser1 ( .clock(clock), .reset(reset), .rx_data(rx_data), .new_rx_data(new_rx_data), .tx_data(tx_data), .new_tx_data(new_tx_data), .tx_busy(tx_busy), .int_address(int_address), .int_wr_data(int_wr_data), .int_write(int_write), .int_rd_data(int_rd_data), .int_read(int_read), .int_req(int_req), .int_gnt(int_gnt) )",
+        "parent_module": "uart2bus_top",
+        "target_module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "instance:uart2bus_top.uart_parser1:1",
+      "label": "uart_parser1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          },
+          {
+            "expression": "ce_16",
+            "kind": "named",
+            "port": "ce_16"
+          },
+          {
+            "expression": "baud_freq",
+            "kind": "named",
+            "port": "baud_freq"
+          },
+          {
+            "expression": "baud_limit",
+            "kind": "named",
+            "port": "baud_limit"
+          }
+        ],
+        "declaration": "baud_gen_1 ( .clock(clock), .reset(reset), .ce_16(ce_16), .baud_freq(baud_freq), .baud_limit(baud_limit) )",
+        "parent_module": "uart_top",
+        "target_module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "instance:uart_top.baud_gen_1:2",
+      "label": "baud_gen_1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          },
+          {
+            "expression": "ce_16",
+            "kind": "named",
+            "port": "ce_16"
+          },
+          {
+            "expression": "ser_in",
+            "kind": "named",
+            "port": "ser_in"
+          },
+          {
+            "expression": "rx_data",
+            "kind": "named",
+            "port": "rx_data"
+          },
+          {
+            "expression": "new_rx_data",
+            "kind": "named",
+            "port": "new_rx_data"
+          }
+        ],
+        "declaration": "uart_rx_1 ( .clock(clock), .reset(reset), .ce_16(ce_16), .ser_in(ser_in), .rx_data(rx_data), .new_rx_data(new_rx_data) )",
+        "parent_module": "uart_top",
+        "target_module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "instance:uart_top.uart_rx_1:3",
+      "label": "uart_rx_1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          },
+          {
+            "expression": "ce_16",
+            "kind": "named",
+            "port": "ce_16"
+          },
+          {
+            "expression": "tx_data",
+            "kind": "named",
+            "port": "tx_data"
+          },
+          {
+            "expression": "new_tx_data",
+            "kind": "named",
+            "port": "new_tx_data"
+          },
+          {
+            "expression": "ser_out",
+            "kind": "named",
+            "port": "ser_out"
+          },
+          {
+            "expression": "tx_busy",
+            "kind": "named",
+            "port": "tx_busy"
+          }
+        ],
+        "declaration": "uart_tx_1 ( .clock(clock), .reset(reset), .ce_16(ce_16), .tx_data(tx_data), .new_tx_data(new_tx_data), .ser_out(ser_out), .tx_busy(tx_busy) )",
+        "parent_module": "uart_top",
+        "target_module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "instance:uart_top.uart_tx_1:4",
+      "label": "uart_tx_1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:BSD-2-Clause",
+      "label": "BSD-2-Clause",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "attributes": {
+        "path": "rtl/baud_gen.sv"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "module:baud_gen",
+      "label": "baud_gen",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "attributes": {
+        "path": "rtl/uart2bus_top.sv"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "module:uart2bus_top",
+      "label": "uart2bus_top",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "attributes": {
+        "path": "rtl/uart_parser.sv"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "module:uart_parser",
+      "label": "uart_parser",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "attributes": {
+        "path": "rtl/uart_rx.sv"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "module:uart_rx",
+      "label": "uart_rx",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "attributes": {
+        "path": "rtl/uart_top.sv"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "module:uart_top",
+      "label": "uart_top",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "attributes": {
+        "path": "rtl/uart_tx.sv"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "module:uart_tx",
+      "label": "uart_tx",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "parameter:uart2bus_top.D_BAUD_FREQ",
+      "label": "D_BAUD_FREQ",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "parameter:uart2bus_top.D_BAUD_LIMIT",
+      "label": "D_BAUD_LIMIT",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "parameter:uart_parser.AW",
+      "label": "AW",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// baud rate multiplyed by 16 input wire [11:0] baud_freq",
+        "direction": "input",
+        "module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "port:baud_gen.baud_freq",
+      "label": "baud_freq",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// baud rate setting registers - see header description input wire [15:0] baud_limit",
+        "direction": "input",
+        "module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "port:baud_gen.baud_limit",
+      "label": "baud_limit",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input output logic ce_16",
+        "direction": "input",
+        "module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "port:baud_gen.ce_16",
+      "label": "ce_16",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clock",
+        "direction": "input",
+        "module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "port:baud_gen.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "baud_gen"
+      },
+      "evidence_refs": [
+        "sha256:399f22df3bb8f05b999e0036338901756e995ede4e3ffa593f7c749296a95792"
+      ],
+      "id": "port:baud_gen.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global signals input wire clock",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data output // internal bus to register file output wire [15:0] int_address",
+        "direction": "output",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_address",
+      "label": "int_address",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bus access request signal input wire int_gnt",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_gnt",
+      "label": "int_gnt",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// read control to register file input wire [7:0] int_rd_data",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_rd_data",
+      "label": "int_rd_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write control to register file output wire int_read",
+        "direction": "output",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_read",
+      "label": "int_read",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data read from register file output wire int_req",
+        "direction": "output",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_req",
+      "label": "int_req",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// address bus to register file output wire [7:0] int_wr_data",
+        "direction": "output",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_wr_data",
+      "label": "int_wr_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write data to register file output wire int_write",
+        "direction": "output",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.int_write",
+      "label": "int_write",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input // uart serial signals input wire ser_in",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.ser_in",
+      "label": "ser_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data input output wire ser_out",
+        "direction": "input",
+        "module": "uart2bus_top"
+      },
+      "evidence_refs": [
+        "sha256:b447a6bf95ff3d36e8540dc384f9319c4a245cd43a21b9678445c0a36ed86da8"
+      ],
+      "id": "port:uart2bus_top.ser_out",
+      "label": "ser_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global signals input wire clock",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// signs that a new byte was received // internal bus to register file output logic [AW-1:0] int_address",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_address",
+      "label": "int_address",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bus access request signal input wire int_gnt",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_gnt",
+      "label": "int_gnt",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// read control to register file input wire [7:0] int_rd_data",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_rd_data",
+      "label": "int_rd_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write control to register file output logic int_read",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_read",
+      "label": "int_read",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data read from register file output wire int_req",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_req",
+      "label": "int_req",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// address bus to register file output logic [7:0] int_wr_data",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_wr_data",
+      "label": "int_wr_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write data to register file output logic int_write",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.int_write",
+      "label": "int_write",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte received input wire new_rx_data",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.new_rx_data",
+      "label": "new_rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte to transmit output logic new_tx_data",
+        "direction": "output",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.new_tx_data",
+      "label": "new_tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// signs that transmitter is busy input wire [7:0] rx_data",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.rx_data",
+      "label": "rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asserted to indicate that there is a new data byte for // transmission input wire tx_busy",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.tx_busy",
+      "label": "tx_busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input // transmit and receive internal interface signals from uart interface output logic [7:0] tx_data",
+        "direction": "input",
+        "module": "uart_parser"
+      },
+      "evidence_refs": [
+        "sha256:ac7b37a703fdc72526ba1aba079cead30d855e58f97c791128a5f5cd60ca439f"
+      ],
+      "id": "port:uart_parser.tx_data",
+      "label": "tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input input wire ce_16",
+        "direction": "input",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.ce_16",
+      "label": "ce_16",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clock",
+        "direction": "input",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte received output logic new_rx_data",
+        "direction": "output",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.new_rx_data",
+      "label": "new_rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data input output logic [7:0] rx_data",
+        "direction": "input",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.rx_data",
+      "label": "rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// baud rate multiplyed by 16 - generated by baud module input wire ser_in",
+        "direction": "input",
+        "module": "uart_rx"
+      },
+      "evidence_refs": [
+        "sha256:c85cad8d5b4f62383f97dfdb654266c1ae85c0ba7a52a995c096a5ec3a650238"
+      ],
+      "id": "port:uart_rx.ser_in",
+      "label": "ser_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire baud_clk",
+        "direction": "output",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.baud_clk",
+      "label": "baud_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// signs that transmitter is busy // baud rate configuration register - see baud_gen.sv for details input wire [11:0] baud_freq",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.baud_freq",
+      "label": "baud_freq",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// baud rate setting registers - see header description input wire [15:0] baud_limit",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.baud_limit",
+      "label": "baud_limit",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global signals input wire clock",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte received output wire new_rx_data",
+        "direction": "output",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.new_rx_data",
+      "label": "new_rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte to transmit input wire new_tx_data",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.new_tx_data",
+      "label": "new_tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data output // transmit and receive internal interface signals output wire [7:0] rx_data",
+        "direction": "output",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.rx_data",
+      "label": "rx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input // uart serial signals input wire ser_in",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.ser_in",
+      "label": "ser_in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data input output wire ser_out",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.ser_out",
+      "label": "ser_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asserted to indicate that there is a new data byte for transmission output wire tx_busy",
+        "direction": "output",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.tx_busy",
+      "label": "tx_busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// signs that a new byte was received input wire [7:0] tx_data",
+        "direction": "input",
+        "module": "uart_top"
+      },
+      "evidence_refs": [
+        "sha256:273a69061885a3a2941ada4e4f4ef2917b900566cb99348f31c1265754c5e130"
+      ],
+      "id": "port:uart_top.tx_data",
+      "label": "tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global reset input input wire ce_16",
+        "direction": "input",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.ce_16",
+      "label": "ce_16",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clock",
+        "direction": "input",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data byte to transmit input wire new_tx_data",
+        "direction": "input",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.new_tx_data",
+      "label": "new_tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// global clock input input wire reset",
+        "direction": "input",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asserted to indicate that there is a new data byte for transmission output logic ser_out",
+        "direction": "output",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.ser_out",
+      "label": "ser_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// serial data output output logic tx_busy",
+        "direction": "output",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.tx_busy",
+      "label": "tx_busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// baud rate multiplyed by 16 - generated by baud module input wire [7:0] tx_data",
+        "direction": "input",
+        "module": "uart_tx"
+      },
+      "evidence_refs": [
+        "sha256:045a8c0345488d99b9495f2e7c81db4e7fe23b644cfaa2343ca1f59f9e6ca620"
+      ],
+      "id": "port:uart_tx.tx_data",
+      "label": "tx_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "communication",
+        "compile_order": [
+          "include/timescale.svh",
+          "rtl/baud_gen.sv",
+          "rtl/uart2bus_top.sv",
+          "rtl/uart_parser.sv",
+          "rtl/uart_rx.sv",
+          "rtl/uart_top.sv",
+          "rtl/uart_tx.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "uart2bus_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:uart2bus",
+      "label": "uart2bus",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "protocol_contract:uart",
+      "label": "UART",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "baud_gen",
+          "uart2bus_top",
+          "uart_parser",
+          "uart_rx",
+          "uart_top",
+          "uart_tx"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset",
+      "label": "reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:f40fbfd6e6377ed3",
+      "label": "f40fbfd6e6377ed3",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:e0986e8158e598ce117cad66a00de4d1100621bf12471deb76e2dd19e478919a"
+      ],
+      "id": "task:ipgraph:uart2bus:cross_module_repair:0000",
+      "label": "ipgraph:uart2bus:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:90e5b239e145267a72ee332e315ed36acc6e659332c9b45c59e4e1479a597e73"
+      ],
+      "id": "task:ipgraph:uart2bus:cross_module_repair:0001",
+      "label": "ipgraph:uart2bus:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:0782ad32a27002abf7dc080f6f96ec20e7e35a19b4f3ac90327c72eff55084f5"
+      ],
+      "id": "task:ipgraph:uart2bus:fault_localization_repair:0000",
+      "label": "ipgraph:uart2bus:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:cd0f80d25e4c01e13d51046fa771d727cf09c960c8dfa8a4b0676d138519c701"
+      ],
+      "id": "task:ipgraph:uart2bus:functional_timing_understanding:0000",
+      "label": "ipgraph:uart2bus:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:8375f5a2d567029a502aa739b4cc85f1696ee92e09d120596d3d764818311e2e"
+      ],
+      "id": "task:ipgraph:uart2bus:hierarchical_integration:0000",
+      "label": "ipgraph:uart2bus:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:b64780228098a99eaeddf177d710988e7806d6aa7f995b247aa1435c5b9cf895"
+      ],
+      "id": "task:ipgraph:uart2bus:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:uart2bus:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:4e091da90dc9ae2345ac0a1b2176b49dde1a8d5883c720598fefa3e710417e7f"
+      ],
+      "id": "task:ipgraph:uart2bus:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:uart2bus:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:d32511adb8c759a633f01a6d5e41f9225ae3603b6c75221019696e32199201fb"
+      ],
+      "id": "task:ipgraph:uart2bus:interface_modification:0000",
+      "label": "ipgraph:uart2bus:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:f081f38a81642e2c3001e829fcff6a3a3fcace1c82fb08c9d926238cfdae79bc"
+      ],
+      "id": "task:ipgraph:uart2bus:reuse_integration:0000",
+      "label": "ipgraph:uart2bus:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:d2683be04d7d11db4dbfd2b873078ea42cac7e4c76e57c776ef361be33f7768a"
+      ],
+      "id": "task:ipgraph:uart2bus:tool_result_analysis:0000",
+      "label": "ipgraph:uart2bus:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:c6da1e7cb9fac6edec2c1471f800f1719a5ea21bf4478cf7e5933cf373899b5d"
+      ],
+      "id": "task:ipgraph:uart2bus:verification_generation:0000",
+      "label": "ipgraph:uart2bus:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:80c4c451d768bc3752ef6cc5da7cd2f40be5cc461de42f0d62ebd09ec5a3d3af"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:80c4c451d768bc3752ef6cc5da7cd2f40be5cc461de42f0d62ebd09ec5a3d3af"
+      ],
+      "id": "testbench:tb/reg_file_model.sv",
+      "label": "reg_file_model.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:1e3e11818f73f5630afaceb043d8b7140f9f5503fcebd17c8fd92f55f14657c0"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:1e3e11818f73f5630afaceb043d8b7140f9f5503fcebd17c8fd92f55f14657c0"
+      ],
+      "id": "testbench:tb/tb_uart2bus_top.sv",
+      "label": "tb_uart2bus_top.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:31b13432bf8e0b61429a8a98deaa22a64346c836e88b9e5c602c754dd9df877e"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:31b13432bf8e0b61429a8a98deaa22a64346c836e88b9e5c602c754dd9df877e"
+      ],
+      "id": "testbench:tb/uart_tasks.svh",
+      "label": "uart_tasks.svh",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "verification_obligation:000",
+      "label": "ascii write command",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "verification_obligation:001",
+      "label": "ascii read-back response",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f40fbfd6e6377ed3af21aac4922d9e0d430eda6e0f08507681f26a348b500510"
+      ],
+      "id": "verification_obligation:002",
+      "label": "8N1 115200 serial framing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "uart2bus",
+  "project_revision": "f40fbfd6e6377ed3",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in uart2bus. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in uart2bus. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Given a future failing regression for uart2bus, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of uart2bus. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Create a DesignGraph integration plan for uart2bus that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Generate or complete synthesizable SystemVerilog for uart2bus from its released design contracts. Preserve the hierarchy and interfaces of baud_gen, uart2bus_top, uart_parser, uart_rx, uart_top, uart_tx, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of uart2bus, including the roles of baud_gen, uart2bus_top, uart_parser, uart_rx, uart_top, uart_tx. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Plan a cross-module interface modification for uart2bus. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Design a minimal wrapper plan to reuse uart2bus in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for uart2bus. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:uart2bus",
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "uart2bus",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for uart2bus. It must exercise the obligation: ascii write command and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f40fbfd6e6377ed3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:baud_gen",
+        "module:uart2bus_top",
+        "module:uart_parser",
+        "module:uart_rx",
+        "module:uart_top",
+        "module:uart_tx"
+      ],
+      "task_id": "ipgraph:uart2bus:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:4a6ed05ddbc9362651a381b8524a59bbc7df6111381395613cd54bda8220765b"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

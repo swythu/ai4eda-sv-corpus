@@ -1,0 +1,3 @@
+`timescale 1ns/1ps
+module tb_ready_valid_checker;logic clk=0,rstn=0,clr,v,r;logic[7:0]d;logic err;logic[31:0]cnt;ready_valid_checker#(.Width(8))dut(.clk_i(clk),.rst_ni(rstn),.clear_i(clr),.valid_i(v),.ready_i(r),.data_i(d),.error_o(err),.transfer_count_o(cnt));always#5 clk=~clk;
+initial begin clr=0;v=0;r=0;d=0;repeat(2)@(negedge clk);rstn=1;v=1;d=8'h11;repeat(2)@(negedge clk);if(err)$fatal(1,"legal stall");d=8'h22;@(negedge clk);if(!err)$fatal(1,"change");clr=1;@(negedge clk);clr=0;v=0;if(err)$fatal(1,"clear");v=1;r=1;@(negedge clk);v=0;r=0;if(cnt!=1)$fatal(1,"count");$display("READY_VALID_CHECKER_PASS");$finish;end endmodule

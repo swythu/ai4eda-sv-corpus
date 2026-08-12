@@ -1,0 +1,1832 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:bd2057a9e01f35332d6d01adc49e9841c43cab806bd7ff12882b19250cf83a9f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "bd2057a9e01f35332d6d01adc49e9841c43cab806bd7ff12882b19250cf83a9f"
+    },
+    {
+      "artifact_id": "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+    },
+    {
+      "artifact_id": "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/rv32i_microcore.sv",
+      "release_status": "source_released",
+      "sha256": "3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+    },
+    {
+      "artifact_id": "sha256:b78cc79ca08466995fca83970cdf0db1ae4f4528faa846f4bcad8e368a8dc20a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "b78cc79ca08466995fca83970cdf0db1ae4f4528faa846f4bcad8e368a8dc20a"
+    },
+    {
+      "artifact_id": "sha256:41196ae2c7f25bea07a862d255be758bfce8fddd329146355e660c991adcf022",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "41196ae2c7f25bea07a862d255be758bfce8fddd329146355e660c991adcf022"
+    },
+    {
+      "artifact_id": "sha256:424b4d79245b652db6454b21b1eef5dc034b871a552d3a4393c99a86465898ca",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "424b4d79245b652db6454b21b1eef5dc034b871a552d3a4393c99a86465898ca"
+    },
+    {
+      "artifact_id": "sha256:bcaabcd24c9d23803cb6742b8e6eedf4b407a978b7998cd3e6112d6b2c8dd479",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "bcaabcd24c9d23803cb6742b8e6eedf4b407a978b7998cd3e6112d6b2c8dd479"
+    },
+    {
+      "artifact_id": "sha256:a2640a2f65a288914f6c4ef4d9b961c6b72ac035f059798cc2a2b7f8e97a26d4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0002.json",
+      "release_status": "source_released",
+      "sha256": "a2640a2f65a288914f6c4ef4d9b961c6b72ac035f059798cc2a2b7f8e97a26d4"
+    },
+    {
+      "artifact_id": "sha256:9a1dbf7601912800bef60eee17d14fda6fb8e1dac111e1d895652e0eb64c61ae",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "9a1dbf7601912800bef60eee17d14fda6fb8e1dac111e1d895652e0eb64c61ae"
+    },
+    {
+      "artifact_id": "sha256:897ec3a0ca417d4e410eecc3d7322d28473ae1d10cd4a06a903921848594524e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "897ec3a0ca417d4e410eecc3d7322d28473ae1d10cd4a06a903921848594524e"
+    },
+    {
+      "artifact_id": "sha256:e34cef73cca15d820307eaa9b784573cf67a280fbad01d4659cfe681a93d7125",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "e34cef73cca15d820307eaa9b784573cf67a280fbad01d4659cfe681a93d7125"
+    },
+    {
+      "artifact_id": "sha256:1169d24c306fc8148dbf80c3bb7c3d12eaa892ef4a76c13d11c8ea5bd9f31de7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "1169d24c306fc8148dbf80c3bb7c3d12eaa892ef4a76c13d11c8ea5bd9f31de7"
+    },
+    {
+      "artifact_id": "sha256:db98f4ed167faf82234f9523ef9d9c5c5e6483fb9a16d1b5a86afef699521a6e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "db98f4ed167faf82234f9523ef9d9c5c5e6483fb9a16d1b5a86afef699521a6e"
+    },
+    {
+      "artifact_id": "sha256:8922dddeea97f675acdf1248f502f8350b7df9ee1fe33ba8de444cf0513ba433",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "8922dddeea97f675acdf1248f502f8350b7df9ee1fe33ba8de444cf0513ba433"
+    },
+    {
+      "artifact_id": "sha256:6046dc227414bf6caf7fc7537dbcaae67468c58ececa6719e51b360ebd955fdc",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "6046dc227414bf6caf7fc7537dbcaae67468c58ececa6719e51b360ebd955fdc"
+    },
+    {
+      "artifact_id": "sha256:2b7568cf87b22967cebe62a2b8a715cc116af5011b783020cbe41736f4ca892c",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0001.json",
+      "release_status": "source_released",
+      "sha256": "2b7568cf87b22967cebe62a2b8a715cc116af5011b783020cbe41736f4ca892c"
+    },
+    {
+      "artifact_id": "sha256:5a91150cace987a7674ad30d358d43dc4a4b0ba8c1afc4713107d6dc65277d7d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "5a91150cace987a7674ad30d358d43dc4a4b0ba8c1afc4713107d6dc65277d7d"
+    },
+    {
+      "artifact_id": "sha256:42a68e490a4faaf25fe713066d4b443547ad3928ffae15d41da5f6aa455d6ffe",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0001.json",
+      "release_status": "source_released",
+      "sha256": "42a68e490a4faaf25fe713066d4b443547ad3928ffae15d41da5f6aa455d6ffe"
+    },
+    {
+      "artifact_id": "sha256:0f4000af6a007f8bff7f87e0a82b7db96e1866a4e02837bc281005532d480787",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0002.json",
+      "release_status": "source_released",
+      "sha256": "0f4000af6a007f8bff7f87e0a82b7db96e1866a4e02837bc281005532d480787"
+    },
+    {
+      "artifact_id": "sha256:58f8aea9967f1aee4b9d3d156e4dbce7812d7ae11043480446010f8847131042",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_rv32i_microcore.sv",
+      "release_status": "source_released",
+      "sha256": "58f8aea9967f1aee4b9d3d156e4dbce7812d7ae11043480446010f8847131042"
+    },
+    {
+      "artifact_id": "sha256:325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:project-contains-rv32i_microcore",
+      "source": "project:rv32i_microcore",
+      "target": "module:rv32i_microcore",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bd2057a9e01f35332d6d01adc49e9841c43cab806bd7ff12882b19250cf83a9f"
+      ],
+      "id": "edge:project-license",
+      "source": "project:rv32i_microcore",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:rv32i_microcore",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:rv32i_microcore",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:rv32i_microcore",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:rv32i_microcore",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:rv32i_microcore",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:rv32i_microcore",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "edge:project-source",
+      "source": "project:rv32i_microcore",
+      "target": "source_revision:53289c9ab9bc84e9",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:41196ae2c7f25bea07a862d255be758bfce8fddd329146355e660c991adcf022"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-cross_module_repair-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:424b4d79245b652db6454b21b1eef5dc034b871a552d3a4393c99a86465898ca"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-fault_localization_repair-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bcaabcd24c9d23803cb6742b8e6eedf4b407a978b7998cd3e6112d6b2c8dd479"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-fault_localization_repair-0001",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:fault_localization_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a2640a2f65a288914f6c4ef4d9b961c6b72ac035f059798cc2a2b7f8e97a26d4"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-fault_localization_repair-0002",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:fault_localization_repair:0002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9a1dbf7601912800bef60eee17d14fda6fb8e1dac111e1d895652e0eb64c61ae"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-functional_timing_understanding-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:897ec3a0ca417d4e410eecc3d7322d28473ae1d10cd4a06a903921848594524e"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-hierarchical_integration-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e34cef73cca15d820307eaa9b784573cf67a280fbad01d4659cfe681a93d7125"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-hierarchical_rtl_generation-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1169d24c306fc8148dbf80c3bb7c3d12eaa892ef4a76c13d11c8ea5bd9f31de7"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-hierarchy_dependency_analysis-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:db98f4ed167faf82234f9523ef9d9c5c5e6483fb9a16d1b5a86afef699521a6e"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-interface_modification-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8922dddeea97f675acdf1248f502f8350b7df9ee1fe33ba8de444cf0513ba433"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-reuse_integration-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6046dc227414bf6caf7fc7537dbcaae67468c58ececa6719e51b360ebd955fdc"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-tool_result_analysis-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b7568cf87b22967cebe62a2b8a715cc116af5011b783020cbe41736f4ca892c"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-tool_result_analysis-0001",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:tool_result_analysis:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5a91150cace987a7674ad30d358d43dc4a4b0ba8c1afc4713107d6dc65277d7d"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-verification_generation-0000",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42a68e490a4faaf25fe713066d4b443547ad3928ffae15d41da5f6aa455d6ffe"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-verification_generation-0001",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:verification_generation:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0f4000af6a007f8bff7f87e0a82b7db96e1866a4e02837bc281005532d480787"
+      ],
+      "id": "edge:project-task-ipgraph-rv32i_microcore-verification_generation-0002",
+      "source": "project:rv32i_microcore",
+      "target": "task:ipgraph:rv32i_microcore:verification_generation:0002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:58f8aea9967f1aee4b9d3d156e4dbce7812d7ae11043480446010f8847131042"
+      ],
+      "id": "edge:project-testbench-21",
+      "source": "project:rv32i_microcore",
+      "target": "testbench:tb/tb_rv32i_microcore.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-clock-clk_i",
+      "source": "module:rv32i_microcore",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-clk_i",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_addr_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_addr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_rdata_i",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_rdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_ready_i",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_ready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_valid_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_wdata_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_wdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-dmem_write_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.dmem_write_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-imem_addr_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.imem_addr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-imem_rdata_i",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.imem_rdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-rst_ni",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-port-trap_o",
+      "source": "module:rv32i_microcore",
+      "target": "port:rv32i_microcore.trap_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "edge:rv32i_microcore-reset-rst_ni",
+      "source": "module:rv32i_microcore",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:rv32i_microcore:53289c9ab9bc84e9",
+  "graph_sha256": "9331e7264a791bf5a236707eca70d6128bbf6bcd68b58f21cf95e5a553eb03ee",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "rv32i_microcore"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "attributes": {
+        "path": "rtl/rv32i_microcore.sv"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "module:rv32i_microcore",
+      "label": "rv32i_microcore",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] dmem_addr_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_addr_o",
+      "label": "dmem_addr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] dmem_rdata_i",
+        "direction": "input",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_rdata_i",
+      "label": "dmem_rdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dmem_ready_i",
+        "direction": "input",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_ready_i",
+      "label": "dmem_ready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dmem_valid_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_valid_o",
+      "label": "dmem_valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] dmem_wdata_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_wdata_o",
+      "label": "dmem_wdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dmem_write_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.dmem_write_o",
+      "label": "dmem_write_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] imem_addr_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.imem_addr_o",
+      "label": "imem_addr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] imem_rdata_i",
+        "direction": "input",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.imem_rdata_i",
+      "label": "imem_rdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic trap_o",
+        "direction": "output",
+        "module": "rv32i_microcore"
+      },
+      "evidence_refs": [
+        "sha256:3482e938490174054a699f6cb4075e5cc7bf347982096b98f6477222e2f5c875"
+      ],
+      "id": "port:rv32i_microcore.trap_o",
+      "label": "trap_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "processor",
+        "compile_order": [
+          "rtl/rv32i_microcore.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "rv32i_microcore"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:rv32i_microcore",
+      "label": "rv32i_microcore",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "rv32i_microcore"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:53289c9ab9bc84e9",
+      "label": "53289c9ab9bc84e9",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:41196ae2c7f25bea07a862d255be758bfce8fddd329146355e660c991adcf022"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:cross_module_repair:0000",
+      "label": "ipgraph:rv32i_microcore:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:424b4d79245b652db6454b21b1eef5dc034b871a552d3a4393c99a86465898ca"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:fault_localization_repair:0000",
+      "label": "ipgraph:rv32i_microcore:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:bcaabcd24c9d23803cb6742b8e6eedf4b407a978b7998cd3e6112d6b2c8dd479"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:fault_localization_repair:0001",
+      "label": "ipgraph:rv32i_microcore:fault_localization_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:a2640a2f65a288914f6c4ef4d9b961c6b72ac035f059798cc2a2b7f8e97a26d4"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:fault_localization_repair:0002",
+      "label": "ipgraph:rv32i_microcore:fault_localization_repair:0002",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:9a1dbf7601912800bef60eee17d14fda6fb8e1dac111e1d895652e0eb64c61ae"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:functional_timing_understanding:0000",
+      "label": "ipgraph:rv32i_microcore:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:897ec3a0ca417d4e410eecc3d7322d28473ae1d10cd4a06a903921848594524e"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:hierarchical_integration:0000",
+      "label": "ipgraph:rv32i_microcore:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:e34cef73cca15d820307eaa9b784573cf67a280fbad01d4659cfe681a93d7125"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:rv32i_microcore:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:1169d24c306fc8148dbf80c3bb7c3d12eaa892ef4a76c13d11c8ea5bd9f31de7"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:rv32i_microcore:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:db98f4ed167faf82234f9523ef9d9c5c5e6483fb9a16d1b5a86afef699521a6e"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:interface_modification:0000",
+      "label": "ipgraph:rv32i_microcore:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:8922dddeea97f675acdf1248f502f8350b7df9ee1fe33ba8de444cf0513ba433"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:reuse_integration:0000",
+      "label": "ipgraph:rv32i_microcore:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:6046dc227414bf6caf7fc7537dbcaae67468c58ececa6719e51b360ebd955fdc"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:tool_result_analysis:0000",
+      "label": "ipgraph:rv32i_microcore:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:2b7568cf87b22967cebe62a2b8a715cc116af5011b783020cbe41736f4ca892c"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:tool_result_analysis:0001",
+      "label": "ipgraph:rv32i_microcore:tool_result_analysis:0001",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:5a91150cace987a7674ad30d358d43dc4a4b0ba8c1afc4713107d6dc65277d7d"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:verification_generation:0000",
+      "label": "ipgraph:rv32i_microcore:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:42a68e490a4faaf25fe713066d4b443547ad3928ffae15d41da5f6aa455d6ffe"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:verification_generation:0001",
+      "label": "ipgraph:rv32i_microcore:verification_generation:0001",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:0f4000af6a007f8bff7f87e0a82b7db96e1866a4e02837bc281005532d480787"
+      ],
+      "id": "task:ipgraph:rv32i_microcore:verification_generation:0002",
+      "label": "ipgraph:rv32i_microcore:verification_generation:0002",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:58f8aea9967f1aee4b9d3d156e4dbce7812d7ae11043480446010f8847131042"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:58f8aea9967f1aee4b9d3d156e4dbce7812d7ae11043480446010f8847131042"
+      ],
+      "id": "testbench:tb/tb_rv32i_microcore.sv",
+      "label": "tb_rv32i_microcore.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "verification_obligation:000",
+      "label": "ADDI and ADD",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "verification_obligation:001",
+      "label": "load/store handshake",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "verification_obligation:002",
+      "label": "taken branch",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "verification_obligation:003",
+      "label": "x0 hardwired zero",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:53289c9ab9bc84e91356668681510ad196267276189455d3c411c02a09adf68e"
+      ],
+      "id": "verification_obligation:004",
+      "label": "illegal instruction trap",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "rv32i_microcore",
+  "project_revision": "53289c9ab9bc84e9",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in rv32i_microcore. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Given a future failing regression for rv32i_microcore, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Given a future failing regression for rv32i_microcore, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:fault_localization_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Given a future failing regression for rv32i_microcore, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:fault_localization_repair:0002"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of rv32i_microcore. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Create a DesignGraph integration plan for rv32i_microcore that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Generate or complete synthesizable SystemVerilog for rv32i_microcore from its released design contracts. Preserve the hierarchy and interfaces of rv32i_microcore, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of rv32i_microcore, including the roles of rv32i_microcore. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Plan a cross-module interface modification for rv32i_microcore. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Design a minimal wrapper plan to reuse rv32i_microcore in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for rv32i_microcore. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for rv32i_microcore. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:tool_result_analysis:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for rv32i_microcore. It must exercise the obligation: ADDI and ADD and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:verification_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for rv32i_microcore. It must exercise the obligation: ADDI and ADD and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:verification_generation:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:rv32i_microcore",
+        "module:rv32i_microcore"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rv32i_microcore",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for rv32i_microcore. It must exercise the obligation: ADDI and ADD and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "53289c9ab9bc84e9",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:rv32i_microcore"
+      ],
+      "task_id": "ipgraph:rv32i_microcore:verification_generation:0002"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:325cbb79b735c6034fde4634c8e515efa1ee1b5b7c192c3c51779351a4823c30"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

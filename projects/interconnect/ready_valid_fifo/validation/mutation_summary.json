@@ -1,0 +1,16 @@
+{
+  "baseline_pass": true,
+  "campaign_id": "ready_valid_fifo-v1",
+  "equivalent_or_invalid": 0,
+  "killed": 10,
+  "non_equivalent_total": 10,
+  "notes": "A killed mutant has an executable behavioral witness and is therefore non-equivalent to the passing baseline for the exercised behavior.",
+  "private_manifest_sha256": "041473dd472631701160db550334a1f0faaa435c6b9758e54642ec0199f4e700",
+  "project_id": "ready_valid_fifo",
+  "schema_version": "ip-mutation-summary/v1",
+  "status": "pass",
+  "survived": 0,
+  "tool_versions": {
+    "iverilog": "Icarus Verilog version 12.0 (stable) (v12_0)"
+  }
+}

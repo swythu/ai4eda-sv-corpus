@@ -53,13 +53,32 @@ module tb_dma_axi32;
   dma_axi32 dut (.*);
   always #5 clk = ~clk;
 
+  task automatic apb_write(input logic [12:0] addr, input logic [31:0] data);
+    begin
+      @(negedge clk); paddr = addr; pwdata = data; pwrite = 1'b1; psel = 1'b1; penable = 1'b0;
+      @(posedge clk); #2; if (!pready || pslverr) $fatal(1, "APB write failed at %h", addr);
+      @(negedge clk); penable = 1'b1;
+      @(negedge clk); psel = 1'b0; penable = 1'b0; pwrite = 1'b0;
+    end
+  endtask
+
+  task automatic apb_read(input logic [12:0] addr, output logic [31:0] data, output logic error);
+    begin
+      @(negedge clk); paddr = addr; pwrite = 1'b0; psel = 1'b1; penable = 1'b0;
+      @(posedge clk); #2; if (!pready) $fatal(1, "APB read did not become ready at %h", addr);
+      data = prdata; error = pslverr;
+      @(negedge clk); penable = 1'b1;
+      @(negedge clk); psel = 1'b0; penable = 1'b0;
+    end
+  endtask
+
   initial begin
     clk = 1'b0;
     reset = 1'b1;
     scan_en = '0;
     periph_tx_req = '0;
     periph_rx_req = '0;
-    pclken = '0;
+    pclken = 1'b1;
     psel = '0;
     penable = '0;
     paddr = '0;
@@ -85,13 +104,35 @@ module tb_dma_axi32;
       $fatal(1, "DMA AXI32 outputs contain X after reset");
     if (AWVALID0 || WVALID0 || ARVALID0)
       $fatal(1, "DMA AXI32 issued an unexpected transaction while idle");
-    $display("DMA_AXI32_TOP_SV_PASS: mixed SV top + legacy Verilog blocks");
+    begin : register_functional_checks
+      logic [31:0] value;
+      logic error;
+      apb_write(13'h1030, 32'h0000_0001);
+      apb_read(13'h1030, value, error);
+      if (error || value[0] !== 1'b1) $fatal(1, "CORE0_JOINT readback");
+      apb_write(13'h1040, 32'h0000_000a);
+      apb_read(13'h1040, value, error);
+      if (error || value[3:0] !== 4'h0) $fatal(1, "disabled CORE0_CLKDIV behavior");
+      apb_write(13'h1050, 32'ha5a5_a5a4);
+      apb_read(13'h1050, value, error);
+      if (error || value !== 32'ha5a5_a5a4) $fatal(1, "PERIPH_RX_CTRL readback");
+      apb_write(13'h0000, 32'hdead_beef);
+      apb_read(13'h0000, value, error);
+      if (error || value !== 32'hdead_beef) $fatal(1, "channel command readback");
+      apb_read(13'h1048, value, error);
+      if (!error) $fatal(1, "write-only CORE0_START accepted a read");
+      apb_read(13'h10c0, value, error);
+      if (!error) $fatal(1, "invalid global register did not report decode error");
+    end
+    if (AWVALID0 || WVALID0 || ARVALID0)
+      $fatal(1, "configuration-only APB traffic unexpectedly started AXI");
+    $display("DMA_AXI32_FUNCTIONAL_PASS: APB register oracle + idle AXI checks");
     $finish;
   end
 
   initial begin
     #5000;
-    $fatal(1, "DMA AXI32 reset smoke test timed out");
+    $fatal(1, "DMA AXI32 functional test timed out");
   end
 endmodule
 

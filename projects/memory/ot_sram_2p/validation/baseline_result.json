@@ -1,0 +1,1 @@
+{"project":"ot_sram_2p","status":"pass","compile":"pass","simulation":"pass","test_level":"self_checking_functional","lint_errors":0,"checks":["independent ports","asynchronous clocks","different-address simultaneous writes"]}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/ip_project.schema.json",
+  "title": "AI4EDA IP project record",
+  "type": "object",
+  "required": ["schema_version", "project_id", "category", "upstream", "revision", "license_expression", "release_status", "project_path", "graph_path", "quality_level"],
+  "properties": {
+    "schema_version": {"const": "ip-project/v1"},
+    "project_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "category": {"enum": ["arithmetic", "communication", "control", "interconnect", "memory", "processor", "security", "cdc", "verification", "video"]},
+    "upstream": {"type": "string", "format": "uri"},
+    "revision": {"type": "string", "minLength": 1},
+    "license_expression": {"type": "string", "minLength": 1},
+    "release_status": {"$ref": "release_policy.schema.json"},
+    "project_path": {"type": "string", "pattern": "^projects/"},
+    "graph_path": {"type": "string", "pattern": "^projects/.+/graph/ip_etg\\.json$"},
+    "quality_level": {"enum": ["Q0", "Q1", "Q2", "Q3", "Q4"]}
+  },
+  "additionalProperties": false
+}

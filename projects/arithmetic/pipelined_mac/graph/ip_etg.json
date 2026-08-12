@@ -1,0 +1,1806 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:a58fd55fe65049160899d66585edd06c4d1ffdaf51bd79e1d45d23454302f1f0",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "a58fd55fe65049160899d66585edd06c4d1ffdaf51bd79e1d45d23454302f1f0"
+    },
+    {
+      "artifact_id": "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+    },
+    {
+      "artifact_id": "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pipelined_mac.sv",
+      "release_status": "source_released",
+      "sha256": "1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+    },
+    {
+      "artifact_id": "sha256:3d8399e5f89dcf954820410f3082bacd623fdbd0bd1e915fa2d260db81841aa7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "3d8399e5f89dcf954820410f3082bacd623fdbd0bd1e915fa2d260db81841aa7"
+    },
+    {
+      "artifact_id": "sha256:148d6ce0f71beffc4e97896a11fdd1ba86628711bdb4f524bdc2db53cbc05070",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "148d6ce0f71beffc4e97896a11fdd1ba86628711bdb4f524bdc2db53cbc05070"
+    },
+    {
+      "artifact_id": "sha256:d08ae380f927187d753d5a19104e9445f9597c7c117057490bd75ef7509b9202",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "d08ae380f927187d753d5a19104e9445f9597c7c117057490bd75ef7509b9202"
+    },
+    {
+      "artifact_id": "sha256:ef752d3defe725103d5c9ecc8aba1062eca9256856e937b7cf6a11da2672c6a4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "ef752d3defe725103d5c9ecc8aba1062eca9256856e937b7cf6a11da2672c6a4"
+    },
+    {
+      "artifact_id": "sha256:2c73aedf4c6afa20dd0e05781b83e2f195a38a77f0a79eb1b35973484f24c88a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0002.json",
+      "release_status": "source_released",
+      "sha256": "2c73aedf4c6afa20dd0e05781b83e2f195a38a77f0a79eb1b35973484f24c88a"
+    },
+    {
+      "artifact_id": "sha256:7fdb3c323168c7a80e47e6390b6ba0551cea1c74470a168c28cfcec71499b7d4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "7fdb3c323168c7a80e47e6390b6ba0551cea1c74470a168c28cfcec71499b7d4"
+    },
+    {
+      "artifact_id": "sha256:4039ac48873a4fbfc737936913402283f75f5c0f08af4fac74ea3a9d5f5a8b8a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "4039ac48873a4fbfc737936913402283f75f5c0f08af4fac74ea3a9d5f5a8b8a"
+    },
+    {
+      "artifact_id": "sha256:d418f958ce499d5a810395e9202b15d084d0b4c0a4a2c20576eef537715d4f7d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "d418f958ce499d5a810395e9202b15d084d0b4c0a4a2c20576eef537715d4f7d"
+    },
+    {
+      "artifact_id": "sha256:49ba75905221d1708aa362254ce484f872c72da0f9c57fcf7266e9dd705e000a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "49ba75905221d1708aa362254ce484f872c72da0f9c57fcf7266e9dd705e000a"
+    },
+    {
+      "artifact_id": "sha256:96604e97f052459563c588fc40f9f959028de2d6048574e5a9fee7852b93e3b4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "96604e97f052459563c588fc40f9f959028de2d6048574e5a9fee7852b93e3b4"
+    },
+    {
+      "artifact_id": "sha256:dae2962cdeba5d53892a125f9f9ea08af6c805a1bcb5cf3969cf9f81b000fdc8",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "dae2962cdeba5d53892a125f9f9ea08af6c805a1bcb5cf3969cf9f81b000fdc8"
+    },
+    {
+      "artifact_id": "sha256:7014e56d2f74718c97ccc831b9e3f8adb72c9187a236bb1ced9c12fb6f6fe613",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "7014e56d2f74718c97ccc831b9e3f8adb72c9187a236bb1ced9c12fb6f6fe613"
+    },
+    {
+      "artifact_id": "sha256:f688320a1501b389dd5aa01506a051b843e0845f2a86bbd37c9d4837bc43c444",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0001.json",
+      "release_status": "source_released",
+      "sha256": "f688320a1501b389dd5aa01506a051b843e0845f2a86bbd37c9d4837bc43c444"
+    },
+    {
+      "artifact_id": "sha256:db3a177c3f311b42e2636a9f4ac14804ef667fd2b58f7f00ed66ac8a647ea621",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "db3a177c3f311b42e2636a9f4ac14804ef667fd2b58f7f00ed66ac8a647ea621"
+    },
+    {
+      "artifact_id": "sha256:0d3b314926156d21e7fe8c969743aed53ac17e432920a563ff9a73250a17b2c7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0001.json",
+      "release_status": "source_released",
+      "sha256": "0d3b314926156d21e7fe8c969743aed53ac17e432920a563ff9a73250a17b2c7"
+    },
+    {
+      "artifact_id": "sha256:3c6a76693547fb1a0fea957d0cbe626781c42a6043a6189928c65f14d6e80e05",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0002.json",
+      "release_status": "source_released",
+      "sha256": "3c6a76693547fb1a0fea957d0cbe626781c42a6043a6189928c65f14d6e80e05"
+    },
+    {
+      "artifact_id": "sha256:d620da3f615d69140c240439abe1e9454e20f93df1a5796f6f3faaa55e6cf98a",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_pipelined_mac.sv",
+      "release_status": "source_released",
+      "sha256": "d620da3f615d69140c240439abe1e9454e20f93df1a5796f6f3faaa55e6cf98a"
+    },
+    {
+      "artifact_id": "sha256:abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-clock-clk_i",
+      "source": "module:pipelined_mac",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-parameter-OW",
+      "source": "module:pipelined_mac",
+      "target": "parameter:pipelined_mac.OW",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-parameter-W",
+      "source": "module:pipelined_mac",
+      "target": "parameter:pipelined_mac.W",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-a_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.a_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-b_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.b_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-ce_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.ce_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-clear_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.clear_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-clk_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-result_o",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.result_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-rst_ni",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-valid_i",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.valid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-port-valid_o",
+      "source": "module:pipelined_mac",
+      "target": "port:pipelined_mac.valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:pipelined_mac-reset-rst_ni",
+      "source": "module:pipelined_mac",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "edge:project-contains-pipelined_mac",
+      "source": "project:pipelined_mac",
+      "target": "module:pipelined_mac",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a58fd55fe65049160899d66585edd06c4d1ffdaf51bd79e1d45d23454302f1f0"
+      ],
+      "id": "edge:project-license",
+      "source": "project:pipelined_mac",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:pipelined_mac",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:pipelined_mac",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:pipelined_mac",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:pipelined_mac",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:pipelined_mac",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "edge:project-source",
+      "source": "project:pipelined_mac",
+      "target": "source_revision:dc7ba3fc4d9afa0a",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:148d6ce0f71beffc4e97896a11fdd1ba86628711bdb4f524bdc2db53cbc05070"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-cross_module_repair-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d08ae380f927187d753d5a19104e9445f9597c7c117057490bd75ef7509b9202"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-fault_localization_repair-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef752d3defe725103d5c9ecc8aba1062eca9256856e937b7cf6a11da2672c6a4"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-fault_localization_repair-0001",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:fault_localization_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2c73aedf4c6afa20dd0e05781b83e2f195a38a77f0a79eb1b35973484f24c88a"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-fault_localization_repair-0002",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:fault_localization_repair:0002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fdb3c323168c7a80e47e6390b6ba0551cea1c74470a168c28cfcec71499b7d4"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-functional_timing_understanding-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4039ac48873a4fbfc737936913402283f75f5c0f08af4fac74ea3a9d5f5a8b8a"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-hierarchical_integration-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d418f958ce499d5a810395e9202b15d084d0b4c0a4a2c20576eef537715d4f7d"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-hierarchical_rtl_generation-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:49ba75905221d1708aa362254ce484f872c72da0f9c57fcf7266e9dd705e000a"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-hierarchy_dependency_analysis-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96604e97f052459563c588fc40f9f959028de2d6048574e5a9fee7852b93e3b4"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-interface_modification-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dae2962cdeba5d53892a125f9f9ea08af6c805a1bcb5cf3969cf9f81b000fdc8"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-reuse_integration-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7014e56d2f74718c97ccc831b9e3f8adb72c9187a236bb1ced9c12fb6f6fe613"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-tool_result_analysis-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f688320a1501b389dd5aa01506a051b843e0845f2a86bbd37c9d4837bc43c444"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-tool_result_analysis-0001",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:tool_result_analysis:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:db3a177c3f311b42e2636a9f4ac14804ef667fd2b58f7f00ed66ac8a647ea621"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-verification_generation-0000",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0d3b314926156d21e7fe8c969743aed53ac17e432920a563ff9a73250a17b2c7"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-verification_generation-0001",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:verification_generation:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3c6a76693547fb1a0fea957d0cbe626781c42a6043a6189928c65f14d6e80e05"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_mac-verification_generation-0002",
+      "source": "project:pipelined_mac",
+      "target": "task:ipgraph:pipelined_mac:verification_generation:0002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d620da3f615d69140c240439abe1e9454e20f93df1a5796f6f3faaa55e6cf98a"
+      ],
+      "id": "edge:project-testbench-20",
+      "source": "project:pipelined_mac",
+      "target": "testbench:tb/tb_pipelined_mac.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:pipelined_mac:dc7ba3fc4d9afa0a",
+  "graph_sha256": "fc1f177481e3a3a01c978ab802bba8145cd3db2b6a44777f7c7f505c45e3e18a",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pipelined_mac"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "attributes": {
+        "path": "rtl/pipelined_mac.sv"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "module:pipelined_mac",
+      "label": "pipelined_mac",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "parameter:pipelined_mac.OW",
+      "label": "OW",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "parameter:pipelined_mac.W",
+      "label": "W",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic signed [W-1:0] a_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.a_i",
+      "label": "a_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic signed [W-1:0] b_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.b_i",
+      "label": "b_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic ce_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.ce_i",
+      "label": "ce_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clear_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.clear_i",
+      "label": "clear_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic signed [OW-1:0] result_o",
+        "direction": "output",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.result_o",
+      "label": "result_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic valid_i",
+        "direction": "input",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.valid_i",
+      "label": "valid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid_o",
+        "direction": "output",
+        "module": "pipelined_mac"
+      },
+      "evidence_refs": [
+        "sha256:1ed0dd85b600b5a84f88a9be48093625783d2af38603a301f953f2a58e4d64e9"
+      ],
+      "id": "port:pipelined_mac.valid_o",
+      "label": "valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/pipelined_mac.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "pipelined_mac"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:pipelined_mac",
+      "label": "pipelined_mac",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pipelined_mac"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:dc7ba3fc4d9afa0a",
+      "label": "dc7ba3fc4d9afa0a",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:148d6ce0f71beffc4e97896a11fdd1ba86628711bdb4f524bdc2db53cbc05070"
+      ],
+      "id": "task:ipgraph:pipelined_mac:cross_module_repair:0000",
+      "label": "ipgraph:pipelined_mac:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:d08ae380f927187d753d5a19104e9445f9597c7c117057490bd75ef7509b9202"
+      ],
+      "id": "task:ipgraph:pipelined_mac:fault_localization_repair:0000",
+      "label": "ipgraph:pipelined_mac:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:ef752d3defe725103d5c9ecc8aba1062eca9256856e937b7cf6a11da2672c6a4"
+      ],
+      "id": "task:ipgraph:pipelined_mac:fault_localization_repair:0001",
+      "label": "ipgraph:pipelined_mac:fault_localization_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:2c73aedf4c6afa20dd0e05781b83e2f195a38a77f0a79eb1b35973484f24c88a"
+      ],
+      "id": "task:ipgraph:pipelined_mac:fault_localization_repair:0002",
+      "label": "ipgraph:pipelined_mac:fault_localization_repair:0002",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:7fdb3c323168c7a80e47e6390b6ba0551cea1c74470a168c28cfcec71499b7d4"
+      ],
+      "id": "task:ipgraph:pipelined_mac:functional_timing_understanding:0000",
+      "label": "ipgraph:pipelined_mac:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:4039ac48873a4fbfc737936913402283f75f5c0f08af4fac74ea3a9d5f5a8b8a"
+      ],
+      "id": "task:ipgraph:pipelined_mac:hierarchical_integration:0000",
+      "label": "ipgraph:pipelined_mac:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:d418f958ce499d5a810395e9202b15d084d0b4c0a4a2c20576eef537715d4f7d"
+      ],
+      "id": "task:ipgraph:pipelined_mac:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:pipelined_mac:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:49ba75905221d1708aa362254ce484f872c72da0f9c57fcf7266e9dd705e000a"
+      ],
+      "id": "task:ipgraph:pipelined_mac:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:pipelined_mac:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:96604e97f052459563c588fc40f9f959028de2d6048574e5a9fee7852b93e3b4"
+      ],
+      "id": "task:ipgraph:pipelined_mac:interface_modification:0000",
+      "label": "ipgraph:pipelined_mac:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:dae2962cdeba5d53892a125f9f9ea08af6c805a1bcb5cf3969cf9f81b000fdc8"
+      ],
+      "id": "task:ipgraph:pipelined_mac:reuse_integration:0000",
+      "label": "ipgraph:pipelined_mac:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:7014e56d2f74718c97ccc831b9e3f8adb72c9187a236bb1ced9c12fb6f6fe613"
+      ],
+      "id": "task:ipgraph:pipelined_mac:tool_result_analysis:0000",
+      "label": "ipgraph:pipelined_mac:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:f688320a1501b389dd5aa01506a051b843e0845f2a86bbd37c9d4837bc43c444"
+      ],
+      "id": "task:ipgraph:pipelined_mac:tool_result_analysis:0001",
+      "label": "ipgraph:pipelined_mac:tool_result_analysis:0001",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:db3a177c3f311b42e2636a9f4ac14804ef667fd2b58f7f00ed66ac8a647ea621"
+      ],
+      "id": "task:ipgraph:pipelined_mac:verification_generation:0000",
+      "label": "ipgraph:pipelined_mac:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:0d3b314926156d21e7fe8c969743aed53ac17e432920a563ff9a73250a17b2c7"
+      ],
+      "id": "task:ipgraph:pipelined_mac:verification_generation:0001",
+      "label": "ipgraph:pipelined_mac:verification_generation:0001",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:3c6a76693547fb1a0fea957d0cbe626781c42a6043a6189928c65f14d6e80e05"
+      ],
+      "id": "task:ipgraph:pipelined_mac:verification_generation:0002",
+      "label": "ipgraph:pipelined_mac:verification_generation:0002",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d620da3f615d69140c240439abe1e9454e20f93df1a5796f6f3faaa55e6cf98a"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:d620da3f615d69140c240439abe1e9454e20f93df1a5796f6f3faaa55e6cf98a"
+      ],
+      "id": "testbench:tb/tb_pipelined_mac.sv",
+      "label": "tb_pipelined_mac.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "verification_obligation:000",
+      "label": "signed arithmetic",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "verification_obligation:001",
+      "label": "pipeline latency",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "verification_obligation:002",
+      "label": "clock enable stalls",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:dc7ba3fc4d9afa0ab0775c8d30b48a8795981d70f0fa09557794de51506cba59"
+      ],
+      "id": "verification_obligation:003",
+      "label": "accumulator clear",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "pipelined_mac",
+  "project_revision": "dc7ba3fc4d9afa0a",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pipelined_mac. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Given a future failing regression for pipelined_mac, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Given a future failing regression for pipelined_mac, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:fault_localization_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Given a future failing regression for pipelined_mac, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:fault_localization_repair:0002"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of pipelined_mac. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Create a DesignGraph integration plan for pipelined_mac that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Generate or complete synthesizable SystemVerilog for pipelined_mac from its released design contracts. Preserve the hierarchy and interfaces of pipelined_mac, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of pipelined_mac, including the roles of pipelined_mac. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Plan a cross-module interface modification for pipelined_mac. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Design a minimal wrapper plan to reuse pipelined_mac in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for pipelined_mac. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for pipelined_mac. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:tool_result_analysis:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pipelined_mac. It must exercise the obligation: signed arithmetic and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:verification_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pipelined_mac. It must exercise the obligation: signed arithmetic and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:verification_generation:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pipelined_mac",
+        "module:pipelined_mac"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_mac",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pipelined_mac. It must exercise the obligation: signed arithmetic and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "dc7ba3fc4d9afa0a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pipelined_mac"
+      ],
+      "task_id": "ipgraph:pipelined_mac:verification_generation:0002"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:abc35d3e9a5101b488fe733b65adf2c9e708ff7cf60b6cf82c27702bc9343a36"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

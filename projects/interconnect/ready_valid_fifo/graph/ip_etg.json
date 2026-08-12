@@ -1,0 +1,1230 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:83a9671bc16e1d00a0bfcd27ccd61d6380f1fbcc8c3a00eb9e7f7df72a73598f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "83a9671bc16e1d00a0bfcd27ccd61d6380f1fbcc8c3a00eb9e7f7df72a73598f"
+    },
+    {
+      "artifact_id": "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+    },
+    {
+      "artifact_id": "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/ready_valid_fifo.sv",
+      "release_status": "source_released",
+      "sha256": "3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+    },
+    {
+      "artifact_id": "sha256:e8e8c78273e0f21d3b35d335b16fc0d20a182b2bc4e9e3921809849c6ee00481",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "e8e8c78273e0f21d3b35d335b16fc0d20a182b2bc4e9e3921809849c6ee00481"
+    },
+    {
+      "artifact_id": "sha256:542e63157857536404bff08a2d8e7efcdf1a87d6f85d128d7016d83a1f5cccad",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "542e63157857536404bff08a2d8e7efcdf1a87d6f85d128d7016d83a1f5cccad"
+    },
+    {
+      "artifact_id": "sha256:51ba8832b161e8f4294f2fbd92ca1e405a19f15c1fdbb362a3460d6749dc4b2f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "51ba8832b161e8f4294f2fbd92ca1e405a19f15c1fdbb362a3460d6749dc4b2f"
+    },
+    {
+      "artifact_id": "sha256:346409020b1353ce7042f69e03ac5c6cf4647c65453493d13d035e56c0f451e3",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "346409020b1353ce7042f69e03ac5c6cf4647c65453493d13d035e56c0f451e3"
+    },
+    {
+      "artifact_id": "sha256:aee70f65d6cb137505153f207272a3ac6b6ad0d463ed7c10602a2cd09bc303ce",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "aee70f65d6cb137505153f207272a3ac6b6ad0d463ed7c10602a2cd09bc303ce"
+    },
+    {
+      "artifact_id": "sha256:fe06ff8fc552488b6d30aa16dbe30947e51c016c66a5f7eaf535705277f4bdd0",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "fe06ff8fc552488b6d30aa16dbe30947e51c016c66a5f7eaf535705277f4bdd0"
+    },
+    {
+      "artifact_id": "sha256:63371c752717384d487e49bb3104a9e5cdb7f96fe560610cea97a5b346ffa113",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "63371c752717384d487e49bb3104a9e5cdb7f96fe560610cea97a5b346ffa113"
+    },
+    {
+      "artifact_id": "sha256:f37659eee91ffe418c91f17a9895af1eb9f6f97bc593136bae7d1f6793d42034",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "f37659eee91ffe418c91f17a9895af1eb9f6f97bc593136bae7d1f6793d42034"
+    },
+    {
+      "artifact_id": "sha256:2a7aac9a7e8cd51f369bf5d1e787e5bc3bb9ff3d53c651d4997b3ca29316c62e",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_ready_valid_fifo.sv",
+      "release_status": "source_released",
+      "sha256": "2a7aac9a7e8cd51f369bf5d1e787e5bc3bb9ff3d53c651d4997b3ca29316c62e"
+    },
+    {
+      "artifact_id": "sha256:8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/mutation_summary.json",
+      "release_status": "source_released",
+      "sha256": "8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258"
+    },
+    {
+      "artifact_id": "sha256:4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:project-contains-ready_valid_fifo",
+      "source": "project:ready_valid_fifo",
+      "target": "module:ready_valid_fifo",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:83a9671bc16e1d00a0bfcd27ccd61d6380f1fbcc8c3a00eb9e7f7df72a73598f"
+      ],
+      "id": "edge:project-license",
+      "source": "project:ready_valid_fifo",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:ready_valid_fifo",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:ready_valid_fifo",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:ready_valid_fifo",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:ready_valid_fifo",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196",
+        "sha256:8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:ready_valid_fifo",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "edge:project-source",
+      "source": "project:ready_valid_fifo",
+      "target": "source_revision:7ed626e903a35ff3",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:542e63157857536404bff08a2d8e7efcdf1a87d6f85d128d7016d83a1f5cccad"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-fault_localization_repair-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:51ba8832b161e8f4294f2fbd92ca1e405a19f15c1fdbb362a3460d6749dc4b2f"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-functional_timing_understanding-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:346409020b1353ce7042f69e03ac5c6cf4647c65453493d13d035e56c0f451e3"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-hierarchical_rtl_generation-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aee70f65d6cb137505153f207272a3ac6b6ad0d463ed7c10602a2cd09bc303ce"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-hierarchy_dependency_analysis-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:fe06ff8fc552488b6d30aa16dbe30947e51c016c66a5f7eaf535705277f4bdd0"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-reuse_integration-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:63371c752717384d487e49bb3104a9e5cdb7f96fe560610cea97a5b346ffa113"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-tool_result_analysis-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f37659eee91ffe418c91f17a9895af1eb9f6f97bc593136bae7d1f6793d42034"
+      ],
+      "id": "edge:project-task-ipgraph-ready_valid_fifo-verification_generation-0000",
+      "source": "project:ready_valid_fifo",
+      "target": "task:ipgraph:ready_valid_fifo:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2a7aac9a7e8cd51f369bf5d1e787e5bc3bb9ff3d53c651d4997b3ca29316c62e"
+      ],
+      "id": "edge:project-testbench-22",
+      "source": "project:ready_valid_fifo",
+      "target": "testbench:tb/tb_ready_valid_fifo.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-clock-clk_i",
+      "source": "module:ready_valid_fifo",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-parameter-AddrWidth",
+      "source": "module:ready_valid_fifo",
+      "target": "parameter:ready_valid_fifo.AddrWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-parameter-CountWidth",
+      "source": "module:ready_valid_fifo",
+      "target": "parameter:ready_valid_fifo.CountWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-parameter-Depth",
+      "source": "module:ready_valid_fifo",
+      "target": "parameter:ready_valid_fifo.Depth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-parameter-Width",
+      "source": "module:ready_valid_fifo",
+      "target": "parameter:ready_valid_fifo.Width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-clk_i",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-data_i",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.data_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-data_o",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.data_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-ready_i",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.ready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-ready_o",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.ready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-rst_ni",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-usage_o",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.usage_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-valid_i",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.valid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-port-valid_o",
+      "source": "module:ready_valid_fifo",
+      "target": "port:ready_valid_fifo.valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "edge:ready_valid_fifo-reset-rst_ni",
+      "source": "module:ready_valid_fifo",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:ready_valid_fifo:7ed626e903a35ff3",
+  "graph_sha256": "ee36e8e103b1b5afe226f8a18c7c69e7e59d6bd66c8e9f3fcb238351cbae2cd9",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ready_valid_fifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "attributes": {
+        "path": "rtl/ready_valid_fifo.sv"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "module:ready_valid_fifo",
+      "label": "ready_valid_fifo",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "parameter:ready_valid_fifo.AddrWidth",
+      "label": "AddrWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "parameter:ready_valid_fifo.CountWidth",
+      "label": "CountWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "parameter:ready_valid_fifo.Depth",
+      "label": "Depth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "parameter:ready_valid_fifo.Width",
+      "label": "Width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [Width-1:0] data_i",
+        "direction": "input",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.data_i",
+      "label": "data_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [Width-1:0] data_o",
+        "direction": "output",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.data_o",
+      "label": "data_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic ready_i",
+        "direction": "input",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.ready_i",
+      "label": "ready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ready_o",
+        "direction": "output",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.ready_o",
+      "label": "ready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [CountWidth-1:0] usage_o",
+        "direction": "output",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.usage_o",
+      "label": "usage_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic valid_i",
+        "direction": "input",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.valid_i",
+      "label": "valid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid_o",
+        "direction": "output",
+        "module": "ready_valid_fifo"
+      },
+      "evidence_refs": [
+        "sha256:3fb3c1fc9609970bae11a0540af6de65701a30a88ee2b2aa00dfc20a585c4ea1"
+      ],
+      "id": "port:ready_valid_fifo.valid_o",
+      "label": "valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/ready_valid_fifo.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "ready_valid_fifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:ready_valid_fifo",
+      "label": "ready_valid_fifo",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ready_valid_fifo"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:7ed626e903a35ff3",
+      "label": "7ed626e903a35ff3",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:542e63157857536404bff08a2d8e7efcdf1a87d6f85d128d7016d83a1f5cccad"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:fault_localization_repair:0000",
+      "label": "ipgraph:ready_valid_fifo:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:51ba8832b161e8f4294f2fbd92ca1e405a19f15c1fdbb362a3460d6749dc4b2f"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:functional_timing_understanding:0000",
+      "label": "ipgraph:ready_valid_fifo:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:346409020b1353ce7042f69e03ac5c6cf4647c65453493d13d035e56c0f451e3"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:ready_valid_fifo:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:aee70f65d6cb137505153f207272a3ac6b6ad0d463ed7c10602a2cd09bc303ce"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:ready_valid_fifo:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:fe06ff8fc552488b6d30aa16dbe30947e51c016c66a5f7eaf535705277f4bdd0"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:reuse_integration:0000",
+      "label": "ipgraph:ready_valid_fifo:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:63371c752717384d487e49bb3104a9e5cdb7f96fe560610cea97a5b346ffa113"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:tool_result_analysis:0000",
+      "label": "ipgraph:ready_valid_fifo:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:f37659eee91ffe418c91f17a9895af1eb9f6f97bc593136bae7d1f6793d42034"
+      ],
+      "id": "task:ipgraph:ready_valid_fifo:verification_generation:0000",
+      "label": "ipgraph:ready_valid_fifo:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:2a7aac9a7e8cd51f369bf5d1e787e5bc3bb9ff3d53c651d4997b3ca29316c62e"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:2a7aac9a7e8cd51f369bf5d1e787e5bc3bb9ff3d53c651d4997b3ca29316c62e"
+      ],
+      "id": "testbench:tb/tb_ready_valid_fifo.sv",
+      "label": "tb_ready_valid_fifo.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196",
+        "sha256:8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196",
+        "sha256:8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "verification_obligation:000",
+      "label": "ordered delivery",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "verification_obligation:001",
+      "label": "backpressure stability",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "verification_obligation:002",
+      "label": "simultaneous push/pop",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:7ed626e903a35ff34d70b816874ae9ad4d877741c73f46eb6c49506ff2fb30a2"
+      ],
+      "id": "verification_obligation:003",
+      "label": "full and empty boundaries",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "ready_valid_fifo",
+  "project_revision": "7ed626e903a35ff3",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Given a future failing regression for ready_valid_fifo, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": true,
+        "tool_validated": true
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of ready_valid_fifo. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Generate or complete synthesizable SystemVerilog for ready_valid_fifo from its released design contracts. Preserve the hierarchy and interfaces of ready_valid_fifo, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": true,
+        "tool_validated": true
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of ready_valid_fifo, including the roles of ready_valid_fifo. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Design a minimal wrapper plan to reuse ready_valid_fifo in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": true,
+        "tool_validated": true
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for ready_valid_fifo. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:ready_valid_fifo",
+        "module:ready_valid_fifo"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ready_valid_fifo",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for ready_valid_fifo. It must exercise the obligation: ordered delivery and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "7ed626e903a35ff3",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": true,
+        "tool_validated": true
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ready_valid_fifo"
+      ],
+      "task_id": "ipgraph:ready_valid_fifo:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:4c6944ba8976115a8cec0cb0b2e0fd3a95b6f6d4b8b9476dc6a60a30bdcd5196",
+      "sha256:8715b8a27d0499e34b83bf99cd3c1c4bf3fb9b8dbb8cf55f4f3ffc618b9c9258"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 10,
+      "status": "pass",
+      "total": 10
+    },
+    "quality_level": "Q3",
+    "simulation": "pass"
+  }
+}

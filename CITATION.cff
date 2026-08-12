@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use the AI4EDA SystemVerilog corpus or IP-ETG schemas, cite this software artifact."
+title: "AI4EDA SystemVerilog Corpus and IP Engineering Task Graphs"
+type: dataset
+authors:
+  - family-names: "Sun"
+    given-names: "Wenyu"
+repository-code: "https://github.com/swythu/ai4eda-sv-corpus"
+version: "0.1.0-alpha"
+date-released: "2026-08-12"
+license: Apache-2.0
+keywords:
+  - AI4EDA
+  - SystemVerilog
+  - RTL
+  - IP Engineering Task Graph
+  - hardware design agents

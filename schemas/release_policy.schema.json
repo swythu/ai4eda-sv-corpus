@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/release_policy.schema.json",
+  "title": "AI4EDA artifact release policy",
+  "type": "string",
+  "enum": ["source_released", "metadata_only", "pending_review", "private_until_release"]
+}

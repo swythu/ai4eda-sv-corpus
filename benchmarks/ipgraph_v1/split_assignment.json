@@ -1,0 +1,24 @@
+{
+  "schema_version": "ipgraph-split-assignment/v1",
+  "policy": "Project-level split; shared upstream groups may not cross splits.",
+  "train": [
+    "apb_register_bank", "apbtoaes128", "binary_to_bcd", "cdc_handshake",
+    "cdc_ufifo", "configurable_crc_core", "ecc_ram",
+    "fixed_point_arithmetic_parameterized", "i2c", "ima_adpcm_enc_dec",
+    "logicprobe", "ot_sram_1p", "ot_sram_2p", "pid_controller",
+    "pipelined_mac", "pit", "ready_valid_fifo", "register_file",
+    "rtfsimpleuart", "simple_gpio", "skid_buffer", "tiny_spi",
+    "versatile_fifo", "video_stream_scaler"
+  ],
+  "dev": [
+    "pipelined_fft_64", "reset_synchronizer", "scalable_arbiter",
+    "sha_core", "uart2bus", "wishbone_apb_bridge"
+  ],
+  "public_test": [
+    "axi_lite_slice", "fir_filter", "ready_valid_checker", "simple_pic",
+    "xge_mac"
+  ],
+  "frozen_test": [
+    "dma_axi32", "dma_axi64", "oc_axi_bfm", "rv32i_microcore", "wb_flash"
+  ]
+}

@@ -1,0 +1,9 @@
+name: "register_file"
+category: "memory"
+upstream_project: "https://github.com/lowRISC/opentitan"
+upstream_revision: "49df6acde4f81ce6e945153456373846f76379d9f"
+upstream_files: ["hw/ip/prim_generic/rtl/prim_ram_1r1w.sv"]
+license_expression: "Apache-2.0"
+license_evidence: "Derived from Apache-2.0 OpenTitan 1R1W storage semantics; derivative carries attribution."
+modification_status: "SystemVerilog 2R1W register-file specialization with hardwired-zero option and bypass."
+public_export_decision: "source_released"

@@ -1,0 +1,1544 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:a3f24f546d6693eda79e6e67ad99792fab8c62407ca94f172f6a7417d8cd15fc",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "a3f24f546d6693eda79e6e67ad99792fab8c62407ca94f172f6a7417d8cd15fc"
+    },
+    {
+      "artifact_id": "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+    },
+    {
+      "artifact_id": "sha256:497d89f60ca2a87b54a8691d6f70df509990622ce4d750fea5dbac2195fa1f85",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "497d89f60ca2a87b54a8691d6f70df509990622ce4d750fea5dbac2195fa1f85"
+    },
+    {
+      "artifact_id": "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/new_component.sv",
+      "release_status": "metadata_only",
+      "sha256": "5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+    },
+    {
+      "artifact_id": "sha256:f4a7d121edee6c9c4f61a3f31b2730161b4632270c0ecf70093b189ba9629f22",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "f4a7d121edee6c9c4f61a3f31b2730161b4632270c0ecf70093b189ba9629f22"
+    },
+    {
+      "artifact_id": "sha256:92140128d343c0fc024bf22e8bfe998fdccb3f92737bb3aa951d405b326e6347",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "92140128d343c0fc024bf22e8bfe998fdccb3f92737bb3aa951d405b326e6347"
+    },
+    {
+      "artifact_id": "sha256:5164575496865f8d5b0bc997535e3c68577a6b7112f9ca14dbe17d7bdf0d6d19",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "5164575496865f8d5b0bc997535e3c68577a6b7112f9ca14dbe17d7bdf0d6d19"
+    },
+    {
+      "artifact_id": "sha256:7d480de23d81056ead52894ebf972171ebbf136941106347a4fdb062a239d963",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "7d480de23d81056ead52894ebf972171ebbf136941106347a4fdb062a239d963"
+    },
+    {
+      "artifact_id": "sha256:81c49b6d0387794ac108c16cf8017b0b2da919b3f4042667779cba7d8a568b73",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "81c49b6d0387794ac108c16cf8017b0b2da919b3f4042667779cba7d8a568b73"
+    },
+    {
+      "artifact_id": "sha256:eb09dc9b57118d8903ed2e4015996e3526c34298d4458e4fd0a73662a75cca84",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "eb09dc9b57118d8903ed2e4015996e3526c34298d4458e4fd0a73662a75cca84"
+    },
+    {
+      "artifact_id": "sha256:c9ace1e8c94ef42c7fbce55cb00ca5b6ff987db109c763ac8b48c46818317f60",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "c9ace1e8c94ef42c7fbce55cb00ca5b6ff987db109c763ac8b48c46818317f60"
+    },
+    {
+      "artifact_id": "sha256:93fb0ed237ea34fc858417267debb7ec360acda14d1741c29f7dd559e95ff975",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "93fb0ed237ea34fc858417267debb7ec360acda14d1741c29f7dd559e95ff975"
+    },
+    {
+      "artifact_id": "sha256:1ce26c92a8dfa0ecbfae94c7cd79bde062b46376c3e1bd41171c16f3c19fa6ef",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_oc_axi_lite_master.sv",
+      "release_status": "metadata_only",
+      "sha256": "1ce26c92a8dfa0ecbfae94c7cd79bde062b46376c3e1bd41171c16f3c19fa6ef"
+    },
+    {
+      "artifact_id": "sha256:d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "metadata_only",
+      "sha256": "d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-clock-clock_clk",
+      "source": "module:new_component",
+      "target": "clock_domain:clock_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-addr",
+      "source": "module:new_component",
+      "target": "port:new_component.addr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_araddr",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_araddr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_arprot",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_arprot",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_arready",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_arready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_arvalid",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_arvalid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_awaddr",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_awaddr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_awprot",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_awprot",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_awready",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_awready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_awvalid",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_awvalid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_bready",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_bready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_bvalid",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_bvalid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_rdata",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_rdata",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_rready",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_rready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_rvalid",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_rvalid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_wdata",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_wdata",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_wlast",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_wlast",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_wready",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_wready",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-axm_m0_wvalid",
+      "source": "module:new_component",
+      "target": "port:new_component.axm_m0_wvalid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-clock_clk",
+      "source": "module:new_component",
+      "target": "port:new_component.clock_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-done",
+      "source": "module:new_component",
+      "target": "port:new_component.done",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-r_data",
+      "source": "module:new_component",
+      "target": "port:new_component.r_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-reset_reset",
+      "source": "module:new_component",
+      "target": "port:new_component.reset_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-start",
+      "source": "module:new_component",
+      "target": "port:new_component.start",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-transaction_type",
+      "source": "module:new_component",
+      "target": "port:new_component.transaction_type",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-port-w_data",
+      "source": "module:new_component",
+      "target": "port:new_component.w_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:new_component-reset-reset_reset",
+      "source": "module:new_component",
+      "target": "reset_domain:reset_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "edge:project-contains-new_component",
+      "source": "project:oc_axi_bfm",
+      "target": "module:new_component",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a3f24f546d6693eda79e6e67ad99792fab8c62407ca94f172f6a7417d8cd15fc"
+      ],
+      "id": "edge:project-license",
+      "source": "project:oc_axi_bfm",
+      "target": "license:LicenseRef-Unknown",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:oc_axi_bfm",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:oc_axi_bfm",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:oc_axi_bfm",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:oc_axi_bfm",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:oc_axi_bfm",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:oc_axi_bfm",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "edge:project-source",
+      "source": "project:oc_axi_bfm",
+      "target": "source_revision:c6857cfad167d07c",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:92140128d343c0fc024bf22e8bfe998fdccb3f92737bb3aa951d405b326e6347"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-fault_localization_repair-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5164575496865f8d5b0bc997535e3c68577a6b7112f9ca14dbe17d7bdf0d6d19"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-functional_timing_understanding-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7d480de23d81056ead52894ebf972171ebbf136941106347a4fdb062a239d963"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-hierarchical_rtl_generation-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:81c49b6d0387794ac108c16cf8017b0b2da919b3f4042667779cba7d8a568b73"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-hierarchy_dependency_analysis-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eb09dc9b57118d8903ed2e4015996e3526c34298d4458e4fd0a73662a75cca84"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-reuse_integration-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c9ace1e8c94ef42c7fbce55cb00ca5b6ff987db109c763ac8b48c46818317f60"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-tool_result_analysis-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:93fb0ed237ea34fc858417267debb7ec360acda14d1741c29f7dd559e95ff975"
+      ],
+      "id": "edge:project-task-ipgraph-oc_axi_bfm-verification_generation-0000",
+      "source": "project:oc_axi_bfm",
+      "target": "task:ipgraph:oc_axi_bfm:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1ce26c92a8dfa0ecbfae94c7cd79bde062b46376c3e1bd41171c16f3c19fa6ef"
+      ],
+      "id": "edge:project-testbench-35",
+      "source": "project:oc_axi_bfm",
+      "target": "testbench:tb/tb_oc_axi_lite_master.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:oc_axi_bfm:c6857cfad167d07c",
+  "graph_sha256": "c84b7fa0790bda6dc01c9bd16341fed6fbc28760949e42867f57d5d9dcb9dc53",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "new_component"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clock_clk",
+      "label": "clock_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-Unknown",
+      "label": "LicenseRef-Unknown",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "attributes": {
+        "path": "rtl/top/new_component.sv"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "module:new_component",
+      "label": "new_component",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .rready input wire [31:0] addr",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.addr",
+      "label": "addr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .bready output wire [31:0] axm_m0_araddr",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_araddr",
+      "label": "axm_m0_araddr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .araddr output wire [2:0] axm_m0_arprot",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_arprot",
+      "label": "axm_m0_arprot",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .arvalid input wire axm_m0_arready",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_arready",
+      "label": "axm_m0_arready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .arprot output wire axm_m0_arvalid",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_arvalid",
+      "label": "axm_m0_arvalid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock.clk output wire [31:0] axm_m0_awaddr",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_awaddr",
+      "label": "axm_m0_awaddr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// axm_m0.awaddr output wire [2:0] axm_m0_awprot",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_awprot",
+      "label": "axm_m0_awprot",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .awvalid input wire axm_m0_awready",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_awready",
+      "label": "axm_m0_awready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .awprot output wire axm_m0_awvalid",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_awvalid",
+      "label": "axm_m0_awvalid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .bvalid output wire axm_m0_bready",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_bready",
+      "label": "axm_m0_bready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .wready input wire axm_m0_bvalid",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_bvalid",
+      "label": "axm_m0_bvalid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .arready input wire [31:0] axm_m0_rdata",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_rdata",
+      "label": "axm_m0_rdata",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .rvalid output wire axm_m0_rready",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_rready",
+      "label": "axm_m0_rready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .rdata input wire axm_m0_rvalid",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_rvalid",
+      "label": "axm_m0_rvalid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .awready output wire [31:0] axm_m0_wdata",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_wdata",
+      "label": "axm_m0_wdata",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .wdata output wire axm_m0_wlast",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_wlast",
+      "label": "axm_m0_wlast",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .wvalid input wire axm_m0_wready",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_wready",
+      "label": "axm_m0_wready",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .wlast output wire axm_m0_wvalid",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.axm_m0_wvalid",
+      "label": "axm_m0_wvalid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire clock_clk",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.clock_clk",
+      "label": "clock_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .new_signal_3 output wire done",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.done",
+      "label": "done",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// driver.new_signal output wire [31:0] r_data",
+        "direction": "output",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.r_data",
+      "label": "r_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .new_signal_5 input wire reset_reset",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.reset_reset",
+      "label": "reset_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .new_signal_4 input wire start",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.start",
+      "label": "start",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .new_signal_1 input wire transaction_type",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.transaction_type",
+      "label": "transaction_type",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// .new_signal_2 input wire [31:0] w_data",
+        "direction": "input",
+        "module": "new_component"
+      },
+      "evidence_refs": [
+        "sha256:5dc13ac8eb838778184e9abd8f94cf33761e1cf772bfa6337f690232fbeaec9f"
+      ],
+      "id": "port:new_component.w_data",
+      "label": "w_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "verification",
+        "compile_order": [
+          "rtl/top/new_component.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "new_component"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:oc_axi_bfm",
+      "label": "oc_axi_bfm",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "protocol_contract:axi",
+      "label": "AXI",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "new_component"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset_reset",
+      "label": "reset_reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:c6857cfad167d07c",
+      "label": "c6857cfad167d07c",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:92140128d343c0fc024bf22e8bfe998fdccb3f92737bb3aa951d405b326e6347"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:fault_localization_repair:0000",
+      "label": "ipgraph:oc_axi_bfm:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:5164575496865f8d5b0bc997535e3c68577a6b7112f9ca14dbe17d7bdf0d6d19"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:functional_timing_understanding:0000",
+      "label": "ipgraph:oc_axi_bfm:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:7d480de23d81056ead52894ebf972171ebbf136941106347a4fdb062a239d963"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:oc_axi_bfm:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:81c49b6d0387794ac108c16cf8017b0b2da919b3f4042667779cba7d8a568b73"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:oc_axi_bfm:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:eb09dc9b57118d8903ed2e4015996e3526c34298d4458e4fd0a73662a75cca84"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:reuse_integration:0000",
+      "label": "ipgraph:oc_axi_bfm:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:c9ace1e8c94ef42c7fbce55cb00ca5b6ff987db109c763ac8b48c46818317f60"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:tool_result_analysis:0000",
+      "label": "ipgraph:oc_axi_bfm:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:93fb0ed237ea34fc858417267debb7ec360acda14d1741c29f7dd559e95ff975"
+      ],
+      "id": "task:ipgraph:oc_axi_bfm:verification_generation:0000",
+      "label": "ipgraph:oc_axi_bfm:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:1ce26c92a8dfa0ecbfae94c7cd79bde062b46376c3e1bd41171c16f3c19fa6ef"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:1ce26c92a8dfa0ecbfae94c7cd79bde062b46376c3e1bd41171c16f3c19fa6ef"
+      ],
+      "id": "testbench:tb/tb_oc_axi_lite_master.sv",
+      "label": "tb_oc_axi_lite_master.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "verification_obligation:000",
+      "label": "AXI-Lite simultaneous AW/W handshake",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "verification_obligation:001",
+      "label": "split AW then W handshake",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "verification_obligation:002",
+      "label": "AR/R read transaction",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "verification_obligation:003",
+      "label": "single-cycle done pulse",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c6857cfad167d07c903654efeeed33258cf15ed823585a1be510f41ffe091065"
+      ],
+      "id": "verification_obligation:004",
+      "label": "deterministic reset and PROT outputs",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "oc_axi_bfm",
+  "project_revision": "c6857cfad167d07c",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Given a future failing regression for oc_axi_bfm, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of oc_axi_bfm. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Generate or complete synthesizable SystemVerilog for oc_axi_bfm from its released design contracts. Preserve the hierarchy and interfaces of new_component, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of oc_axi_bfm, including the roles of new_component. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Design a minimal wrapper plan to reuse oc_axi_bfm in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for oc_axi_bfm. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:oc_axi_bfm",
+        "module:new_component"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "oc_axi_bfm",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for oc_axi_bfm. It must exercise the obligation: AXI-Lite simultaneous AW/W handshake and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c6857cfad167d07c",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "private_until_release",
+      "schema_version": "ip-task/v1",
+      "split": "frozen_test",
+      "target_nodes": [
+        "module:new_component"
+      ],
+      "task_id": "ipgraph:oc_axi_bfm:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:d14063978086bb28eb2f1644217f1b4911d0e4399ad82b2c34ad380da117854e"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

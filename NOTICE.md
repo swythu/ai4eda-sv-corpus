@@ -10,9 +10,12 @@ This is a multi-license collection. Original notices in source files are authori
 | fixed_point_arithmetic_parameterized | LicenseRef-Unknown | https://opencores.org/projects/fixed_point_arithmetic_parameterized |
 | ima_adpcm_enc_dec | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/ima_adpcm_enc_dec |
 | pid_controller | LicenseRef-Unknown | https://opencores.org/projects/pid_controller |
+| pipelined_fft_64 | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/usfft64_2b |
 | tiny_spi | LGPL-2.1-or-later | https://opencores.org/projects/tiny_spi |
 | rtfsimpleuart | BSD-3-Clause | https://opencores.org/projects/rtfsimpleuart |
 | xge_mac | LGPL-2.1-or-later | https://opencores.org/projects/xge_mac |
+| i2c | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/i2c |
+| uart2bus | BSD-2-Clause | https://opencores.org/projects/uart2bus |
 | pit | BSD-3-Clause | https://opencores.org/projects/pit |
 | simple_gpio | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/simple_gpio |
 | simple_pic | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/simple_pic |
@@ -27,6 +30,7 @@ This is a multi-license collection. Original notices in source files are authori
 | sha_core | LicenseRef-OpenCores-Permissive | https://opencores.org/projects/sha_core |
 | logicprobe | BSD-2-Clause | https://opencores.org/projects/logicprobe |
 | oc_axi_bfm | LicenseRef-Unknown | https://opencores.org/projects/oc_axi_bfm |
+| video_stream_scaler | LGPL-2.1-or-later | https://opencores.org/projects/video_stream_scaler |
 
 ## Repository-authored material
 

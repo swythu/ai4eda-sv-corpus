@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/ip_etg.schema.json",
+  "title": "IP Engineering Task Graph",
+  "type": "object",
+  "required": ["schema_version", "graph_id", "project_id", "project_revision", "release_policy", "nodes", "edges", "artifacts", "tasks", "validation", "graph_sha256"],
+  "properties": {
+    "schema_version": {"const": "ip-etg/v1"},
+    "graph_id": {"type": "string", "pattern": "^ip-etg:[a-z0-9_]+:"},
+    "project_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "project_revision": {"type": "string", "minLength": 1},
+    "release_policy": {"$ref": "release_policy.schema.json"},
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "label", "attributes", "artifact_refs", "evidence_refs", "visibility"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "type": {"enum": ["project", "source_revision", "license", "module", "instance", "port", "parameter", "clock_domain", "reset_domain", "protocol_contract", "requirement", "design_contract", "verification_obligation", "testbench", "assertion", "tool_run", "coverage_item", "failure", "failure_witness", "fault_location", "patch", "regression_result", "understand_task", "generation_task", "reuse_task", "repair_task", "verification_task", "trajectory"]},
+          "label": {"type": "string", "minLength": 1},
+          "attributes": {"type": "object"},
+          "artifact_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "visibility": {"enum": ["public", "private_until_release"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "source", "target", "evidence_refs"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "type": {"enum": ["contains", "instantiates", "connects_to", "depends_on", "clocked_by", "reset_by", "implements", "constrained_by", "verified_by", "fails_on", "localized_to", "repaired_by", "passes_regression", "derived_from", "produces", "requires"]},
+          "source": {"type": "string", "minLength": 1},
+          "target": {"type": "string", "minLength": 1},
+          "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "path", "media_type", "sha256", "license_expression", "release_status"],
+        "properties": {
+          "artifact_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+          "path": {"type": "string", "minLength": 1},
+          "media_type": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "license_expression": {"type": "string", "minLength": 1},
+          "release_status": {"$ref": "release_policy.schema.json"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "tasks": {"type": "array", "items": {"$ref": "task.schema.json"}},
+    "validation": {"$ref": "validation.schema.json"},
+    "graph_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

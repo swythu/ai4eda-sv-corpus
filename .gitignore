@@ -6,3 +6,7 @@ obj_dir/
 validation/work/
 validation_summary.json
 __pycache__/
+.private/
+**/hidden_tests/
+**/mutants/
+**/private_reference/

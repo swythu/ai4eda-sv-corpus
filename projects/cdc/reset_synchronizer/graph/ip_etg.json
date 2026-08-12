@@ -1,0 +1,1031 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:f7f80c393b5a0da8130488ea9e3116bde5baff11506bd92c269160e9e340741f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "f7f80c393b5a0da8130488ea9e3116bde5baff11506bd92c269160e9e340741f"
+    },
+    {
+      "artifact_id": "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+    },
+    {
+      "artifact_id": "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/reset_synchronizer.sv",
+      "release_status": "source_released",
+      "sha256": "d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+    },
+    {
+      "artifact_id": "sha256:ea7f46a0c5ccf187152c87c070ea2ddb5e0d6929c589087c8f61805ed136d622",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "ea7f46a0c5ccf187152c87c070ea2ddb5e0d6929c589087c8f61805ed136d622"
+    },
+    {
+      "artifact_id": "sha256:77cd570fa292c777d121ad3001152ae728ab363e4fd202d8ae7b4ffe543ef870",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "77cd570fa292c777d121ad3001152ae728ab363e4fd202d8ae7b4ffe543ef870"
+    },
+    {
+      "artifact_id": "sha256:8cb026b0de0c1f18b25df38d9db4c8f1f2841d0c10d5c5095b86eb6bdaff65bf",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "8cb026b0de0c1f18b25df38d9db4c8f1f2841d0c10d5c5095b86eb6bdaff65bf"
+    },
+    {
+      "artifact_id": "sha256:72a98b3f308dd0a6f132fb2161abaada86fe65a9d610c785edb6b89cde29ad25",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "72a98b3f308dd0a6f132fb2161abaada86fe65a9d610c785edb6b89cde29ad25"
+    },
+    {
+      "artifact_id": "sha256:36ddf675c7270ad9005d1f7443f986d56c32dad35ff4dfd8fea79eac57543f4e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "36ddf675c7270ad9005d1f7443f986d56c32dad35ff4dfd8fea79eac57543f4e"
+    },
+    {
+      "artifact_id": "sha256:fdbaba947b27b55486142bc5a10c7b296ec87bfe19f1ce3cee8743c7c61507e4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "fdbaba947b27b55486142bc5a10c7b296ec87bfe19f1ce3cee8743c7c61507e4"
+    },
+    {
+      "artifact_id": "sha256:452b7db2bf90db5bdcc854c6d7e91f9c40c0b6bb6292ade894cd8081bee2629f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "452b7db2bf90db5bdcc854c6d7e91f9c40c0b6bb6292ade894cd8081bee2629f"
+    },
+    {
+      "artifact_id": "sha256:66039104b8d139071c7333043f51884d5c64b23fb8c4bd8626e2c1eac46a9d9b",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "66039104b8d139071c7333043f51884d5c64b23fb8c4bd8626e2c1eac46a9d9b"
+    },
+    {
+      "artifact_id": "sha256:74642c973c5d3a6e073d90c84eb528f1efff29a9a214ea108ab643727de904d9",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_reset_synchronizer.sv",
+      "release_status": "source_released",
+      "sha256": "74642c973c5d3a6e073d90c84eb528f1efff29a9a214ea108ab643727de904d9"
+    },
+    {
+      "artifact_id": "sha256:8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:project-contains-reset_synchronizer",
+      "source": "project:reset_synchronizer",
+      "target": "module:reset_synchronizer",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7f80c393b5a0da8130488ea9e3116bde5baff11506bd92c269160e9e340741f"
+      ],
+      "id": "edge:project-license",
+      "source": "project:reset_synchronizer",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:reset_synchronizer",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:reset_synchronizer",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:reset_synchronizer",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:reset_synchronizer",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:reset_synchronizer",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "edge:project-source",
+      "source": "project:reset_synchronizer",
+      "target": "source_revision:ca6d07c99344acc1",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:77cd570fa292c777d121ad3001152ae728ab363e4fd202d8ae7b4ffe543ef870"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-fault_localization_repair-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8cb026b0de0c1f18b25df38d9db4c8f1f2841d0c10d5c5095b86eb6bdaff65bf"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-functional_timing_understanding-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72a98b3f308dd0a6f132fb2161abaada86fe65a9d610c785edb6b89cde29ad25"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-hierarchical_rtl_generation-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:36ddf675c7270ad9005d1f7443f986d56c32dad35ff4dfd8fea79eac57543f4e"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-hierarchy_dependency_analysis-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:fdbaba947b27b55486142bc5a10c7b296ec87bfe19f1ce3cee8743c7c61507e4"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-reuse_integration-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:452b7db2bf90db5bdcc854c6d7e91f9c40c0b6bb6292ade894cd8081bee2629f"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-tool_result_analysis-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:66039104b8d139071c7333043f51884d5c64b23fb8c4bd8626e2c1eac46a9d9b"
+      ],
+      "id": "edge:project-task-ipgraph-reset_synchronizer-verification_generation-0000",
+      "source": "project:reset_synchronizer",
+      "target": "task:ipgraph:reset_synchronizer:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74642c973c5d3a6e073d90c84eb528f1efff29a9a214ea108ab643727de904d9"
+      ],
+      "id": "edge:project-testbench-14",
+      "source": "project:reset_synchronizer",
+      "target": "testbench:tb/tb_reset_synchronizer.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-clock-clk_i",
+      "source": "module:reset_synchronizer",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-parameter-Stages",
+      "source": "module:reset_synchronizer",
+      "target": "parameter:reset_synchronizer.Stages",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-port-async_rst_ni",
+      "source": "module:reset_synchronizer",
+      "target": "port:reset_synchronizer.async_rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-port-clk_i",
+      "source": "module:reset_synchronizer",
+      "target": "port:reset_synchronizer.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-port-sync_rst_ni",
+      "source": "module:reset_synchronizer",
+      "target": "port:reset_synchronizer.sync_rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-reset-async_rst_ni",
+      "source": "module:reset_synchronizer",
+      "target": "reset_domain:async_rst_ni",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "edge:reset_synchronizer-reset-sync_rst_ni",
+      "source": "module:reset_synchronizer",
+      "target": "reset_domain:sync_rst_ni",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:reset_synchronizer:ca6d07c99344acc1",
+  "graph_sha256": "89bb3df20f87d0d1aeb572bb4d06f883def61e799acf64e53f6fb58d2a9526a4",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "reset_synchronizer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "attributes": {
+        "path": "rtl/reset_synchronizer.sv"
+      },
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "module:reset_synchronizer",
+      "label": "reset_synchronizer",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "reset_synchronizer"
+      },
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "parameter:reset_synchronizer.Stages",
+      "label": "Stages",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic async_rst_ni",
+        "direction": "input",
+        "module": "reset_synchronizer"
+      },
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "port:reset_synchronizer.async_rst_ni",
+      "label": "async_rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "reset_synchronizer"
+      },
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "port:reset_synchronizer.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic sync_rst_ni",
+        "direction": "output",
+        "module": "reset_synchronizer"
+      },
+      "evidence_refs": [
+        "sha256:d9a469dc9369831ffb3b405b8d325aebc9ffb2545f7df04e2fa415b3c12deea6"
+      ],
+      "id": "port:reset_synchronizer.sync_rst_ni",
+      "label": "sync_rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "cdc",
+        "compile_order": [
+          "rtl/reset_synchronizer.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "reset_synchronizer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:reset_synchronizer",
+      "label": "reset_synchronizer",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "reset_synchronizer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:async_rst_ni",
+      "label": "async_rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "reset_synchronizer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:sync_rst_ni",
+      "label": "sync_rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:ca6d07c99344acc1",
+      "label": "ca6d07c99344acc1",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:77cd570fa292c777d121ad3001152ae728ab363e4fd202d8ae7b4ffe543ef870"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:fault_localization_repair:0000",
+      "label": "ipgraph:reset_synchronizer:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:8cb026b0de0c1f18b25df38d9db4c8f1f2841d0c10d5c5095b86eb6bdaff65bf"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:functional_timing_understanding:0000",
+      "label": "ipgraph:reset_synchronizer:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:72a98b3f308dd0a6f132fb2161abaada86fe65a9d610c785edb6b89cde29ad25"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:reset_synchronizer:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:36ddf675c7270ad9005d1f7443f986d56c32dad35ff4dfd8fea79eac57543f4e"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:reset_synchronizer:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:fdbaba947b27b55486142bc5a10c7b296ec87bfe19f1ce3cee8743c7c61507e4"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:reuse_integration:0000",
+      "label": "ipgraph:reset_synchronizer:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:452b7db2bf90db5bdcc854c6d7e91f9c40c0b6bb6292ade894cd8081bee2629f"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:tool_result_analysis:0000",
+      "label": "ipgraph:reset_synchronizer:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:66039104b8d139071c7333043f51884d5c64b23fb8c4bd8626e2c1eac46a9d9b"
+      ],
+      "id": "task:ipgraph:reset_synchronizer:verification_generation:0000",
+      "label": "ipgraph:reset_synchronizer:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:74642c973c5d3a6e073d90c84eb528f1efff29a9a214ea108ab643727de904d9"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:74642c973c5d3a6e073d90c84eb528f1efff29a9a214ea108ab643727de904d9"
+      ],
+      "id": "testbench:tb/tb_reset_synchronizer.sv",
+      "label": "tb_reset_synchronizer.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "verification_obligation:000",
+      "label": "asynchronous assertion",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "verification_obligation:001",
+      "label": "synchronous deassertion",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "verification_obligation:002",
+      "label": "parameterized stages",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:ca6d07c99344acc1cbd77ca79540c1154ee39a4228637fe475d86615ee3ba547"
+      ],
+      "id": "verification_obligation:003",
+      "label": "no early release",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "reset_synchronizer",
+  "project_revision": "ca6d07c99344acc1",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Given a future failing regression for reset_synchronizer, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of reset_synchronizer. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Generate or complete synthesizable SystemVerilog for reset_synchronizer from its released design contracts. Preserve the hierarchy and interfaces of reset_synchronizer, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of reset_synchronizer, including the roles of reset_synchronizer. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Design a minimal wrapper plan to reuse reset_synchronizer in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for reset_synchronizer. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:reset_synchronizer",
+        "module:reset_synchronizer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "reset_synchronizer",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for reset_synchronizer. It must exercise the obligation: asynchronous assertion and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ca6d07c99344acc1",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:reset_synchronizer"
+      ],
+      "task_id": "ipgraph:reset_synchronizer:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:8f7bbf11d75f2c94a9545c8480456d03da7efd0ec8daa19cebf3bc2cef21c34e"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

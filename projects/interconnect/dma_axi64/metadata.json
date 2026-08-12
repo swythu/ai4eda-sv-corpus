@@ -6,12 +6,14 @@
   "internal_language": "verilog",
   "compile": "pass",
   "simulation": "pass",
-  "simulation_level": "reset_idle_smoke",
+  "simulation_level": "self_checking_control_plane_functional",
   "lint_errors": 0,
   "checks": [
     "mixed-language elaboration",
     "reset convergence",
-    "no unknown top outputs",
+    "APB global register read/write",
+    "APB channel register read/write",
+    "APB access-policy errors",
     "no unexpected AXI request while idle"
   ],
   "source": {

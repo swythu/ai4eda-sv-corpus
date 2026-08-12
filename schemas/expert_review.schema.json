@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/expert_review.schema.json",
+  "title": "Anonymized expert task review",
+  "type": "object",
+  "required": ["schema_version", "review_id", "task_id", "reviewer_id", "blind", "decision", "ratings", "timestamp"],
+  "properties": {
+    "schema_version": {"const": "ip-expert-review/v1"},
+    "review_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "pattern": "^ipgraph:"},
+    "reviewer_id": {"type": "string", "pattern": "^reviewer-[a-z0-9_-]+$"},
+    "blind": {"const": true},
+    "decision": {"enum": ["accept", "reject", "needs_revision"]},
+    "ratings": {
+      "type": "object",
+      "required": ["correctness", "engineering_relevance", "oracle_quality", "style_quality"],
+      "properties": {
+        "correctness": {"type": "integer", "minimum": 1, "maximum": 5},
+        "engineering_relevance": {"type": "integer", "minimum": 1, "maximum": 5},
+        "oracle_quality": {"type": "integer", "minimum": 1, "maximum": 5},
+        "style_quality": {"type": "integer", "minimum": 1, "maximum": 5}
+      },
+      "additionalProperties": false
+    },
+    "timestamp": {"type": "string", "format": "date-time"},
+    "comment": {"type": "string"}
+  },
+  "additionalProperties": false
+}

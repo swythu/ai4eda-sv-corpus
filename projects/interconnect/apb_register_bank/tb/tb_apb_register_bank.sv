@@ -1,0 +1,4 @@
+`timescale 1ns/1ps
+module tb_apb_register_bank;logic clk=0,rstn=0,sel,en,wr;logic[7:0]addr;logic[31:0]wd,st,rd,ctrl;logic[3:0]strb;logic ready,err;apb_register_bank dut(.pclk_i(clk),.preset_ni(rstn),.psel_i(sel),.penable_i(en),.pwrite_i(wr),.paddr_i(addr),.pwdata_i(wd),.pstrb_i(strb),.status_i(st),.prdata_o(rd),.pready_o(ready),.pslverr_o(err),.control_o(ctrl));always#5 clk=~clk;
+task x(input bit w,input[7:0]a,input[31:0]d,input[3:0]s);@(negedge clk);sel=1;en=0;wr=w;addr=a;wd=d;strb=s;@(negedge clk);en=1;#1;if(!ready)$fatal(1,"ready");@(negedge clk);sel=0;en=0;endtask
+initial begin sel=0;en=0;wr=0;addr=0;wd=0;strb=0;st=32'h55aa1234;repeat(2)@(negedge clk);rstn=1;x(1,0,32'hdeadbeef,4'b0101);if(ctrl!==32'h00ad00ef)$fatal(1,"strobe");x(0,4,0,0);if(rd!==st)$fatal(1,"status");x(0,8,0,0);if(!err)$fatal(1,"error");$display("APB_REGISTER_BANK_PASS");$finish;end endmodule

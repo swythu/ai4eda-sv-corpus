@@ -1,0 +1,1274 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:4376e49932d44334cf5b72ea7e6490d974246f4201ad256392906f350325596e",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "4376e49932d44334cf5b72ea7e6490d974246f4201ad256392906f350325596e"
+    },
+    {
+      "artifact_id": "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+    },
+    {
+      "artifact_id": "sha256:bc0c5f402da8334ab18c29f21948c597cda6c530f15df2727f2ff5ada1759b0b",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "bc0c5f402da8334ab18c29f21948c597cda6c530f15df2727f2ff5ada1759b0b"
+    },
+    {
+      "artifact_id": "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/pid_controller.sv",
+      "release_status": "metadata_only",
+      "sha256": "096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+    },
+    {
+      "artifact_id": "sha256:fc428bbd5fb07630bf04f76514a9e7b6a9533f2e7c575556f9e7ee5f8540ec20",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "fc428bbd5fb07630bf04f76514a9e7b6a9533f2e7c575556f9e7ee5f8540ec20"
+    },
+    {
+      "artifact_id": "sha256:7cf6bd24620159908a631edd446d66a52b33de140f85e21bb905bde61554cf8a",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "7cf6bd24620159908a631edd446d66a52b33de140f85e21bb905bde61554cf8a"
+    },
+    {
+      "artifact_id": "sha256:72f8c6e3bdba363b8b14200e2e2c482bb05d66928e488fdbbb385723cd39d781",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "72f8c6e3bdba363b8b14200e2e2c482bb05d66928e488fdbbb385723cd39d781"
+    },
+    {
+      "artifact_id": "sha256:93d54e14b3e651a84df32ca978ca0a537102d518463ea7f84a267df772dffed5",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "93d54e14b3e651a84df32ca978ca0a537102d518463ea7f84a267df772dffed5"
+    },
+    {
+      "artifact_id": "sha256:e9d4393133073a810a3eb6d0c7394ae7e2a341fa4d47788166069669c5c9a31b",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e9d4393133073a810a3eb6d0c7394ae7e2a341fa4d47788166069669c5c9a31b"
+    },
+    {
+      "artifact_id": "sha256:c6287bc49fe3e1c19513c73dd9e1078e70187d9501223c2d1df88f20b42f3d83",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "c6287bc49fe3e1c19513c73dd9e1078e70187d9501223c2d1df88f20b42f3d83"
+    },
+    {
+      "artifact_id": "sha256:32adc8cee76db863d1f4c9a75b4514239dd6a52fb5eff7b4ff535c93e21560f3",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "32adc8cee76db863d1f4c9a75b4514239dd6a52fb5eff7b4ff535c93e21560f3"
+    },
+    {
+      "artifact_id": "sha256:35626861b607a44818927c2c7962b3c97814edd2000267f1f8baf4f2c3c4f7cb",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "35626861b607a44818927c2c7962b3c97814edd2000267f1f8baf4f2c3c4f7cb"
+    },
+    {
+      "artifact_id": "sha256:83ed684afef4de4ea2d9e9dc66517c198f4c3e592e2232e26367c1463be209fe",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_pid_controller.sv",
+      "release_status": "metadata_only",
+      "sha256": "83ed684afef4de4ea2d9e9dc66517c198f4c3e592e2232e26367c1463be209fe"
+    },
+    {
+      "artifact_id": "sha256:05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "metadata_only",
+      "sha256": "05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-clock-clk",
+      "source": "module:pid_controller",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-parameter-ADDR_WIDTH",
+      "source": "module:pid_controller",
+      "target": "parameter:pid_controller.ADDR_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-clk",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-control_o",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.control_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-control_valid_o",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.control_valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-rst",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_ack",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_ack",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_adr",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_adr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_cyc",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_cyc",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_data_i",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_data_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_data_o",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_data_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_stb",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_stb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-port-wb_we",
+      "source": "module:pid_controller",
+      "target": "port:pid_controller.wb_we",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:pid_controller-reset-rst",
+      "source": "module:pid_controller",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "edge:project-contains-pid_controller",
+      "source": "project:pid_controller",
+      "target": "module:pid_controller",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4376e49932d44334cf5b72ea7e6490d974246f4201ad256392906f350325596e"
+      ],
+      "id": "edge:project-license",
+      "source": "project:pid_controller",
+      "target": "license:LicenseRef-Unknown",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-005",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:005",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-obligation-006",
+      "source": "project:pid_controller",
+      "target": "verification_obligation:006",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:pid_controller",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "edge:project-source",
+      "source": "project:pid_controller",
+      "target": "source_revision:de6aef362242980a",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7cf6bd24620159908a631edd446d66a52b33de140f85e21bb905bde61554cf8a"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-fault_localization_repair-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72f8c6e3bdba363b8b14200e2e2c482bb05d66928e488fdbbb385723cd39d781"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-functional_timing_understanding-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:93d54e14b3e651a84df32ca978ca0a537102d518463ea7f84a267df772dffed5"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-hierarchical_rtl_generation-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e9d4393133073a810a3eb6d0c7394ae7e2a341fa4d47788166069669c5c9a31b"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-hierarchy_dependency_analysis-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c6287bc49fe3e1c19513c73dd9e1078e70187d9501223c2d1df88f20b42f3d83"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-reuse_integration-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:32adc8cee76db863d1f4c9a75b4514239dd6a52fb5eff7b4ff535c93e21560f3"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-tool_result_analysis-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:35626861b607a44818927c2c7962b3c97814edd2000267f1f8baf4f2c3c4f7cb"
+      ],
+      "id": "edge:project-task-ipgraph-pid_controller-verification_generation-0000",
+      "source": "project:pid_controller",
+      "target": "task:ipgraph:pid_controller:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:83ed684afef4de4ea2d9e9dc66517c198f4c3e592e2232e26367c1463be209fe"
+      ],
+      "id": "edge:project-testbench-24",
+      "source": "project:pid_controller",
+      "target": "testbench:tb/tb_pid_controller.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:pid_controller:de6aef362242980a",
+  "graph_sha256": "bc9eb8f0201bd62f4d9f009e98a82f069bb3f5a154574e76ec9aa7cf5bd24351",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pid_controller"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-Unknown",
+      "label": "LicenseRef-Unknown",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/pid_controller.sv"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "module:pid_controller",
+      "label": "pid_controller",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "parameter:pid_controller.ADDR_WIDTH",
+      "label": "ADDR_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic signed [31:0] control_o",
+        "direction": "output",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.control_o",
+      "label": "control_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic control_valid_o",
+        "direction": "output",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.control_valid_o",
+      "label": "control_valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic wb_ack",
+        "direction": "output",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_ack",
+      "label": "wb_ack",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [ADDR_WIDTH-1:0] wb_adr",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_adr",
+      "label": "wb_adr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_cyc",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_cyc",
+      "label": "wb_cyc",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] wb_data_i",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_data_i",
+      "label": "wb_data_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] wb_data_o",
+        "direction": "output",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_data_o",
+      "label": "wb_data_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_stb",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_stb",
+      "label": "wb_stb",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_we",
+        "direction": "input",
+        "module": "pid_controller"
+      },
+      "evidence_refs": [
+        "sha256:096f4113fececb67b13b5550266bde1f356a5af2aa9b251b1e541bef28aebc50"
+      ],
+      "id": "port:pid_controller.wb_we",
+      "label": "wb_we",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/blocks/pid_controller.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "pid_controller"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:pid_controller",
+      "label": "pid_controller",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "protocol_contract:wishbone",
+      "label": "Wishbone",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pid_controller"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst",
+      "label": "rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:de6aef362242980a",
+      "label": "de6aef362242980a",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:7cf6bd24620159908a631edd446d66a52b33de140f85e21bb905bde61554cf8a"
+      ],
+      "id": "task:ipgraph:pid_controller:fault_localization_repair:0000",
+      "label": "ipgraph:pid_controller:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:72f8c6e3bdba363b8b14200e2e2c482bb05d66928e488fdbbb385723cd39d781"
+      ],
+      "id": "task:ipgraph:pid_controller:functional_timing_understanding:0000",
+      "label": "ipgraph:pid_controller:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:93d54e14b3e651a84df32ca978ca0a537102d518463ea7f84a267df772dffed5"
+      ],
+      "id": "task:ipgraph:pid_controller:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:pid_controller:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:e9d4393133073a810a3eb6d0c7394ae7e2a341fa4d47788166069669c5c9a31b"
+      ],
+      "id": "task:ipgraph:pid_controller:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:pid_controller:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:c6287bc49fe3e1c19513c73dd9e1078e70187d9501223c2d1df88f20b42f3d83"
+      ],
+      "id": "task:ipgraph:pid_controller:reuse_integration:0000",
+      "label": "ipgraph:pid_controller:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:32adc8cee76db863d1f4c9a75b4514239dd6a52fb5eff7b4ff535c93e21560f3"
+      ],
+      "id": "task:ipgraph:pid_controller:tool_result_analysis:0000",
+      "label": "ipgraph:pid_controller:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:35626861b607a44818927c2c7962b3c97814edd2000267f1f8baf4f2c3c4f7cb"
+      ],
+      "id": "task:ipgraph:pid_controller:verification_generation:0000",
+      "label": "ipgraph:pid_controller:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:83ed684afef4de4ea2d9e9dc66517c198f4c3e592e2232e26367c1463be209fe"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:83ed684afef4de4ea2d9e9dc66517c198f4c3e592e2232e26367c1463be209fe"
+      ],
+      "id": "testbench:tb/tb_pid_controller.sv",
+      "label": "tb_pid_controller.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:000",
+      "label": "Wishbone register access",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:001",
+      "label": "P/I/D reference equations",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:002",
+      "label": "two sequential samples",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:003",
+      "label": "integral state",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:004",
+      "label": "derivative history",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:005",
+      "label": "state reset",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:de6aef362242980ada9494a920f375e2801c06506015e4406274b5de0ae357e8"
+      ],
+      "id": "verification_obligation:006",
+      "label": "overflow status",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "pid_controller",
+  "project_revision": "de6aef362242980a",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Given a future failing regression for pid_controller, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of pid_controller. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Generate or complete synthesizable SystemVerilog for pid_controller from its released design contracts. Preserve the hierarchy and interfaces of pid_controller, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of pid_controller, including the roles of pid_controller. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Design a minimal wrapper plan to reuse pid_controller in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for pid_controller. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pid_controller",
+        "module:pid_controller"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pid_controller",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pid_controller. It must exercise the obligation: Wishbone register access and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "de6aef362242980a",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pid_controller"
+      ],
+      "task_id": "ipgraph:pid_controller:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:05d88d75468874163beea495c7b04ddd7000337b96dbb420a7b697ae4f2f5a27"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

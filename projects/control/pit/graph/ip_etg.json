@@ -1,0 +1,4279 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:5bdb3bf39ce8e15201217710428df3b6c5798731b16a4bc4a75068b43b4f05ad",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "5bdb3bf39ce8e15201217710428df3b6c5798731b16a4bc4a75068b43b4f05ad"
+    },
+    {
+      "artifact_id": "sha256:ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+    },
+    {
+      "artifact_id": "sha256:7cfe38b3448a8509809a33f38061082fc95f2467e7d70d474b7db691d4922ccc",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "7cfe38b3448a8509809a33f38061082fc95f2467e7d70d474b7db691d4922ccc"
+    },
+    {
+      "artifact_id": "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pit_count.sv",
+      "release_status": "source_released",
+      "sha256": "0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+    },
+    {
+      "artifact_id": "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pit_prescale.sv",
+      "release_status": "source_released",
+      "sha256": "57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+    },
+    {
+      "artifact_id": "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pit_regs.sv",
+      "release_status": "source_released",
+      "sha256": "ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+    },
+    {
+      "artifact_id": "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pit_top.sv",
+      "release_status": "source_released",
+      "sha256": "d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+    },
+    {
+      "artifact_id": "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/pit_wb_bus.sv",
+      "release_status": "source_released",
+      "sha256": "96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+    },
+    {
+      "artifact_id": "sha256:2658be115e4d9a08d87dede34e2687e490f2724a67c0fbad415ebc2cbe4640e3",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/octet-stream",
+      "path": "run.sh",
+      "release_status": "source_released",
+      "sha256": "2658be115e4d9a08d87dede34e2687e490f2724a67c0fbad415ebc2cbe4640e3"
+    },
+    {
+      "artifact_id": "sha256:b3d9f20abdaefc2cbc27fbfeb2803995d44b5407aac72435ee9000451d86027c",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "b3d9f20abdaefc2cbc27fbfeb2803995d44b5407aac72435ee9000451d86027c"
+    },
+    {
+      "artifact_id": "sha256:1aaf0e0eed07e9bb3ecf01d70bf6974c3694ef4b1dbad374d6304e6be9c557f1",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "1aaf0e0eed07e9bb3ecf01d70bf6974c3694ef4b1dbad374d6304e6be9c557f1"
+    },
+    {
+      "artifact_id": "sha256:8e0fa011a61aece77bf044a5dce697625a4ad46440ba6a9088f20178d7ec3e0f",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "8e0fa011a61aece77bf044a5dce697625a4ad46440ba6a9088f20178d7ec3e0f"
+    },
+    {
+      "artifact_id": "sha256:819c96e6a6a1de9c3e888c736a0cf056b9d2305aea778022f1e1af15b358e751",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "819c96e6a6a1de9c3e888c736a0cf056b9d2305aea778022f1e1af15b358e751"
+    },
+    {
+      "artifact_id": "sha256:5078d52fd29911a041c018bec1dc4290e4403b6d6704f8cd32bc6e36ca8fd8fd",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "5078d52fd29911a041c018bec1dc4290e4403b6d6704f8cd32bc6e36ca8fd8fd"
+    },
+    {
+      "artifact_id": "sha256:bc7d5b2585eca5a93eb2cca3b1a1cd5e7db792a2be098d754111611387f1fe9b",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "bc7d5b2585eca5a93eb2cca3b1a1cd5e7db792a2be098d754111611387f1fe9b"
+    },
+    {
+      "artifact_id": "sha256:b3ddc976cc326755e1ec34dcdf7deff8370f799e54733ebdb885b58ceb4f4bf2",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "b3ddc976cc326755e1ec34dcdf7deff8370f799e54733ebdb885b58ceb4f4bf2"
+    },
+    {
+      "artifact_id": "sha256:a193e2d3b98afb8f81473f5adb6a35a4da3180c239ea938d7e5d038e932bf5d1",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "a193e2d3b98afb8f81473f5adb6a35a4da3180c239ea938d7e5d038e932bf5d1"
+    },
+    {
+      "artifact_id": "sha256:cf987cb78e7bd481817200507c9ad4f75118444df523c15c9f2124bdbde591d7",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "cf987cb78e7bd481817200507c9ad4f75118444df523c15c9f2124bdbde591d7"
+    },
+    {
+      "artifact_id": "sha256:2063f8e1fa3a1296ff253394b82d94cc2dbc827d71ef3564a1296e991934f4ec",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "2063f8e1fa3a1296ff253394b82d94cc2dbc827d71ef3564a1296e991934f4ec"
+    },
+    {
+      "artifact_id": "sha256:8fc2340295499d1e445e8855e77b7364a87f191f1b4c6e0de6e63d5f1559968e",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "8fc2340295499d1e445e8855e77b7364a87f191f1b4c6e0de6e63d5f1559968e"
+    },
+    {
+      "artifact_id": "sha256:51d0bd23e68fff1dc81b7e51aed20d46b743807bbadc1265bdbd34c1f1465c8f",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/timescale.svh",
+      "release_status": "source_released",
+      "sha256": "51d0bd23e68fff1dc81b7e51aed20d46b743807bbadc1265bdbd34c1f1465c8f"
+    },
+    {
+      "artifact_id": "sha256:53e2d2bdadfeb044a7d1e131c9b66b05606df79bc68b2551b68a101b9b8e61ee",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tst_bench_top.sv",
+      "release_status": "source_released",
+      "sha256": "53e2d2bdadfeb044a7d1e131c9b66b05606df79bc68b2551b68a101b9b8e61ee"
+    },
+    {
+      "artifact_id": "sha256:d900320ec4773c3d084efa31ede9aeaefe32c4797ea3d4135e3c845e8edb497b",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/wb_master_model.sv",
+      "release_status": "source_released",
+      "sha256": "d900320ec4773c3d084efa31ede9aeaefe32c4797ea3d4135e3c845e8edb497b"
+    },
+    {
+      "artifact_id": "sha256:6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.cnt_n",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.cnt_flag_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.pit_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.async_rst_b",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.sync_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.bus_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.counter_sync",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.prescale_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.pit_flg_clr",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-connection-9",
+      "source": "instance:pit_top.counter:0",
+      "target": "port:pit_count.mod_value",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:pit_top",
+      "target": "instance:pit_top.counter:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:pit_top.counter:0",
+      "target": "module:pit_count",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.prescale_out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.counter_sync",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.async_rst_b",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.sync_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.bus_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.cnt_sync_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.ext_sync_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.pit_slave",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:pit_top.prescale:1",
+      "target": "port:pit_prescale.divisor",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:pit_top",
+      "target": "instance:pit_top.prescale:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:pit_top.prescale:1",
+      "target": "module:pit_prescale",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.mod_value",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.pit_pre_scl",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-10",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.write_bus",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-11",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.write_regs",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-12",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.cnt_flag_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.pit_slave",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.pit_flg_clr",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-4",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.pit_ien",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-5",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.cnt_sync_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-6",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.pit_irq_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-7",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.async_rst_b",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-8",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.sync_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-connection-9",
+      "source": "instance:pit_top.regs:2",
+      "target": "port:pit_regs.bus_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:pit_top",
+      "target": "instance:pit_top.regs:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:pit_top.regs:2",
+      "target": "module:pit_regs",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-0",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_dat_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-1",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_ack_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-10",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_sel_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-11",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.write_regs",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-12",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.sync_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-13",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.async_rst_b",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-14",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.irq_source",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-15",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.read_regs",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-2",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_clk_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-3",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_rst_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-4",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.arst_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-5",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_adr_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-6",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_dat_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-7",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_we_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-8",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_stb_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-connection-9",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "port:pit_wb_bus.wb_cyc_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-contained",
+      "source": "module:pit_top",
+      "target": "instance:pit_top.wishbone:3",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:instance-3-target",
+      "source": "instance:pit_top.wishbone:3",
+      "target": "module:pit_wb_bus",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-clock-bus_clk",
+      "source": "module:pit_count",
+      "target": "clock_domain:bus_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-parameter-COUNT_SIZE",
+      "source": "module:pit_count",
+      "target": "parameter:pit_count.COUNT_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-async_rst_b",
+      "source": "module:pit_count",
+      "target": "port:pit_count.async_rst_b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-bus_clk",
+      "source": "module:pit_count",
+      "target": "port:pit_count.bus_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-cnt_flag_o",
+      "source": "module:pit_count",
+      "target": "port:pit_count.cnt_flag_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-cnt_n",
+      "source": "module:pit_count",
+      "target": "port:pit_count.cnt_n",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-counter_sync",
+      "source": "module:pit_count",
+      "target": "port:pit_count.counter_sync",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-mod_value",
+      "source": "module:pit_count",
+      "target": "port:pit_count.mod_value",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-pit_flg_clr",
+      "source": "module:pit_count",
+      "target": "port:pit_count.pit_flg_clr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-pit_o",
+      "source": "module:pit_count",
+      "target": "port:pit_count.pit_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-prescale_out",
+      "source": "module:pit_count",
+      "target": "port:pit_count.prescale_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-port-sync_reset",
+      "source": "module:pit_count",
+      "target": "port:pit_count.sync_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:pit_count-reset-sync_reset",
+      "source": "module:pit_count",
+      "target": "reset_domain:sync_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-clock-bus_clk",
+      "source": "module:pit_prescale",
+      "target": "clock_domain:bus_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-parameter-COUNT_SIZE",
+      "source": "module:pit_prescale",
+      "target": "parameter:pit_prescale.COUNT_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-parameter-DECADE_CNTR",
+      "source": "module:pit_prescale",
+      "target": "parameter:pit_prescale.DECADE_CNTR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-parameter-NO_PRESCALE",
+      "source": "module:pit_prescale",
+      "target": "parameter:pit_prescale.NO_PRESCALE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-async_rst_b",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.async_rst_b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-bus_clk",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.bus_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-cnt_sync_o",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.cnt_sync_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-counter_sync",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.counter_sync",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-divisor",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.divisor",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-ext_sync_i",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.ext_sync_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-pit_slave",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.pit_slave",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-prescale_out",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.prescale_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-port-sync_reset",
+      "source": "module:pit_prescale",
+      "target": "port:pit_prescale.sync_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:pit_prescale-reset-sync_reset",
+      "source": "module:pit_prescale",
+      "target": "reset_domain:sync_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-clock-bus_clk",
+      "source": "module:pit_regs",
+      "target": "clock_domain:bus_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-parameter-ARST_LVL",
+      "source": "module:pit_regs",
+      "target": "parameter:pit_regs.ARST_LVL",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-parameter-COUNT_SIZE",
+      "source": "module:pit_regs",
+      "target": "parameter:pit_regs.COUNT_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-parameter-DWIDTH",
+      "source": "module:pit_regs",
+      "target": "parameter:pit_regs.DWIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-parameter-NO_PRESCALE",
+      "source": "module:pit_regs",
+      "target": "parameter:pit_regs.NO_PRESCALE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-async_rst_b",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.async_rst_b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-bus_clk",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.bus_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-cnt_flag_o",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.cnt_flag_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-cnt_sync_o",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.cnt_sync_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-mod_value",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.mod_value",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-pit_flg_clr",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.pit_flg_clr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-pit_ien",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.pit_ien",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-pit_irq_o",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.pit_irq_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-pit_pre_scl",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.pit_pre_scl",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-pit_slave",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.pit_slave",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-sync_reset",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.sync_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-write_bus",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.write_bus",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-port-write_regs",
+      "source": "module:pit_regs",
+      "target": "port:pit_regs.write_regs",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:pit_regs-reset-sync_reset",
+      "source": "module:pit_regs",
+      "target": "reset_domain:sync_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-clock-wb_clk_i",
+      "source": "module:pit_top",
+      "target": "clock_domain:wb_clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-ARST_LVL",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.ARST_LVL",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-COUNT_SIZE",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.COUNT_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-DECADE_CNTR",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.DECADE_CNTR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-DWIDTH",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.DWIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-NO_PRESCALE",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.NO_PRESCALE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-PRE_COUNT_SIZE",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.PRE_COUNT_SIZE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-parameter-SINGLE_CYCLE",
+      "source": "module:pit_top",
+      "target": "parameter:pit_top.SINGLE_CYCLE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-arst_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.arst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-cnt_flag_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.cnt_flag_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-cnt_sync_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.cnt_sync_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-ext_sync_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.ext_sync_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-pit_irq_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.pit_irq_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-pit_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.pit_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_ack_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_adr_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_clk_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_cyc_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_dat_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_dat_o",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_rst_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_sel_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_sel_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_stb_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:pit_top-port-wb_we_i",
+      "source": "module:pit_top",
+      "target": "port:pit_top.wb_we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-clock-wb_clk_i",
+      "source": "module:pit_wb_bus",
+      "target": "clock_domain:wb_clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-parameter-ARST_LVL",
+      "source": "module:pit_wb_bus",
+      "target": "parameter:pit_wb_bus.ARST_LVL",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-parameter-DWIDTH",
+      "source": "module:pit_wb_bus",
+      "target": "parameter:pit_wb_bus.DWIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-parameter-SINGLE_CYCLE",
+      "source": "module:pit_wb_bus",
+      "target": "parameter:pit_wb_bus.SINGLE_CYCLE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-arst_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.arst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-async_rst_b",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.async_rst_b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-irq_source",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.irq_source",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-read_regs",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.read_regs",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-sync_reset",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.sync_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_ack_o",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_adr_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_clk_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_cyc_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_dat_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_dat_o",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_rst_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_sel_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_sel_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_stb_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-wb_we_i",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.wb_we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-port-write_regs",
+      "source": "module:pit_wb_bus",
+      "target": "port:pit_wb_bus.write_regs",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:pit_wb_bus-reset-sync_reset",
+      "source": "module:pit_wb_bus",
+      "target": "reset_domain:sync_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "edge:project-contains-pit_count",
+      "source": "project:pit",
+      "target": "module:pit_count",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "edge:project-contains-pit_prescale",
+      "source": "project:pit",
+      "target": "module:pit_prescale",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "edge:project-contains-pit_regs",
+      "source": "project:pit",
+      "target": "module:pit_regs",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "edge:project-contains-pit_top",
+      "source": "project:pit",
+      "target": "module:pit_top",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "edge:project-contains-pit_wb_bus",
+      "source": "project:pit",
+      "target": "module:pit_wb_bus",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5bdb3bf39ce8e15201217710428df3b6c5798731b16a4bc4a75068b43b4f05ad"
+      ],
+      "id": "edge:project-license",
+      "source": "project:pit",
+      "target": "license:BSD-3-Clause",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:pit",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:pit",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+      ],
+      "id": "edge:project-source",
+      "source": "project:pit",
+      "target": "source_revision:ef4068ee86dc4174",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b3d9f20abdaefc2cbc27fbfeb2803995d44b5407aac72435ee9000451d86027c"
+      ],
+      "id": "edge:project-task-ipgraph-pit-cross_module_repair-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1aaf0e0eed07e9bb3ecf01d70bf6974c3694ef4b1dbad374d6304e6be9c557f1"
+      ],
+      "id": "edge:project-task-ipgraph-pit-cross_module_repair-0001",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8e0fa011a61aece77bf044a5dce697625a4ad46440ba6a9088f20178d7ec3e0f"
+      ],
+      "id": "edge:project-task-ipgraph-pit-fault_localization_repair-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:819c96e6a6a1de9c3e888c736a0cf056b9d2305aea778022f1e1af15b358e751"
+      ],
+      "id": "edge:project-task-ipgraph-pit-functional_timing_understanding-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5078d52fd29911a041c018bec1dc4290e4403b6d6704f8cd32bc6e36ca8fd8fd"
+      ],
+      "id": "edge:project-task-ipgraph-pit-hierarchical_integration-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bc7d5b2585eca5a93eb2cca3b1a1cd5e7db792a2be098d754111611387f1fe9b"
+      ],
+      "id": "edge:project-task-ipgraph-pit-hierarchical_rtl_generation-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b3ddc976cc326755e1ec34dcdf7deff8370f799e54733ebdb885b58ceb4f4bf2"
+      ],
+      "id": "edge:project-task-ipgraph-pit-hierarchy_dependency_analysis-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a193e2d3b98afb8f81473f5adb6a35a4da3180c239ea938d7e5d038e932bf5d1"
+      ],
+      "id": "edge:project-task-ipgraph-pit-interface_modification-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf987cb78e7bd481817200507c9ad4f75118444df523c15c9f2124bdbde591d7"
+      ],
+      "id": "edge:project-task-ipgraph-pit-reuse_integration-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2063f8e1fa3a1296ff253394b82d94cc2dbc827d71ef3564a1296e991934f4ec"
+      ],
+      "id": "edge:project-task-ipgraph-pit-tool_result_analysis-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8fc2340295499d1e445e8855e77b7364a87f191f1b4c6e0de6e63d5f1559968e"
+      ],
+      "id": "edge:project-task-ipgraph-pit-verification_generation-0000",
+      "source": "project:pit",
+      "target": "task:ipgraph:pit:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:51d0bd23e68fff1dc81b7e51aed20d46b743807bbadc1265bdbd34c1f1465c8f"
+      ],
+      "id": "edge:project-testbench-155",
+      "source": "project:pit",
+      "target": "testbench:tb/timescale.svh",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:53e2d2bdadfeb044a7d1e131c9b66b05606df79bc68b2551b68a101b9b8e61ee"
+      ],
+      "id": "edge:project-testbench-156",
+      "source": "project:pit",
+      "target": "testbench:tb/tst_bench_top.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d900320ec4773c3d084efa31ede9aeaefe32c4797ea3d4135e3c845e8edb497b"
+      ],
+      "id": "edge:project-testbench-157",
+      "source": "project:pit",
+      "target": "testbench:tb/wb_master_model.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:pit:ef4068ee86dc4174",
+  "graph_sha256": "d3a4923ee58bd3a59324540dd8121dfd718f7edb317f1df92e6ad05726281c3a",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pit_count",
+          "pit_prescale",
+          "pit_regs"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:bus_clk",
+      "label": "bus_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pit_top",
+          "pit_wb_bus"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:wb_clk_i",
+      "label": "wb_clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "cnt_n",
+            "kind": "named",
+            "port": "cnt_n"
+          },
+          {
+            "expression": "cnt_flag_o",
+            "kind": "named",
+            "port": "cnt_flag_o"
+          },
+          {
+            "expression": "pit_o",
+            "kind": "named",
+            "port": "pit_o"
+          },
+          {
+            "expression": "async_rst_b",
+            "kind": "named",
+            "port": "async_rst_b"
+          },
+          {
+            "expression": "sync_reset",
+            "kind": "named",
+            "port": "sync_reset"
+          },
+          {
+            "expression": "wb_clk_i",
+            "kind": "named",
+            "port": "bus_clk"
+          },
+          {
+            "expression": "counter_sync",
+            "kind": "named",
+            "port": "counter_sync"
+          },
+          {
+            "expression": "prescale_out",
+            "kind": "named",
+            "port": "prescale_out"
+          },
+          {
+            "expression": "pit_flg_clr",
+            "kind": "named",
+            "port": "pit_flg_clr"
+          },
+          {
+            "expression": "mod_value",
+            "kind": "named",
+            "port": "mod_value"
+          }
+        ],
+        "declaration": "counter( // outputs .cnt_n ( cnt_n ), .cnt_flag_o ( cnt_flag_o ), .pit_o ( pit_o ), // inputs .async_rst_b ( async_rst_b ), .sync_reset ( sync_reset ), .bus_clk ( wb_clk_i ), .counter_sync ( counter_sync ), .prescale_out ( prescale_out ), .pit_flg_clr ( pit_flg_clr ), .mod_value ( mod_value ) )",
+        "parent_module": "pit_top",
+        "target_module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "instance:pit_top.counter:0",
+      "label": "counter",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "prescale_out",
+            "kind": "named",
+            "port": "prescale_out"
+          },
+          {
+            "expression": "counter_sync",
+            "kind": "named",
+            "port": "counter_sync"
+          },
+          {
+            "expression": "async_rst_b",
+            "kind": "named",
+            "port": "async_rst_b"
+          },
+          {
+            "expression": "sync_reset",
+            "kind": "named",
+            "port": "sync_reset"
+          },
+          {
+            "expression": "wb_clk_i",
+            "kind": "named",
+            "port": "bus_clk"
+          },
+          {
+            "expression": "cnt_sync_o",
+            "kind": "named",
+            "port": "cnt_sync_o"
+          },
+          {
+            "expression": "ext_sync_i",
+            "kind": "named",
+            "port": "ext_sync_i"
+          },
+          {
+            "expression": "pit_slave",
+            "kind": "named",
+            "port": "pit_slave"
+          },
+          {
+            "expression": "pit_pre_scl",
+            "kind": "named",
+            "port": "divisor"
+          }
+        ],
+        "declaration": "prescale( // outputs .prescale_out ( prescale_out ), .counter_sync ( counter_sync ), // inputs .async_rst_b ( async_rst_b ), .sync_reset ( sync_reset ), .bus_clk ( wb_clk_i ), .cnt_sync_o ( cnt_sync_o ), .ext_sync_i ( ext_sync_i ), .pit_slave ( pit_slave ), .divisor ( pit_pre_scl ) )",
+        "parent_module": "pit_top",
+        "target_module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "instance:pit_top.prescale:1",
+      "label": "prescale",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "mod_value",
+            "kind": "named",
+            "port": "mod_value"
+          },
+          {
+            "expression": "pit_pre_scl",
+            "kind": "named",
+            "port": "pit_pre_scl"
+          },
+          {
+            "expression": "pit_slave",
+            "kind": "named",
+            "port": "pit_slave"
+          },
+          {
+            "expression": "pit_flg_clr",
+            "kind": "named",
+            "port": "pit_flg_clr"
+          },
+          {
+            "expression": "pit_ien",
+            "kind": "named",
+            "port": "pit_ien"
+          },
+          {
+            "expression": "cnt_sync_o",
+            "kind": "named",
+            "port": "cnt_sync_o"
+          },
+          {
+            "expression": "pit_irq_o",
+            "kind": "named",
+            "port": "pit_irq_o"
+          },
+          {
+            "expression": "async_rst_b",
+            "kind": "named",
+            "port": "async_rst_b"
+          },
+          {
+            "expression": "sync_reset",
+            "kind": "named",
+            "port": "sync_reset"
+          },
+          {
+            "expression": "wb_clk_i",
+            "kind": "named",
+            "port": "bus_clk"
+          },
+          {
+            "expression": "wb_dat_i",
+            "kind": "named",
+            "port": "write_bus"
+          },
+          {
+            "expression": "write_regs",
+            "kind": "named",
+            "port": "write_regs"
+          },
+          {
+            "expression": "cnt_flag_o",
+            "kind": "named",
+            "port": "cnt_flag_o"
+          }
+        ],
+        "declaration": "regs( // outputs .mod_value ( mod_value ), .pit_pre_scl ( pit_pre_scl ), .pit_slave ( pit_slave ), .pit_flg_clr ( pit_flg_clr ), .pit_ien ( pit_ien ), .cnt_sync_o ( cnt_sync_o ), .pit_irq_o ( pit_irq_o ), // inputs .async_rst_b ( async_rst_b ), .sync_reset ( sync_reset ), .bus_clk ( wb_clk_i ), .write_bus ( wb_dat_i ), .write_regs ( write_regs ), .cnt_flag_o ( cnt_flag_o ) )",
+        "parent_module": "pit_top",
+        "target_module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "instance:pit_top.regs:2",
+      "label": "regs",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "wb_dat_o",
+            "kind": "named",
+            "port": "wb_dat_o"
+          },
+          {
+            "expression": "wb_ack_o",
+            "kind": "named",
+            "port": "wb_ack_o"
+          },
+          {
+            "expression": "wb_clk_i",
+            "kind": "named",
+            "port": "wb_clk_i"
+          },
+          {
+            "expression": "wb_rst_i",
+            "kind": "named",
+            "port": "wb_rst_i"
+          },
+          {
+            "expression": "arst_i",
+            "kind": "named",
+            "port": "arst_i"
+          },
+          {
+            "expression": "wb_adr_i",
+            "kind": "named",
+            "port": "wb_adr_i"
+          },
+          {
+            "expression": "wb_dat_i",
+            "kind": "named",
+            "port": "wb_dat_i"
+          },
+          {
+            "expression": "wb_we_i",
+            "kind": "named",
+            "port": "wb_we_i"
+          },
+          {
+            "expression": "wb_stb_i",
+            "kind": "named",
+            "port": "wb_stb_i"
+          },
+          {
+            "expression": "wb_cyc_i",
+            "kind": "named",
+            "port": "wb_cyc_i"
+          },
+          {
+            "expression": "wb_sel_i",
+            "kind": "named",
+            "port": "wb_sel_i"
+          },
+          {
+            "expression": "write_regs",
+            "kind": "named",
+            "port": "write_regs"
+          },
+          {
+            "expression": "sync_reset",
+            "kind": "named",
+            "port": "sync_reset"
+          },
+          {
+            "expression": "async_rst_b",
+            "kind": "named",
+            "port": "async_rst_b"
+          },
+          {
+            "expression": "cnt_flag_o",
+            "kind": "named",
+            "port": "irq_source"
+          },
+          {
+            "expression": "// in -- status register bits { cnt_n, mod_value, {pit_slave, DECADE_CNTR, NO_PRESCALE, 1'b0, pit_pre_scl, 5'b0, cnt_flag_o, pit_ien, cnt_sync_o} }",
+            "kind": "named",
+            "port": "read_regs"
+          }
+        ],
+        "declaration": "wishbone( .wb_dat_o ( wb_dat_o ), .wb_ack_o ( wb_ack_o ), .wb_clk_i ( wb_clk_i ), .wb_rst_i ( wb_rst_i ), .arst_i ( arst_i ), .wb_adr_i ( wb_adr_i ), .wb_dat_i ( wb_dat_i ), .wb_we_i ( wb_we_i ), .wb_stb_i ( wb_stb_i ), .wb_cyc_i ( wb_cyc_i ), .wb_sel_i ( wb_sel_i ), // outputs .write_regs ( write_regs ), .sync_reset ( sync_reset ), // inputs .async_rst_b ( async_rst_b ), .irq_source ( cnt_flag_o ), .read_regs ( // in -- status register bits { cnt_n, mod_value, {pit_slave, DECADE_CNTR, NO_PRESCALE, 1'b0, pit_pre_scl, 5'b0, cnt_flag_o, pit_ien, cnt_sync_o} } ) )",
+        "parent_module": "pit_top",
+        "target_module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "instance:pit_top.wishbone:3",
+      "label": "wishbone",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:BSD-3-Clause",
+      "label": "BSD-3-Clause",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "attributes": {
+        "path": "rtl/pit_count.sv"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "module:pit_count",
+      "label": "pit_count",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "attributes": {
+        "path": "rtl/pit_prescale.sv"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "module:pit_prescale",
+      "label": "pit_prescale",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "attributes": {
+        "path": "rtl/pit_regs.sv"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "module:pit_regs",
+      "label": "pit_regs",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "attributes": {
+        "path": "rtl/pit_top.sv"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "module:pit_top",
+      "label": "pit_top",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "attributes": {
+        "path": "rtl/pit_wb_bus.sv"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "module:pit_wb_bus",
+      "label": "pit_wb_bus",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "parameter:pit_count.COUNT_SIZE",
+      "label": "COUNT_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "parameter:pit_prescale.COUNT_SIZE",
+      "label": "COUNT_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "parameter:pit_prescale.DECADE_CNTR",
+      "label": "DECADE_CNTR",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "parameter:pit_prescale.NO_PRESCALE",
+      "label": "NO_PRESCALE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "parameter:pit_regs.ARST_LVL",
+      "label": "ARST_LVL",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "parameter:pit_regs.COUNT_SIZE",
+      "label": "COUNT_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "parameter:pit_regs.DWIDTH",
+      "label": "DWIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "parameter:pit_regs.NO_PRESCALE",
+      "label": "NO_PRESCALE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.ARST_LVL",
+      "label": "ARST_LVL",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.COUNT_SIZE",
+      "label": "COUNT_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.DECADE_CNTR",
+      "label": "DECADE_CNTR",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.DWIDTH",
+      "label": "DWIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.NO_PRESCALE",
+      "label": "NO_PRESCALE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.PRE_COUNT_SIZE",
+      "label": "PRE_COUNT_SIZE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "parameter:pit_top.SINGLE_CYCLE",
+      "label": "SINGLE_CYCLE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "parameter:pit_wb_bus.ARST_LVL",
+      "label": "ARST_LVL",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "parameter:pit_wb_bus.DWIDTH",
+      "label": "DWIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "parameter:pit_wb_bus.SINGLE_CYCLE",
+      "label": "SINGLE_CYCLE",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT output pulse input async_rst_b",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.async_rst_b",
+      "label": "async_rst_b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Syncronous reset signal input bus_clk",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.bus_clk",
+      "label": "bus_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Modulo Counter value output logic cnt_flag_o",
+        "direction": "output",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.cnt_flag_o",
+      "label": "cnt_flag_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [COUNT_SIZE-1:0] cnt_n",
+        "direction": "output",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.cnt_n",
+      "label": "cnt_n",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Reference Clock input counter_sync",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.counter_sync",
+      "label": "counter_sync",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Clear PIT Rollover Flag input [COUNT_SIZE-1:0] mod_value",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.mod_value",
+      "label": "mod_value",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Increment Counter input pit_flg_clr",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.pit_flg_clr",
+      "label": "pit_flg_clr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Counter Rollover Flag output logic pit_o",
+        "direction": "output",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.pit_o",
+      "label": "pit_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Syncronous counter enable input prescale_out",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.prescale_out",
+      "label": "prescale_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input sync_reset",
+        "direction": "input",
+        "module": "pit_count"
+      },
+      "evidence_refs": [
+        "sha256:0108c6ef30c383c388b1d4430aff446ee0607c3ad6efa483258cb472307487db"
+      ],
+      "id": "port:pit_count.sync_reset",
+      "label": "sync_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input async_rst_b",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.async_rst_b",
+      "label": "async_rst_b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Syncronous reset signal input bus_clk",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.bus_clk",
+      "label": "bus_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Reference Clock input cnt_sync_o",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.cnt_sync_o",
+      "label": "cnt_sync_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// output counter_sync",
+        "direction": "output",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.counter_sync",
+      "label": "counter_sync",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Slave Mode input [3:0] divisor",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.divisor",
+      "label": "divisor",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Syncronous counter enable input ext_sync_i",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.ext_sync_i",
+      "label": "ext_sync_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Enable from external PIT input pit_slave",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.pit_slave",
+      "label": "pit_slave",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output prescale_out",
+        "direction": "output",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.prescale_out",
+      "label": "prescale_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input sync_reset",
+        "direction": "input",
+        "module": "pit_prescale"
+      },
+      "evidence_refs": [
+        "sha256:57cc8bca14c01c2c1ad7d54c2510f92d155e276181c6eeeceed8d6a405e86b51"
+      ],
+      "id": "port:pit_prescale.sync_reset",
+      "label": "sync_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Control register bus clock input async_rst_b",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.async_rst_b",
+      "label": "async_rst_b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT interrupt input bus_clk",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.bus_clk",
+      "label": "bus_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Write Register strobes input cnt_flag_o",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.cnt_flag_o",
+      "label": "cnt_flag_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Interrupt Enable output logic cnt_sync_o",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.cnt_sync_o",
+      "label": "cnt_sync_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [COUNT_SIZE-1:0] mod_value",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.mod_value",
+      "label": "mod_value",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Slave Mode output logic pit_flg_clr",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.pit_flg_clr",
+      "label": "pit_flg_clr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Clear PIT Rollover Flag output logic pit_ien",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.pit_ien",
+      "label": "pit_ien",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Counter Enable output logic pit_irq_o",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.pit_irq_o",
+      "label": "pit_irq_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Main Counter Modulo Value output [ 3:0] pit_pre_scl",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.pit_pre_scl",
+      "label": "pit_pre_scl",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Prescaler Value output logic pit_slave",
+        "direction": "output",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.pit_slave",
+      "label": "pit_slave",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Async reset signal input sync_reset",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.sync_reset",
+      "label": "sync_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Syncronous reset signal input [DWIDTH-1:0] write_bus",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.write_bus",
+      "label": "write_bus",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Write Data Bus input [ 3:0] write_regs",
+        "direction": "input",
+        "module": "pit_regs"
+      },
+      "evidence_refs": [
+        "sha256:ed595173137ac6a6e43a123c5bd39f7315485da537d90bd7de55b273a8ffdd44"
+      ],
+      "id": "port:pit_regs.write_regs",
+      "label": "write_regs",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous active high reset input arst_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.arst_i",
+      "label": "arst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT interrupt request signal output output cnt_flag_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.cnt_flag_o",
+      "label": "cnt_flag_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Flag Out output cnt_sync_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.cnt_sync_o",
+      "label": "cnt_sync_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT Master Enable for Slave PIT's input ext_sync_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.ext_sync_i",
+      "label": "ext_sync_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// PIT output pulse output pit_irq_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.pit_irq_o",
+      "label": "pit_irq_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Select byte in word bus transaction // PIT IO Signals output pit_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.pit_o",
+      "label": "pit_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus output output wb_ack_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_ack_o",
+      "label": "wb_ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asynchronous reset input [2:0] wb_adr_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_adr_i",
+      "label": "wb_adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bus cycle acknowledge output input wb_clk_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_clk_i",
+      "label": "wb_clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// stobe/core select signal input wb_cyc_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_cyc_i",
+      "label": "wb_cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// lower address bits input [DWIDTH-1:0] wb_dat_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_dat_i",
+      "label": "wb_dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Wishbone Signals output [DWIDTH-1:0] wb_dat_o",
+        "direction": "output",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_dat_o",
+      "label": "wb_dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// master clock input input wb_rst_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_rst_i",
+      "label": "wb_rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// valid bus cycle input input [1:0] wb_sel_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_sel_i",
+      "label": "wb_sel_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write enable input input wb_stb_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_stb_i",
+      "label": "wb_stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus input input wb_we_i",
+        "direction": "input",
+        "module": "pit_top"
+      },
+      "evidence_refs": [
+        "sha256:d02e8b7714f60656c95017ce4332df5142788bfe787eb8500dc1ee3a76950ea5"
+      ],
+      "id": "port:pit_top.wb_we_i",
+      "label": "wb_we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous active high reset input arst_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.arst_i",
+      "label": "arst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Decode write control register output async_rst_b",
+        "direction": "output",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.async_rst_b",
+      "label": "async_rst_b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input irq_source",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.irq_source",
+      "label": "irq_source",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// input [47:0] read_regs",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.read_regs",
+      "label": "read_regs",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// output sync_reset",
+        "direction": "output",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.sync_reset",
+      "label": "sync_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus output - Pseudo Register output wb_ack_o",
+        "direction": "output",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_ack_o",
+      "label": "wb_ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// asynchronous reset input [ 2:0] wb_adr_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_adr_i",
+      "label": "wb_adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bus cycle acknowledge output input wb_clk_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_clk_i",
+      "label": "wb_clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// stobe/core select signal input wb_cyc_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_cyc_i",
+      "label": "wb_cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// lower address bits input [DWIDTH-1:0] wb_dat_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_dat_i",
+      "label": "wb_dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Wishbone Signals output logic [DWIDTH-1:0] wb_dat_o",
+        "direction": "output",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_dat_o",
+      "label": "wb_dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// master clock input input wb_rst_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_rst_i",
+      "label": "wb_rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// valid bus cycle input input [1:0] wb_sel_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_sel_i",
+      "label": "wb_sel_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write enable input input wb_stb_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_stb_i",
+      "label": "wb_stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// databus input input wb_we_i",
+        "direction": "input",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.wb_we_i",
+      "label": "wb_we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Select byte in word bus transaction // PIT Control Signals output logic [ 3:0] write_regs",
+        "direction": "output",
+        "module": "pit_wb_bus"
+      },
+      "evidence_refs": [
+        "sha256:96cca8211e1cf4f0e03d82693724bb102bf5268be7a117999431f952b51ba770"
+      ],
+      "id": "port:pit_wb_bus.write_regs",
+      "label": "write_regs",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "control",
+        "compile_order": [
+          "rtl/pit_count.sv",
+          "rtl/pit_prescale.sv",
+          "rtl/pit_regs.sv",
+          "rtl/pit_top.sv",
+          "rtl/pit_wb_bus.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "pit_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:pit",
+      "label": "pit",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+      ],
+      "id": "protocol_contract:wishbone",
+      "label": "Wishbone",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "pit_count",
+          "pit_prescale",
+          "pit_regs",
+          "pit_wb_bus"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:sync_reset",
+      "label": "sync_reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:ef4068ee86dc4174",
+      "label": "ef4068ee86dc4174",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:b3d9f20abdaefc2cbc27fbfeb2803995d44b5407aac72435ee9000451d86027c"
+      ],
+      "id": "task:ipgraph:pit:cross_module_repair:0000",
+      "label": "ipgraph:pit:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:1aaf0e0eed07e9bb3ecf01d70bf6974c3694ef4b1dbad374d6304e6be9c557f1"
+      ],
+      "id": "task:ipgraph:pit:cross_module_repair:0001",
+      "label": "ipgraph:pit:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:8e0fa011a61aece77bf044a5dce697625a4ad46440ba6a9088f20178d7ec3e0f"
+      ],
+      "id": "task:ipgraph:pit:fault_localization_repair:0000",
+      "label": "ipgraph:pit:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:819c96e6a6a1de9c3e888c736a0cf056b9d2305aea778022f1e1af15b358e751"
+      ],
+      "id": "task:ipgraph:pit:functional_timing_understanding:0000",
+      "label": "ipgraph:pit:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:5078d52fd29911a041c018bec1dc4290e4403b6d6704f8cd32bc6e36ca8fd8fd"
+      ],
+      "id": "task:ipgraph:pit:hierarchical_integration:0000",
+      "label": "ipgraph:pit:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:bc7d5b2585eca5a93eb2cca3b1a1cd5e7db792a2be098d754111611387f1fe9b"
+      ],
+      "id": "task:ipgraph:pit:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:pit:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:b3ddc976cc326755e1ec34dcdf7deff8370f799e54733ebdb885b58ceb4f4bf2"
+      ],
+      "id": "task:ipgraph:pit:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:pit:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:a193e2d3b98afb8f81473f5adb6a35a4da3180c239ea938d7e5d038e932bf5d1"
+      ],
+      "id": "task:ipgraph:pit:interface_modification:0000",
+      "label": "ipgraph:pit:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:cf987cb78e7bd481817200507c9ad4f75118444df523c15c9f2124bdbde591d7"
+      ],
+      "id": "task:ipgraph:pit:reuse_integration:0000",
+      "label": "ipgraph:pit:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:2063f8e1fa3a1296ff253394b82d94cc2dbc827d71ef3564a1296e991934f4ec"
+      ],
+      "id": "task:ipgraph:pit:tool_result_analysis:0000",
+      "label": "ipgraph:pit:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:8fc2340295499d1e445e8855e77b7364a87f191f1b4c6e0de6e63d5f1559968e"
+      ],
+      "id": "task:ipgraph:pit:verification_generation:0000",
+      "label": "ipgraph:pit:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:51d0bd23e68fff1dc81b7e51aed20d46b743807bbadc1265bdbd34c1f1465c8f"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:51d0bd23e68fff1dc81b7e51aed20d46b743807bbadc1265bdbd34c1f1465c8f"
+      ],
+      "id": "testbench:tb/timescale.svh",
+      "label": "timescale.svh",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:53e2d2bdadfeb044a7d1e131c9b66b05606df79bc68b2551b68a101b9b8e61ee"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:53e2d2bdadfeb044a7d1e131c9b66b05606df79bc68b2551b68a101b9b8e61ee"
+      ],
+      "id": "testbench:tb/tst_bench_top.sv",
+      "label": "tst_bench_top.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d900320ec4773c3d084efa31ede9aeaefe32c4797ea3d4135e3c845e8edb497b"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:d900320ec4773c3d084efa31ede9aeaefe32c4797ea3d4135e3c845e8edb497b"
+      ],
+      "id": "testbench:tb/wb_master_model.sv",
+      "label": "wb_master_model.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:ef4068ee86dc417469217b525297c4b71a9f10e5b9f490f8e664838b7493ff12"
+      ],
+      "id": "verification_obligation:000",
+      "label": "project self-checking regression remains passing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "pit",
+  "project_revision": "ef4068ee86dc4174",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pit. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pit. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Given a future failing regression for pit, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of pit. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Create a DesignGraph integration plan for pit that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Generate or complete synthesizable SystemVerilog for pit from its released design contracts. Preserve the hierarchy and interfaces of pit_count, pit_prescale, pit_regs, pit_top, pit_wb_bus, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of pit, including the roles of pit_count, pit_prescale, pit_regs, pit_top, pit_wb_bus. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Plan a cross-module interface modification for pit. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Design a minimal wrapper plan to reuse pit in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for pit. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pit",
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pit",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pit. It must exercise the obligation: project self-checking regression remains passing and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "ef4068ee86dc4174",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:pit_count",
+        "module:pit_prescale",
+        "module:pit_regs",
+        "module:pit_top",
+        "module:pit_wb_bus"
+      ],
+      "task_id": "ipgraph:pit:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:6f3869f56efcad2f1cf4132a86d4078d0e07b0f1dc4c1c9b61b197f36181b89b"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

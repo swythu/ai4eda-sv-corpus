@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="type" for="node" attr.name="type" attr.type="string" />
+  <key id="label" for="node" attr.name="label" attr.type="string" />
+  <graph id="ip-etg:scalable_arbiter:42ec8116d639ae85" edgedefault="directed">
+    <node id="clock_domain:clock">
+      <data key="type">clock_domain</data>
+      <data key="label">clock</data>
+    </node>
+    <node id="instance:arbiter.mux_array:0">
+      <data key="type">instance</data>
+      <data key="label">mux_array</data>
+    </node>
+    <node id="instance:arbiter.nodes:1">
+      <data key="type">instance</data>
+      <data key="label">nodes</data>
+    </node>
+    <node id="instance:arbiter_x2.stage0_arb:2">
+      <data key="type">instance</data>
+      <data key="label">stage0_arb</data>
+    </node>
+    <node id="instance:arbiter_x2.stage1_arbs:3">
+      <data key="type">instance</data>
+      <data key="label">stage1_arbs</data>
+    </node>
+    <node id="instance:mux_array.nodes:4">
+      <data key="type">instance</data>
+      <data key="label">nodes</data>
+    </node>
+    <node id="license:ISC">
+      <data key="type">license</data>
+      <data key="label">ISC</data>
+    </node>
+    <node id="module:arbiter">
+      <data key="type">module</data>
+      <data key="label">arbiter</data>
+    </node>
+    <node id="module:arbiter_node">
+      <data key="type">module</data>
+      <data key="label">arbiter_node</data>
+    </node>
+    <node id="module:arbiter_x2">
+      <data key="type">module</data>
+      <data key="label">arbiter_x2</data>
+    </node>
+    <node id="module:mux_array">
+      <data key="type">module</data>
+      <data key="label">mux_array</data>
+    </node>
+    <node id="module:mux_node">
+      <data key="type">module</data>
+      <data key="label">mux_node</data>
+    </node>
+    <node id="parameter:arbiter.select_width">
+      <data key="type">parameter</data>
+      <data key="label">select_width</data>
+    </node>
+    <node id="parameter:arbiter.width">
+      <data key="type">parameter</data>
+      <data key="label">width</data>
+    </node>
+    <node id="parameter:arbiter_x2.select_width">
+      <data key="type">parameter</data>
+      <data key="label">select_width</data>
+    </node>
+    <node id="parameter:arbiter_x2.width">
+      <data key="type">parameter</data>
+      <data key="label">width</data>
+    </node>
+    <node id="parameter:mux_array.width">
+      <data key="type">parameter</data>
+      <data key="label">width</data>
+    </node>
+    <node id="port:arbiter.clock">
+      <data key="type">port</data>
+      <data key="label">clock</data>
+    </node>
+    <node id="port:arbiter.enable">
+      <data key="type">port</data>
+      <data key="label">enable</data>
+    </node>
+    <node id="port:arbiter.grant">
+      <data key="type">port</data>
+      <data key="label">grant</data>
+    </node>
+    <node id="port:arbiter.req">
+      <data key="type">port</data>
+      <data key="label">req</data>
+    </node>
+    <node id="port:arbiter.reset">
+      <data key="type">port</data>
+      <data key="label">reset</data>
+    </node>
+    <node id="port:arbiter.select">
+      <data key="type">port</data>
+      <data key="label">select</data>
+    </node>
+    <node id="port:arbiter.valid">
+      <data key="type">port</data>
+      <data key="label">valid</data>
+    </node>
+    <node id="port:arbiter_node.clock">
+      <data key="type">port</data>
+      <data key="label">clock</data>
+    </node>
+    <node id="port:arbiter_node.enable">
+      <data key="type">port</data>
+      <data key="label">enable</data>
+    </node>
+    <node id="port:arbiter_node.grant">
+      <data key="type">port</data>
+      <data key="label">grant</data>
+    </node>
+    <node id="port:arbiter_node.req">
+      <data key="type">port</data>
+      <data key="label">req</data>
+    </node>
+    <node id="port:arbiter_node.reset">
+      <data key="type">port</data>
+      <data key="label">reset</data>
+    </node>
+    <node id="port:arbiter_node.select">
+      <data key="type">port</data>
+      <data key="label">select</data>
+    </node>
+    <node id="port:arbiter_node.valid">
+      <data key="type">port</data>
+      <data key="label">valid</data>
+    </node>
+    <node id="port:arbiter_x2.clock">
+      <data key="type">port</data>
+      <data key="label">clock</data>
+    </node>
+    <node id="port:arbiter_x2.enable">
+      <data key="type">port</data>
+      <data key="label">enable</data>
+    </node>
+    <node id="port:arbiter_x2.grant">
+      <data key="type">port</data>
+      <data key="label">grant</data>
+    </node>
+    <node id="port:arbiter_x2.req">
+      <data key="type">port</data>
+      <data key="label">req</data>
+    </node>
+    <node id="port:arbiter_x2.reset">
+      <data key="type">port</data>
+      <data key="label">reset</data>
+    </node>
+    <node id="port:arbiter_x2.select">
+      <data key="type">port</data>
+      <data key="label">select</data>
+    </node>
+    <node id="port:arbiter_x2.valid">
+      <data key="type">port</data>
+      <data key="label">valid</data>
+    </node>
+    <node id="port:mux_array.in">
+      <data key="type">port</data>
+      <data key="label">in</data>
+    </node>
+    <node id="port:mux_array.out">
+      <data key="type">port</data>
+      <data key="label">out</data>
+    </node>
+    <node id="port:mux_array.select">
+      <data key="type">port</data>
+      <data key="label">select</data>
+    </node>
+    <node id="port:mux_node.in">
+      <data key="type">port</data>
+      <data key="label">in</data>
+    </node>
+    <node id="port:mux_node.out">
+      <data key="type">port</data>
+      <data key="label">out</data>
+    </node>
+    <node id="port:mux_node.select">
+      <data key="type">port</data>
+      <data key="label">select</data>
+    </node>
+    <node id="project:scalable_arbiter">
+      <data key="type">project</data>
+      <data key="label">scalable_arbiter</data>
+    </node>
+    <node id="protocol_contract:native-module-interface">
+      <data key="type">protocol_contract</data>
+      <data key="label">native-module-interface</data>
+    </node>
+    <node id="reset_domain:reset">
+      <data key="type">reset_domain</data>
+      <data key="label">reset</data>
+    </node>
+    <node id="source_revision:42ec8116d639ae85">
+      <data key="type">source_revision</data>
+      <data key="label">42ec8116d639ae85</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:cross_module_repair:0000">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:scalable_arbiter:cross_module_repair:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:cross_module_repair:0001">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:scalable_arbiter:cross_module_repair:0001</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:fault_localization_repair:0000">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:scalable_arbiter:fault_localization_repair:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:functional_timing_understanding:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:scalable_arbiter:functional_timing_understanding:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:hierarchical_integration:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:scalable_arbiter:hierarchical_integration:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000">
+      <data key="type">generation_task</data>
+      <data key="label">ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:interface_modification:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:scalable_arbiter:interface_modification:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:reuse_integration:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:scalable_arbiter:reuse_integration:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:tool_result_analysis:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:scalable_arbiter:tool_result_analysis:0000</data>
+    </node>
+    <node id="task:ipgraph:scalable_arbiter:verification_generation:0000">
+      <data key="type">verification_task</data>
+      <data key="label">ipgraph:scalable_arbiter:verification_generation:0000</data>
+    </node>
+    <node id="testbench:tb/tb_scalable_arbiter.sv">
+      <data key="type">testbench</data>
+      <data key="label">tb_scalable_arbiter.sv</data>
+    </node>
+    <node id="tool_run:project_regression">
+      <data key="type">tool_run</data>
+      <data key="label">project regression</data>
+    </node>
+    <node id="verification_obligation:000">
+      <data key="type">verification_obligation</data>
+      <data key="label">one-hot grant</data>
+    </node>
+    <node id="verification_obligation:001">
+      <data key="type">verification_obligation</data>
+      <data key="label">grant requires active request</data>
+    </node>
+    <node id="verification_obligation:002">
+      <data key="type">verification_obligation</data>
+      <data key="label">binary select matches grant</data>
+    </node>
+    <node id="verification_obligation:003">
+      <data key="type">verification_obligation</data>
+      <data key="label">all individual request paths</data>
+    </node>
+    <node id="verification_obligation:004">
+      <data key="type">verification_obligation</data>
+      <data key="label">round-robin progress across eight requesters</data>
+    </node>
+    <node id="verification_obligation:005">
+      <data key="type">verification_obligation</data>
+      <data key="label">enable masks grant</data>
+    </node>
+    <edge id="edge:arbiter-clock-clock" source="module:arbiter" target="clock_domain:clock" />
+    <edge id="edge:arbiter-parameter-select_width" source="module:arbiter" target="parameter:arbiter.select_width" />
+    <edge id="edge:arbiter-parameter-width" source="module:arbiter" target="parameter:arbiter.width" />
+    <edge id="edge:arbiter-port-clock" source="module:arbiter" target="port:arbiter.clock" />
+    <edge id="edge:arbiter-port-enable" source="module:arbiter" target="port:arbiter.enable" />
+    <edge id="edge:arbiter-port-grant" source="module:arbiter" target="port:arbiter.grant" />
+    <edge id="edge:arbiter-port-req" source="module:arbiter" target="port:arbiter.req" />
+    <edge id="edge:arbiter-port-reset" source="module:arbiter" target="port:arbiter.reset" />
+    <edge id="edge:arbiter-port-select" source="module:arbiter" target="port:arbiter.select" />
+    <edge id="edge:arbiter-port-valid" source="module:arbiter" target="port:arbiter.valid" />
+    <edge id="edge:arbiter-reset-reset" source="module:arbiter" target="reset_domain:reset" />
+    <edge id="edge:arbiter_node-clock-clock" source="module:arbiter_node" target="clock_domain:clock" />
+    <edge id="edge:arbiter_node-port-clock" source="module:arbiter_node" target="port:arbiter_node.clock" />
+    <edge id="edge:arbiter_node-port-enable" source="module:arbiter_node" target="port:arbiter_node.enable" />
+    <edge id="edge:arbiter_node-port-grant" source="module:arbiter_node" target="port:arbiter_node.grant" />
+    <edge id="edge:arbiter_node-port-req" source="module:arbiter_node" target="port:arbiter_node.req" />
+    <edge id="edge:arbiter_node-port-reset" source="module:arbiter_node" target="port:arbiter_node.reset" />
+    <edge id="edge:arbiter_node-port-select" source="module:arbiter_node" target="port:arbiter_node.select" />
+    <edge id="edge:arbiter_node-port-valid" source="module:arbiter_node" target="port:arbiter_node.valid" />
+    <edge id="edge:arbiter_node-reset-reset" source="module:arbiter_node" target="reset_domain:reset" />
+    <edge id="edge:arbiter_x2-clock-clock" source="module:arbiter_x2" target="clock_domain:clock" />
+    <edge id="edge:arbiter_x2-parameter-select_width" source="module:arbiter_x2" target="parameter:arbiter_x2.select_width" />
+    <edge id="edge:arbiter_x2-parameter-width" source="module:arbiter_x2" target="parameter:arbiter_x2.width" />
+    <edge id="edge:arbiter_x2-port-clock" source="module:arbiter_x2" target="port:arbiter_x2.clock" />
+    <edge id="edge:arbiter_x2-port-enable" source="module:arbiter_x2" target="port:arbiter_x2.enable" />
+    <edge id="edge:arbiter_x2-port-grant" source="module:arbiter_x2" target="port:arbiter_x2.grant" />
+    <edge id="edge:arbiter_x2-port-req" source="module:arbiter_x2" target="port:arbiter_x2.req" />
+    <edge id="edge:arbiter_x2-port-reset" source="module:arbiter_x2" target="port:arbiter_x2.reset" />
+    <edge id="edge:arbiter_x2-port-select" source="module:arbiter_x2" target="port:arbiter_x2.select" />
+    <edge id="edge:arbiter_x2-port-valid" source="module:arbiter_x2" target="port:arbiter_x2.valid" />
+    <edge id="edge:arbiter_x2-reset-reset" source="module:arbiter_x2" target="reset_domain:reset" />
+    <edge id="edge:instance-0-connection-0" source="instance:arbiter.mux_array:0" target="port:mux_array.in" />
+    <edge id="edge:instance-0-connection-1" source="instance:arbiter.mux_array:0" target="port:mux_array.select" />
+    <edge id="edge:instance-0-connection-2" source="instance:arbiter.mux_array:0" target="port:mux_array.out" />
+    <edge id="edge:instance-0-contained" source="module:arbiter" target="instance:arbiter.mux_array:0" />
+    <edge id="edge:instance-0-target" source="instance:arbiter.mux_array:0" target="module:mux_array" />
+    <edge id="edge:instance-1-connection-0" source="instance:arbiter.nodes:1" target="port:arbiter_node.enable" />
+    <edge id="edge:instance-1-connection-1" source="instance:arbiter.nodes:1" target="port:arbiter_node.req" />
+    <edge id="edge:instance-1-connection-2" source="instance:arbiter.nodes:1" target="port:arbiter_node.grant" />
+    <edge id="edge:instance-1-connection-3" source="instance:arbiter.nodes:1" target="port:arbiter_node.select" />
+    <edge id="edge:instance-1-connection-4" source="instance:arbiter.nodes:1" target="port:arbiter_node.valid" />
+    <edge id="edge:instance-1-connection-5" source="instance:arbiter.nodes:1" target="port:arbiter_node.clock" />
+    <edge id="edge:instance-1-connection-6" source="instance:arbiter.nodes:1" target="port:arbiter_node.reset" />
+    <edge id="edge:instance-1-contained" source="module:arbiter" target="instance:arbiter.nodes:1" />
+    <edge id="edge:instance-1-target" source="instance:arbiter.nodes:1" target="module:arbiter_node" />
+    <edge id="edge:instance-2-connection-0" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.enable" />
+    <edge id="edge:instance-2-connection-1" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.req" />
+    <edge id="edge:instance-2-connection-2" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.grant" />
+    <edge id="edge:instance-2-connection-3" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.select" />
+    <edge id="edge:instance-2-connection-4" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.valid" />
+    <edge id="edge:instance-2-connection-5" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.clock" />
+    <edge id="edge:instance-2-connection-6" source="instance:arbiter_x2.stage0_arb:2" target="port:arbiter.reset" />
+    <edge id="edge:instance-2-contained" source="module:arbiter_x2" target="instance:arbiter_x2.stage0_arb:2" />
+    <edge id="edge:instance-2-target" source="instance:arbiter_x2.stage0_arb:2" target="module:arbiter" />
+    <edge id="edge:instance-3-connection-0" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.enable" />
+    <edge id="edge:instance-3-connection-1" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.req" />
+    <edge id="edge:instance-3-connection-2" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.grant" />
+    <edge id="edge:instance-3-connection-3" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.select" />
+    <edge id="edge:instance-3-connection-4" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.valid" />
+    <edge id="edge:instance-3-connection-5" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.clock" />
+    <edge id="edge:instance-3-connection-6" source="instance:arbiter_x2.stage1_arbs:3" target="port:arbiter.reset" />
+    <edge id="edge:instance-3-contained" source="module:arbiter_x2" target="instance:arbiter_x2.stage1_arbs:3" />
+    <edge id="edge:instance-3-target" source="instance:arbiter_x2.stage1_arbs:3" target="module:arbiter" />
+    <edge id="edge:instance-4-connection-0" source="instance:mux_array.nodes:4" target="port:mux_node.in" />
+    <edge id="edge:instance-4-connection-1" source="instance:mux_array.nodes:4" target="port:mux_node.select" />
+    <edge id="edge:instance-4-connection-2" source="instance:mux_array.nodes:4" target="port:mux_node.out" />
+    <edge id="edge:instance-4-contained" source="module:mux_array" target="instance:mux_array.nodes:4" />
+    <edge id="edge:instance-4-target" source="instance:mux_array.nodes:4" target="module:mux_node" />
+    <edge id="edge:mux_array-parameter-width" source="module:mux_array" target="parameter:mux_array.width" />
+    <edge id="edge:mux_array-port-in" source="module:mux_array" target="port:mux_array.in" />
+    <edge id="edge:mux_array-port-out" source="module:mux_array" target="port:mux_array.out" />
+    <edge id="edge:mux_array-port-select" source="module:mux_array" target="port:mux_array.select" />
+    <edge id="edge:mux_node-port-in" source="module:mux_node" target="port:mux_node.in" />
+    <edge id="edge:mux_node-port-out" source="module:mux_node" target="port:mux_node.out" />
+    <edge id="edge:mux_node-port-select" source="module:mux_node" target="port:mux_node.select" />
+    <edge id="edge:project-contains-arbiter" source="project:scalable_arbiter" target="module:arbiter" />
+    <edge id="edge:project-contains-arbiter_node" source="project:scalable_arbiter" target="module:arbiter_node" />
+    <edge id="edge:project-contains-arbiter_x2" source="project:scalable_arbiter" target="module:arbiter_x2" />
+    <edge id="edge:project-contains-mux_array" source="project:scalable_arbiter" target="module:mux_array" />
+    <edge id="edge:project-contains-mux_node" source="project:scalable_arbiter" target="module:mux_node" />
+    <edge id="edge:project-license" source="project:scalable_arbiter" target="license:ISC" />
+    <edge id="edge:project-obligation-000" source="project:scalable_arbiter" target="verification_obligation:000" />
+    <edge id="edge:project-obligation-001" source="project:scalable_arbiter" target="verification_obligation:001" />
+    <edge id="edge:project-obligation-002" source="project:scalable_arbiter" target="verification_obligation:002" />
+    <edge id="edge:project-obligation-003" source="project:scalable_arbiter" target="verification_obligation:003" />
+    <edge id="edge:project-obligation-004" source="project:scalable_arbiter" target="verification_obligation:004" />
+    <edge id="edge:project-obligation-005" source="project:scalable_arbiter" target="verification_obligation:005" />
+    <edge id="edge:project-regression" source="project:scalable_arbiter" target="tool_run:project_regression" />
+    <edge id="edge:project-source" source="project:scalable_arbiter" target="source_revision:42ec8116d639ae85" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-cross_module_repair-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:cross_module_repair:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-cross_module_repair-0001" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:cross_module_repair:0001" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-fault_localization_repair-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:fault_localization_repair:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-functional_timing_understanding-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:functional_timing_understanding:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-hierarchical_integration-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:hierarchical_integration:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-hierarchical_rtl_generation-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-hierarchy_dependency_analysis-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-interface_modification-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:interface_modification:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-reuse_integration-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:reuse_integration:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-tool_result_analysis-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:tool_result_analysis:0000" />
+    <edge id="edge:project-task-ipgraph-scalable_arbiter-verification_generation-0000" source="project:scalable_arbiter" target="task:ipgraph:scalable_arbiter:verification_generation:0000" />
+    <edge id="edge:project-testbench-88" source="project:scalable_arbiter" target="testbench:tb/tb_scalable_arbiter.sv" />
+  </graph>
+</graphml>

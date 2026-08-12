@@ -1,0 +1,56 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "medium",
+  "family": "hierarchical_rtl_generation",
+  "input_nodes": [
+    "project:scalable_arbiter",
+    "module:arbiter",
+    "module:arbiter_node",
+    "module:arbiter_x2",
+    "module:mux_array",
+    "module:mux_node"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "scalable_arbiter",
+  "prompt": "Generate or complete synthesizable SystemVerilog for scalable_arbiter from its released design contracts. Preserve the hierarchy and interfaces of arbiter, arbiter_node, arbiter_x2, mux_array, mux_node, reuse existing modules, and require the project regression as the oracle.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "42ec8116d639ae85",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "dev",
+  "target_nodes": [
+    "module:arbiter",
+    "module:arbiter_node",
+    "module:arbiter_x2",
+    "module:mux_array",
+    "module:mux_node"
+  ],
+  "task_id": "ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000"
+}

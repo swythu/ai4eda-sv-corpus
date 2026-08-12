@@ -1,0 +1,2515 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:867827f685ba86f102f76e354f052dc2f41c78a8ac9f2515ce49bc5c413b233d",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "867827f685ba86f102f76e354f052dc2f41c78a8ac9f2515ce49bc5c413b233d"
+    },
+    {
+      "artifact_id": "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+    },
+    {
+      "artifact_id": "sha256:b72773a736cec400a5ee6703f16e16af17b7a8b870f0a3baec697f4846566727",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "b72773a736cec400a5ee6703f16e16af17b7a8b870f0a3baec697f4846566727"
+    },
+    {
+      "artifact_id": "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/async_fifo_core.sv",
+      "release_status": "source_released",
+      "sha256": "79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+    },
+    {
+      "artifact_id": "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/async_fifo_dw_simplex_top.sv",
+      "release_status": "source_released",
+      "sha256": "013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+    },
+    {
+      "artifact_id": "sha256:2cf58be4dded927d200857d6dc69735b3d111630b514ab4a909666b72dbe7ba9",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "2cf58be4dded927d200857d6dc69735b3d111630b514ab4a909666b72dbe7ba9"
+    },
+    {
+      "artifact_id": "sha256:d10b52c2f2ee3b724b443483c30e4bc1d48e1e69985796857c45c6cdf70deebe",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "d10b52c2f2ee3b724b443483c30e4bc1d48e1e69985796857c45c6cdf70deebe"
+    },
+    {
+      "artifact_id": "sha256:6b68236274b22ea2f95f79e333497ff0da8dffcae026fe49533a2c87be5f0cb4",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "6b68236274b22ea2f95f79e333497ff0da8dffcae026fe49533a2c87be5f0cb4"
+    },
+    {
+      "artifact_id": "sha256:860a48a992530cb2daf9ea6a5720d82dbd25d4604a4dae55b37e5e7bcdb1ad02",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "860a48a992530cb2daf9ea6a5720d82dbd25d4604a4dae55b37e5e7bcdb1ad02"
+    },
+    {
+      "artifact_id": "sha256:9326ac29fd4afb91f899752e64bb16d8b33bc37e512749bd688b699d83b72576",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "9326ac29fd4afb91f899752e64bb16d8b33bc37e512749bd688b699d83b72576"
+    },
+    {
+      "artifact_id": "sha256:f0c8549cf3aaf8e0f44378f993da8a5a2c37b519d918f5629ea2c464eaa84f50",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "f0c8549cf3aaf8e0f44378f993da8a5a2c37b519d918f5629ea2c464eaa84f50"
+    },
+    {
+      "artifact_id": "sha256:0855c20d1f4e00513ba907b601a8d8561519d28589532926470c5d26f8a54ba6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "0855c20d1f4e00513ba907b601a8d8561519d28589532926470c5d26f8a54ba6"
+    },
+    {
+      "artifact_id": "sha256:1c94f8b7b1cdc6bff6a35afa81ab38e2fe7bcad3d64396dd0307bf173fae6f89",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "1c94f8b7b1cdc6bff6a35afa81ab38e2fe7bcad3d64396dd0307bf173fae6f89"
+    },
+    {
+      "artifact_id": "sha256:221ed059159b781f5a0e091ed474c3e4cd0a29483be6d519feeee1cec95e53a4",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "221ed059159b781f5a0e091ed474c3e4cd0a29483be6d519feeee1cec95e53a4"
+    },
+    {
+      "artifact_id": "sha256:537aefb52c91a58b1cb14943e948abb109ef3b4f74726de0f0f119283c2c7877",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "537aefb52c91a58b1cb14943e948abb109ef3b4f74726de0f0f119283c2c7877"
+    },
+    {
+      "artifact_id": "sha256:b2749200dd601d0acc9f01d9710ce9828f99ecd2ebd5aae82f1e1b4358dc6977",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "b2749200dd601d0acc9f01d9710ce9828f99ecd2ebd5aae82f1e1b4358dc6977"
+    },
+    {
+      "artifact_id": "sha256:7591b472cd3a727772a644c940090fe74e908ac59ae248f091a4e2bd445e19d3",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "7591b472cd3a727772a644c940090fe74e908ac59ae248f091a4e2bd445e19d3"
+    },
+    {
+      "artifact_id": "sha256:2c593f7f01925e621fc9797e8c3961a19de836349be10affabc656f0388a49b4",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_versatile_fifo.sv",
+      "release_status": "source_released",
+      "sha256": "2c593f7f01925e621fc9797e8c3961a19de836349be10affabc656f0388a49b4"
+    },
+    {
+      "artifact_id": "sha256:b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-clock-read_clk",
+      "source": "module:async_fifo_core",
+      "target": "clock_domain:read_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-clock-write_clk",
+      "source": "module:async_fifo_core",
+      "target": "clock_domain:write_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-parameter-ADDR_WIDTH",
+      "source": "module:async_fifo_core",
+      "target": "parameter:async_fifo_core.ADDR_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-parameter-DATA_WIDTH",
+      "source": "module:async_fifo_core",
+      "target": "parameter:async_fifo_core.DATA_WIDTH",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-empty",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.empty",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-full",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.full",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-read_clk",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.read_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-read_data",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.read_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-read_enable",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.read_enable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-read_reset",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.read_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-write_clk",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.write_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-write_data",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.write_data",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-write_enable",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.write_enable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-port-write_reset",
+      "source": "module:async_fifo_core",
+      "target": "port:async_fifo_core.write_reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-reset-read_reset",
+      "source": "module:async_fifo_core",
+      "target": "reset_domain:read_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:async_fifo_core-reset-write_reset",
+      "source": "module:async_fifo_core",
+      "target": "reset_domain:write_reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-clock-a_clk",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "clock_domain:a_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-clock-b_clk",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "clock_domain:b_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-parameter-addr_width",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "parameter:async_fifo_dw_simplex_top.addr_width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-parameter-data_width",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "parameter:async_fifo_dw_simplex_top.data_width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_clk",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_d",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_d",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_fifo_empty",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_fifo_empty",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_fifo_full",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_fifo_full",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_q",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_rd",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_rd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_rst",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-a_wr",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.a_wr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_clk",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_d",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_d",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_fifo_empty",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_fifo_empty",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_fifo_full",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_fifo_full",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_q",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_rd",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_rd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_rst",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-port-b_wr",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "port:async_fifo_dw_simplex_top.b_wr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-reset-a_rst",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "reset_domain:a_rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:async_fifo_dw_simplex_top-reset-b_rst",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "reset_domain:b_rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.write_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.write_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.write_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.write_enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.full",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.read_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.read_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.read_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.read_enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-connection-9",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "port:async_fifo_core.empty",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "target": "module:async_fifo_core",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.write_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.write_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.write_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.write_enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.full",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.read_clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.read_reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.read_data",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.read_enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-connection-9",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "port:async_fifo_core.empty",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:async_fifo_dw_simplex_top",
+      "target": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "target": "module:async_fifo_core",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "edge:project-contains-async_fifo_core",
+      "source": "project:versatile_fifo",
+      "target": "module:async_fifo_core",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "edge:project-contains-async_fifo_dw_simplex_top",
+      "source": "project:versatile_fifo",
+      "target": "module:async_fifo_dw_simplex_top",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:867827f685ba86f102f76e354f052dc2f41c78a8ac9f2515ce49bc5c413b233d"
+      ],
+      "id": "edge:project-license",
+      "source": "project:versatile_fifo",
+      "target": "license:LGPL-2.1-or-later",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:versatile_fifo",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:versatile_fifo",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:versatile_fifo",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:versatile_fifo",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:versatile_fifo",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:versatile_fifo",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "edge:project-source",
+      "source": "project:versatile_fifo",
+      "target": "source_revision:c1dea52c6728cb5d",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d10b52c2f2ee3b724b443483c30e4bc1d48e1e69985796857c45c6cdf70deebe"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-cross_module_repair-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6b68236274b22ea2f95f79e333497ff0da8dffcae026fe49533a2c87be5f0cb4"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-cross_module_repair-0001",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:860a48a992530cb2daf9ea6a5720d82dbd25d4604a4dae55b37e5e7bcdb1ad02"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-fault_localization_repair-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9326ac29fd4afb91f899752e64bb16d8b33bc37e512749bd688b699d83b72576"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-functional_timing_understanding-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f0c8549cf3aaf8e0f44378f993da8a5a2c37b519d918f5629ea2c464eaa84f50"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-hierarchical_integration-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0855c20d1f4e00513ba907b601a8d8561519d28589532926470c5d26f8a54ba6"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-hierarchical_rtl_generation-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1c94f8b7b1cdc6bff6a35afa81ab38e2fe7bcad3d64396dd0307bf173fae6f89"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-hierarchy_dependency_analysis-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:221ed059159b781f5a0e091ed474c3e4cd0a29483be6d519feeee1cec95e53a4"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-interface_modification-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:537aefb52c91a58b1cb14943e948abb109ef3b4f74726de0f0f119283c2c7877"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-reuse_integration-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b2749200dd601d0acc9f01d9710ce9828f99ecd2ebd5aae82f1e1b4358dc6977"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-tool_result_analysis-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7591b472cd3a727772a644c940090fe74e908ac59ae248f091a4e2bd445e19d3"
+      ],
+      "id": "edge:project-task-ipgraph-versatile_fifo-verification_generation-0000",
+      "source": "project:versatile_fifo",
+      "target": "task:ipgraph:versatile_fifo:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2c593f7f01925e621fc9797e8c3961a19de836349be10affabc656f0388a49b4"
+      ],
+      "id": "edge:project-testbench-71",
+      "source": "project:versatile_fifo",
+      "target": "testbench:tb/tb_versatile_fifo.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:versatile_fifo:c1dea52c6728cb5d",
+  "graph_sha256": "44749d88878b9fd933cfe77c220af201ff378f7f7ba14344c8748b1e4b2a20fd",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_dw_simplex_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:a_clk",
+      "label": "a_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_dw_simplex_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:b_clk",
+      "label": "b_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_core"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:read_clk",
+      "label": "read_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_core"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:write_clk",
+      "label": "write_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "a_clk",
+            "kind": "named",
+            "port": "write_clk"
+          },
+          {
+            "expression": "a_rst",
+            "kind": "named",
+            "port": "write_reset"
+          },
+          {
+            "expression": "a_d",
+            "kind": "named",
+            "port": "write_data"
+          },
+          {
+            "expression": "a_wr",
+            "kind": "named",
+            "port": "write_enable"
+          },
+          {
+            "expression": "a_fifo_full",
+            "kind": "named",
+            "port": "full"
+          },
+          {
+            "expression": "b_clk",
+            "kind": "named",
+            "port": "read_clk"
+          },
+          {
+            "expression": "b_rst",
+            "kind": "named",
+            "port": "read_reset"
+          },
+          {
+            "expression": "b_q",
+            "kind": "named",
+            "port": "read_data"
+          },
+          {
+            "expression": "b_rd",
+            "kind": "named",
+            "port": "read_enable"
+          },
+          {
+            "expression": "b_fifo_empty",
+            "kind": "named",
+            "port": "empty"
+          }
+        ],
+        "declaration": "u_a_to_b ( .write_clk(a_clk), .write_reset(a_rst), .write_data(a_d), .write_enable(a_wr), .full(a_fifo_full), .read_clk(b_clk), .read_reset(b_rst), .read_data(b_q), .read_enable(b_rd), .empty(b_fifo_empty) )",
+        "parent_module": "async_fifo_dw_simplex_top",
+        "target_module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "instance:async_fifo_dw_simplex_top.u_a_to_b:0",
+      "label": "u_a_to_b",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "b_clk",
+            "kind": "named",
+            "port": "write_clk"
+          },
+          {
+            "expression": "b_rst",
+            "kind": "named",
+            "port": "write_reset"
+          },
+          {
+            "expression": "b_d",
+            "kind": "named",
+            "port": "write_data"
+          },
+          {
+            "expression": "b_wr",
+            "kind": "named",
+            "port": "write_enable"
+          },
+          {
+            "expression": "b_fifo_full",
+            "kind": "named",
+            "port": "full"
+          },
+          {
+            "expression": "a_clk",
+            "kind": "named",
+            "port": "read_clk"
+          },
+          {
+            "expression": "a_rst",
+            "kind": "named",
+            "port": "read_reset"
+          },
+          {
+            "expression": "a_q",
+            "kind": "named",
+            "port": "read_data"
+          },
+          {
+            "expression": "a_rd",
+            "kind": "named",
+            "port": "read_enable"
+          },
+          {
+            "expression": "a_fifo_empty",
+            "kind": "named",
+            "port": "empty"
+          }
+        ],
+        "declaration": "u_b_to_a ( .write_clk(b_clk), .write_reset(b_rst), .write_data(b_d), .write_enable(b_wr), .full(b_fifo_full), .read_clk(a_clk), .read_reset(a_rst), .read_data(a_q), .read_enable(a_rd), .empty(a_fifo_empty) )",
+        "parent_module": "async_fifo_dw_simplex_top",
+        "target_module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "instance:async_fifo_dw_simplex_top.u_b_to_a:1",
+      "label": "u_b_to_a",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:LGPL-2.1-or-later",
+      "label": "LGPL-2.1-or-later",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/async_fifo_core.sv"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "module:async_fifo_core",
+      "label": "async_fifo_core",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/async_fifo_dw_simplex_top.sv"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "module:async_fifo_dw_simplex_top",
+      "label": "async_fifo_dw_simplex_top",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "parameter:async_fifo_core.ADDR_WIDTH",
+      "label": "ADDR_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "parameter:async_fifo_core.DATA_WIDTH",
+      "label": "DATA_WIDTH",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "parameter:async_fifo_dw_simplex_top.addr_width",
+      "label": "addr_width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "parameter:async_fifo_dw_simplex_top.data_width",
+      "label": "data_width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic empty",
+        "direction": "output",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.empty",
+      "label": "empty",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic full",
+        "direction": "output",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.full",
+      "label": "full",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic read_clk",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.read_clk",
+      "label": "read_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [DATA_WIDTH-1:0] read_data",
+        "direction": "output",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.read_data",
+      "label": "read_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic read_enable",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.read_enable",
+      "label": "read_enable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic read_reset",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.read_reset",
+      "label": "read_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic write_clk",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.write_clk",
+      "label": "write_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [DATA_WIDTH-1:0] write_data",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.write_data",
+      "label": "write_data",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic write_enable",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.write_enable",
+      "label": "write_enable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic write_reset",
+        "direction": "input",
+        "module": "async_fifo_core"
+      },
+      "evidence_refs": [
+        "sha256:79f78ea47892a5767343b32f3594274d3661aa4a93b1c72e6c8408ac033db817"
+      ],
+      "id": "port:async_fifo_core.write_reset",
+      "label": "write_reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic a_clk",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_clk",
+      "label": "a_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [data_width-1:0] a_d",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_d",
+      "label": "a_d",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic a_fifo_empty",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_fifo_empty",
+      "label": "a_fifo_empty",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic a_fifo_full",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_fifo_full",
+      "label": "a_fifo_full",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [data_width-1:0] a_q",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_q",
+      "label": "a_q",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic a_rd",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_rd",
+      "label": "a_rd",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic a_rst",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_rst",
+      "label": "a_rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic a_wr",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.a_wr",
+      "label": "a_wr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic b_clk",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_clk",
+      "label": "b_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [data_width-1:0] b_d",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_d",
+      "label": "b_d",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic b_fifo_empty",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_fifo_empty",
+      "label": "b_fifo_empty",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic b_fifo_full",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_fifo_full",
+      "label": "b_fifo_full",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [data_width-1:0] b_q",
+        "direction": "output",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_q",
+      "label": "b_q",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic b_rd",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_rd",
+      "label": "b_rd",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic b_rst",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_rst",
+      "label": "b_rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic b_wr",
+        "direction": "input",
+        "module": "async_fifo_dw_simplex_top"
+      },
+      "evidence_refs": [
+        "sha256:013e4431557863150a24399bef4a7bb9a7da3ae36865847b0454c35d8523ce40"
+      ],
+      "id": "port:async_fifo_dw_simplex_top.b_wr",
+      "label": "b_wr",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/blocks/async_fifo_core.sv",
+          "rtl/blocks/async_fifo_dw_simplex_top.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "async_fifo_dw_simplex_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:versatile_fifo",
+      "label": "versatile_fifo",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "protocol_contract:fifo",
+      "label": "FIFO",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_dw_simplex_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:a_rst",
+      "label": "a_rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_dw_simplex_top"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:b_rst",
+      "label": "b_rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_core"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:read_reset",
+      "label": "read_reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "async_fifo_core"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:write_reset",
+      "label": "write_reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:c1dea52c6728cb5d",
+      "label": "c1dea52c6728cb5d",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:d10b52c2f2ee3b724b443483c30e4bc1d48e1e69985796857c45c6cdf70deebe"
+      ],
+      "id": "task:ipgraph:versatile_fifo:cross_module_repair:0000",
+      "label": "ipgraph:versatile_fifo:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:6b68236274b22ea2f95f79e333497ff0da8dffcae026fe49533a2c87be5f0cb4"
+      ],
+      "id": "task:ipgraph:versatile_fifo:cross_module_repair:0001",
+      "label": "ipgraph:versatile_fifo:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:860a48a992530cb2daf9ea6a5720d82dbd25d4604a4dae55b37e5e7bcdb1ad02"
+      ],
+      "id": "task:ipgraph:versatile_fifo:fault_localization_repair:0000",
+      "label": "ipgraph:versatile_fifo:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:9326ac29fd4afb91f899752e64bb16d8b33bc37e512749bd688b699d83b72576"
+      ],
+      "id": "task:ipgraph:versatile_fifo:functional_timing_understanding:0000",
+      "label": "ipgraph:versatile_fifo:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:f0c8549cf3aaf8e0f44378f993da8a5a2c37b519d918f5629ea2c464eaa84f50"
+      ],
+      "id": "task:ipgraph:versatile_fifo:hierarchical_integration:0000",
+      "label": "ipgraph:versatile_fifo:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:0855c20d1f4e00513ba907b601a8d8561519d28589532926470c5d26f8a54ba6"
+      ],
+      "id": "task:ipgraph:versatile_fifo:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:versatile_fifo:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:1c94f8b7b1cdc6bff6a35afa81ab38e2fe7bcad3d64396dd0307bf173fae6f89"
+      ],
+      "id": "task:ipgraph:versatile_fifo:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:versatile_fifo:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:221ed059159b781f5a0e091ed474c3e4cd0a29483be6d519feeee1cec95e53a4"
+      ],
+      "id": "task:ipgraph:versatile_fifo:interface_modification:0000",
+      "label": "ipgraph:versatile_fifo:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:537aefb52c91a58b1cb14943e948abb109ef3b4f74726de0f0f119283c2c7877"
+      ],
+      "id": "task:ipgraph:versatile_fifo:reuse_integration:0000",
+      "label": "ipgraph:versatile_fifo:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:b2749200dd601d0acc9f01d9710ce9828f99ecd2ebd5aae82f1e1b4358dc6977"
+      ],
+      "id": "task:ipgraph:versatile_fifo:tool_result_analysis:0000",
+      "label": "ipgraph:versatile_fifo:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:7591b472cd3a727772a644c940090fe74e908ac59ae248f091a4e2bd445e19d3"
+      ],
+      "id": "task:ipgraph:versatile_fifo:verification_generation:0000",
+      "label": "ipgraph:versatile_fifo:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:2c593f7f01925e621fc9797e8c3961a19de836349be10affabc656f0388a49b4"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:2c593f7f01925e621fc9797e8c3961a19de836349be10affabc656f0388a49b4"
+      ],
+      "id": "testbench:tb/tb_versatile_fifo.sv",
+      "label": "tb_versatile_fifo.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "verification_obligation:000",
+      "label": "six ordered A-to-B transfers",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "verification_obligation:001",
+      "label": "five ordered B-to-A transfers",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "verification_obligation:002",
+      "label": "independent 10 ns and 14 ns clocks",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "verification_obligation:003",
+      "label": "reset full/empty flags",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c1dea52c6728cb5dc54b2d4a33a73fae4d8ce800419afa2088e96d63520ef0e6"
+      ],
+      "id": "verification_obligation:004",
+      "label": "Gray-coded pointers with two-stage CDC synchronization",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "versatile_fifo",
+  "project_revision": "c1dea52c6728cb5d",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in versatile_fifo. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in versatile_fifo. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Given a future failing regression for versatile_fifo, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of versatile_fifo. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Create a DesignGraph integration plan for versatile_fifo that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Generate or complete synthesizable SystemVerilog for versatile_fifo from its released design contracts. Preserve the hierarchy and interfaces of async_fifo_core, async_fifo_dw_simplex_top, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of versatile_fifo, including the roles of async_fifo_core, async_fifo_dw_simplex_top. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Plan a cross-module interface modification for versatile_fifo. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Design a minimal wrapper plan to reuse versatile_fifo in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for versatile_fifo. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:versatile_fifo",
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "versatile_fifo",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for versatile_fifo. It must exercise the obligation: six ordered A-to-B transfers and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c1dea52c6728cb5d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:async_fifo_core",
+        "module:async_fifo_dw_simplex_top"
+      ],
+      "task_id": "ipgraph:versatile_fifo:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:b2adb331b971c014a254757e1bc9efe57234e9d37076083bce37fc3a1401f8ff"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

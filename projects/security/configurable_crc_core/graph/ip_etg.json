@@ -1,0 +1,1119 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:43040d7d51d3ecb0617c980b583559fe7c638d08c2465030ea158914719262be",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "43040d7d51d3ecb0617c980b583559fe7c638d08c2465030ea158914719262be"
+    },
+    {
+      "artifact_id": "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+    },
+    {
+      "artifact_id": "sha256:7aec6bf8b6a9860e334c85507e975fec77a89ff476d1ae4fee35ada61d121c72",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "7aec6bf8b6a9860e334c85507e975fec77a89ff476d1ae4fee35ada61d121c72"
+    },
+    {
+      "artifact_id": "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/cfg_crc.sv",
+      "release_status": "metadata_only",
+      "sha256": "05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+    },
+    {
+      "artifact_id": "sha256:de67c97741b1a0287964fe34ba60625520ea47d230886ae9ac9ab8f64f01ff83",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "de67c97741b1a0287964fe34ba60625520ea47d230886ae9ac9ab8f64f01ff83"
+    },
+    {
+      "artifact_id": "sha256:a6a8133044bb5bcde9e303af1d32a4112fb8928d91c6f3793e590569b16dbd3e",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "a6a8133044bb5bcde9e303af1d32a4112fb8928d91c6f3793e590569b16dbd3e"
+    },
+    {
+      "artifact_id": "sha256:6c09a89b1fd676c97dbb402d411569cba81944f214da65e7678d4a12943d2a7c",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "6c09a89b1fd676c97dbb402d411569cba81944f214da65e7678d4a12943d2a7c"
+    },
+    {
+      "artifact_id": "sha256:5b4ace724aa4423b9a88a025ebe27c1bd0d57170b9328c5a9601a11d00775cb3",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "5b4ace724aa4423b9a88a025ebe27c1bd0d57170b9328c5a9601a11d00775cb3"
+    },
+    {
+      "artifact_id": "sha256:e305134519eac479813b369c5d338682917f7ea36e14491213ffa7c4e924500f",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e305134519eac479813b369c5d338682917f7ea36e14491213ffa7c4e924500f"
+    },
+    {
+      "artifact_id": "sha256:dc918de622afa711ade03ff7f125857ed6fb5ef17f0651464e840eeef95cc76f",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "dc918de622afa711ade03ff7f125857ed6fb5ef17f0651464e840eeef95cc76f"
+    },
+    {
+      "artifact_id": "sha256:3d7ffd96e77fc8252250241ff822cfca9869b776bfcb3c07df1734f47b81773f",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "3d7ffd96e77fc8252250241ff822cfca9869b776bfcb3c07df1734f47b81773f"
+    },
+    {
+      "artifact_id": "sha256:9e0de6a4622adf3c295dba02d41c76393cec1cbf6d8a11c7249dd821b6af9778",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "9e0de6a4622adf3c295dba02d41c76393cec1cbf6d8a11c7249dd821b6af9778"
+    },
+    {
+      "artifact_id": "sha256:7028f69dc6eab78eff1c7ad1ebc36c1d082519a040601a1e92c5b87a869bdac7",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/crc_7.sv",
+      "release_status": "metadata_only",
+      "sha256": "7028f69dc6eab78eff1c7ad1ebc36c1d082519a040601a1e92c5b87a869bdac7"
+    },
+    {
+      "artifact_id": "sha256:59f875148c34966b803287b97a2eb7bb1eed3d633dd3a3379ceaebfd4dd80464",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_cfg_crc.sv",
+      "release_status": "metadata_only",
+      "sha256": "59f875148c34966b803287b97a2eb7bb1eed3d633dd3a3379ceaebfd4dd80464"
+    },
+    {
+      "artifact_id": "sha256:7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "metadata_only",
+      "sha256": "7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-clock-clk",
+      "source": "module:cfg_crc",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-parameter-coff",
+      "source": "module:cfg_crc",
+      "target": "parameter:cfg_crc.coff",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-parameter-datw",
+      "source": "module:cfg_crc",
+      "target": "parameter:cfg_crc.datw",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-clk",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-crc_en",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.crc_en",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-dat_i",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-dat_o",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-rst",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-port-rst_syn",
+      "source": "module:cfg_crc",
+      "target": "port:cfg_crc.rst_syn",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-reset-rst",
+      "source": "module:cfg_crc",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:cfg_crc-reset-rst_syn",
+      "source": "module:cfg_crc",
+      "target": "reset_domain:rst_syn",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "edge:project-contains-cfg_crc",
+      "source": "project:configurable_crc_core",
+      "target": "module:cfg_crc",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:43040d7d51d3ecb0617c980b583559fe7c638d08c2465030ea158914719262be"
+      ],
+      "id": "edge:project-license",
+      "source": "project:configurable_crc_core",
+      "target": "license:LicenseRef-Unknown",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:configurable_crc_core",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:configurable_crc_core",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:configurable_crc_core",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "edge:project-source",
+      "source": "project:configurable_crc_core",
+      "target": "source_revision:8250891a7b8b6d57",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a6a8133044bb5bcde9e303af1d32a4112fb8928d91c6f3793e590569b16dbd3e"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-fault_localization_repair-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6c09a89b1fd676c97dbb402d411569cba81944f214da65e7678d4a12943d2a7c"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-functional_timing_understanding-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5b4ace724aa4423b9a88a025ebe27c1bd0d57170b9328c5a9601a11d00775cb3"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-hierarchical_rtl_generation-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e305134519eac479813b369c5d338682917f7ea36e14491213ffa7c4e924500f"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-hierarchy_dependency_analysis-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dc918de622afa711ade03ff7f125857ed6fb5ef17f0651464e840eeef95cc76f"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-reuse_integration-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3d7ffd96e77fc8252250241ff822cfca9869b776bfcb3c07df1734f47b81773f"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-tool_result_analysis-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9e0de6a4622adf3c295dba02d41c76393cec1cbf6d8a11c7249dd821b6af9778"
+      ],
+      "id": "edge:project-task-ipgraph-configurable_crc_core-verification_generation-0000",
+      "source": "project:configurable_crc_core",
+      "target": "task:ipgraph:configurable_crc_core:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7028f69dc6eab78eff1c7ad1ebc36c1d082519a040601a1e92c5b87a869bdac7"
+      ],
+      "id": "edge:project-testbench-16",
+      "source": "project:configurable_crc_core",
+      "target": "testbench:tb/crc_7.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59f875148c34966b803287b97a2eb7bb1eed3d633dd3a3379ceaebfd4dd80464"
+      ],
+      "id": "edge:project-testbench-17",
+      "source": "project:configurable_crc_core",
+      "target": "testbench:tb/tb_cfg_crc.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:configurable_crc_core:8250891a7b8b6d57",
+  "graph_sha256": "f95f6bee8f8a6e36ed905c3aa41c902e02ecd2898ad96e304cb4fc5a2ba85cb7",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cfg_crc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-Unknown",
+      "label": "LicenseRef-Unknown",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "attributes": {
+        "path": "rtl/top/cfg_crc.sv"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "module:cfg_crc",
+      "label": "cfg_crc",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "parameter:cfg_crc.coff",
+      "label": "coff",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "parameter:cfg_crc.datw",
+      "label": "datw",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input clk",
+        "direction": "input",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input crc_en",
+        "direction": "input",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.crc_en",
+      "label": "crc_en",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input dat_i",
+        "direction": "input",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [datw - 2: 0] dat_o",
+        "direction": "output",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "rst",
+        "direction": "inout",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input rst_syn",
+        "direction": "input",
+        "module": "cfg_crc"
+      },
+      "evidence_refs": [
+        "sha256:05b742773fb331b3baac5efb78772c2c987bc33ec9a16c8273d0c1e0799c1461"
+      ],
+      "id": "port:cfg_crc.rst_syn",
+      "label": "rst_syn",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "security",
+        "compile_order": [
+          "rtl/top/cfg_crc.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "cfg_crc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:configurable_crc_core",
+      "label": "configurable_crc_core",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cfg_crc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst",
+      "label": "rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "cfg_crc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_syn",
+      "label": "rst_syn",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:8250891a7b8b6d57",
+      "label": "8250891a7b8b6d57",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:a6a8133044bb5bcde9e303af1d32a4112fb8928d91c6f3793e590569b16dbd3e"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:fault_localization_repair:0000",
+      "label": "ipgraph:configurable_crc_core:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:6c09a89b1fd676c97dbb402d411569cba81944f214da65e7678d4a12943d2a7c"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:functional_timing_understanding:0000",
+      "label": "ipgraph:configurable_crc_core:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:5b4ace724aa4423b9a88a025ebe27c1bd0d57170b9328c5a9601a11d00775cb3"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:configurable_crc_core:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:e305134519eac479813b369c5d338682917f7ea36e14491213ffa7c4e924500f"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:configurable_crc_core:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:dc918de622afa711ade03ff7f125857ed6fb5ef17f0651464e840eeef95cc76f"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:reuse_integration:0000",
+      "label": "ipgraph:configurable_crc_core:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:3d7ffd96e77fc8252250241ff822cfca9869b776bfcb3c07df1734f47b81773f"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:tool_result_analysis:0000",
+      "label": "ipgraph:configurable_crc_core:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:9e0de6a4622adf3c295dba02d41c76393cec1cbf6d8a11c7249dd821b6af9778"
+      ],
+      "id": "task:ipgraph:configurable_crc_core:verification_generation:0000",
+      "label": "ipgraph:configurable_crc_core:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7028f69dc6eab78eff1c7ad1ebc36c1d082519a040601a1e92c5b87a869bdac7"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:7028f69dc6eab78eff1c7ad1ebc36c1d082519a040601a1e92c5b87a869bdac7"
+      ],
+      "id": "testbench:tb/crc_7.sv",
+      "label": "crc_7.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:59f875148c34966b803287b97a2eb7bb1eed3d633dd3a3379ceaebfd4dd80464"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:59f875148c34966b803287b97a2eb7bb1eed3d633dd3a3379ceaebfd4dd80464"
+      ],
+      "id": "testbench:tb/tb_cfg_crc.sv",
+      "label": "tb_cfg_crc.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "verification_obligation:000",
+      "label": "5 input vectors",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:8250891a7b8b6d57cea86cc97e4419ec5da23303e8a28869bd221857807b8dba"
+      ],
+      "id": "verification_obligation:001",
+      "label": "per-bit CRC-7 reference scoreboard",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "configurable_crc_core",
+  "project_revision": "8250891a7b8b6d57",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Given a future failing regression for configurable_crc_core, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of configurable_crc_core. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Generate or complete synthesizable SystemVerilog for configurable_crc_core from its released design contracts. Preserve the hierarchy and interfaces of cfg_crc, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of configurable_crc_core, including the roles of cfg_crc. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Design a minimal wrapper plan to reuse configurable_crc_core in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for configurable_crc_core. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:configurable_crc_core",
+        "module:cfg_crc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "configurable_crc_core",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for configurable_crc_core. It must exercise the obligation: 5 input vectors and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "8250891a7b8b6d57",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:cfg_crc"
+      ],
+      "task_id": "ipgraph:configurable_crc_core:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:7cda8cb1ff50118667daf2e9c61b2a76695d5ab6bd2bd88575736c6366fc390a"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

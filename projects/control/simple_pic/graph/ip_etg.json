@@ -1,0 +1,1195 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:277fbb8710a79351b4cc0ee38f44ad63fcee8f23b0fff6f79b755e77996c8fad",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "277fbb8710a79351b4cc0ee38f44ad63fcee8f23b0fff6f79b755e77996c8fad"
+    },
+    {
+      "artifact_id": "sha256:cb8e6aca13a4cfbf8d0b920efd8a2b71328359227db21dc0d5f3d883f94856c9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "include/timescale.svh",
+      "release_status": "metadata_only",
+      "sha256": "cb8e6aca13a4cfbf8d0b920efd8a2b71328359227db21dc0d5f3d883f94856c9"
+    },
+    {
+      "artifact_id": "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+    },
+    {
+      "artifact_id": "sha256:665af2d8480bfe94989127ea3229df078ba7dab1bd151b30dca38e8b4b624478",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "665af2d8480bfe94989127ea3229df078ba7dab1bd151b30dca38e8b4b624478"
+    },
+    {
+      "artifact_id": "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/simple_pic.sv",
+      "release_status": "metadata_only",
+      "sha256": "b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+    },
+    {
+      "artifact_id": "sha256:58305f795524bb852273676d529c86f7cd4fa81793f43b4f175e26673af84d32",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "58305f795524bb852273676d529c86f7cd4fa81793f43b4f175e26673af84d32"
+    },
+    {
+      "artifact_id": "sha256:c09d7284948cd1e157561824bb82154d464415c92ac74416b9dcf3e0edcecb0c",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "c09d7284948cd1e157561824bb82154d464415c92ac74416b9dcf3e0edcecb0c"
+    },
+    {
+      "artifact_id": "sha256:dfa72c88d6cea47dc688732948ddcf0a96c41cb58a1937dd96b5cd7f84e37549",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "dfa72c88d6cea47dc688732948ddcf0a96c41cb58a1937dd96b5cd7f84e37549"
+    },
+    {
+      "artifact_id": "sha256:8a99ec07b234be352690499bd48ce7fc0c1ee6242f29c933416275a74e7e94b5",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "8a99ec07b234be352690499bd48ce7fc0c1ee6242f29c933416275a74e7e94b5"
+    },
+    {
+      "artifact_id": "sha256:206eeda27b68c447d34db06f0d6ff196eaa2c312c49d06a50782ee552d0358cc",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "206eeda27b68c447d34db06f0d6ff196eaa2c312c49d06a50782ee552d0358cc"
+    },
+    {
+      "artifact_id": "sha256:5d04cebc912a922f61f2a8bc2f70038ec08bf321ba70c64983c3cb45854bdbb8",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "5d04cebc912a922f61f2a8bc2f70038ec08bf321ba70c64983c3cb45854bdbb8"
+    },
+    {
+      "artifact_id": "sha256:5a0f14a3ab6f0d9d47ea4da74d1ec662fef48c798defffc4284ee2755676ca21",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "5a0f14a3ab6f0d9d47ea4da74d1ec662fef48c798defffc4284ee2755676ca21"
+    },
+    {
+      "artifact_id": "sha256:d3a4cce438d06e61f88cf0ca01afa7aa61507096e49a60ddcf8dc2c9aba0dbae",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "d3a4cce438d06e61f88cf0ca01afa7aa61507096e49a60ddcf8dc2c9aba0dbae"
+    },
+    {
+      "artifact_id": "sha256:cd9c576a3e29f3dd2d61ce54bef4b6edca576a8d7808c300964e2fefe15b6eb5",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_simple_pic.sv",
+      "release_status": "metadata_only",
+      "sha256": "cd9c576a3e29f3dd2d61ce54bef4b6edca576a8d7808c300964e2fefe15b6eb5"
+    },
+    {
+      "artifact_id": "sha256:700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "metadata_only",
+      "sha256": "700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:project-contains-simple_pic",
+      "source": "project:simple_pic",
+      "target": "module:simple_pic",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:277fbb8710a79351b4cc0ee38f44ad63fcee8f23b0fff6f79b755e77996c8fad"
+      ],
+      "id": "edge:project-license",
+      "source": "project:simple_pic",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:simple_pic",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:simple_pic",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:simple_pic",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:simple_pic",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:simple_pic",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "edge:project-source",
+      "source": "project:simple_pic",
+      "target": "source_revision:0022c96b3a1a9bd8",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c09d7284948cd1e157561824bb82154d464415c92ac74416b9dcf3e0edcecb0c"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-fault_localization_repair-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dfa72c88d6cea47dc688732948ddcf0a96c41cb58a1937dd96b5cd7f84e37549"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-functional_timing_understanding-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8a99ec07b234be352690499bd48ce7fc0c1ee6242f29c933416275a74e7e94b5"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-hierarchical_rtl_generation-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:206eeda27b68c447d34db06f0d6ff196eaa2c312c49d06a50782ee552d0358cc"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-hierarchy_dependency_analysis-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5d04cebc912a922f61f2a8bc2f70038ec08bf321ba70c64983c3cb45854bdbb8"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-reuse_integration-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5a0f14a3ab6f0d9d47ea4da74d1ec662fef48c798defffc4284ee2755676ca21"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-tool_result_analysis-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d3a4cce438d06e61f88cf0ca01afa7aa61507096e49a60ddcf8dc2c9aba0dbae"
+      ],
+      "id": "edge:project-task-ipgraph-simple_pic-verification_generation-0000",
+      "source": "project:simple_pic",
+      "target": "task:ipgraph:simple_pic:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cd9c576a3e29f3dd2d61ce54bef4b6edca576a8d7808c300964e2fefe15b6eb5"
+      ],
+      "id": "edge:project-testbench-20",
+      "source": "project:simple_pic",
+      "target": "testbench:tb/tb_simple_pic.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-clock-clk_i",
+      "source": "module:simple_pic",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-ack_o",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-adr_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-clk_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-cyc_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-dat_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-dat_o",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-int_o",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.int_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-irq",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.irq",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-rst_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-stb_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-port-we_i",
+      "source": "module:simple_pic",
+      "target": "port:simple_pic.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "edge:simple_pic-reset-rst_i",
+      "source": "module:simple_pic",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:simple_pic:0022c96b3a1a9bd8",
+  "graph_sha256": "29d65468fe5aedf70c87661bb0d8576ac97ab4c9ed47846b74f41356995179f0",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "simple_pic"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "attributes": {
+        "path": "rtl/top/simple_pic.sv"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "module:simple_pic",
+      "label": "simple_pic",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data input output ack_o;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// strobe (cycle and strobe are the same signal) input [ 2:1] adr_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.adr_i",
+      "label": "adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Number of interrupt sources // // Inputs & outputs // // 8bit WISHBONE bus slave interface input clk_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// reset (asynchronous active low) input cyc_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write enable input [ 7:0] dat_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data output output [ 7:0] dat_o;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// normal bus termination output int_o;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.int_o",
+      "label": "int_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// interrupt output // // Interrupt sources // input [is:1] irq;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.irq",
+      "label": "irq",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock input rst_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// cycle input stb_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// address input we_i;",
+        "direction": "none",
+        "module": "simple_pic"
+      },
+      "evidence_refs": [
+        "sha256:b5edef65ee2b0e3b8923c17ee110ab7f4489584e363d2b590f313190b8021490"
+      ],
+      "id": "port:simple_pic.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "control",
+        "compile_order": [
+          "include/timescale.svh",
+          "rtl/top/simple_pic.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "simple_pic"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:simple_pic",
+      "label": "simple_pic",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "simple_pic"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:0022c96b3a1a9bd8",
+      "label": "0022c96b3a1a9bd8",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:c09d7284948cd1e157561824bb82154d464415c92ac74416b9dcf3e0edcecb0c"
+      ],
+      "id": "task:ipgraph:simple_pic:fault_localization_repair:0000",
+      "label": "ipgraph:simple_pic:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:dfa72c88d6cea47dc688732948ddcf0a96c41cb58a1937dd96b5cd7f84e37549"
+      ],
+      "id": "task:ipgraph:simple_pic:functional_timing_understanding:0000",
+      "label": "ipgraph:simple_pic:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:8a99ec07b234be352690499bd48ce7fc0c1ee6242f29c933416275a74e7e94b5"
+      ],
+      "id": "task:ipgraph:simple_pic:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:simple_pic:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:206eeda27b68c447d34db06f0d6ff196eaa2c312c49d06a50782ee552d0358cc"
+      ],
+      "id": "task:ipgraph:simple_pic:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:simple_pic:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:5d04cebc912a922f61f2a8bc2f70038ec08bf321ba70c64983c3cb45854bdbb8"
+      ],
+      "id": "task:ipgraph:simple_pic:reuse_integration:0000",
+      "label": "ipgraph:simple_pic:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:5a0f14a3ab6f0d9d47ea4da74d1ec662fef48c798defffc4284ee2755676ca21"
+      ],
+      "id": "task:ipgraph:simple_pic:tool_result_analysis:0000",
+      "label": "ipgraph:simple_pic:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:d3a4cce438d06e61f88cf0ca01afa7aa61507096e49a60ddcf8dc2c9aba0dbae"
+      ],
+      "id": "task:ipgraph:simple_pic:verification_generation:0000",
+      "label": "ipgraph:simple_pic:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:cd9c576a3e29f3dd2d61ce54bef4b6edca576a8d7808c300964e2fefe15b6eb5"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:cd9c576a3e29f3dd2d61ce54bef4b6edca576a8d7808c300964e2fefe15b6eb5"
+      ],
+      "id": "testbench:tb/tb_simple_pic.sv",
+      "label": "tb_simple_pic.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "verification_obligation:000",
+      "label": "Wishbone register access",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "verification_obligation:001",
+      "label": "level interrupt",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "verification_obligation:002",
+      "label": "rising-edge interrupt",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0022c96b3a1a9bd881454e6c7fe7e55befaa68c1d35b73ddfcd094f83d571593"
+      ],
+      "id": "verification_obligation:003",
+      "label": "mask and clear",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "simple_pic",
+  "project_revision": "0022c96b3a1a9bd8",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Given a future failing regression for simple_pic, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of simple_pic. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Generate or complete synthesizable SystemVerilog for simple_pic from its released design contracts. Preserve the hierarchy and interfaces of simple_pic, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of simple_pic, including the roles of simple_pic. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Design a minimal wrapper plan to reuse simple_pic in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for simple_pic. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:simple_pic",
+        "module:simple_pic"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_pic",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for simple_pic. It must exercise the obligation: Wishbone register access and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0022c96b3a1a9bd8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "public_test",
+      "target_nodes": [
+        "module:simple_pic"
+      ],
+      "task_id": "ipgraph:simple_pic:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:700423dfb7e5cf91f0b41134c66ed3b0f6cac24fe079733b3ed49030f12f494b"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

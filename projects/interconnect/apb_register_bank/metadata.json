@@ -1,0 +1,1 @@
+{"project":"apb_register_bank","category":"interconnect","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["APB setup/access timing","byte strobes","read-only status","invalid address error"],"expert_review":"pending","trainable":false}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/mutation_summary.schema.json",
+  "title": "Public mutation validation summary",
+  "type": "object",
+  "required": ["schema_version", "project_id", "campaign_id", "baseline_pass", "non_equivalent_total", "killed", "survived", "equivalent_or_invalid", "status", "private_manifest_sha256"],
+  "properties": {
+    "schema_version": {"const": "ip-mutation-summary/v1"},
+    "project_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "campaign_id": {"type": "string", "minLength": 1},
+    "baseline_pass": {"type": "boolean"},
+    "non_equivalent_total": {"type": "integer", "minimum": 1},
+    "killed": {"type": "integer", "minimum": 0},
+    "survived": {"type": "integer", "minimum": 0},
+    "equivalent_or_invalid": {"type": "integer", "minimum": 0},
+    "status": {"enum": ["pass", "fail"]},
+    "private_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "tool_versions": {"type": "object", "additionalProperties": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

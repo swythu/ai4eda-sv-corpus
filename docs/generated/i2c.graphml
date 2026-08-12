@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="type" for="node" attr.name="type" attr.type="string" />
+  <key id="label" for="node" attr.name="label" attr.type="string" />
+  <graph id="ip-etg:i2c:56836dcd13c6c722" edgedefault="directed">
+    <node id="clock_domain:clk">
+      <data key="type">clock_domain</data>
+      <data key="label">clk</data>
+    </node>
+    <node id="clock_domain:clk_cnt">
+      <data key="type">clock_domain</data>
+      <data key="label">clk_cnt</data>
+    </node>
+    <node id="clock_domain:wb_clk_i">
+      <data key="type">clock_domain</data>
+      <data key="label">wb_clk_i</data>
+    </node>
+    <node id="instance:i2c_master_byte_ctrl.bit_controller:0">
+      <data key="type">instance</data>
+      <data key="label">bit_controller</data>
+    </node>
+    <node id="instance:i2c_master_top.byte_controller:1">
+      <data key="type">instance</data>
+      <data key="label">byte_controller</data>
+    </node>
+    <node id="license:LicenseRef-OpenCores-Permissive">
+      <data key="type">license</data>
+      <data key="label">LicenseRef-OpenCores-Permissive</data>
+    </node>
+    <node id="module:i2c_master_bit_ctrl">
+      <data key="type">module</data>
+      <data key="label">i2c_master_bit_ctrl</data>
+    </node>
+    <node id="module:i2c_master_byte_ctrl">
+      <data key="type">module</data>
+      <data key="label">i2c_master_byte_ctrl</data>
+    </node>
+    <node id="module:i2c_master_top">
+      <data key="type">module</data>
+      <data key="label">i2c_master_top</data>
+    </node>
+    <node id="parameter:i2c_master_top.ARST_LVL">
+      <data key="type">parameter</data>
+      <data key="label">ARST_LVL</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.al">
+      <data key="type">port</data>
+      <data key="label">al</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.busy">
+      <data key="type">port</data>
+      <data key="label">busy</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.clk">
+      <data key="type">port</data>
+      <data key="label">clk</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.clk_cnt">
+      <data key="type">port</data>
+      <data key="label">clk_cnt</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.cmd">
+      <data key="type">port</data>
+      <data key="label">cmd</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.cmd_ack">
+      <data key="type">port</data>
+      <data key="label">cmd_ack</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.din">
+      <data key="type">port</data>
+      <data key="label">din</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.dout">
+      <data key="type">port</data>
+      <data key="label">dout</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.ena">
+      <data key="type">port</data>
+      <data key="label">ena</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.nReset">
+      <data key="type">port</data>
+      <data key="label">nReset</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.rst">
+      <data key="type">port</data>
+      <data key="label">rst</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.scl_i">
+      <data key="type">port</data>
+      <data key="label">scl_i</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.scl_o">
+      <data key="type">port</data>
+      <data key="label">scl_o</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.scl_oen">
+      <data key="type">port</data>
+      <data key="label">scl_oen</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.sda_i">
+      <data key="type">port</data>
+      <data key="label">sda_i</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.sda_o">
+      <data key="type">port</data>
+      <data key="label">sda_o</data>
+    </node>
+    <node id="port:i2c_master_bit_ctrl.sda_oen">
+      <data key="type">port</data>
+      <data key="label">sda_oen</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.ack_in">
+      <data key="type">port</data>
+      <data key="label">ack_in</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.ack_out">
+      <data key="type">port</data>
+      <data key="label">ack_out</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.clk">
+      <data key="type">port</data>
+      <data key="label">clk</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.clk_cnt">
+      <data key="type">port</data>
+      <data key="label">clk_cnt</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.cmd_ack">
+      <data key="type">port</data>
+      <data key="label">cmd_ack</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.din">
+      <data key="type">port</data>
+      <data key="label">din</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.dout">
+      <data key="type">port</data>
+      <data key="label">dout</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.ena">
+      <data key="type">port</data>
+      <data key="label">ena</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.i2c_al">
+      <data key="type">port</data>
+      <data key="label">i2c_al</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.i2c_busy">
+      <data key="type">port</data>
+      <data key="label">i2c_busy</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.nReset">
+      <data key="type">port</data>
+      <data key="label">nReset</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.read">
+      <data key="type">port</data>
+      <data key="label">read</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.rst">
+      <data key="type">port</data>
+      <data key="label">rst</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.scl_i">
+      <data key="type">port</data>
+      <data key="label">scl_i</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.scl_o">
+      <data key="type">port</data>
+      <data key="label">scl_o</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.scl_oen">
+      <data key="type">port</data>
+      <data key="label">scl_oen</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.sda_i">
+      <data key="type">port</data>
+      <data key="label">sda_i</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.sda_o">
+      <data key="type">port</data>
+      <data key="label">sda_o</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.sda_oen">
+      <data key="type">port</data>
+      <data key="label">sda_oen</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.start">
+      <data key="type">port</data>
+      <data key="label">start</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.stop">
+      <data key="type">port</data>
+      <data key="label">stop</data>
+    </node>
+    <node id="port:i2c_master_byte_ctrl.write">
+      <data key="type">port</data>
+      <data key="label">write</data>
+    </node>
+    <node id="port:i2c_master_top.arst_i">
+      <data key="type">port</data>
+      <data key="label">arst_i</data>
+    </node>
+    <node id="port:i2c_master_top.scl_pad_i">
+      <data key="type">port</data>
+      <data key="label">scl_pad_i</data>
+    </node>
+    <node id="port:i2c_master_top.scl_pad_o">
+      <data key="type">port</data>
+      <data key="label">scl_pad_o</data>
+    </node>
+    <node id="port:i2c_master_top.scl_padoen_o">
+      <data key="type">port</data>
+      <data key="label">scl_padoen_o</data>
+    </node>
+    <node id="port:i2c_master_top.sda_pad_i">
+      <data key="type">port</data>
+      <data key="label">sda_pad_i</data>
+    </node>
+    <node id="port:i2c_master_top.sda_pad_o">
+      <data key="type">port</data>
+      <data key="label">sda_pad_o</data>
+    </node>
+    <node id="port:i2c_master_top.sda_padoen_o">
+      <data key="type">port</data>
+      <data key="label">sda_padoen_o</data>
+    </node>
+    <node id="port:i2c_master_top.wb_ack_o">
+      <data key="type">port</data>
+      <data key="label">wb_ack_o</data>
+    </node>
+    <node id="port:i2c_master_top.wb_adr_i">
+      <data key="type">port</data>
+      <data key="label">wb_adr_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_clk_i">
+      <data key="type">port</data>
+      <data key="label">wb_clk_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_cyc_i">
+      <data key="type">port</data>
+      <data key="label">wb_cyc_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_dat_i">
+      <data key="type">port</data>
+      <data key="label">wb_dat_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_dat_o">
+      <data key="type">port</data>
+      <data key="label">wb_dat_o</data>
+    </node>
+    <node id="port:i2c_master_top.wb_inta_o">
+      <data key="type">port</data>
+      <data key="label">wb_inta_o</data>
+    </node>
+    <node id="port:i2c_master_top.wb_rst_i">
+      <data key="type">port</data>
+      <data key="label">wb_rst_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_stb_i">
+      <data key="type">port</data>
+      <data key="label">wb_stb_i</data>
+    </node>
+    <node id="port:i2c_master_top.wb_we_i">
+      <data key="type">port</data>
+      <data key="label">wb_we_i</data>
+    </node>
+    <node id="project:i2c">
+      <data key="type">project</data>
+      <data key="label">i2c</data>
+    </node>
+    <node id="protocol_contract:wishbone">
+      <data key="type">protocol_contract</data>
+      <data key="label">Wishbone</data>
+    </node>
+    <node id="reset_domain:rst">
+      <data key="type">reset_domain</data>
+      <data key="label">rst</data>
+    </node>
+    <node id="source_revision:56836dcd13c6c722">
+      <data key="type">source_revision</data>
+      <data key="label">56836dcd13c6c722</data>
+    </node>
+    <node id="task:ipgraph:i2c:cross_module_repair:0000">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:i2c:cross_module_repair:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:cross_module_repair:0001">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:i2c:cross_module_repair:0001</data>
+    </node>
+    <node id="task:ipgraph:i2c:fault_localization_repair:0000">
+      <data key="type">repair_task</data>
+      <data key="label">ipgraph:i2c:fault_localization_repair:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:functional_timing_understanding:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:i2c:functional_timing_understanding:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:hierarchical_integration:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:i2c:hierarchical_integration:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:hierarchical_rtl_generation:0000">
+      <data key="type">generation_task</data>
+      <data key="label">ipgraph:i2c:hierarchical_rtl_generation:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:hierarchy_dependency_analysis:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:i2c:hierarchy_dependency_analysis:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:interface_modification:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:i2c:interface_modification:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:reuse_integration:0000">
+      <data key="type">reuse_task</data>
+      <data key="label">ipgraph:i2c:reuse_integration:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:tool_result_analysis:0000">
+      <data key="type">understand_task</data>
+      <data key="label">ipgraph:i2c:tool_result_analysis:0000</data>
+    </node>
+    <node id="task:ipgraph:i2c:verification_generation:0000">
+      <data key="type">verification_task</data>
+      <data key="label">ipgraph:i2c:verification_generation:0000</data>
+    </node>
+    <node id="testbench:tb/i2c_slave_model.sv">
+      <data key="type">testbench</data>
+      <data key="label">i2c_slave_model.sv</data>
+    </node>
+    <node id="testbench:tb/tst_bench_top.sv">
+      <data key="type">testbench</data>
+      <data key="label">tst_bench_top.sv</data>
+    </node>
+    <node id="testbench:tb/wb_master_model.sv">
+      <data key="type">testbench</data>
+      <data key="label">wb_master_model.sv</data>
+    </node>
+    <node id="tool_run:project_regression">
+      <data key="type">tool_run</data>
+      <data key="label">project regression</data>
+    </node>
+    <node id="verification_obligation:000">
+      <data key="type">verification_obligation</data>
+      <data key="label">prescaler registers</data>
+    </node>
+    <node id="verification_obligation:001">
+      <data key="type">verification_obligation</data>
+      <data key="label">slave write and read-back</data>
+    </node>
+    <node id="verification_obligation:002">
+      <data key="type">verification_obligation</data>
+      <data key="label">invalid-address nack</data>
+    </node>
+    <edge id="edge:i2c_master_bit_ctrl-clock-clk" source="module:i2c_master_bit_ctrl" target="clock_domain:clk" />
+    <edge id="edge:i2c_master_bit_ctrl-clock-clk_cnt" source="module:i2c_master_bit_ctrl" target="clock_domain:clk_cnt" />
+    <edge id="edge:i2c_master_bit_ctrl-port-al" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.al" />
+    <edge id="edge:i2c_master_bit_ctrl-port-busy" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.busy" />
+    <edge id="edge:i2c_master_bit_ctrl-port-clk" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.clk" />
+    <edge id="edge:i2c_master_bit_ctrl-port-clk_cnt" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.clk_cnt" />
+    <edge id="edge:i2c_master_bit_ctrl-port-cmd" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.cmd" />
+    <edge id="edge:i2c_master_bit_ctrl-port-cmd_ack" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.cmd_ack" />
+    <edge id="edge:i2c_master_bit_ctrl-port-din" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.din" />
+    <edge id="edge:i2c_master_bit_ctrl-port-dout" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.dout" />
+    <edge id="edge:i2c_master_bit_ctrl-port-ena" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.ena" />
+    <edge id="edge:i2c_master_bit_ctrl-port-nReset" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.nReset" />
+    <edge id="edge:i2c_master_bit_ctrl-port-rst" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.rst" />
+    <edge id="edge:i2c_master_bit_ctrl-port-scl_i" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.scl_i" />
+    <edge id="edge:i2c_master_bit_ctrl-port-scl_o" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.scl_o" />
+    <edge id="edge:i2c_master_bit_ctrl-port-scl_oen" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.scl_oen" />
+    <edge id="edge:i2c_master_bit_ctrl-port-sda_i" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.sda_i" />
+    <edge id="edge:i2c_master_bit_ctrl-port-sda_o" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.sda_o" />
+    <edge id="edge:i2c_master_bit_ctrl-port-sda_oen" source="module:i2c_master_bit_ctrl" target="port:i2c_master_bit_ctrl.sda_oen" />
+    <edge id="edge:i2c_master_bit_ctrl-reset-rst" source="module:i2c_master_bit_ctrl" target="reset_domain:rst" />
+    <edge id="edge:i2c_master_byte_ctrl-clock-clk" source="module:i2c_master_byte_ctrl" target="clock_domain:clk" />
+    <edge id="edge:i2c_master_byte_ctrl-clock-clk_cnt" source="module:i2c_master_byte_ctrl" target="clock_domain:clk_cnt" />
+    <edge id="edge:i2c_master_byte_ctrl-port-ack_in" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.ack_in" />
+    <edge id="edge:i2c_master_byte_ctrl-port-ack_out" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.ack_out" />
+    <edge id="edge:i2c_master_byte_ctrl-port-clk" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.clk" />
+    <edge id="edge:i2c_master_byte_ctrl-port-clk_cnt" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.clk_cnt" />
+    <edge id="edge:i2c_master_byte_ctrl-port-cmd_ack" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.cmd_ack" />
+    <edge id="edge:i2c_master_byte_ctrl-port-din" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.din" />
+    <edge id="edge:i2c_master_byte_ctrl-port-dout" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.dout" />
+    <edge id="edge:i2c_master_byte_ctrl-port-ena" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.ena" />
+    <edge id="edge:i2c_master_byte_ctrl-port-i2c_al" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.i2c_al" />
+    <edge id="edge:i2c_master_byte_ctrl-port-i2c_busy" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.i2c_busy" />
+    <edge id="edge:i2c_master_byte_ctrl-port-nReset" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.nReset" />
+    <edge id="edge:i2c_master_byte_ctrl-port-read" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.read" />
+    <edge id="edge:i2c_master_byte_ctrl-port-rst" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.rst" />
+    <edge id="edge:i2c_master_byte_ctrl-port-scl_i" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.scl_i" />
+    <edge id="edge:i2c_master_byte_ctrl-port-scl_o" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.scl_o" />
+    <edge id="edge:i2c_master_byte_ctrl-port-scl_oen" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.scl_oen" />
+    <edge id="edge:i2c_master_byte_ctrl-port-sda_i" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.sda_i" />
+    <edge id="edge:i2c_master_byte_ctrl-port-sda_o" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.sda_o" />
+    <edge id="edge:i2c_master_byte_ctrl-port-sda_oen" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.sda_oen" />
+    <edge id="edge:i2c_master_byte_ctrl-port-start" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.start" />
+    <edge id="edge:i2c_master_byte_ctrl-port-stop" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.stop" />
+    <edge id="edge:i2c_master_byte_ctrl-port-write" source="module:i2c_master_byte_ctrl" target="port:i2c_master_byte_ctrl.write" />
+    <edge id="edge:i2c_master_byte_ctrl-reset-rst" source="module:i2c_master_byte_ctrl" target="reset_domain:rst" />
+    <edge id="edge:i2c_master_top-clock-wb_clk_i" source="module:i2c_master_top" target="clock_domain:wb_clk_i" />
+    <edge id="edge:i2c_master_top-parameter-ARST_LVL" source="module:i2c_master_top" target="parameter:i2c_master_top.ARST_LVL" />
+    <edge id="edge:i2c_master_top-port-arst_i" source="module:i2c_master_top" target="port:i2c_master_top.arst_i" />
+    <edge id="edge:i2c_master_top-port-scl_pad_i" source="module:i2c_master_top" target="port:i2c_master_top.scl_pad_i" />
+    <edge id="edge:i2c_master_top-port-scl_pad_o" source="module:i2c_master_top" target="port:i2c_master_top.scl_pad_o" />
+    <edge id="edge:i2c_master_top-port-scl_padoen_o" source="module:i2c_master_top" target="port:i2c_master_top.scl_padoen_o" />
+    <edge id="edge:i2c_master_top-port-sda_pad_i" source="module:i2c_master_top" target="port:i2c_master_top.sda_pad_i" />
+    <edge id="edge:i2c_master_top-port-sda_pad_o" source="module:i2c_master_top" target="port:i2c_master_top.sda_pad_o" />
+    <edge id="edge:i2c_master_top-port-sda_padoen_o" source="module:i2c_master_top" target="port:i2c_master_top.sda_padoen_o" />
+    <edge id="edge:i2c_master_top-port-wb_ack_o" source="module:i2c_master_top" target="port:i2c_master_top.wb_ack_o" />
+    <edge id="edge:i2c_master_top-port-wb_adr_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_adr_i" />
+    <edge id="edge:i2c_master_top-port-wb_clk_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_clk_i" />
+    <edge id="edge:i2c_master_top-port-wb_cyc_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_cyc_i" />
+    <edge id="edge:i2c_master_top-port-wb_dat_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_dat_i" />
+    <edge id="edge:i2c_master_top-port-wb_dat_o" source="module:i2c_master_top" target="port:i2c_master_top.wb_dat_o" />
+    <edge id="edge:i2c_master_top-port-wb_inta_o" source="module:i2c_master_top" target="port:i2c_master_top.wb_inta_o" />
+    <edge id="edge:i2c_master_top-port-wb_rst_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_rst_i" />
+    <edge id="edge:i2c_master_top-port-wb_stb_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_stb_i" />
+    <edge id="edge:i2c_master_top-port-wb_we_i" source="module:i2c_master_top" target="port:i2c_master_top.wb_we_i" />
+    <edge id="edge:instance-0-connection-0" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.clk" />
+    <edge id="edge:instance-0-connection-1" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.rst" />
+    <edge id="edge:instance-0-connection-10" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.dout" />
+    <edge id="edge:instance-0-connection-11" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.scl_i" />
+    <edge id="edge:instance-0-connection-12" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.scl_o" />
+    <edge id="edge:instance-0-connection-13" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.scl_oen" />
+    <edge id="edge:instance-0-connection-14" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.sda_i" />
+    <edge id="edge:instance-0-connection-15" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.sda_o" />
+    <edge id="edge:instance-0-connection-16" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.sda_oen" />
+    <edge id="edge:instance-0-connection-2" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.nReset" />
+    <edge id="edge:instance-0-connection-3" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.ena" />
+    <edge id="edge:instance-0-connection-4" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.clk_cnt" />
+    <edge id="edge:instance-0-connection-5" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.cmd" />
+    <edge id="edge:instance-0-connection-6" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.cmd_ack" />
+    <edge id="edge:instance-0-connection-7" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.busy" />
+    <edge id="edge:instance-0-connection-8" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.al" />
+    <edge id="edge:instance-0-connection-9" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="port:i2c_master_bit_ctrl.din" />
+    <edge id="edge:instance-0-contained" source="module:i2c_master_byte_ctrl" target="instance:i2c_master_byte_ctrl.bit_controller:0" />
+    <edge id="edge:instance-0-target" source="instance:i2c_master_byte_ctrl.bit_controller:0" target="module:i2c_master_bit_ctrl" />
+    <edge id="edge:instance-1-connection-0" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.clk" />
+    <edge id="edge:instance-1-connection-1" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.rst" />
+    <edge id="edge:instance-1-connection-10" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.din" />
+    <edge id="edge:instance-1-connection-11" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.cmd_ack" />
+    <edge id="edge:instance-1-connection-12" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.ack_out" />
+    <edge id="edge:instance-1-connection-13" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.dout" />
+    <edge id="edge:instance-1-connection-14" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.i2c_busy" />
+    <edge id="edge:instance-1-connection-15" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.i2c_al" />
+    <edge id="edge:instance-1-connection-16" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.scl_i" />
+    <edge id="edge:instance-1-connection-17" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.scl_o" />
+    <edge id="edge:instance-1-connection-18" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.scl_oen" />
+    <edge id="edge:instance-1-connection-19" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.sda_i" />
+    <edge id="edge:instance-1-connection-2" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.nReset" />
+    <edge id="edge:instance-1-connection-20" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.sda_o" />
+    <edge id="edge:instance-1-connection-21" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.sda_oen" />
+    <edge id="edge:instance-1-connection-3" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.ena" />
+    <edge id="edge:instance-1-connection-4" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.clk_cnt" />
+    <edge id="edge:instance-1-connection-5" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.start" />
+    <edge id="edge:instance-1-connection-6" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.stop" />
+    <edge id="edge:instance-1-connection-7" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.read" />
+    <edge id="edge:instance-1-connection-8" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.write" />
+    <edge id="edge:instance-1-connection-9" source="instance:i2c_master_top.byte_controller:1" target="port:i2c_master_byte_ctrl.ack_in" />
+    <edge id="edge:instance-1-contained" source="module:i2c_master_top" target="instance:i2c_master_top.byte_controller:1" />
+    <edge id="edge:instance-1-target" source="instance:i2c_master_top.byte_controller:1" target="module:i2c_master_byte_ctrl" />
+    <edge id="edge:project-contains-i2c_master_bit_ctrl" source="project:i2c" target="module:i2c_master_bit_ctrl" />
+    <edge id="edge:project-contains-i2c_master_byte_ctrl" source="project:i2c" target="module:i2c_master_byte_ctrl" />
+    <edge id="edge:project-contains-i2c_master_top" source="project:i2c" target="module:i2c_master_top" />
+    <edge id="edge:project-license" source="project:i2c" target="license:LicenseRef-OpenCores-Permissive" />
+    <edge id="edge:project-obligation-000" source="project:i2c" target="verification_obligation:000" />
+    <edge id="edge:project-obligation-001" source="project:i2c" target="verification_obligation:001" />
+    <edge id="edge:project-obligation-002" source="project:i2c" target="verification_obligation:002" />
+    <edge id="edge:project-regression" source="project:i2c" target="tool_run:project_regression" />
+    <edge id="edge:project-source" source="project:i2c" target="source_revision:56836dcd13c6c722" />
+    <edge id="edge:project-task-ipgraph-i2c-cross_module_repair-0000" source="project:i2c" target="task:ipgraph:i2c:cross_module_repair:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-cross_module_repair-0001" source="project:i2c" target="task:ipgraph:i2c:cross_module_repair:0001" />
+    <edge id="edge:project-task-ipgraph-i2c-fault_localization_repair-0000" source="project:i2c" target="task:ipgraph:i2c:fault_localization_repair:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-functional_timing_understanding-0000" source="project:i2c" target="task:ipgraph:i2c:functional_timing_understanding:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-hierarchical_integration-0000" source="project:i2c" target="task:ipgraph:i2c:hierarchical_integration:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-hierarchical_rtl_generation-0000" source="project:i2c" target="task:ipgraph:i2c:hierarchical_rtl_generation:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-hierarchy_dependency_analysis-0000" source="project:i2c" target="task:ipgraph:i2c:hierarchy_dependency_analysis:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-interface_modification-0000" source="project:i2c" target="task:ipgraph:i2c:interface_modification:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-reuse_integration-0000" source="project:i2c" target="task:ipgraph:i2c:reuse_integration:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-tool_result_analysis-0000" source="project:i2c" target="task:ipgraph:i2c:tool_result_analysis:0000" />
+    <edge id="edge:project-task-ipgraph-i2c-verification_generation-0000" source="project:i2c" target="task:ipgraph:i2c:verification_generation:0000" />
+    <edge id="edge:project-testbench-115" source="project:i2c" target="testbench:tb/i2c_slave_model.sv" />
+    <edge id="edge:project-testbench-116" source="project:i2c" target="testbench:tb/tst_bench_top.sv" />
+    <edge id="edge:project-testbench-117" source="project:i2c" target="testbench:tb/wb_master_model.sv" />
+  </graph>
+</graphml>

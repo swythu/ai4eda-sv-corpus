@@ -1,0 +1,8 @@
+{
+  "project": "uart2bus",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["ascii write command", "ascii read-back response", "8N1 115200 serial framing"]
+}

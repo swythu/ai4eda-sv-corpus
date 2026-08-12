@@ -1,0 +1,1 @@
+{"project":"axi_lite_slice","category":"interconnect","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["independent AW/W ordering","read channel backpressure","write response backpressure","payload stability"],"expert_review":"pending","trainable":false}

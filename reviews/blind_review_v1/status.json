@@ -1,0 +1,11 @@
+{
+  "assigned_tasks": 100,
+  "completed_tasks": 0,
+  "decision_agreement": 0.0,
+  "required_reviews": 200,
+  "responses_location": ".private/reviews/blind_review_v1",
+  "schema_version": "ip-review-status/v1",
+  "status": "awaiting_two_independent_experts",
+  "valid_review_records": 0,
+  "validation_failures": 0
+}

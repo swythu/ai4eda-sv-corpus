@@ -1,0 +1,2826 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:945c48743da5c684a1cc5ac307576ff4176f5a15b5c5cc122f6a1146e798b1f0",
+      "license_expression": "ISC",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "945c48743da5c684a1cc5ac307576ff4176f5a15b5c5cc122f6a1146e798b1f0"
+    },
+    {
+      "artifact_id": "sha256:5bb9e55ab49f01c2bc201d5fceb9d7026638f204550a9529aa7847a0ffe88194",
+      "license_expression": "ISC",
+      "media_type": "text/x-systemverilog",
+      "path": "include/functions.svh",
+      "release_status": "source_released",
+      "sha256": "5bb9e55ab49f01c2bc201d5fceb9d7026638f204550a9529aa7847a0ffe88194"
+    },
+    {
+      "artifact_id": "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+    },
+    {
+      "artifact_id": "sha256:37b78e6e98046d85c6bfe278c571c579613181b05a311828db58e6e29d645245",
+      "license_expression": "ISC",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "37b78e6e98046d85c6bfe278c571c579613181b05a311828db58e6e29d645245"
+    },
+    {
+      "artifact_id": "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0",
+      "license_expression": "ISC",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/arbiter.sv",
+      "release_status": "source_released",
+      "sha256": "7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+    },
+    {
+      "artifact_id": "sha256:9f54ffc2bb63e5d25f397a81b233d34fe94140a6386759332ee3b1fca44e2d24",
+      "license_expression": "ISC",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "9f54ffc2bb63e5d25f397a81b233d34fe94140a6386759332ee3b1fca44e2d24"
+    },
+    {
+      "artifact_id": "sha256:b8973f0e0064c1f11de6bc3aa023d67467965da8c948a11c84d7de2d1933191d",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "b8973f0e0064c1f11de6bc3aa023d67467965da8c948a11c84d7de2d1933191d"
+    },
+    {
+      "artifact_id": "sha256:996055535687e864862add6b8efeadaf5d8bfaf0c01e5e17214a286630126909",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "996055535687e864862add6b8efeadaf5d8bfaf0c01e5e17214a286630126909"
+    },
+    {
+      "artifact_id": "sha256:7d173ae873e422f19691d62b3433b8fefa4283e5d1ca0e271be073b572b1fc19",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "7d173ae873e422f19691d62b3433b8fefa4283e5d1ca0e271be073b572b1fc19"
+    },
+    {
+      "artifact_id": "sha256:f9d07a812a9480d2dfdd2ca066943831eca8269967c630a19f6e1b48dbaa3098",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "f9d07a812a9480d2dfdd2ca066943831eca8269967c630a19f6e1b48dbaa3098"
+    },
+    {
+      "artifact_id": "sha256:d76980daed9d15742ba8e59b27be1aacd58457873351f0185b5aed5f936ba73e",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "d76980daed9d15742ba8e59b27be1aacd58457873351f0185b5aed5f936ba73e"
+    },
+    {
+      "artifact_id": "sha256:8afda98830b66dd4d719a08a721e69bf2aba383d73c80256b5b33bf144da5e8b",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "8afda98830b66dd4d719a08a721e69bf2aba383d73c80256b5b33bf144da5e8b"
+    },
+    {
+      "artifact_id": "sha256:4b7863a3bba7604f36477f4e34bb42775c62c58350ef6082422dbc4a5cf86e54",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "4b7863a3bba7604f36477f4e34bb42775c62c58350ef6082422dbc4a5cf86e54"
+    },
+    {
+      "artifact_id": "sha256:bed99d2d8094245df89eb67bd8277322201504a0e92d0419bcd35fb148669d94",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "bed99d2d8094245df89eb67bd8277322201504a0e92d0419bcd35fb148669d94"
+    },
+    {
+      "artifact_id": "sha256:0bb48922653693d8547677f057113fb601b5bd0d4a35abceece936fb4fe458dd",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "0bb48922653693d8547677f057113fb601b5bd0d4a35abceece936fb4fe458dd"
+    },
+    {
+      "artifact_id": "sha256:91518e29faaa9f203123afe1f11abb2e79f32e72263bcc17b00d469c665c5523",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "91518e29faaa9f203123afe1f11abb2e79f32e72263bcc17b00d469c665c5523"
+    },
+    {
+      "artifact_id": "sha256:6df7486a969d4d1fc7f95ebd5eb31234b9a2827873bb5b1d57a26abed2d069fe",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "6df7486a969d4d1fc7f95ebd5eb31234b9a2827873bb5b1d57a26abed2d069fe"
+    },
+    {
+      "artifact_id": "sha256:9b4b858f940f5c34304254ed5f2a83d963a84b458c68c8a763ea6883e9da25e1",
+      "license_expression": "ISC",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_scalable_arbiter.sv",
+      "release_status": "source_released",
+      "sha256": "9b4b858f940f5c34304254ed5f2a83d963a84b458c68c8a763ea6883e9da25e1"
+    },
+    {
+      "artifact_id": "sha256:d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6",
+      "license_expression": "ISC",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-clock-clock",
+      "source": "module:arbiter",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-parameter-select_width",
+      "source": "module:arbiter",
+      "target": "parameter:arbiter.select_width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-parameter-width",
+      "source": "module:arbiter",
+      "target": "parameter:arbiter.width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-clock",
+      "source": "module:arbiter",
+      "target": "port:arbiter.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-enable",
+      "source": "module:arbiter",
+      "target": "port:arbiter.enable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-grant",
+      "source": "module:arbiter",
+      "target": "port:arbiter.grant",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-req",
+      "source": "module:arbiter",
+      "target": "port:arbiter.req",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-reset",
+      "source": "module:arbiter",
+      "target": "port:arbiter.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-select",
+      "source": "module:arbiter",
+      "target": "port:arbiter.select",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-port-valid",
+      "source": "module:arbiter",
+      "target": "port:arbiter.valid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter-reset-reset",
+      "source": "module:arbiter",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-clock-clock",
+      "source": "module:arbiter_node",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-clock",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-enable",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.enable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-grant",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.grant",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-req",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.req",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-reset",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-select",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.select",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-port-valid",
+      "source": "module:arbiter_node",
+      "target": "port:arbiter_node.valid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_node-reset-reset",
+      "source": "module:arbiter_node",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-clock-clock",
+      "source": "module:arbiter_x2",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-parameter-select_width",
+      "source": "module:arbiter_x2",
+      "target": "parameter:arbiter_x2.select_width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-parameter-width",
+      "source": "module:arbiter_x2",
+      "target": "parameter:arbiter_x2.width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-clock",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-enable",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.enable",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-grant",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.grant",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-req",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.req",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-reset",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-select",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.select",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-port-valid",
+      "source": "module:arbiter_x2",
+      "target": "port:arbiter_x2.valid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:arbiter_x2-reset-reset",
+      "source": "module:arbiter_x2",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:arbiter.mux_array:0",
+      "target": "port:mux_array.in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:arbiter.mux_array:0",
+      "target": "port:mux_array.select",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:arbiter.mux_array:0",
+      "target": "port:mux_array.out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:arbiter",
+      "target": "instance:arbiter.mux_array:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:arbiter.mux_array:0",
+      "target": "module:mux_array",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.req",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.grant",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.select",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.valid",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:arbiter.nodes:1",
+      "target": "port:arbiter_node.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:arbiter",
+      "target": "instance:arbiter.nodes:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:arbiter.nodes:1",
+      "target": "module:arbiter_node",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.req",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.grant",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.select",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-4",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.valid",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-5",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-connection-6",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "port:arbiter.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:arbiter_x2",
+      "target": "instance:arbiter_x2.stage0_arb:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:arbiter_x2.stage0_arb:2",
+      "target": "module:arbiter",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-0",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.enable",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-1",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.req",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-2",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.grant",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-3",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.select",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-4",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.valid",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-5",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.clock",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-connection-6",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "port:arbiter.reset",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-contained",
+      "source": "module:arbiter_x2",
+      "target": "instance:arbiter_x2.stage1_arbs:3",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-3-target",
+      "source": "instance:arbiter_x2.stage1_arbs:3",
+      "target": "module:arbiter",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-4-connection-0",
+      "source": "instance:mux_array.nodes:4",
+      "target": "port:mux_node.in",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-4-connection-1",
+      "source": "instance:mux_array.nodes:4",
+      "target": "port:mux_node.select",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-4-connection-2",
+      "source": "instance:mux_array.nodes:4",
+      "target": "port:mux_node.out",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-4-contained",
+      "source": "module:mux_array",
+      "target": "instance:mux_array.nodes:4",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:instance-4-target",
+      "source": "instance:mux_array.nodes:4",
+      "target": "module:mux_node",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_array-parameter-width",
+      "source": "module:mux_array",
+      "target": "parameter:mux_array.width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_array-port-in",
+      "source": "module:mux_array",
+      "target": "port:mux_array.in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_array-port-out",
+      "source": "module:mux_array",
+      "target": "port:mux_array.out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_array-port-select",
+      "source": "module:mux_array",
+      "target": "port:mux_array.select",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_node-port-in",
+      "source": "module:mux_node",
+      "target": "port:mux_node.in",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_node-port-out",
+      "source": "module:mux_node",
+      "target": "port:mux_node.out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:mux_node-port-select",
+      "source": "module:mux_node",
+      "target": "port:mux_node.select",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:project-contains-arbiter",
+      "source": "project:scalable_arbiter",
+      "target": "module:arbiter",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:project-contains-arbiter_node",
+      "source": "project:scalable_arbiter",
+      "target": "module:arbiter_node",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:project-contains-arbiter_x2",
+      "source": "project:scalable_arbiter",
+      "target": "module:arbiter_x2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:project-contains-mux_array",
+      "source": "project:scalable_arbiter",
+      "target": "module:mux_array",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "edge:project-contains-mux_node",
+      "source": "project:scalable_arbiter",
+      "target": "module:mux_node",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:945c48743da5c684a1cc5ac307576ff4176f5a15b5c5cc122f6a1146e798b1f0"
+      ],
+      "id": "edge:project-license",
+      "source": "project:scalable_arbiter",
+      "target": "license:ISC",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-obligation-005",
+      "source": "project:scalable_arbiter",
+      "target": "verification_obligation:005",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:scalable_arbiter",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "edge:project-source",
+      "source": "project:scalable_arbiter",
+      "target": "source_revision:42ec8116d639ae85",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b8973f0e0064c1f11de6bc3aa023d67467965da8c948a11c84d7de2d1933191d"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-cross_module_repair-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:996055535687e864862add6b8efeadaf5d8bfaf0c01e5e17214a286630126909"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-cross_module_repair-0001",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7d173ae873e422f19691d62b3433b8fefa4283e5d1ca0e271be073b572b1fc19"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-fault_localization_repair-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f9d07a812a9480d2dfdd2ca066943831eca8269967c630a19f6e1b48dbaa3098"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-functional_timing_understanding-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d76980daed9d15742ba8e59b27be1aacd58457873351f0185b5aed5f936ba73e"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-hierarchical_integration-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8afda98830b66dd4d719a08a721e69bf2aba383d73c80256b5b33bf144da5e8b"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-hierarchical_rtl_generation-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4b7863a3bba7604f36477f4e34bb42775c62c58350ef6082422dbc4a5cf86e54"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-hierarchy_dependency_analysis-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bed99d2d8094245df89eb67bd8277322201504a0e92d0419bcd35fb148669d94"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-interface_modification-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bb48922653693d8547677f057113fb601b5bd0d4a35abceece936fb4fe458dd"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-reuse_integration-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:91518e29faaa9f203123afe1f11abb2e79f32e72263bcc17b00d469c665c5523"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-tool_result_analysis-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6df7486a969d4d1fc7f95ebd5eb31234b9a2827873bb5b1d57a26abed2d069fe"
+      ],
+      "id": "edge:project-task-ipgraph-scalable_arbiter-verification_generation-0000",
+      "source": "project:scalable_arbiter",
+      "target": "task:ipgraph:scalable_arbiter:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9b4b858f940f5c34304254ed5f2a83d963a84b458c68c8a763ea6883e9da25e1"
+      ],
+      "id": "edge:project-testbench-88",
+      "source": "project:scalable_arbiter",
+      "target": "testbench:tb/tb_scalable_arbiter.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:scalable_arbiter:42ec8116d639ae85",
+  "graph_sha256": "a90463d738ec23ced701f709ac8f4ac938252cc22dc4efa18d5d1f37b5613719",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "arbiter",
+          "arbiter_node",
+          "arbiter_x2"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clock",
+      "label": "clock",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "interconnect_mux[mux_sum(g,clog2(width))-1-:clog2(width/g)*g]",
+            "kind": "named",
+            "port": "in"
+          },
+          {
+            "expression": "interconnect_select[g-2-:g/2]",
+            "kind": "named",
+            "port": "select"
+          },
+          {
+            "expression": "interconnect_mux[mux_sum(g/2,clog2(width))-(g/2)-1-:clog2(width/g)*g/2]",
+            "kind": "named",
+            "port": "out"
+          }
+        ],
+        "declaration": "mux_array[clog2(width/g)-1:0] ( .in(interconnect_mux[mux_sum(g,clog2(width))-1-:clog2(width/g)*g]), .select(interconnect_select[g-2-:g/2]), .out(interconnect_mux[mux_sum(g/2,clog2(width))-(g/2)-1-:clog2(width/g)*g/2]) )",
+        "parent_module": "arbiter",
+        "target_module": "mux_array"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "instance:arbiter.mux_array:0",
+      "label": "mux_array",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "interconnect_grant[g-2-:g/2]",
+            "kind": "named",
+            "port": "enable"
+          },
+          {
+            "expression": "interconnect_req[2*g-2-:g]",
+            "kind": "named",
+            "port": "req"
+          },
+          {
+            "expression": "interconnect_grant[2*g-2-:g]",
+            "kind": "named",
+            "port": "grant"
+          },
+          {
+            "expression": "interconnect_select[g-2-:g/2]",
+            "kind": "named",
+            "port": "select"
+          },
+          {
+            "expression": "interconnect_req[g-2-:g/2]",
+            "kind": "named",
+            "port": "valid"
+          },
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          }
+        ],
+        "declaration": "nodes[(g/2)-1:0] ( .enable(interconnect_grant[g-2-:g/2]), .req(interconnect_req[2*g-2-:g]), .grant(interconnect_grant[2*g-2-:g]), .select(interconnect_select[g-2-:g/2]), .valid(interconnect_req[g-2-:g/2]), .clock(clock), .reset(reset) )",
+        "parent_module": "arbiter",
+        "target_module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "instance:arbiter.nodes:1",
+      "label": "nodes",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "enable",
+            "kind": "named",
+            "port": "enable"
+          },
+          {
+            "expression": "req0",
+            "kind": "named",
+            "port": "req"
+          },
+          {
+            "expression": "grant0",
+            "kind": "named",
+            "port": "grant"
+          },
+          {
+            "expression": "select0",
+            "kind": "named",
+            "port": "select"
+          },
+          {
+            "expression": "valid0",
+            "kind": "named",
+            "port": "valid"
+          },
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          }
+        ],
+        "declaration": "stage0_arb ( .enable(enable), .req(req0), .grant(grant0), .select(select0), .valid(valid0), .clock(clock), .reset(reset) )",
+        "parent_module": "arbiter_x2",
+        "target_module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "instance:arbiter_x2.stage0_arb:2",
+      "label": "stage0_arb",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "enable1",
+            "kind": "named",
+            "port": "enable"
+          },
+          {
+            "expression": "req",
+            "kind": "named",
+            "port": "req"
+          },
+          {
+            "expression": "grant1",
+            "kind": "named",
+            "port": "grant"
+          },
+          {
+            "expression": "select1",
+            "kind": "named",
+            "port": "select"
+          },
+          {
+            "expression": "req0",
+            "kind": "named",
+            "port": "valid"
+          },
+          {
+            "expression": "clock",
+            "kind": "named",
+            "port": "clock"
+          },
+          {
+            "expression": "reset",
+            "kind": "named",
+            "port": "reset"
+          }
+        ],
+        "declaration": "stage1_arbs[width0-1:0] ( .enable(enable1), .req(req), .grant(grant1), .select(select1), .valid(req0), .clock(clock), .reset(reset) )",
+        "parent_module": "arbiter_x2",
+        "target_module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "instance:arbiter_x2.stage1_arbs:3",
+      "label": "stage1_arbs",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "in",
+            "kind": "named",
+            "port": "in"
+          },
+          {
+            "expression": "select",
+            "kind": "named",
+            "port": "select"
+          },
+          {
+            "expression": "out",
+            "kind": "named",
+            "port": "out"
+          }
+        ],
+        "declaration": "nodes[width-1:0] ( .in(in), .select(select), .out(out) )",
+        "parent_module": "mux_array",
+        "target_module": "mux_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "instance:mux_array.nodes:4",
+      "label": "nodes",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:ISC",
+      "label": "ISC",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/arbiter.sv"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "module:arbiter",
+      "label": "arbiter",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/arbiter.sv"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "module:arbiter_node",
+      "label": "arbiter_node",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/arbiter.sv"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "module:arbiter_x2",
+      "label": "arbiter_x2",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/arbiter.sv"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "module:mux_array",
+      "label": "mux_array",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/arbiter.sv"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "module:mux_node",
+      "label": "mux_node",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "parameter:arbiter.select_width",
+      "label": "select_width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "parameter:arbiter.width",
+      "label": "width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "parameter:arbiter_x2.select_width",
+      "label": "select_width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "parameter:arbiter_x2.width",
+      "label": "width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "mux_array"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "parameter:mux_array.width",
+      "label": "width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic enable",
+        "direction": "input",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.enable",
+      "label": "enable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [width-1:0] grant",
+        "direction": "output",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.grant",
+      "label": "grant",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [width-1:0] req",
+        "direction": "input",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.req",
+      "label": "req",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [select_width-1:0] select",
+        "direction": "output",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.select",
+      "label": "select",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid",
+        "direction": "output",
+        "module": "arbiter"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter.valid",
+      "label": "valid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic enable",
+        "direction": "input",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.enable",
+      "label": "enable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [1:0] grant",
+        "direction": "output",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.grant",
+      "label": "grant",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [1:0] req",
+        "direction": "input",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.req",
+      "label": "req",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic select",
+        "direction": "output",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.select",
+      "label": "select",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid",
+        "direction": "output",
+        "module": "arbiter_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_node.valid",
+      "label": "valid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic enable",
+        "direction": "input",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.enable",
+      "label": "enable",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [width-1:0] grant",
+        "direction": "output",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.grant",
+      "label": "grant",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [width-1:0] req",
+        "direction": "input",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.req",
+      "label": "req",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [select_width-1:0] select",
+        "direction": "output",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.select",
+      "label": "select",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid",
+        "direction": "output",
+        "module": "arbiter_x2"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:arbiter_x2.valid",
+      "label": "valid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [(2*width)-1:0] in",
+        "direction": "input",
+        "module": "mux_array"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_array.in",
+      "label": "in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [width-1:0] out",
+        "direction": "output",
+        "module": "mux_array"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_array.out",
+      "label": "out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [width-1:0] select",
+        "direction": "input",
+        "module": "mux_array"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_array.select",
+      "label": "select",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [1:0] in",
+        "direction": "input",
+        "module": "mux_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_node.in",
+      "label": "in",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic out",
+        "direction": "output",
+        "module": "mux_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_node.out",
+      "label": "out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic select",
+        "direction": "input",
+        "module": "mux_node"
+      },
+      "evidence_refs": [
+        "sha256:7947b5f67c5cd02595045302111ec503deaf07bae6a5698649034e6b38a092d0"
+      ],
+      "id": "port:mux_node.select",
+      "label": "select",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "control",
+        "compile_order": [
+          "include/functions.svh",
+          "rtl/blocks/arbiter.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "partial_with_diagnostics",
+        "top_module_candidates": [
+          "arbiter_x2"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:scalable_arbiter",
+      "label": "scalable_arbiter",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "arbiter",
+          "arbiter_node",
+          "arbiter_x2"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset",
+      "label": "reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:42ec8116d639ae85",
+      "label": "42ec8116d639ae85",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:b8973f0e0064c1f11de6bc3aa023d67467965da8c948a11c84d7de2d1933191d"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:cross_module_repair:0000",
+      "label": "ipgraph:scalable_arbiter:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:996055535687e864862add6b8efeadaf5d8bfaf0c01e5e17214a286630126909"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:cross_module_repair:0001",
+      "label": "ipgraph:scalable_arbiter:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:7d173ae873e422f19691d62b3433b8fefa4283e5d1ca0e271be073b572b1fc19"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:fault_localization_repair:0000",
+      "label": "ipgraph:scalable_arbiter:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:f9d07a812a9480d2dfdd2ca066943831eca8269967c630a19f6e1b48dbaa3098"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:functional_timing_understanding:0000",
+      "label": "ipgraph:scalable_arbiter:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:d76980daed9d15742ba8e59b27be1aacd58457873351f0185b5aed5f936ba73e"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:hierarchical_integration:0000",
+      "label": "ipgraph:scalable_arbiter:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:8afda98830b66dd4d719a08a721e69bf2aba383d73c80256b5b33bf144da5e8b"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:4b7863a3bba7604f36477f4e34bb42775c62c58350ef6082422dbc4a5cf86e54"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:bed99d2d8094245df89eb67bd8277322201504a0e92d0419bcd35fb148669d94"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:interface_modification:0000",
+      "label": "ipgraph:scalable_arbiter:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:0bb48922653693d8547677f057113fb601b5bd0d4a35abceece936fb4fe458dd"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:reuse_integration:0000",
+      "label": "ipgraph:scalable_arbiter:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:91518e29faaa9f203123afe1f11abb2e79f32e72263bcc17b00d469c665c5523"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:tool_result_analysis:0000",
+      "label": "ipgraph:scalable_arbiter:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:6df7486a969d4d1fc7f95ebd5eb31234b9a2827873bb5b1d57a26abed2d069fe"
+      ],
+      "id": "task:ipgraph:scalable_arbiter:verification_generation:0000",
+      "label": "ipgraph:scalable_arbiter:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:9b4b858f940f5c34304254ed5f2a83d963a84b458c68c8a763ea6883e9da25e1"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:9b4b858f940f5c34304254ed5f2a83d963a84b458c68c8a763ea6883e9da25e1"
+      ],
+      "id": "testbench:tb/tb_scalable_arbiter.sv",
+      "label": "tb_scalable_arbiter.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:000",
+      "label": "one-hot grant",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:001",
+      "label": "grant requires active request",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:002",
+      "label": "binary select matches grant",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:003",
+      "label": "all individual request paths",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:004",
+      "label": "round-robin progress across eight requesters",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:42ec8116d639ae856f7c349f32acd215c620330e73447b189e9f3b08f3d4b283"
+      ],
+      "id": "verification_obligation:005",
+      "label": "enable masks grant",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "scalable_arbiter",
+  "project_revision": "42ec8116d639ae85",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in scalable_arbiter. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in scalable_arbiter. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Given a future failing regression for scalable_arbiter, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of scalable_arbiter. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Create a DesignGraph integration plan for scalable_arbiter that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Generate or complete synthesizable SystemVerilog for scalable_arbiter from its released design contracts. Preserve the hierarchy and interfaces of arbiter, arbiter_node, arbiter_x2, mux_array, mux_node, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of scalable_arbiter, including the roles of arbiter, arbiter_node, arbiter_x2, mux_array, mux_node. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Plan a cross-module interface modification for scalable_arbiter. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Design a minimal wrapper plan to reuse scalable_arbiter in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for scalable_arbiter. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:scalable_arbiter",
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "scalable_arbiter",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for scalable_arbiter. It must exercise the obligation: one-hot grant and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "42ec8116d639ae85",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:arbiter",
+        "module:arbiter_node",
+        "module:arbiter_x2",
+        "module:mux_array",
+        "module:mux_node"
+      ],
+      "task_id": "ipgraph:scalable_arbiter:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:d5b52791a83f007a2f2ee161447c8202b744bc0912878ec300c1adaaf98d51f6"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "graph_sha256": "fc1f177481e3a3a01c978ab802bba8145cd3db2b6a44777f7c7f505c45e3e18a",
+  "instance_count": 0,
+  "module_count": 1,
+  "project_revision": "dc7ba3fc4d9afa0a",
+  "schema_version": "ip-etg-lock/v1",
+  "task_count": 15
+}

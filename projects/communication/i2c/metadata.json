@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "project": "i2c",
+  "category": "communication_peripherals",
+  "strategy": "full_refactor",
+  "status": "functional_pass",
+  "language": "systemverilog",
+  "source_files": [
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/i2c/rtl/verilog/i2c_master_top.v",
+      "sha256": "25e1f2d83aa7747378c9e20c45f0425293891fb974b33275d4934b9ae5221a87"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/i2c/rtl/verilog/i2c_master_byte_ctrl.v",
+      "sha256": "fabdde9ac23c96333eda6de38d5c96c979075e064954d6f3ff0eab221dc060f4"
+    },
+    {
+      "path": "data/ipdb/opencores/organized/verilog/communication_peripherals/i2c/rtl/verilog/i2c_master_bit_ctrl.v",
+      "sha256": "1f9e5988d047897d5322a06095e209750d21712d2d2c6936703cb8fc802ca527"
+    }
+  ],
+  "rtl_files": [
+    "rtl/i2c_master_bit_ctrl.sv",
+    "rtl/i2c_master_byte_ctrl.sv",
+    "rtl/i2c_master_top.sv"
+  ],
+  "testbench": "tb/tst_bench_top.sv",
+  "verification_checks": [
+    "prescaler registers",
+    "slave write and read-back",
+    "invalid-address nack"
+  ],
+  "license_expression": "LicenseRef-OpenCores-Permissive",
+  "license_review": "verified_from_retained_source_headers",
+  "expert_review": "pending",
+  "trainable": false,
+  "note": "run.sh must pass; expert and license review remain mandatory for training use.",
+  "validation": "compile_simulation_lint_pass",
+  "simulation_marker": "I2C_SV_PASS registers=pass write_readback=pass nack=pass",
+  "refactor_kind": "standards_refactor_and_bugfix",
+  "changes": [
+    "default_nettype none/wire guards added",
+    "reg/wire to logic normalization with always_ff",
+    "intra-assignment #1 delays removed from RTL",
+    "ANSI-style port declarations",
+    "timescale.v to timescale.svh, defines to .svh with include guard",
+    "parameter to localparam for FSM states",
+    "testbench: split shorted dual-core ack/inta nets into per-core lines (original tb drove ack/inta from two cores onto one net, resolving to x and blocking all register writes)",
+    "testbench: self-checking error counter, pass/fail marker and watchdog added"
+  ],
+  "standard_evidence": ["IEEE 1800-2023 9.2.2.2", "IEEE 1800-2023 9.2.2.4", "IEEE 1800-2023 23.2.2.3"]
+}

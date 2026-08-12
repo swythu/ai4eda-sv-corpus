@@ -1,0 +1,3619 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:8bbf97177e19ad280ec72be33866c0b9002a2679c9ed8360b03cb958ab265c41",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "8bbf97177e19ad280ec72be33866c0b9002a2679c9ed8360b03cb958ab265c41"
+    },
+    {
+      "artifact_id": "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+    },
+    {
+      "artifact_id": "sha256:5021a3b06dc6c500b43aed54749a6e17d7a5e58d834d56251f394c9b45f1f4c4",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "5021a3b06dc6c500b43aed54749a6e17d7a5e58d834d56251f394c9b45f1f4c4"
+    },
+    {
+      "artifact_id": "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/edge_det.sv",
+      "release_status": "source_released",
+      "sha256": "aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+    },
+    {
+      "artifact_id": "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/rtfSimpleUart.sv",
+      "release_status": "source_released",
+      "sha256": "d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+    },
+    {
+      "artifact_id": "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/rtfSimpleUartRx.sv",
+      "release_status": "source_released",
+      "sha256": "180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+    },
+    {
+      "artifact_id": "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/rtfSimpleUartTx.sv",
+      "release_status": "source_released",
+      "sha256": "e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+    },
+    {
+      "artifact_id": "sha256:f1e2e1b2a9e0932e1af9adb6948ee677e5d82528a8fddf72a3749821b9adfec8",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "f1e2e1b2a9e0932e1af9adb6948ee677e5d82528a8fddf72a3749821b9adfec8"
+    },
+    {
+      "artifact_id": "sha256:cb9bc4636b5aa41fb31cb9108c344bdc3e105b16ddebd27ffc5d484797ad92f6",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "cb9bc4636b5aa41fb31cb9108c344bdc3e105b16ddebd27ffc5d484797ad92f6"
+    },
+    {
+      "artifact_id": "sha256:1bf273a1fc189f998e1447c799dab653be0fd632ed2467602bd6f14266c77fdc",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "source_released",
+      "sha256": "1bf273a1fc189f998e1447c799dab653be0fd632ed2467602bd6f14266c77fdc"
+    },
+    {
+      "artifact_id": "sha256:5fec45fc43d1b897032baea81d593ca44519494d74ff4f448bf74e7b7104e7b8",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "5fec45fc43d1b897032baea81d593ca44519494d74ff4f448bf74e7b7104e7b8"
+    },
+    {
+      "artifact_id": "sha256:12e07604b570a084f938aac8299d9dd260152f9d5fdf3bc49fe3db71086b60d3",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "12e07604b570a084f938aac8299d9dd260152f9d5fdf3bc49fe3db71086b60d3"
+    },
+    {
+      "artifact_id": "sha256:5b6b68010659cf6a77d8b95d37e66682f102f6c7e4e3df11377ad0fac03abd1d",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "5b6b68010659cf6a77d8b95d37e66682f102f6c7e4e3df11377ad0fac03abd1d"
+    },
+    {
+      "artifact_id": "sha256:b13ae3560b9488ad1d6ea06a65440f665190cf3e7ac711460925524a9b2af9bb",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "b13ae3560b9488ad1d6ea06a65440f665190cf3e7ac711460925524a9b2af9bb"
+    },
+    {
+      "artifact_id": "sha256:093b5f4f00f2834edc38fc03bc41f3304d24a8e043f2aa5b5536cfcc974af938",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "093b5f4f00f2834edc38fc03bc41f3304d24a8e043f2aa5b5536cfcc974af938"
+    },
+    {
+      "artifact_id": "sha256:f5ec857d04287236b820915a4053394b3d5d44029559b338945556846f547aee",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "source_released",
+      "sha256": "f5ec857d04287236b820915a4053394b3d5d44029559b338945556846f547aee"
+    },
+    {
+      "artifact_id": "sha256:b44085576d0cd28bdbce0bf5b12304429911cb72242d0c3f9d2561f05da71478",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "b44085576d0cd28bdbce0bf5b12304429911cb72242d0c3f9d2561f05da71478"
+    },
+    {
+      "artifact_id": "sha256:3f07e55d14a44e55d9f1d6d46ca27178cf7e615cd3ab1340d9867414c76af2ed",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "3f07e55d14a44e55d9f1d6d46ca27178cf7e615cd3ab1340d9867414c76af2ed"
+    },
+    {
+      "artifact_id": "sha256:153abb2f1e7676f7d50b92d50f70170e5769d8de5a403d07172adc42e1b09219",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "153abb2f1e7676f7d50b92d50f70170e5769d8de5a403d07172adc42e1b09219"
+    },
+    {
+      "artifact_id": "sha256:cf4c03f7f6d7e7e8b62640253ea1dea362d79b38443e6b2035e030fd99c81e75",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_rtfsimpleuart.sv",
+      "release_status": "source_released",
+      "sha256": "cf4c03f7f6d7e7e8b62640253ea1dea362d79b38443e6b2035e030fd99c81e75"
+    },
+    {
+      "artifact_id": "sha256:9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7",
+      "license_expression": "BSD-3-Clause",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-clock-clk",
+      "source": "module:edge_det",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-ce",
+      "source": "module:edge_det",
+      "target": "port:edge_det.ce",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-clk",
+      "source": "module:edge_det",
+      "target": "port:edge_det.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-ee",
+      "source": "module:edge_det",
+      "target": "port:edge_det.ee",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-i",
+      "source": "module:edge_det",
+      "target": "port:edge_det.i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-ne",
+      "source": "module:edge_det",
+      "target": "port:edge_det.ne",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-pe",
+      "source": "module:edge_det",
+      "target": "port:edge_det.pe",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-port-rst",
+      "source": "module:edge_det",
+      "target": "port:edge_det.rst",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:edge_det-reset-rst",
+      "source": "module:edge_det",
+      "target": "reset_domain:rst",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.rst",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.clk",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.ce",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.pe",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.ne",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "port:edge_det.ee",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:rtfSimpleUart",
+      "target": "instance:rtfSimpleUart.u_baud_edge:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:rtfSimpleUart.u_baud_edge:0",
+      "target": "module:edge_det",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.rst_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.clk_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-10",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.clear",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-11",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.rxd",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-12",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.data_present",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-13",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.frame_err",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-14",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.overrun",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.cyc_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.stb_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-4",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.ack_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-5",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.we_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-6",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.dat_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-7",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.cs_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-8",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.baud16x_ce",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-connection-9",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "port:rtfSimpleUartRx.baud8x",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:rtfSimpleUart",
+      "target": "instance:rtfSimpleUart.u_rx:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:rtfSimpleUart.u_rx:1",
+      "target": "module:rtfSimpleUartRx",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.rst_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.clk_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-10",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.cts",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-11",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.txd",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-12",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.empty",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-13",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.txc",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.cyc_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.stb_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-4",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.ack_o",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-5",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.we_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-6",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.dat_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-7",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.cs_i",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-8",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.baud16x_ce",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-connection-9",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "port:rtfSimpleUartTx.baud8x",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:rtfSimpleUart",
+      "target": "instance:rtfSimpleUart.u_tx:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:rtfSimpleUart.u_tx:2",
+      "target": "module:rtfSimpleUartTx",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "edge:project-contains-edge_det",
+      "source": "project:rtfsimpleuart",
+      "target": "module:edge_det",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:project-contains-rtfSimpleUart",
+      "source": "project:rtfsimpleuart",
+      "target": "module:rtfSimpleUart",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:project-contains-rtfSimpleUartRx",
+      "source": "project:rtfsimpleuart",
+      "target": "module:rtfSimpleUartRx",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:project-contains-rtfSimpleUartTx",
+      "source": "project:rtfsimpleuart",
+      "target": "module:rtfSimpleUartTx",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8bbf97177e19ad280ec72be33866c0b9002a2679c9ed8360b03cb958ab265c41"
+      ],
+      "id": "edge:project-license",
+      "source": "project:rtfsimpleuart",
+      "target": "license:BSD-3-Clause",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:rtfsimpleuart",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:rtfsimpleuart",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:rtfsimpleuart",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:rtfsimpleuart",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:rtfsimpleuart",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:rtfsimpleuart",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "edge:project-source",
+      "source": "project:rtfsimpleuart",
+      "target": "source_revision:f7186e92e3974a21",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cb9bc4636b5aa41fb31cb9108c344bdc3e105b16ddebd27ffc5d484797ad92f6"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-cross_module_repair-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1bf273a1fc189f998e1447c799dab653be0fd632ed2467602bd6f14266c77fdc"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-cross_module_repair-0001",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5fec45fc43d1b897032baea81d593ca44519494d74ff4f448bf74e7b7104e7b8"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-fault_localization_repair-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:12e07604b570a084f938aac8299d9dd260152f9d5fdf3bc49fe3db71086b60d3"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-functional_timing_understanding-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5b6b68010659cf6a77d8b95d37e66682f102f6c7e4e3df11377ad0fac03abd1d"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-hierarchical_integration-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b13ae3560b9488ad1d6ea06a65440f665190cf3e7ac711460925524a9b2af9bb"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-hierarchical_rtl_generation-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:093b5f4f00f2834edc38fc03bc41f3304d24a8e043f2aa5b5536cfcc974af938"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-hierarchy_dependency_analysis-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f5ec857d04287236b820915a4053394b3d5d44029559b338945556846f547aee"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-interface_modification-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b44085576d0cd28bdbce0bf5b12304429911cb72242d0c3f9d2561f05da71478"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-reuse_integration-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:3f07e55d14a44e55d9f1d6d46ca27178cf7e615cd3ab1340d9867414c76af2ed"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-tool_result_analysis-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:153abb2f1e7676f7d50b92d50f70170e5769d8de5a403d07172adc42e1b09219"
+      ],
+      "id": "edge:project-task-ipgraph-rtfsimpleuart-verification_generation-0000",
+      "source": "project:rtfsimpleuart",
+      "target": "task:ipgraph:rtfsimpleuart:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf4c03f7f6d7e7e8b62640253ea1dea362d79b38443e6b2035e030fd99c81e75"
+      ],
+      "id": "edge:project-testbench-124",
+      "source": "project:rtfsimpleuart",
+      "target": "testbench:tb/tb_rtfsimpleuart.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-clock-baud16_clk",
+      "source": "module:rtfSimpleUart",
+      "target": "clock_domain:baud16_clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-clock-clk_i",
+      "source": "module:rtfSimpleUart",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-parameter-BASE_ADDR",
+      "source": "module:rtfSimpleUart",
+      "target": "parameter:rtfSimpleUart.BASE_ADDR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-parameter-pBaud",
+      "source": "module:rtfSimpleUart",
+      "target": "parameter:rtfSimpleUart.pBaud",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-parameter-pClkFreq",
+      "source": "module:rtfSimpleUart",
+      "target": "parameter:rtfSimpleUart.pClkFreq",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-parameter-pDtr",
+      "source": "module:rtfSimpleUart",
+      "target": "parameter:rtfSimpleUart.pDtr",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-parameter-pRts",
+      "source": "module:rtfSimpleUart",
+      "target": "parameter:rtfSimpleUart.pRts",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-ack_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-adr_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-baud16_clk",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.baud16_clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-clk_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-cts_ni",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.cts_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-cyc_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-dat_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-dat_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-data_present_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.data_present_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-dcd_ni",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.dcd_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-dsr_ni",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.dsr_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-dtr_no",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.dtr_no",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-irq_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.irq_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-rst_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-rts_no",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.rts_no",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-rxd_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.rxd_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-stb_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-txd_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.txd_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-vol_o",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.vol_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-port-we_i",
+      "source": "module:rtfSimpleUart",
+      "target": "port:rtfSimpleUart.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "edge:rtfSimpleUart-reset-rst_i",
+      "source": "module:rtfSimpleUart",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-clock-clk_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-parameter-SamplerStyle",
+      "source": "module:rtfSimpleUartRx",
+      "target": "parameter:rtfSimpleUartRx.SamplerStyle",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-ack_o",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-baud16x_ce",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.baud16x_ce",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-baud8x",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.baud8x",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-clear",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.clear",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-clk_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-cs_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.cs_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-cyc_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-dat_o",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-data_present",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.data_present",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-frame_err",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.frame_err",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-overrun",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.overrun",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-rst_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-rxd",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.rxd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-stb_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-port-we_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "port:rtfSimpleUartRx.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "edge:rtfSimpleUartRx-reset-rst_i",
+      "source": "module:rtfSimpleUartRx",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-clock-clk_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-ack_o",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-baud16x_ce",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.baud16x_ce",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-baud8x",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.baud8x",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-clk_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-cs_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.cs_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-cts",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.cts",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-cyc_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-dat_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-empty",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.empty",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-rst_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-stb_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-txc",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.txc",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-txd",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.txd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-port-we_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "port:rtfSimpleUartTx.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "edge:rtfSimpleUartTx-reset-rst_i",
+      "source": "module:rtfSimpleUartTx",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:rtfsimpleuart:f7186e92e3974a21",
+  "graph_sha256": "8c31cf7b9ab00438d74245aecb6966016cc24cce5ab22c20011948e0e901949d",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "rtfSimpleUart"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:baud16_clk",
+      "label": "baud16_clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "edge_det"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "rtfSimpleUart",
+          "rtfSimpleUartRx",
+          "rtfSimpleUartTx"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "rst_i",
+            "kind": "named",
+            "port": "rst"
+          },
+          {
+            "expression": "clk_i",
+            "kind": "named",
+            "port": "clk"
+          },
+          {
+            "expression": "1'b1",
+            "kind": "named",
+            "port": "ce"
+          },
+          {
+            "expression": "phase_accumulator[23]",
+            "kind": "named",
+            "port": "i"
+          },
+          {
+            "expression": "baud16",
+            "kind": "named",
+            "port": "pe"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "ne"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "ee"
+          }
+        ],
+        "declaration": "u_baud_edge ( .rst(rst_i), .clk(clk_i), .ce(1'b1), .i(phase_accumulator[23]), .pe(baud16), .ne(), .ee() )",
+        "parent_module": "rtfSimpleUart",
+        "target_module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "instance:rtfSimpleUart.u_baud_edge:0",
+      "label": "u_baud_edge",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "rst_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "clk_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "cyc_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "stb_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "ack_o"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "we_i"
+          },
+          {
+            "expression": "rx_data",
+            "kind": "named",
+            "port": "dat_o"
+          },
+          {
+            "expression": "txrx_select",
+            "kind": "named",
+            "port": "cs_i"
+          },
+          {
+            "expression": "baud16",
+            "kind": "named",
+            "port": "baud16x_ce"
+          },
+          {
+            "expression": "1'b0",
+            "kind": "named",
+            "port": "baud8x"
+          },
+          {
+            "expression": "clear_rx",
+            "kind": "named",
+            "port": "clear"
+          },
+          {
+            "expression": "rxd_i",
+            "kind": "named",
+            "port": "rxd"
+          },
+          {
+            "expression": "data_present_o",
+            "kind": "named",
+            "port": "data_present"
+          },
+          {
+            "expression": "frame_error",
+            "kind": "named",
+            "port": "frame_err"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "overrun"
+          }
+        ],
+        "declaration": "u_rx ( .rst_i, .clk_i, .cyc_i, .stb_i, .ack_o(), .we_i, .dat_o(rx_data), .cs_i(txrx_select), .baud16x_ce(baud16), .baud8x(1'b0), .clear(clear_rx), .rxd(rxd_i), .data_present(data_present_o), .frame_err(frame_error), .overrun )",
+        "parent_module": "rtfSimpleUart",
+        "target_module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "instance:rtfSimpleUart.u_rx:1",
+      "label": "u_rx",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "rst_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "clk_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "cyc_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "stb_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "ack_o"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "we_i"
+          },
+          {
+            "expression": "None",
+            "kind": "named",
+            "port": "dat_i"
+          },
+          {
+            "expression": "txrx_select",
+            "kind": "named",
+            "port": "cs_i"
+          },
+          {
+            "expression": "baud16",
+            "kind": "named",
+            "port": "baud16x_ce"
+          },
+          {
+            "expression": "1'b0",
+            "kind": "named",
+            "port": "baud8x"
+          },
+          {
+            "expression": "cts_sync[1] | ~hwfc",
+            "kind": "named",
+            "port": "cts"
+          },
+          {
+            "expression": "txd_o",
+            "kind": "named",
+            "port": "txd"
+          },
+          {
+            "expression": "tx_empty",
+            "kind": "named",
+            "port": "empty"
+          },
+          {
+            "expression": "tx_complete",
+            "kind": "named",
+            "port": "txc"
+          }
+        ],
+        "declaration": "u_tx ( .rst_i, .clk_i, .cyc_i, .stb_i, .ack_o(), .we_i, .dat_i, .cs_i(txrx_select), .baud16x_ce(baud16), .baud8x(1'b0), .cts(cts_sync[1] | ~hwfc), .txd(txd_o), .empty(tx_empty), .txc(tx_complete) )",
+        "parent_module": "rtfSimpleUart",
+        "target_module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "instance:rtfSimpleUart.u_tx:2",
+      "label": "u_tx",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:BSD-3-Clause",
+      "label": "BSD-3-Clause",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/edge_det.sv"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "module:edge_det",
+      "label": "edge_det",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/rtfSimpleUart.sv"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "module:rtfSimpleUart",
+      "label": "rtfSimpleUart",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/rtfSimpleUartRx.sv"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "module:rtfSimpleUartRx",
+      "label": "rtfSimpleUartRx",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/rtfSimpleUartTx.sv"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "module:rtfSimpleUartTx",
+      "label": "rtfSimpleUartTx",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "parameter:rtfSimpleUart.BASE_ADDR",
+      "label": "BASE_ADDR",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "parameter:rtfSimpleUart.pBaud",
+      "label": "pBaud",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "parameter:rtfSimpleUart.pClkFreq",
+      "label": "pClkFreq",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "parameter:rtfSimpleUart.pDtr",
+      "label": "pDtr",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "parameter:rtfSimpleUart.pRts",
+      "label": "pRts",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "parameter:rtfSimpleUartRx.SamplerStyle",
+      "label": "SamplerStyle",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic ce",
+        "direction": "input",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.ce",
+      "label": "ce",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk",
+        "direction": "input",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ee",
+        "direction": "output",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.ee",
+      "label": "ee",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic i",
+        "direction": "input",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.i",
+      "label": "i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ne",
+        "direction": "output",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.ne",
+      "label": "ne",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic pe",
+        "direction": "output",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.pe",
+      "label": "pe",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst",
+        "direction": "input",
+        "module": "edge_det"
+      },
+      "evidence_refs": [
+        "sha256:aed03cdc10c52d5b5853c2e8b136447474b761945e55033da9eda195de30dea5"
+      ],
+      "id": "port:edge_det.rst",
+      "label": "rst",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ack_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] adr_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.adr_i",
+      "label": "adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic baud16_clk",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.baud16_clk",
+      "label": "baud16_clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cts_ni",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.cts_ni",
+      "label": "cts_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cyc_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [7:0] dat_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [7:0] dat_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic data_present_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.data_present_o",
+      "label": "data_present_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dcd_ni",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.dcd_ni",
+      "label": "dcd_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic dsr_ni",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.dsr_ni",
+      "label": "dsr_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic dtr_no",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.dtr_no",
+      "label": "dtr_no",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic irq_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.irq_o",
+      "label": "irq_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic rts_no",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.rts_no",
+      "label": "rts_no",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rxd_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.rxd_i",
+      "label": "rxd_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic stb_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic txd_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.txd_o",
+      "label": "txd_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic vol_o",
+        "direction": "output",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.vol_o",
+      "label": "vol_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic we_i",
+        "direction": "input",
+        "module": "rtfSimpleUart"
+      },
+      "evidence_refs": [
+        "sha256:d15ae81f3117d7044fbc8d08986ee0145b1d35f11ac8bd4e5a06b32790b8baba"
+      ],
+      "id": "port:rtfSimpleUart.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ack_o",
+        "direction": "output",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic baud16x_ce",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.baud16x_ce",
+      "label": "baud16x_ce",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic baud8x",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.baud8x",
+      "label": "baud8x",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clear",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.clear",
+      "label": "clear",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cs_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.cs_i",
+      "label": "cs_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cyc_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [7:0] dat_o",
+        "direction": "output",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic data_present",
+        "direction": "output",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.data_present",
+      "label": "data_present",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic frame_err",
+        "direction": "output",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.frame_err",
+      "label": "frame_err",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic overrun",
+        "direction": "output",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.overrun",
+      "label": "overrun",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rxd",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.rxd",
+      "label": "rxd",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic stb_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic we_i",
+        "direction": "input",
+        "module": "rtfSimpleUartRx"
+      },
+      "evidence_refs": [
+        "sha256:180a76106007998c3005b8a25997635be7f5f448ff7d7bee2ca0f080c7d97c41"
+      ],
+      "id": "port:rtfSimpleUartRx.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ack_o",
+        "direction": "output",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic baud16x_ce",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.baud16x_ce",
+      "label": "baud16x_ce",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic baud8x",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.baud8x",
+      "label": "baud8x",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cs_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.cs_i",
+      "label": "cs_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cts",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.cts",
+      "label": "cts",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic cyc_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [7:0] dat_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic empty",
+        "direction": "output",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.empty",
+      "label": "empty",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic stb_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic txc",
+        "direction": "output",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.txc",
+      "label": "txc",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic txd",
+        "direction": "output",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.txd",
+      "label": "txd",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic we_i",
+        "direction": "input",
+        "module": "rtfSimpleUartTx"
+      },
+      "evidence_refs": [
+        "sha256:e07346a34d169b521499710853ce6e0f91f25cbeffb98e5cd8abda1d31522331"
+      ],
+      "id": "port:rtfSimpleUartTx.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "communication",
+        "compile_order": [
+          "rtl/blocks/edge_det.sv",
+          "rtl/blocks/rtfSimpleUart.sv",
+          "rtl/blocks/rtfSimpleUartRx.sv",
+          "rtl/blocks/rtfSimpleUartTx.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "rtfSimpleUart"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:rtfsimpleuart",
+      "label": "rtfsimpleuart",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "protocol_contract:uart",
+      "label": "UART",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "edge_det"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst",
+      "label": "rst",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "rtfSimpleUart",
+          "rtfSimpleUartRx",
+          "rtfSimpleUartTx"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:f7186e92e3974a21",
+      "label": "f7186e92e3974a21",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:cb9bc4636b5aa41fb31cb9108c344bdc3e105b16ddebd27ffc5d484797ad92f6"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:cross_module_repair:0000",
+      "label": "ipgraph:rtfsimpleuart:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:1bf273a1fc189f998e1447c799dab653be0fd632ed2467602bd6f14266c77fdc"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:cross_module_repair:0001",
+      "label": "ipgraph:rtfsimpleuart:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:5fec45fc43d1b897032baea81d593ca44519494d74ff4f448bf74e7b7104e7b8"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:fault_localization_repair:0000",
+      "label": "ipgraph:rtfsimpleuart:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:12e07604b570a084f938aac8299d9dd260152f9d5fdf3bc49fe3db71086b60d3"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:functional_timing_understanding:0000",
+      "label": "ipgraph:rtfsimpleuart:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:5b6b68010659cf6a77d8b95d37e66682f102f6c7e4e3df11377ad0fac03abd1d"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:hierarchical_integration:0000",
+      "label": "ipgraph:rtfsimpleuart:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:b13ae3560b9488ad1d6ea06a65440f665190cf3e7ac711460925524a9b2af9bb"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:rtfsimpleuart:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:093b5f4f00f2834edc38fc03bc41f3304d24a8e043f2aa5b5536cfcc974af938"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:rtfsimpleuart:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:f5ec857d04287236b820915a4053394b3d5d44029559b338945556846f547aee"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:interface_modification:0000",
+      "label": "ipgraph:rtfsimpleuart:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:b44085576d0cd28bdbce0bf5b12304429911cb72242d0c3f9d2561f05da71478"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:reuse_integration:0000",
+      "label": "ipgraph:rtfsimpleuart:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:3f07e55d14a44e55d9f1d6d46ca27178cf7e615cd3ab1340d9867414c76af2ed"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:tool_result_analysis:0000",
+      "label": "ipgraph:rtfsimpleuart:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:153abb2f1e7676f7d50b92d50f70170e5769d8de5a403d07172adc42e1b09219"
+      ],
+      "id": "task:ipgraph:rtfsimpleuart:verification_generation:0000",
+      "label": "ipgraph:rtfsimpleuart:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:cf4c03f7f6d7e7e8b62640253ea1dea362d79b38443e6b2035e030fd99c81e75"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:cf4c03f7f6d7e7e8b62640253ea1dea362d79b38443e6b2035e030fd99c81e75"
+      ],
+      "id": "testbench:tb/tb_rtfsimpleuart.sv",
+      "label": "tb_rtfsimpleuart.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "verification_obligation:000",
+      "label": "two-byte UART 8N1 serial loopback",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "verification_obligation:001",
+      "label": "single-entry transmit buffering while serializer is busy",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "verification_obligation:002",
+      "label": "Wishbone read/write acknowledge",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "verification_obligation:003",
+      "label": "receive framing and overrun status remain clear",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:f7186e92e3974a21e3de5e130e6d2d4e1bef3a26291805a1b9e11f8a29866a79"
+      ],
+      "id": "verification_obligation:004",
+      "label": "transmit idle and completion state",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "rtfsimpleuart",
+  "project_revision": "f7186e92e3974a21",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in rtfsimpleuart. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in rtfsimpleuart. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Given a future failing regression for rtfsimpleuart, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of rtfsimpleuart. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Create a DesignGraph integration plan for rtfsimpleuart that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Generate or complete synthesizable SystemVerilog for rtfsimpleuart from its released design contracts. Preserve the hierarchy and interfaces of edge_det, rtfSimpleUart, rtfSimpleUartRx, rtfSimpleUartTx, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of rtfsimpleuart, including the roles of edge_det, rtfSimpleUart, rtfSimpleUartRx, rtfSimpleUartTx. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Plan a cross-module interface modification for rtfsimpleuart. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Design a minimal wrapper plan to reuse rtfsimpleuart in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for rtfsimpleuart. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:rtfsimpleuart",
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "rtfsimpleuart",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for rtfsimpleuart. It must exercise the obligation: two-byte UART 8N1 serial loopback and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "f7186e92e3974a21",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:edge_det",
+        "module:rtfSimpleUart",
+        "module:rtfSimpleUartRx",
+        "module:rtfSimpleUartTx"
+      ],
+      "task_id": "ipgraph:rtfsimpleuart:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:9732c41a7b87d4f80d88e4906298168a462a1470e9164b632133a86fd54215e7"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

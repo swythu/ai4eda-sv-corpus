@@ -1,0 +1,1852 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:21a60e0d516572f6d7ee59370ddc639ab717c0204c9fd3cf5d63cda1ad71943b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "21a60e0d516572f6d7ee59370ddc639ab717c0204c9fd3cf5d63cda1ad71943b"
+    },
+    {
+      "artifact_id": "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+    },
+    {
+      "artifact_id": "sha256:eee4c6f325579f43f0db93260ff2a27859161bf5ebce15246856d86abffa3e66",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "eee4c6f325579f43f0db93260ff2a27859161bf5ebce15246856d86abffa3e66"
+    },
+    {
+      "artifact_id": "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/ima_adpcm_dec.sv",
+      "release_status": "metadata_only",
+      "sha256": "f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+    },
+    {
+      "artifact_id": "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/ima_adpcm_enc.sv",
+      "release_status": "metadata_only",
+      "sha256": "98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+    },
+    {
+      "artifact_id": "sha256:f7ae8728698282337f72428b21b9d56ce82582407b23a71b3d7df54da7af4c46",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "f7ae8728698282337f72428b21b9d56ce82582407b23a71b3d7df54da7af4c46"
+    },
+    {
+      "artifact_id": "sha256:120fe600adc9199868a6a67ecbfac29bbe3a618885c1a7a8b9e0502d6564087f",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "120fe600adc9199868a6a67ecbfac29bbe3a618885c1a7a8b9e0502d6564087f"
+    },
+    {
+      "artifact_id": "sha256:637fbbd7f13623180f08dc842b489c6abeef9505865b62a533038f4b26eaf54b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "637fbbd7f13623180f08dc842b489c6abeef9505865b62a533038f4b26eaf54b"
+    },
+    {
+      "artifact_id": "sha256:52ffdceb96ae79bca3d58013c2b4e5be49b05560bce4abb0fb5620d233334545",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "52ffdceb96ae79bca3d58013c2b4e5be49b05560bce4abb0fb5620d233334545"
+    },
+    {
+      "artifact_id": "sha256:97dc4e3052fa133afc9709d5704be64460be9957f2e573cdabbf9dd934dd04e4",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "97dc4e3052fa133afc9709d5704be64460be9957f2e573cdabbf9dd934dd04e4"
+    },
+    {
+      "artifact_id": "sha256:8571af113303fddbe8d4d62c445a5542ee77bd75cfa5e270d582d51a74d39a42",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "8571af113303fddbe8d4d62c445a5542ee77bd75cfa5e270d582d51a74d39a42"
+    },
+    {
+      "artifact_id": "sha256:4dc3ba113e940de64eae10af599a78f31f1c0364a5bea5844b99bb207eca8430",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "4dc3ba113e940de64eae10af599a78f31f1c0364a5bea5844b99bb207eca8430"
+    },
+    {
+      "artifact_id": "sha256:f66cb07b50d69c2a1d12609bc70e8d352cbdc7713e20b0f7aeef072c6c9b9105",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "f66cb07b50d69c2a1d12609bc70e8d352cbdc7713e20b0f7aeef072c6c9b9105"
+    },
+    {
+      "artifact_id": "sha256:05b43ebf5f15b6f7d84104d8e5f497a0add3e3463eec811be513e3212ec672c9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "05b43ebf5f15b6f7d84104d8e5f497a0add3e3463eec811be513e3212ec672c9"
+    },
+    {
+      "artifact_id": "sha256:876bccd4898b763547d4c229d975ce4113e0b98ec1dfd70050958fffb5f7766a",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "876bccd4898b763547d4c229d975ce4113e0b98ec1dfd70050958fffb5f7766a"
+    },
+    {
+      "artifact_id": "sha256:ed7e5168e7f55f73dd755c0e76184e39c20a5f176ce85bf91abb94cc06138232",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "ed7e5168e7f55f73dd755c0e76184e39c20a5f176ce85bf91abb94cc06138232"
+    },
+    {
+      "artifact_id": "sha256:d89a46487a72b79b24dbacf09dbc35f93f3c6d4a295a63ad59df59069aa09524",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "d89a46487a72b79b24dbacf09dbc35f93f3c6d4a295a63ad59df59069aa09524"
+    },
+    {
+      "artifact_id": "sha256:7969833bb5dcece8c287b1e916f27b7355a791d06bf7cc57457f92e3e73d8635",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-verilog",
+      "path": "tb/legacy/ima_adpcm_dec_legacy.v",
+      "release_status": "metadata_only",
+      "sha256": "7969833bb5dcece8c287b1e916f27b7355a791d06bf7cc57457f92e3e73d8635"
+    },
+    {
+      "artifact_id": "sha256:00460fd45322dd38830fb79b3c8b1da5dd4624f4953f10de467c8bf2f0a8425b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-verilog",
+      "path": "tb/legacy/ima_adpcm_enc_legacy.v",
+      "release_status": "metadata_only",
+      "sha256": "00460fd45322dd38830fb79b3c8b1da5dd4624f4953f10de467c8bf2f0a8425b"
+    },
+    {
+      "artifact_id": "sha256:2f0094897f305b23a414c9ab05396e81cd1f88fe172b7ab02ccc93a6c6ac62ab",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_ima_adpcm_equiv.sv",
+      "release_status": "metadata_only",
+      "sha256": "2f0094897f305b23a414c9ab05396e81cd1f88fe172b7ab02ccc93a6c6ac62ab"
+    },
+    {
+      "artifact_id": "sha256:e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "metadata_only",
+      "sha256": "e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-clock-clock",
+      "source": "module:ima_adpcm_dec",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-clock",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inPCM",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inPCM",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inPredictSamp",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inPredictSamp",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inReady",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inReady",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inStateLoad",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inStateLoad",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inStepIndex",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inStepIndex",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-inValid",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.inValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-outSamp",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.outSamp",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-outValid",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.outValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-port-reset",
+      "source": "module:ima_adpcm_dec",
+      "target": "port:ima_adpcm_dec.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:ima_adpcm_dec-reset-reset",
+      "source": "module:ima_adpcm_dec",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-clock-clock",
+      "source": "module:ima_adpcm_enc",
+      "target": "clock_domain:clock",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-clock",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.clock",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-inReady",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.inReady",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-inSamp",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.inSamp",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-inValid",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.inValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-outPCM",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.outPCM",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-outPredictSamp",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.outPredictSamp",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-outStepIndex",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.outStepIndex",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-outValid",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.outValid",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-port-reset",
+      "source": "module:ima_adpcm_enc",
+      "target": "port:ima_adpcm_enc.reset",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:ima_adpcm_enc-reset-reset",
+      "source": "module:ima_adpcm_enc",
+      "target": "reset_domain:reset",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "edge:project-contains-ima_adpcm_dec",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "module:ima_adpcm_dec",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "edge:project-contains-ima_adpcm_enc",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "module:ima_adpcm_enc",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:21a60e0d516572f6d7ee59370ddc639ab717c0204c9fd3cf5d63cda1ad71943b"
+      ],
+      "id": "edge:project-license",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "edge:project-source",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "source_revision:cfb656f75b5cb6cb",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:120fe600adc9199868a6a67ecbfac29bbe3a618885c1a7a8b9e0502d6564087f"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-cross_module_repair-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:637fbbd7f13623180f08dc842b489c6abeef9505865b62a533038f4b26eaf54b"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-cross_module_repair-0001",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:52ffdceb96ae79bca3d58013c2b4e5be49b05560bce4abb0fb5620d233334545"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-fault_localization_repair-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:97dc4e3052fa133afc9709d5704be64460be9957f2e573cdabbf9dd934dd04e4"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-functional_timing_understanding-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8571af113303fddbe8d4d62c445a5542ee77bd75cfa5e270d582d51a74d39a42"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-hierarchical_integration-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4dc3ba113e940de64eae10af599a78f31f1c0364a5bea5844b99bb207eca8430"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-hierarchical_rtl_generation-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f66cb07b50d69c2a1d12609bc70e8d352cbdc7713e20b0f7aeef072c6c9b9105"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-hierarchy_dependency_analysis-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:05b43ebf5f15b6f7d84104d8e5f497a0add3e3463eec811be513e3212ec672c9"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-interface_modification-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:876bccd4898b763547d4c229d975ce4113e0b98ec1dfd70050958fffb5f7766a"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-reuse_integration-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ed7e5168e7f55f73dd755c0e76184e39c20a5f176ce85bf91abb94cc06138232"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-tool_result_analysis-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d89a46487a72b79b24dbacf09dbc35f93f3c6d4a295a63ad59df59069aa09524"
+      ],
+      "id": "edge:project-task-ipgraph-ima_adpcm_enc_dec-verification_generation-0000",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "task:ipgraph:ima_adpcm_enc_dec:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7969833bb5dcece8c287b1e916f27b7355a791d06bf7cc57457f92e3e73d8635"
+      ],
+      "id": "edge:project-testbench-32",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "testbench:tb/legacy/ima_adpcm_dec_legacy.v",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:00460fd45322dd38830fb79b3c8b1da5dd4624f4953f10de467c8bf2f0a8425b"
+      ],
+      "id": "edge:project-testbench-33",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "testbench:tb/legacy/ima_adpcm_enc_legacy.v",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2f0094897f305b23a414c9ab05396e81cd1f88fe172b7ab02ccc93a6c6ac62ab"
+      ],
+      "id": "edge:project-testbench-34",
+      "source": "project:ima_adpcm_enc_dec",
+      "target": "testbench:tb/tb_ima_adpcm_equiv.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:ima_adpcm_enc_dec:cfb656f75b5cb6cb",
+  "graph_sha256": "c1f9fc6e9fe1e9146438ef675d4618c33b4288e4f30e46f937b3f5c66b3ce2b7",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ima_adpcm_dec",
+          "ima_adpcm_enc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clock",
+      "label": "clock",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/ima_adpcm_dec.sv"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "module:ima_adpcm_dec",
+      "label": "ima_adpcm_dec",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/ima_adpcm_enc.sv"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "module:ima_adpcm_enc",
+      "label": "ima_adpcm_enc",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [3:0] inPCM",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inPCM",
+      "label": "inPCM",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [15:0] inPredictSamp",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inPredictSamp",
+      "label": "inPredictSamp",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic inReady",
+        "direction": "output",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inReady",
+      "label": "inReady",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic inStateLoad",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inStateLoad",
+      "label": "inStateLoad",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [6:0] inStepIndex",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inStepIndex",
+      "label": "inStepIndex",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic inValid",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.inValid",
+      "label": "inValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [15:0] outSamp",
+        "direction": "output",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.outSamp",
+      "label": "outSamp",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic outValid",
+        "direction": "output",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.outValid",
+      "label": "outValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "ima_adpcm_dec"
+      },
+      "evidence_refs": [
+        "sha256:f797cb2edb8d78c12416cee2451e098170d1e88d22556b33e3a9afb12a3d3df9"
+      ],
+      "id": "port:ima_adpcm_dec.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clock",
+        "direction": "input",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.clock",
+      "label": "clock",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic inReady",
+        "direction": "output",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.inReady",
+      "label": "inReady",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [15:0] inSamp",
+        "direction": "input",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.inSamp",
+      "label": "inSamp",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic inValid",
+        "direction": "input",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.inValid",
+      "label": "inValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [3:0] outPCM",
+        "direction": "output",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.outPCM",
+      "label": "outPCM",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic [15:0] outPredictSamp",
+        "direction": "output",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.outPredictSamp",
+      "label": "outPredictSamp",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire logic [6:0] outStepIndex",
+        "direction": "output",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.outStepIndex",
+      "label": "outStepIndex",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic outValid",
+        "direction": "output",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.outValid",
+      "label": "outValid",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic reset",
+        "direction": "input",
+        "module": "ima_adpcm_enc"
+      },
+      "evidence_refs": [
+        "sha256:98bb7c46bb98c36a871599c95e98288e8a8f5867f512072f1b970125290cdbb7"
+      ],
+      "id": "port:ima_adpcm_enc.reset",
+      "label": "reset",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/blocks/ima_adpcm_dec.sv",
+          "rtl/blocks/ima_adpcm_enc.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "ima_adpcm_dec",
+          "ima_adpcm_enc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:ima_adpcm_enc_dec",
+      "label": "ima_adpcm_enc_dec",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "ima_adpcm_dec",
+          "ima_adpcm_enc"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:reset",
+      "label": "reset",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:cfb656f75b5cb6cb",
+      "label": "cfb656f75b5cb6cb",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:120fe600adc9199868a6a67ecbfac29bbe3a618885c1a7a8b9e0502d6564087f"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:cross_module_repair:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:637fbbd7f13623180f08dc842b489c6abeef9505865b62a533038f4b26eaf54b"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:cross_module_repair:0001",
+      "label": "ipgraph:ima_adpcm_enc_dec:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:52ffdceb96ae79bca3d58013c2b4e5be49b05560bce4abb0fb5620d233334545"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:fault_localization_repair:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:97dc4e3052fa133afc9709d5704be64460be9957f2e573cdabbf9dd934dd04e4"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:functional_timing_understanding:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:8571af113303fddbe8d4d62c445a5542ee77bd75cfa5e270d582d51a74d39a42"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:hierarchical_integration:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:4dc3ba113e940de64eae10af599a78f31f1c0364a5bea5844b99bb207eca8430"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:f66cb07b50d69c2a1d12609bc70e8d352cbdc7713e20b0f7aeef072c6c9b9105"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:05b43ebf5f15b6f7d84104d8e5f497a0add3e3463eec811be513e3212ec672c9"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:interface_modification:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:876bccd4898b763547d4c229d975ce4113e0b98ec1dfd70050958fffb5f7766a"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:reuse_integration:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:ed7e5168e7f55f73dd755c0e76184e39c20a5f176ce85bf91abb94cc06138232"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:tool_result_analysis:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:d89a46487a72b79b24dbacf09dbc35f93f3c6d4a295a63ad59df59069aa09524"
+      ],
+      "id": "task:ipgraph:ima_adpcm_enc_dec:verification_generation:0000",
+      "label": "ipgraph:ima_adpcm_enc_dec:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7969833bb5dcece8c287b1e916f27b7355a791d06bf7cc57457f92e3e73d8635"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:7969833bb5dcece8c287b1e916f27b7355a791d06bf7cc57457f92e3e73d8635"
+      ],
+      "id": "testbench:tb/legacy/ima_adpcm_dec_legacy.v",
+      "label": "ima_adpcm_dec_legacy.v",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:00460fd45322dd38830fb79b3c8b1da5dd4624f4953f10de467c8bf2f0a8425b"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:00460fd45322dd38830fb79b3c8b1da5dd4624f4953f10de467c8bf2f0a8425b"
+      ],
+      "id": "testbench:tb/legacy/ima_adpcm_enc_legacy.v",
+      "label": "ima_adpcm_enc_legacy.v",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:2f0094897f305b23a414c9ab05396e81cd1f88fe172b7ab02ccc93a6c6ac62ab"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:2f0094897f305b23a414c9ab05396e81cd1f88fe172b7ab02ccc93a6c6ac62ab"
+      ],
+      "id": "testbench:tb/tb_ima_adpcm_equiv.sv",
+      "label": "tb_ima_adpcm_equiv.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "verification_obligation:000",
+      "label": "64 deterministic sample transactions",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "verification_obligation:001",
+      "label": "cycle-accurate comparison against immutable legacy modules",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "verification_obligation:002",
+      "label": "ready/valid interface timing",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "verification_obligation:003",
+      "label": "encoded nibble and encoder predictor/index state",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cfb656f75b5cb6cba360976fdc71ae8a022b8df6d37302b574af54aa4a5add63"
+      ],
+      "id": "verification_obligation:004",
+      "label": "decoded sample output",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "ima_adpcm_enc_dec",
+  "project_revision": "cfb656f75b5cb6cb",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in ima_adpcm_enc_dec. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in ima_adpcm_enc_dec. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Given a future failing regression for ima_adpcm_enc_dec, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of ima_adpcm_enc_dec. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Create a DesignGraph integration plan for ima_adpcm_enc_dec that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Generate or complete synthesizable SystemVerilog for ima_adpcm_enc_dec from its released design contracts. Preserve the hierarchy and interfaces of ima_adpcm_dec, ima_adpcm_enc, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of ima_adpcm_enc_dec, including the roles of ima_adpcm_dec, ima_adpcm_enc. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Plan a cross-module interface modification for ima_adpcm_enc_dec. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Design a minimal wrapper plan to reuse ima_adpcm_enc_dec in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for ima_adpcm_enc_dec. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:ima_adpcm_enc_dec",
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "ima_adpcm_enc_dec",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for ima_adpcm_enc_dec. It must exercise the obligation: 64 deterministic sample transactions and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cfb656f75b5cb6cb",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:ima_adpcm_dec",
+        "module:ima_adpcm_enc"
+      ],
+      "task_id": "ipgraph:ima_adpcm_enc_dec:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:e6a98f405af2018fcb0b5e07557af567cf3bac789ddae70096d8f9f36cd1e332"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

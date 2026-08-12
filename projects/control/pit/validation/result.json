@@ -1,0 +1,8 @@
+{
+  "project": "pit",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["16-bit registers", "8-bit registers", "timer flags", "prescaler"]
+}

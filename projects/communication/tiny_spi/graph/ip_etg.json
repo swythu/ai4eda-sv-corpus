@@ -1,0 +1,1212 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:a8faac8f27e608bfa23cd6cd9afbce08fbbb6ea97522e2e67dfb57eb3e8d4517",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "a8faac8f27e608bfa23cd6cd9afbce08fbbb6ea97522e2e67dfb57eb3e8d4517"
+    },
+    {
+      "artifact_id": "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+    },
+    {
+      "artifact_id": "sha256:1eeb5012559d6cd2324bf1465bf572729cbb328a41da6ae93d1036998a058e0d",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "source_released",
+      "sha256": "1eeb5012559d6cd2324bf1465bf572729cbb328a41da6ae93d1036998a058e0d"
+    },
+    {
+      "artifact_id": "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/tiny_spi.sv",
+      "release_status": "source_released",
+      "sha256": "8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+    },
+    {
+      "artifact_id": "sha256:820670c76ab293e088cc50039549f70d2b1e97444ec656123de40cc19967af29",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "820670c76ab293e088cc50039549f70d2b1e97444ec656123de40cc19967af29"
+    },
+    {
+      "artifact_id": "sha256:34827f9b6d158a525463892fad2f943dd7d287e1a52dd489f83eb97d384ecef6",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "34827f9b6d158a525463892fad2f943dd7d287e1a52dd489f83eb97d384ecef6"
+    },
+    {
+      "artifact_id": "sha256:72cb74eba3faf7b4d20a94cd3c8a4a2ff65308ecbdab307e15928b8db0c84575",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "72cb74eba3faf7b4d20a94cd3c8a4a2ff65308ecbdab307e15928b8db0c84575"
+    },
+    {
+      "artifact_id": "sha256:70ba687d50ff6f18a8d0a12808a9dac4aaed166b109b1840c20a57544f902b55",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "70ba687d50ff6f18a8d0a12808a9dac4aaed166b109b1840c20a57544f902b55"
+    },
+    {
+      "artifact_id": "sha256:4f98df455a7aa7ab76e17f8c7e290367486a3eff03f9b1ae5c6262e4ac47845f",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "4f98df455a7aa7ab76e17f8c7e290367486a3eff03f9b1ae5c6262e4ac47845f"
+    },
+    {
+      "artifact_id": "sha256:99d47286e7eeaafa7d4020475ce0ca08dd3a88a88019a191c0491bdbe67d5594",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "99d47286e7eeaafa7d4020475ce0ca08dd3a88a88019a191c0491bdbe67d5594"
+    },
+    {
+      "artifact_id": "sha256:62742ce4460df0c5a9193dbb2f881e80162c79d3d7b413141812c5925491c1ed",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "62742ce4460df0c5a9193dbb2f881e80162c79d3d7b413141812c5925491c1ed"
+    },
+    {
+      "artifact_id": "sha256:647b0e7305d10968c56e9b9b4b5136b62bb60532607eddfe3f0f486538d8f2c0",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "647b0e7305d10968c56e9b9b4b5136b62bb60532607eddfe3f0f486538d8f2c0"
+    },
+    {
+      "artifact_id": "sha256:10eb1c1a304440438aa75464db1aea105aa1d41a8b1c7e148674e73286c99914",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_tiny_spi.sv",
+      "release_status": "source_released",
+      "sha256": "10eb1c1a304440438aa75464db1aea105aa1d41a8b1c7e148674e73286c99914"
+    },
+    {
+      "artifact_id": "sha256:36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e",
+      "license_expression": "LGPL-2.1-or-later",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "source_released",
+      "sha256": "36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:project-contains-tiny_spi",
+      "source": "project:tiny_spi",
+      "target": "module:tiny_spi",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a8faac8f27e608bfa23cd6cd9afbce08fbbb6ea97522e2e67dfb57eb3e8d4517"
+      ],
+      "id": "edge:project-license",
+      "source": "project:tiny_spi",
+      "target": "license:LGPL-2.1-or-later",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:tiny_spi",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:tiny_spi",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:tiny_spi",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:tiny_spi",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "edge:project-source",
+      "source": "project:tiny_spi",
+      "target": "source_revision:c62b0b916e93caea",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:34827f9b6d158a525463892fad2f943dd7d287e1a52dd489f83eb97d384ecef6"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-fault_localization_repair-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72cb74eba3faf7b4d20a94cd3c8a4a2ff65308ecbdab307e15928b8db0c84575"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-functional_timing_understanding-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:70ba687d50ff6f18a8d0a12808a9dac4aaed166b109b1840c20a57544f902b55"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-hierarchical_rtl_generation-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4f98df455a7aa7ab76e17f8c7e290367486a3eff03f9b1ae5c6262e4ac47845f"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-hierarchy_dependency_analysis-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:99d47286e7eeaafa7d4020475ce0ca08dd3a88a88019a191c0491bdbe67d5594"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-reuse_integration-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:62742ce4460df0c5a9193dbb2f881e80162c79d3d7b413141812c5925491c1ed"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-tool_result_analysis-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:647b0e7305d10968c56e9b9b4b5136b62bb60532607eddfe3f0f486538d8f2c0"
+      ],
+      "id": "edge:project-task-ipgraph-tiny_spi-verification_generation-0000",
+      "source": "project:tiny_spi",
+      "target": "task:ipgraph:tiny_spi:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:10eb1c1a304440438aa75464db1aea105aa1d41a8b1c7e148674e73286c99914"
+      ],
+      "id": "edge:project-testbench-21",
+      "source": "project:tiny_spi",
+      "target": "testbench:tb/tb_tiny_spi.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-clock-clk_i",
+      "source": "module:tiny_spi",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-MISO",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.MISO",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-MOSI",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.MOSI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-SCLK",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.SCLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-ack_o",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-adr_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-clk_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-cyc_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-dat_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-dat_o",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-int_o",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.int_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-rst_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-stb_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-port-we_i",
+      "source": "module:tiny_spi",
+      "target": "port:tiny_spi.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "edge:tiny_spi-reset-rst_i",
+      "source": "module:tiny_spi",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:tiny_spi:c62b0b916e93caea",
+  "graph_sha256": "c94858ab2dfb5e622e7cff3e931509e7c0970aa5020f455ac935e7eabeb9acf7",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "tiny_spi"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:LGPL-2.1-or-later",
+      "label": "LGPL-2.1-or-later",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "attributes": {
+        "path": "rtl/top/tiny_spi.sv"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "module:tiny_spi",
+      "label": "tiny_spi",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input MISO",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.MISO",
+      "label": "MISO",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// comment out for avalon // spi output MOSI",
+        "direction": "output",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.MOSI",
+      "label": "MOSI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output SCLK",
+        "direction": "output",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.SCLK",
+      "label": "SCLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// comment out for avalon output ack_o",
+        "direction": "output",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input [2:0] adr_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.adr_i",
+      "label": "adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input clk_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input cyc_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input [31:0] dat_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output [31:0] dat_o",
+        "direction": "output",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output int_o",
+        "direction": "output",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.int_o",
+      "label": "int_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// system input rst_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// memory mapped input stb_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input we_i",
+        "direction": "input",
+        "module": "tiny_spi"
+      },
+      "evidence_refs": [
+        "sha256:8ef7141948592e19cb78c89d684b3ee0bee3c27a3a842b558c9a5e2e187d27d8"
+      ],
+      "id": "port:tiny_spi.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "communication",
+        "compile_order": [
+          "rtl/top/tiny_spi.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "tiny_spi"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:tiny_spi",
+      "label": "tiny_spi",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "protocol_contract:spi",
+      "label": "SPI",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "tiny_spi"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:c62b0b916e93caea",
+      "label": "c62b0b916e93caea",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:34827f9b6d158a525463892fad2f943dd7d287e1a52dd489f83eb97d384ecef6"
+      ],
+      "id": "task:ipgraph:tiny_spi:fault_localization_repair:0000",
+      "label": "ipgraph:tiny_spi:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:72cb74eba3faf7b4d20a94cd3c8a4a2ff65308ecbdab307e15928b8db0c84575"
+      ],
+      "id": "task:ipgraph:tiny_spi:functional_timing_understanding:0000",
+      "label": "ipgraph:tiny_spi:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:70ba687d50ff6f18a8d0a12808a9dac4aaed166b109b1840c20a57544f902b55"
+      ],
+      "id": "task:ipgraph:tiny_spi:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:tiny_spi:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:4f98df455a7aa7ab76e17f8c7e290367486a3eff03f9b1ae5c6262e4ac47845f"
+      ],
+      "id": "task:ipgraph:tiny_spi:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:tiny_spi:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:99d47286e7eeaafa7d4020475ce0ca08dd3a88a88019a191c0491bdbe67d5594"
+      ],
+      "id": "task:ipgraph:tiny_spi:reuse_integration:0000",
+      "label": "ipgraph:tiny_spi:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:62742ce4460df0c5a9193dbb2f881e80162c79d3d7b413141812c5925491c1ed"
+      ],
+      "id": "task:ipgraph:tiny_spi:tool_result_analysis:0000",
+      "label": "ipgraph:tiny_spi:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:647b0e7305d10968c56e9b9b4b5136b62bb60532607eddfe3f0f486538d8f2c0"
+      ],
+      "id": "task:ipgraph:tiny_spi:verification_generation:0000",
+      "label": "ipgraph:tiny_spi:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:10eb1c1a304440438aa75464db1aea105aa1d41a8b1c7e148674e73286c99914"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:10eb1c1a304440438aa75464db1aea105aa1d41a8b1c7e148674e73286c99914"
+      ],
+      "id": "testbench:tb/tb_tiny_spi.sv",
+      "label": "tb_tiny_spi.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "verification_obligation:000",
+      "label": "Wishbone access",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "verification_obligation:001",
+      "label": "4-byte serial loopback",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:c62b0b916e93caea42939f6b4f06ab1d8c72434ca6f2d89d599d928018e91006"
+      ],
+      "id": "verification_obligation:002",
+      "label": "reset determinism",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "tiny_spi",
+  "project_revision": "c62b0b916e93caea",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Given a future failing regression for tiny_spi, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of tiny_spi. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Generate or complete synthesizable SystemVerilog for tiny_spi from its released design contracts. Preserve the hierarchy and interfaces of tiny_spi, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of tiny_spi, including the roles of tiny_spi. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Design a minimal wrapper plan to reuse tiny_spi in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for tiny_spi. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:tiny_spi",
+        "module:tiny_spi"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "tiny_spi",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for tiny_spi. It must exercise the obligation: Wishbone access and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "c62b0b916e93caea",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:tiny_spi"
+      ],
+      "task_id": "ipgraph:tiny_spi:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:36c8f517d53e7ee0c7d75c9d6b9ee7c9baa27f51df80c7110f385fe33e71046e"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:e506102c8ac07e34b4f2dbaeb62dd3bcece5b830ff1230f5dbc938f17eb91cb8",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "e506102c8ac07e34b4f2dbaeb62dd3bcece5b830ff1230f5dbc938f17eb91cb8"
+    },
+    {
+      "artifact_id": "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+    },
+    {
+      "artifact_id": "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/skid_buffer.sv",
+      "release_status": "source_released",
+      "sha256": "bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+    },
+    {
+      "artifact_id": "sha256:c465151179e4627eafb8c8bf1217fc761858df17ac328cdb560a7b88b15bba73",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "c465151179e4627eafb8c8bf1217fc761858df17ac328cdb560a7b88b15bba73"
+    },
+    {
+      "artifact_id": "sha256:062f86a507b9165fb7e8eb6fce4ff0c941025c0a3d0b2fdb95985f5f0adaad4d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "062f86a507b9165fb7e8eb6fce4ff0c941025c0a3d0b2fdb95985f5f0adaad4d"
+    },
+    {
+      "artifact_id": "sha256:1cdd97e669af889fc81205ac07c37f268bbac90ccc525017d11582458ac883d3",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "1cdd97e669af889fc81205ac07c37f268bbac90ccc525017d11582458ac883d3"
+    },
+    {
+      "artifact_id": "sha256:2b4d7cb0feff0933304c02965cf3302c7830bd8ee329e3496a3c5ac50a33d650",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "2b4d7cb0feff0933304c02965cf3302c7830bd8ee329e3496a3c5ac50a33d650"
+    },
+    {
+      "artifact_id": "sha256:a7e4b098f5267860b029e6872e11157733ceaa15032a3c975fdbe2773213bb28",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "a7e4b098f5267860b029e6872e11157733ceaa15032a3c975fdbe2773213bb28"
+    },
+    {
+      "artifact_id": "sha256:4d6d87c9f82f7ead6317824463eb8cab3542fe61001a3c14b4d64c4e47f49517",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "4d6d87c9f82f7ead6317824463eb8cab3542fe61001a3c14b4d64c4e47f49517"
+    },
+    {
+      "artifact_id": "sha256:0ab8393812d4ecc8909675fdc2c5a39e9b3b0704d419c8609049e18f2451463d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "0ab8393812d4ecc8909675fdc2c5a39e9b3b0704d419c8609049e18f2451463d"
+    },
+    {
+      "artifact_id": "sha256:d45b12ed72c519296852801ad0b69e63924454448bf3a07ff91b03c7731c6126",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "d45b12ed72c519296852801ad0b69e63924454448bf3a07ff91b03c7731c6126"
+    },
+    {
+      "artifact_id": "sha256:592859eb14bc986270fdb51cb81613e41312d3a978162782fe49d41a2e55a298",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_skid_buffer.sv",
+      "release_status": "source_released",
+      "sha256": "592859eb14bc986270fdb51cb81613e41312d3a978162782fe49d41a2e55a298"
+    },
+    {
+      "artifact_id": "sha256:a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:project-contains-skid_buffer",
+      "source": "project:skid_buffer",
+      "target": "module:skid_buffer",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e506102c8ac07e34b4f2dbaeb62dd3bcece5b830ff1230f5dbc938f17eb91cb8"
+      ],
+      "id": "edge:project-license",
+      "source": "project:skid_buffer",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:skid_buffer",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:skid_buffer",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:skid_buffer",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:skid_buffer",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:skid_buffer",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "edge:project-source",
+      "source": "project:skid_buffer",
+      "target": "source_revision:cf8f739a0a186a6d",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:062f86a507b9165fb7e8eb6fce4ff0c941025c0a3d0b2fdb95985f5f0adaad4d"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-fault_localization_repair-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1cdd97e669af889fc81205ac07c37f268bbac90ccc525017d11582458ac883d3"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-functional_timing_understanding-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2b4d7cb0feff0933304c02965cf3302c7830bd8ee329e3496a3c5ac50a33d650"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-hierarchical_rtl_generation-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:a7e4b098f5267860b029e6872e11157733ceaa15032a3c975fdbe2773213bb28"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-hierarchy_dependency_analysis-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4d6d87c9f82f7ead6317824463eb8cab3542fe61001a3c14b4d64c4e47f49517"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-reuse_integration-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0ab8393812d4ecc8909675fdc2c5a39e9b3b0704d419c8609049e18f2451463d"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-tool_result_analysis-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d45b12ed72c519296852801ad0b69e63924454448bf3a07ff91b03c7731c6126"
+      ],
+      "id": "edge:project-task-ipgraph-skid_buffer-verification_generation-0000",
+      "source": "project:skid_buffer",
+      "target": "task:ipgraph:skid_buffer:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:592859eb14bc986270fdb51cb81613e41312d3a978162782fe49d41a2e55a298"
+      ],
+      "id": "edge:project-testbench-19",
+      "source": "project:skid_buffer",
+      "target": "testbench:tb/tb_skid_buffer.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-clock-clk_i",
+      "source": "module:skid_buffer",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-parameter-Width",
+      "source": "module:skid_buffer",
+      "target": "parameter:skid_buffer.Width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-clear_i",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.clear_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-clk_i",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-data_i",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.data_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-data_o",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.data_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-ready_i",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.ready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-ready_o",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.ready_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-rst_ni",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-valid_i",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.valid_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-port-valid_o",
+      "source": "module:skid_buffer",
+      "target": "port:skid_buffer.valid_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "edge:skid_buffer-reset-rst_ni",
+      "source": "module:skid_buffer",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:skid_buffer:cf8f739a0a186a6d",
+  "graph_sha256": "391314fc4554dc3ad4f51a45d39c3d0ffff978807269d225a4524a55fb822d24",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "skid_buffer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "attributes": {
+        "path": "rtl/skid_buffer.sv"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "module:skid_buffer",
+      "label": "skid_buffer",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "parameter:skid_buffer.Width",
+      "label": "Width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clear_i",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.clear_i",
+      "label": "clear_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [Width-1:0] data_i",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.data_i",
+      "label": "data_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [Width-1:0] data_o",
+        "direction": "output",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.data_o",
+      "label": "data_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic ready_i",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.ready_i",
+      "label": "ready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic ready_o",
+        "direction": "output",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.ready_o",
+      "label": "ready_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic valid_i",
+        "direction": "input",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.valid_i",
+      "label": "valid_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic valid_o",
+        "direction": "output",
+        "module": "skid_buffer"
+      },
+      "evidence_refs": [
+        "sha256:bf24be2ef3fcd601b276929dc052fdf52d0985539161c3006e76a65909aace95"
+      ],
+      "id": "port:skid_buffer.valid_o",
+      "label": "valid_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/skid_buffer.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "skid_buffer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:skid_buffer",
+      "label": "skid_buffer",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "protocol_contract:ready-valid",
+      "label": "ready-valid",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "skid_buffer"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:cf8f739a0a186a6d",
+      "label": "cf8f739a0a186a6d",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:062f86a507b9165fb7e8eb6fce4ff0c941025c0a3d0b2fdb95985f5f0adaad4d"
+      ],
+      "id": "task:ipgraph:skid_buffer:fault_localization_repair:0000",
+      "label": "ipgraph:skid_buffer:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:1cdd97e669af889fc81205ac07c37f268bbac90ccc525017d11582458ac883d3"
+      ],
+      "id": "task:ipgraph:skid_buffer:functional_timing_understanding:0000",
+      "label": "ipgraph:skid_buffer:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:2b4d7cb0feff0933304c02965cf3302c7830bd8ee329e3496a3c5ac50a33d650"
+      ],
+      "id": "task:ipgraph:skid_buffer:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:skid_buffer:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:a7e4b098f5267860b029e6872e11157733ceaa15032a3c975fdbe2773213bb28"
+      ],
+      "id": "task:ipgraph:skid_buffer:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:skid_buffer:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:4d6d87c9f82f7ead6317824463eb8cab3542fe61001a3c14b4d64c4e47f49517"
+      ],
+      "id": "task:ipgraph:skid_buffer:reuse_integration:0000",
+      "label": "ipgraph:skid_buffer:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:0ab8393812d4ecc8909675fdc2c5a39e9b3b0704d419c8609049e18f2451463d"
+      ],
+      "id": "task:ipgraph:skid_buffer:tool_result_analysis:0000",
+      "label": "ipgraph:skid_buffer:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:d45b12ed72c519296852801ad0b69e63924454448bf3a07ff91b03c7731c6126"
+      ],
+      "id": "task:ipgraph:skid_buffer:verification_generation:0000",
+      "label": "ipgraph:skid_buffer:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:592859eb14bc986270fdb51cb81613e41312d3a978162782fe49d41a2e55a298"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:592859eb14bc986270fdb51cb81613e41312d3a978162782fe49d41a2e55a298"
+      ],
+      "id": "testbench:tb/tb_skid_buffer.sv",
+      "label": "tb_skid_buffer.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "verification_obligation:000",
+      "label": "zero-loss backpressure capture",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "verification_obligation:001",
+      "label": "output stability",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "verification_obligation:002",
+      "label": "ordered drain",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:cf8f739a0a186a6d8b0d1bcd2eb2acf38bff1aedff51907814d9b7cc78e12d9b"
+      ],
+      "id": "verification_obligation:003",
+      "label": "clear",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "skid_buffer",
+  "project_revision": "cf8f739a0a186a6d",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Given a future failing regression for skid_buffer, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of skid_buffer. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Generate or complete synthesizable SystemVerilog for skid_buffer from its released design contracts. Preserve the hierarchy and interfaces of skid_buffer, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of skid_buffer, including the roles of skid_buffer. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Design a minimal wrapper plan to reuse skid_buffer in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for skid_buffer. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:skid_buffer",
+        "module:skid_buffer"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "skid_buffer",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for skid_buffer. It must exercise the obligation: zero-loss backpressure capture and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "cf8f739a0a186a6d",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:skid_buffer"
+      ],
+      "task_id": "ipgraph:skid_buffer:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:a64a0bcc09f070ea9aa04f7ba4f9e16d2cf577ca399ad5c58649e9ed54288a7d"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

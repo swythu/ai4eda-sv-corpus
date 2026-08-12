@@ -1,0 +1,6009 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:62df0d5b5335d64a05c94db1fcb8ab277bfc9c85bcebb41d09b2bd350ea09623",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "62df0d5b5335d64a05c94db1fcb8ab277bfc9c85bcebb41d09b2bd350ea09623"
+    },
+    {
+      "artifact_id": "sha256:543f1486eed69cbd6c8d31487f8db01d708469d726e1aef512def27b8d51e497",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "include/timescale.svh",
+      "release_status": "metadata_only",
+      "sha256": "543f1486eed69cbd6c8d31487f8db01d708469d726e1aef512def27b8d51e497"
+    },
+    {
+      "artifact_id": "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+    },
+    {
+      "artifact_id": "sha256:422c3cc1d6ea7d20fb8c1b59167cf371dcfe76a7a776e8f6c4c5da9fbaf7f305",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "422c3cc1d6ea7d20fb8c1b59167cf371dcfe76a7a776e8f6c4c5da9fbaf7f305"
+    },
+    {
+      "artifact_id": "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/WROM64.sv",
+      "release_status": "metadata_only",
+      "sha256": "1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+    },
+    {
+      "artifact_id": "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/bufram64c1.sv",
+      "release_status": "metadata_only",
+      "sha256": "9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+    },
+    {
+      "artifact_id": "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/cnorm.sv",
+      "release_status": "metadata_only",
+      "sha256": "e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+    },
+    {
+      "artifact_id": "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/fft8.sv",
+      "release_status": "metadata_only",
+      "sha256": "526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+    },
+    {
+      "artifact_id": "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/mpu707.sv",
+      "release_status": "metadata_only",
+      "sha256": "b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+    },
+    {
+      "artifact_id": "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/ram2x64c_1.sv",
+      "release_status": "metadata_only",
+      "sha256": "f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+    },
+    {
+      "artifact_id": "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/ram64.sv",
+      "release_status": "metadata_only",
+      "sha256": "56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+    },
+    {
+      "artifact_id": "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/rotator64.sv",
+      "release_status": "metadata_only",
+      "sha256": "72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+    },
+    {
+      "artifact_id": "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/usfft64_2b.sv",
+      "release_status": "metadata_only",
+      "sha256": "eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+    },
+    {
+      "artifact_id": "sha256:b7f066b02796a512e215422bb91c7e4fee8ae42c751ab372b6deaa7284b98a5c",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "b7f066b02796a512e215422bb91c7e4fee8ae42c751ab372b6deaa7284b98a5c"
+    },
+    {
+      "artifact_id": "sha256:99776b3b3062b4debc2b9e3f9e730dadad263ca8879e463988e02aef5444211a",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "99776b3b3062b4debc2b9e3f9e730dadad263ca8879e463988e02aef5444211a"
+    },
+    {
+      "artifact_id": "sha256:ca73bdf836515253a607caf71d9362950ed2afbc99d8856cf94d20733739fc75",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "ca73bdf836515253a607caf71d9362950ed2afbc99d8856cf94d20733739fc75"
+    },
+    {
+      "artifact_id": "sha256:0d4c919165ea41a91bd00a027bca7c0720d2f6d3c86a11f6175663d76b4093d0",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0002.json",
+      "release_status": "metadata_only",
+      "sha256": "0d4c919165ea41a91bd00a027bca7c0720d2f6d3c86a11f6175663d76b4093d0"
+    },
+    {
+      "artifact_id": "sha256:cda4dc07e26c8320627f08cb2ea2dae40a1b8926d8406f4021f445b9375a55db",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "cda4dc07e26c8320627f08cb2ea2dae40a1b8926d8406f4021f445b9375a55db"
+    },
+    {
+      "artifact_id": "sha256:9de2e6721e6ad6fd436e9e142784be471bb3eb5858ced14f5e12fc2e10550502",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "9de2e6721e6ad6fd436e9e142784be471bb3eb5858ced14f5e12fc2e10550502"
+    },
+    {
+      "artifact_id": "sha256:047f894e6be37245d8fc985620d912aa335e642523501e9e8b9354f84c255b42",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "047f894e6be37245d8fc985620d912aa335e642523501e9e8b9354f84c255b42"
+    },
+    {
+      "artifact_id": "sha256:6cb376188b90a209a3b26cc1ef6926d123c6ea725b261d111a1852a7769a4635",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "6cb376188b90a209a3b26cc1ef6926d123c6ea725b261d111a1852a7769a4635"
+    },
+    {
+      "artifact_id": "sha256:064d8b3350f36a8c804e8570a27a36d39b0b34fe807ecb28b5ce0da813460cd5",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "064d8b3350f36a8c804e8570a27a36d39b0b34fe807ecb28b5ce0da813460cd5"
+    },
+    {
+      "artifact_id": "sha256:20f01db48cc4d3a6fcfec7ceabc995ba67825e94c903b327a3f0b22042634587",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "20f01db48cc4d3a6fcfec7ceabc995ba67825e94c903b327a3f0b22042634587"
+    },
+    {
+      "artifact_id": "sha256:e0d6023aacb95d0f4755538bf6c9aad940a94eab771da67a79023f967c3eb3a8",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e0d6023aacb95d0f4755538bf6c9aad940a94eab771da67a79023f967c3eb3a8"
+    },
+    {
+      "artifact_id": "sha256:01b03d35303e00f58d4bca9b1e59614868a2a061efd8e81632a359a2cf2a3d67",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "01b03d35303e00f58d4bca9b1e59614868a2a061efd8e81632a359a2cf2a3d67"
+    },
+    {
+      "artifact_id": "sha256:dfbf02362b276a342ccdbbde32ce6afd0653c94bcd0c480404ffb464e6f587d3",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "dfbf02362b276a342ccdbbde32ce6afd0653c94bcd0c480404ffb464e6f587d3"
+    },
+    {
+      "artifact_id": "sha256:18d9f9ea828a683e5d9d0b3cc24a7adf092e3deee5fbdf14c5c07b77622603e9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "18d9f9ea828a683e5d9d0b3cc24a7adf092e3deee5fbdf14c5c07b77622603e9"
+    },
+    {
+      "artifact_id": "sha256:4645ee8ab04deccf39788ef05eae33393c7c5faf1ddcf39106752c100c3c5229",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "4645ee8ab04deccf39788ef05eae33393c7c5faf1ddcf39106752c100c3c5229"
+    },
+    {
+      "artifact_id": "sha256:7da715ba6ca992ada86e1db59a27b6f78d5f0112cde4a078771119117d05b1d9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "7da715ba6ca992ada86e1db59a27b6f78d5f0112cde4a078771119117d05b1d9"
+    },
+    {
+      "artifact_id": "sha256:653db88a5aeaa5e77b668921b3b2e64a52552067fea7ab2f4e7a3d1ce5f89f3e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "653db88a5aeaa5e77b668921b3b2e64a52552067fea7ab2f4e7a3d1ce5f89f3e"
+    },
+    {
+      "artifact_id": "sha256:f0e5e3e6f5e407c32f149f3b2d0857e2dfd46b61ff7c2541d0e041122d73665d",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_usfft64_2b.sv",
+      "release_status": "metadata_only",
+      "sha256": "f0e5e3e6f5e407c32f149f3b2d0857e2dfd46b61ff7c2541d0e041122d73665d"
+    },
+    {
+      "artifact_id": "sha256:7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "metadata_only",
+      "sha256": "7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa"
+    },
+    {
+      "artifact_id": "sha256:32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "validation/work/golden.txt",
+      "release_status": "metadata_only",
+      "sha256": "32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073"
+    },
+    {
+      "artifact_id": "sha256:8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "validation/work/sine.hex",
+      "release_status": "metadata_only",
+      "sha256": "8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-clock-CLK",
+      "source": "module:BUFRAM64C1",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-parameter-nb",
+      "source": "module:BUFRAM64C1",
+      "target": "parameter:BUFRAM64C1.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-CLK",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-DI",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-DOI",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-DOR",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-DR",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.DR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-ED",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-RDY",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.RDY",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-RST",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.RST",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-port-START",
+      "source": "module:BUFRAM64C1",
+      "target": "port:BUFRAM64C1.START",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:BUFRAM64C1-reset-RST",
+      "source": "module:BUFRAM64C1",
+      "target": "reset_domain:RST",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-clock-CLK",
+      "source": "module:CNORM",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-parameter-nb",
+      "source": "module:CNORM",
+      "target": "parameter:CNORM.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-CLK",
+      "source": "module:CNORM",
+      "target": "port:CNORM.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-DI",
+      "source": "module:CNORM",
+      "target": "port:CNORM.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-DOI",
+      "source": "module:CNORM",
+      "target": "port:CNORM.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-DOR",
+      "source": "module:CNORM",
+      "target": "port:CNORM.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-DR",
+      "source": "module:CNORM",
+      "target": "port:CNORM.DR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-ED",
+      "source": "module:CNORM",
+      "target": "port:CNORM.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-OVF",
+      "source": "module:CNORM",
+      "target": "port:CNORM.OVF",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-RDY",
+      "source": "module:CNORM",
+      "target": "port:CNORM.RDY",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-SHIFT",
+      "source": "module:CNORM",
+      "target": "port:CNORM.SHIFT",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:CNORM-port-START",
+      "source": "module:CNORM",
+      "target": "port:CNORM.START",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-clock-CLK",
+      "source": "module:FFT8",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-parameter-nb",
+      "source": "module:FFT8",
+      "target": "parameter:FFT8.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-CLK",
+      "source": "module:FFT8",
+      "target": "port:FFT8.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-DII",
+      "source": "module:FFT8",
+      "target": "port:FFT8.DII",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-DIR",
+      "source": "module:FFT8",
+      "target": "port:FFT8.DIR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-DOI",
+      "source": "module:FFT8",
+      "target": "port:FFT8.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-DOR",
+      "source": "module:FFT8",
+      "target": "port:FFT8.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-ED",
+      "source": "module:FFT8",
+      "target": "port:FFT8.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-RDY",
+      "source": "module:FFT8",
+      "target": "port:FFT8.RDY",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-RST",
+      "source": "module:FFT8",
+      "target": "port:FFT8.RST",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-port-START",
+      "source": "module:FFT8",
+      "target": "port:FFT8.START",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:FFT8-reset-RST",
+      "source": "module:FFT8",
+      "target": "reset_domain:RST",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-clock-CLK",
+      "source": "module:MPU707",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-parameter-nb",
+      "source": "module:MPU707",
+      "target": "parameter:MPU707.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-port-CLK",
+      "source": "module:MPU707",
+      "target": "port:MPU707.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-port-DI",
+      "source": "module:MPU707",
+      "target": "port:MPU707.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-port-DO",
+      "source": "module:MPU707",
+      "target": "port:MPU707.DO",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:MPU707-port-EI",
+      "source": "module:MPU707",
+      "target": "port:MPU707.EI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-clock-CLK",
+      "source": "module:RAM2x64C_1",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-parameter-nb",
+      "source": "module:RAM2x64C_1",
+      "target": "parameter:RAM2x64C_1.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-ADDRR",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.ADDRR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-ADDRW",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.ADDRW",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-CLK",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-DI",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-DOI",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-DOR",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-DR",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.DR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-ED",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-ODD",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.ODD",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:RAM2x64C_1-port-WE",
+      "source": "module:RAM2x64C_1",
+      "target": "port:RAM2x64C_1.WE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-clock-CLK",
+      "source": "module:RAM64",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-parameter-nb",
+      "source": "module:RAM64",
+      "target": "parameter:RAM64.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-ADDR",
+      "source": "module:RAM64",
+      "target": "port:RAM64.ADDR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-CLK",
+      "source": "module:RAM64",
+      "target": "port:RAM64.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-DI",
+      "source": "module:RAM64",
+      "target": "port:RAM64.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-DO",
+      "source": "module:RAM64",
+      "target": "port:RAM64.DO",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-ED",
+      "source": "module:RAM64",
+      "target": "port:RAM64.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:RAM64-port-WE",
+      "source": "module:RAM64",
+      "target": "port:RAM64.WE",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-clock-CLK",
+      "source": "module:ROTATOR64",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-parameter-nb",
+      "source": "module:ROTATOR64",
+      "target": "parameter:ROTATOR64.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-parameter-nw",
+      "source": "module:ROTATOR64",
+      "target": "parameter:ROTATOR64.nw",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-CLK",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-DI",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-DOI",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-DOR",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-DR",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.DR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-ED",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-RDY",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.RDY",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-RST",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.RST",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-port-START",
+      "source": "module:ROTATOR64",
+      "target": "port:ROTATOR64.START",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:ROTATOR64-reset-RST",
+      "source": "module:ROTATOR64",
+      "target": "reset_domain:RST",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-clock-CLK",
+      "source": "module:USFFT64_2B",
+      "target": "clock_domain:CLK",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-parameter-nb",
+      "source": "module:USFFT64_2B",
+      "target": "parameter:USFFT64_2B.nb",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-ADDR",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.ADDR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-CLK",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.CLK",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-DI",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.DI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-DOI",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.DOI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-DOR",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.DOR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-DR",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.DR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-ED",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.ED",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-OVF1",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.OVF1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-OVF2",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.OVF2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-RDY",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.RDY",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-RST",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.RST",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-SHIFT",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.SHIFT",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-port-START",
+      "source": "module:USFFT64_2B",
+      "target": "port:USFFT64_2B.START",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:USFFT64_2B-reset-RST",
+      "source": "module:USFFT64_2B",
+      "target": "reset_domain:RST",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "edge:WROM64-parameter-nw",
+      "source": "module:WROM64",
+      "target": "parameter:WROM64.nw",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "edge:WROM64-port-ADDR",
+      "source": "module:WROM64",
+      "target": "port:WROM64.ADDR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "edge:WROM64-port-WI",
+      "source": "module:WROM64",
+      "target": "port:WROM64.WI",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "edge:WROM64-port-WR",
+      "source": "module:WROM64",
+      "target": "port:WROM64.WR",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-0",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-1",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-2",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.WE",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-3",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.ODD",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-4",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.ADDRW",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-5",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.ADDRR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-6",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-7",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-8",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-connection-9",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "port:RAM2x64C_1.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-contained",
+      "source": "module:BUFRAM64C1",
+      "target": "instance:BUFRAM64C1.URAM:0",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:instance-0-target",
+      "source": "instance:BUFRAM64C1.URAM:0",
+      "target": "module:RAM2x64C_1",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-connection-0",
+      "source": "instance:FFT8.UMI:1",
+      "target": "port:MPU707.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-connection-1",
+      "source": "instance:FFT8.UMI:1",
+      "target": "port:MPU707.EI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-connection-2",
+      "source": "instance:FFT8.UMI:1",
+      "target": "port:MPU707.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-connection-3",
+      "source": "instance:FFT8.UMI:1",
+      "target": "port:MPU707.DO",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-contained",
+      "source": "module:FFT8",
+      "target": "instance:FFT8.UMI:1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-1-target",
+      "source": "instance:FFT8.UMI:1",
+      "target": "module:MPU707",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-0",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-1",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-2",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-3",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-4",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-5",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.SHIFT",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-6",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.OVF",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-7",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-8",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-connection-9",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "port:CNORM.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_NORM2:10",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-10-target",
+      "source": "instance:USFFT64_2B.U_NORM2:10",
+      "target": "module:CNORM",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-0",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-1",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-2",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-3",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-4",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-5",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-6",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-7",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-connection-8",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "port:BUFRAM64C1.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.Ubuf3:11",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-11-target",
+      "source": "instance:USFFT64_2B.Ubuf3:11",
+      "target": "module:BUFRAM64C1",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-connection-0",
+      "source": "instance:FFT8.UMR:2",
+      "target": "port:MPU707.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-connection-1",
+      "source": "instance:FFT8.UMR:2",
+      "target": "port:MPU707.EI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-connection-2",
+      "source": "instance:FFT8.UMR:2",
+      "target": "port:MPU707.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-connection-3",
+      "source": "instance:FFT8.UMR:2",
+      "target": "port:MPU707.DO",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-contained",
+      "source": "module:FFT8",
+      "target": "instance:FFT8.UMR:2",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:instance-2-target",
+      "source": "instance:FFT8.UMR:2",
+      "target": "module:MPU707",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:instance-3-connection-0",
+      "source": "instance:ROTATOR64.UROM:3",
+      "target": "port:WROM64.ADDR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:instance-3-connection-1",
+      "source": "instance:ROTATOR64.UROM:3",
+      "target": "port:WROM64.WR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:instance-3-connection-2",
+      "source": "instance:ROTATOR64.UROM:3",
+      "target": "port:WROM64.WI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:instance-3-contained",
+      "source": "module:ROTATOR64",
+      "target": "instance:ROTATOR64.UROM:3",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:instance-3-target",
+      "source": "instance:ROTATOR64.UROM:3",
+      "target": "module:WROM64",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-0",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-1",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-2",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-3",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-4",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-5",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-6",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-7",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-connection-8",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "port:BUFRAM64C1.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_BUF1:4",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-4-target",
+      "source": "instance:USFFT64_2B.U_BUF1:4",
+      "target": "module:BUFRAM64C1",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-0",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-1",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-2",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-3",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-4",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-5",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-6",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-7",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-connection-8",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "port:BUFRAM64C1.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_BUF2:5",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-5-target",
+      "source": "instance:USFFT64_2B.U_BUF2:5",
+      "target": "module:BUFRAM64C1",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-0",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-1",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-2",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-3",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-4",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.DIR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-5",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.DII",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-6",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-7",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-connection-8",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "port:FFT8.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_FFT1:6",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-6-target",
+      "source": "instance:USFFT64_2B.U_FFT1:6",
+      "target": "module:FFT8",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-0",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-1",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-2",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-3",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-4",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.DIR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-5",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.DII",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-6",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-7",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-connection-8",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "port:FFT8.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_FFT2:7",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-7-target",
+      "source": "instance:USFFT64_2B.U_FFT2:7",
+      "target": "module:FFT8",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-0",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-1",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.RST",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-2",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-3",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-4",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-5",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-6",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-7",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-connection-8",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "port:ROTATOR64.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_MPU:8",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-8-target",
+      "source": "instance:USFFT64_2B.U_MPU:8",
+      "target": "module:ROTATOR64",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-0",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.CLK",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-1",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.ED",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-2",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.START",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-3",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.DR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-4",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.DI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-5",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.SHIFT",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-6",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.OVF",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-7",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.RDY",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-8",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.DOR",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-connection-9",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "port:CNORM.DOI",
+      "type": "connects_to"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-contained",
+      "source": "module:USFFT64_2B",
+      "target": "instance:USFFT64_2B.U_NORM1:9",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:instance-9-target",
+      "source": "instance:USFFT64_2B.U_NORM1:9",
+      "target": "module:CNORM",
+      "type": "instantiates"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "edge:project-contains-BUFRAM64C1",
+      "source": "project:pipelined_fft_64",
+      "target": "module:BUFRAM64C1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "edge:project-contains-CNORM",
+      "source": "project:pipelined_fft_64",
+      "target": "module:CNORM",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "edge:project-contains-FFT8",
+      "source": "project:pipelined_fft_64",
+      "target": "module:FFT8",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "edge:project-contains-MPU707",
+      "source": "project:pipelined_fft_64",
+      "target": "module:MPU707",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "edge:project-contains-RAM2x64C_1",
+      "source": "project:pipelined_fft_64",
+      "target": "module:RAM2x64C_1",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "edge:project-contains-RAM64",
+      "source": "project:pipelined_fft_64",
+      "target": "module:RAM64",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "edge:project-contains-ROTATOR64",
+      "source": "project:pipelined_fft_64",
+      "target": "module:ROTATOR64",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "edge:project-contains-USFFT64_2B",
+      "source": "project:pipelined_fft_64",
+      "target": "module:USFFT64_2B",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "edge:project-contains-WROM64",
+      "source": "project:pipelined_fft_64",
+      "target": "module:WROM64",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:62df0d5b5335d64a05c94db1fcb8ab277bfc9c85bcebb41d09b2bd350ea09623"
+      ],
+      "id": "edge:project-license",
+      "source": "project:pipelined_fft_64",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:pipelined_fft_64",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:pipelined_fft_64",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:pipelined_fft_64",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:pipelined_fft_64",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073",
+        "sha256:7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa",
+        "sha256:8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:pipelined_fft_64",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "edge:project-source",
+      "source": "project:pipelined_fft_64",
+      "target": "source_revision:0bd86faa2703a2d8",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:99776b3b3062b4debc2b9e3f9e730dadad263ca8879e463988e02aef5444211a"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-cross_module_repair-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ca73bdf836515253a607caf71d9362950ed2afbc99d8856cf94d20733739fc75"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-cross_module_repair-0001",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0d4c919165ea41a91bd00a027bca7c0720d2f6d3c86a11f6175663d76b4093d0"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-cross_module_repair-0002",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:cross_module_repair:0002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:cda4dc07e26c8320627f08cb2ea2dae40a1b8926d8406f4021f445b9375a55db"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-fault_localization_repair-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9de2e6721e6ad6fd436e9e142784be471bb3eb5858ced14f5e12fc2e10550502"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-fault_localization_repair-0001",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:fault_localization_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:047f894e6be37245d8fc985620d912aa335e642523501e9e8b9354f84c255b42"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-functional_timing_understanding-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6cb376188b90a209a3b26cc1ef6926d123c6ea725b261d111a1852a7769a4635"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-hierarchical_integration-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:064d8b3350f36a8c804e8570a27a36d39b0b34fe807ecb28b5ce0da813460cd5"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-hierarchical_integration-0001",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:hierarchical_integration:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:20f01db48cc4d3a6fcfec7ceabc995ba67825e94c903b327a3f0b22042634587"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-hierarchical_rtl_generation-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e0d6023aacb95d0f4755538bf6c9aad940a94eab771da67a79023f967c3eb3a8"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-hierarchy_dependency_analysis-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:01b03d35303e00f58d4bca9b1e59614868a2a061efd8e81632a359a2cf2a3d67"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-interface_modification-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:dfbf02362b276a342ccdbbde32ce6afd0653c94bcd0c480404ffb464e6f587d3"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-interface_modification-0001",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:interface_modification:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:18d9f9ea828a683e5d9d0b3cc24a7adf092e3deee5fbdf14c5c07b77622603e9"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-reuse_integration-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4645ee8ab04deccf39788ef05eae33393c7c5faf1ddcf39106752c100c3c5229"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-tool_result_analysis-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7da715ba6ca992ada86e1db59a27b6f78d5f0112cde4a078771119117d05b1d9"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-verification_generation-0000",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:653db88a5aeaa5e77b668921b3b2e64a52552067fea7ab2f4e7a3d1ce5f89f3e"
+      ],
+      "id": "edge:project-task-ipgraph-pipelined_fft_64-verification_generation-0001",
+      "source": "project:pipelined_fft_64",
+      "target": "task:ipgraph:pipelined_fft_64:verification_generation:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f0e5e3e6f5e407c32f149f3b2d0857e2dfd46b61ff7c2541d0e041122d73665d"
+      ],
+      "id": "edge:project-testbench-229",
+      "source": "project:pipelined_fft_64",
+      "target": "testbench:tb/tb_usfft64_2b.sv",
+      "type": "verified_by"
+    }
+  ],
+  "graph_id": "ip-etg:pipelined_fft_64:0bd86faa2703a2d8",
+  "graph_sha256": "486bfd9b1149b974529e35d5f0965e5a60ff0cfd20c66b962d6686338c034038",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "BUFRAM64C1",
+          "CNORM",
+          "FFT8",
+          "MPU707",
+          "RAM2x64C_1",
+          "RAM64",
+          "ROTATOR64",
+          "USFFT64_2B"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:CLK",
+      "label": "CLK",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "we",
+            "kind": "named",
+            "port": "WE"
+          },
+          {
+            "expression": "odd",
+            "kind": "named",
+            "port": "ODD"
+          },
+          {
+            "expression": "addrw",
+            "kind": "named",
+            "port": "ADDRW"
+          },
+          {
+            "expression": "addrr",
+            "kind": "named",
+            "port": "ADDRR"
+          },
+          {
+            "expression": "DR",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "DI",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "DOR",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "DOI",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "URAM (.CLK(CLK), .ED(ED), .WE(we), .ODD(odd), .ADDRW(addrw), .ADDRR(addrr), .DR(DR), .DI(DI), .DOR(DOR), .DOI(DOI))",
+        "parent_module": "BUFRAM64C1",
+        "target_module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "instance:BUFRAM64C1.URAM:0",
+      "label": "URAM",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "em",
+            "kind": "named",
+            "port": "EI"
+          },
+          {
+            "expression": "s4i",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "m4m7i",
+            "kind": "named",
+            "port": "DO"
+          }
+        ],
+        "declaration": "UMI (.CLK(CLK), .EI(em), .DI(s4i), .DO(m4m7i))",
+        "parent_module": "FFT8",
+        "target_module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "instance:FFT8.UMI:1",
+      "label": "UMI",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "em",
+            "kind": "named",
+            "port": "EI"
+          },
+          {
+            "expression": "s4r",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "m4m7r",
+            "kind": "named",
+            "port": "DO"
+          }
+        ],
+        "declaration": "UMR (.CLK(CLK), .EI(em), .DI(s4r), .DO(m4m7r))",
+        "parent_module": "FFT8",
+        "target_module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "instance:FFT8.UMR:2",
+      "label": "UMR",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "addrw",
+            "kind": "named",
+            "port": "ADDR"
+          },
+          {
+            "expression": "wr",
+            "kind": "named",
+            "port": "WR"
+          },
+          {
+            "expression": "wi",
+            "kind": "named",
+            "port": "WI"
+          }
+        ],
+        "declaration": "UROM (.ADDR(addrw), .WR(wr), .WI(wi))",
+        "parent_module": "ROTATOR64",
+        "target_module": "WROM64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "instance:ROTATOR64.UROM:3",
+      "label": "UROM",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "START",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "DR",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "DI",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "rdy1",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr1",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di1",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_BUF1 (.CLK(CLK), .RST(RST), .ED(ED), .START(START), .DR(DR), .DI(DI), .RDY(rdy1), .DOR(dr1), .DOI(di1))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_BUF1:4",
+      "label": "U_BUF1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy4",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr4",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "di4",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "rdy5",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr5",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di5",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_BUF2 (.CLK(CLK), .RST(RST), .ED(ED), .START(rdy4), .DR(dr4), .DI(di4), .RDY(rdy5), .DOR(dr5), .DOI(di5))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_BUF2:5",
+      "label": "U_BUF2",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy1",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr1",
+            "kind": "named",
+            "port": "DIR"
+          },
+          {
+            "expression": "di1",
+            "kind": "named",
+            "port": "DII"
+          },
+          {
+            "expression": "rdy2",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr2",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di2",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_FFT1 (.CLK(CLK), .RST(RST), .ED(ED), .START(rdy1), .DIR(dr1), .DII(di1), .RDY(rdy2), .DOR(dr2), .DOI(di2))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_FFT1:6",
+      "label": "U_FFT1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy5",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr5",
+            "kind": "named",
+            "port": "DIR"
+          },
+          {
+            "expression": "di5",
+            "kind": "named",
+            "port": "DII"
+          },
+          {
+            "expression": "rdy6",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr6",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di6",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_FFT2 (.CLK(CLK), .RST(RST), .ED(ED), .START(rdy5), .DIR(dr5), .DII(di5), .RDY(rdy6), .DOR(dr6), .DOI(di6))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_FFT2:7",
+      "label": "U_FFT2",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy3",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr3",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "di3",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "rdy4",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr4",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di4",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_MPU (.CLK(CLK), .RST(RST), .ED(ED), .START(rdy3), .DR(dr3), .DI(di3), .RDY(rdy4), .DOR(dr4), .DOI(di4))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_MPU:8",
+      "label": "U_MPU",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy2",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr2",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "di2",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "shiftl",
+            "kind": "named",
+            "port": "SHIFT"
+          },
+          {
+            "expression": "OVF1",
+            "kind": "named",
+            "port": "OVF"
+          },
+          {
+            "expression": "rdy3",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr3",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di3",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_NORM1 (.CLK(CLK), .ED(ED), .START(rdy2), .DR(dr2), .DI(di2), .SHIFT(shiftl), .OVF(OVF1), .RDY(rdy3), .DOR(dr3), .DOI(di3))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_NORM1:9",
+      "label": "U_NORM1",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy6",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr6",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "di6",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "shifth",
+            "kind": "named",
+            "port": "SHIFT"
+          },
+          {
+            "expression": "OVF2",
+            "kind": "named",
+            "port": "OVF"
+          },
+          {
+            "expression": "rdy7",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr7",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di7",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "U_NORM2 (.CLK(CLK), .ED(ED), .START(rdy6), .DR(dr6), .DI(di6), .SHIFT(shifth), .OVF(OVF2), .RDY(rdy7), .DOR(dr7), .DOI(di7))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.U_NORM2:10",
+      "label": "U_NORM2",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "connections": [
+          {
+            "expression": "CLK",
+            "kind": "named",
+            "port": "CLK"
+          },
+          {
+            "expression": "RST",
+            "kind": "named",
+            "port": "RST"
+          },
+          {
+            "expression": "ED",
+            "kind": "named",
+            "port": "ED"
+          },
+          {
+            "expression": "rdy7",
+            "kind": "named",
+            "port": "START"
+          },
+          {
+            "expression": "dr7",
+            "kind": "named",
+            "port": "DR"
+          },
+          {
+            "expression": "di7",
+            "kind": "named",
+            "port": "DI"
+          },
+          {
+            "expression": "rdy8",
+            "kind": "named",
+            "port": "RDY"
+          },
+          {
+            "expression": "dr8",
+            "kind": "named",
+            "port": "DOR"
+          },
+          {
+            "expression": "di8",
+            "kind": "named",
+            "port": "DOI"
+          }
+        ],
+        "declaration": "Ubuf3 (.CLK(CLK), .RST(RST), .ED(ED), .START(rdy7), .DR(dr7), .DI(di7), .RDY(rdy8), .DOR(dr8), .DOI(di8))",
+        "parent_module": "USFFT64_2B",
+        "target_module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "instance:USFFT64_2B.Ubuf3:11",
+      "label": "Ubuf3",
+      "type": "instance",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "attributes": {
+        "path": "rtl/bufram64c1.sv"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "module:BUFRAM64C1",
+      "label": "BUFRAM64C1",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "attributes": {
+        "path": "rtl/cnorm.sv"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "module:CNORM",
+      "label": "CNORM",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "attributes": {
+        "path": "rtl/fft8.sv"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "module:FFT8",
+      "label": "FFT8",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "attributes": {
+        "path": "rtl/mpu707.sv"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "module:MPU707",
+      "label": "MPU707",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "attributes": {
+        "path": "rtl/ram2x64c_1.sv"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "module:RAM2x64C_1",
+      "label": "RAM2x64C_1",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "attributes": {
+        "path": "rtl/ram64.sv"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "module:RAM64",
+      "label": "RAM64",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "attributes": {
+        "path": "rtl/rotator64.sv"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "module:ROTATOR64",
+      "label": "ROTATOR64",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "attributes": {
+        "path": "rtl/usfft64_2b.sv"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "module:USFFT64_2B",
+      "label": "USFFT64_2B",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "attributes": {
+        "path": "rtl/WROM64.sv"
+      },
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "module:WROM64",
+      "label": "WROM64",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "parameter:BUFRAM64C1.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "parameter:CNORM.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "parameter:FFT8.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "parameter:MPU707.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "parameter:RAM2x64C_1.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "parameter:RAM64.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "parameter:ROTATOR64.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "parameter:ROTATOR64.nw",
+      "label": "nw",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "parameter:USFFT64_2B.nb",
+      "label": "nb",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "WROM64"
+      },
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "parameter:WROM64.nw",
+      "label": "nw",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DI",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb-1:0] DOI",
+        "direction": "output",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb-1:0] DOR",
+        "direction": "output",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DR",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.DR",
+      "label": "DR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic RDY",
+        "direction": "output",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.RDY",
+      "label": "RDY",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire RST",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.RST",
+      "label": "RST",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire START",
+        "direction": "input",
+        "module": "BUFRAM64C1"
+      },
+      "evidence_refs": [
+        "sha256:9977018b0abee7b6d681afb20a29efbd573d196bb453416bd6bb966315c6e7fa"
+      ],
+      "id": "port:BUFRAM64C1.START",
+      "label": "START",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb+2:0] DI",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb+1:0] DOI",
+        "direction": "output",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb+1:0] DOR",
+        "direction": "output",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb+2:0] DR",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.DR",
+      "label": "DR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic OVF",
+        "direction": "output",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.OVF",
+      "label": "OVF",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic RDY",
+        "direction": "output",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.RDY",
+      "label": "RDY",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [1:0] SHIFT",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.SHIFT",
+      "label": "SHIFT",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire START",
+        "direction": "input",
+        "module": "CNORM"
+      },
+      "evidence_refs": [
+        "sha256:e25106b8bb1efc0befe1b1b8e546b06f91f804f6d329d7d3e96cc43dc177b8ed"
+      ],
+      "id": "port:CNORM.START",
+      "label": "START",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of input data input wire [nb-1:0] DII",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.DII",
+      "label": "DII",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DIR",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.DIR",
+      "label": "DIR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of output data output wire [nb+2:0] DOI",
+        "direction": "output",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Imaginary part of input data output wire [nb+2:0] DOR",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Imaginary part of output data output logic RDY",
+        "direction": "output",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.RDY",
+      "label": "RDY",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire RST",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.RST",
+      "label": "RST",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire START",
+        "direction": "input",
+        "module": "FFT8"
+      },
+      "evidence_refs": [
+        "sha256:526f407845608b6fe3e875048c7a17b92f30c777960db57297df847f0c8b9218"
+      ],
+      "id": "port:FFT8.START",
+      "label": "START",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "port:MPU707.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire signed [nb+1:0] DI",
+        "direction": "input",
+        "module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "port:MPU707.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic signed [nb+1:0] DO",
+        "direction": "output",
+        "module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "port:MPU707.DO",
+      "label": "DO",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire EI",
+        "direction": "input",
+        "module": "MPU707"
+      },
+      "evidence_refs": [
+        "sha256:b708055d99f06e9308a62a145115386d223e8ef0c1708d102d43aaf0293ae948"
+      ],
+      "id": "port:MPU707.EI",
+      "label": "EI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [5:0] ADDRR",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.ADDRR",
+      "label": "ADDRR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// RAM part switching input wire [5:0] ADDRW",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.ADDRW",
+      "label": "ADDRW",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DI",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb-1:0] DOI",
+        "direction": "output",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nb-1:0] DOR",
+        "direction": "output",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DR",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.DR",
+      "label": "DR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "//write enable input wire ODD",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.ODD",
+      "label": "ODD",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire WE",
+        "direction": "input",
+        "module": "RAM2x64C_1"
+      },
+      "evidence_refs": [
+        "sha256:f885d1ad89354d5de48d4fcd8304cac8db01bcf81de33f9c0e42b10305fe2c64"
+      ],
+      "id": "port:RAM2x64C_1.WE",
+      "label": "WE",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [5:0] ADDR",
+        "direction": "input",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.ADDR",
+      "label": "ADDR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [nb-1:0] DI",
+        "direction": "input",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [nb-1:0] DO",
+        "direction": "output",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.DO",
+      "label": "DO",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire WE",
+        "direction": "input",
+        "module": "RAM64"
+      },
+      "evidence_refs": [
+        "sha256:56c9167f6dd52990896c337d31ec3374274aabcc4df5ec6818f6c91096ad5f8b"
+      ],
+      "id": "port:RAM64.WE",
+      "label": "WE",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of data input wire [nb+1:0] DI",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of data output wire [nb+1:0] DOI",
+        "direction": "output",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Imaginary part of data output wire [nb+1:0] DOR",
+        "direction": "output",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// 1-st Data is entered after this impulse input wire [nb+1:0] DR",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.DR",
+      "label": "DR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire ED",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Imaginary part of data output logic RDY",
+        "direction": "output",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.RDY",
+      "label": "RDY",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire RST",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.RST",
+      "label": "RST",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// operation enable input wire START",
+        "direction": "input",
+        "module": "ROTATOR64"
+      },
+      "evidence_refs": [
+        "sha256:72dc6893353fa612a2795fce3e6455b9267f33fa4d6927c2e86ff2198800e1c5"
+      ],
+      "id": "port:ROTATOR64.START",
+      "label": "START",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// overflow occurred in the 2-nd stage output wire [5:0] ADDR",
+        "direction": "output",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.ADDR",
+      "label": "ADDR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire CLK",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.CLK",
+      "label": "CLK",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of the input data input wire [nb-1:0] DI",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.DI",
+      "label": "DI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Real part of the output data output wire [nb+2:0] DOI",
+        "direction": "output",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.DOI",
+      "label": "DOI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// result data address/number output wire [nb+2:0] DOR",
+        "direction": "output",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.DOR",
+      "label": "DOR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// bits 1,0 -shift code 1-st stage; bits 3,2 - 2-nd stage input wire [nb-1:0] DR",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.DR",
+      "label": "DR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// synchronous reset input wire ED",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.ED",
+      "label": "ED",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// next cycle after RDY=1 the 0-th result is present output wire OVF1",
+        "direction": "output",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.OVF1",
+      "label": "OVF1",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// overflow occurred in the 1-st stage output wire OVF2",
+        "direction": "output",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.OVF2",
+      "label": "OVF2",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// Imaginary part of the input data output wire RDY",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.RDY",
+      "label": "RDY",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire RST",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.RST",
+      "label": "RST",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// its falling edge starts the transform input wire [3:0] SHIFT",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.SHIFT",
+      "label": "SHIFT",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// =1 enables the operation (enabling CLK) input wire START",
+        "direction": "input",
+        "module": "USFFT64_2B"
+      },
+      "evidence_refs": [
+        "sha256:eedc6110e7c6ad8147031bfbb921b6658cd350f58fc637a380c075be126b0eb3"
+      ],
+      "id": "port:USFFT64_2B.START",
+      "label": "START",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input wire [5:0] ADDR",
+        "direction": "input",
+        "module": "WROM64"
+      },
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "port:WROM64.ADDR",
+      "label": "ADDR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nw-1:0] WI",
+        "direction": "output",
+        "module": "WROM64"
+      },
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "port:WROM64.WI",
+      "label": "WI",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output wire [nw-1:0] WR",
+        "direction": "output",
+        "module": "WROM64"
+      },
+      "evidence_refs": [
+        "sha256:1abd24f421caae6fddbd10b25fc9270d7db92dbd842fcd1c62a0a7a8d2eb775a"
+      ],
+      "id": "port:WROM64.WR",
+      "label": "WR",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "include/timescale.svh",
+          "rtl/WROM64.sv",
+          "rtl/bufram64c1.sv",
+          "rtl/cnorm.sv",
+          "rtl/fft8.sv",
+          "rtl/mpu707.sv",
+          "rtl/ram2x64c_1.sv",
+          "rtl/ram64.sv",
+          "rtl/rotator64.sv",
+          "rtl/usfft64_2b.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "RAM64",
+          "USFFT64_2B"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:pipelined_fft_64",
+      "label": "pipelined_fft_64",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "BUFRAM64C1",
+          "FFT8",
+          "ROTATOR64",
+          "USFFT64_2B"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:RST",
+      "label": "RST",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:0bd86faa2703a2d8",
+      "label": "0bd86faa2703a2d8",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:99776b3b3062b4debc2b9e3f9e730dadad263ca8879e463988e02aef5444211a"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:cross_module_repair:0000",
+      "label": "ipgraph:pipelined_fft_64:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:ca73bdf836515253a607caf71d9362950ed2afbc99d8856cf94d20733739fc75"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:cross_module_repair:0001",
+      "label": "ipgraph:pipelined_fft_64:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:0d4c919165ea41a91bd00a027bca7c0720d2f6d3c86a11f6175663d76b4093d0"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:cross_module_repair:0002",
+      "label": "ipgraph:pipelined_fft_64:cross_module_repair:0002",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:cda4dc07e26c8320627f08cb2ea2dae40a1b8926d8406f4021f445b9375a55db"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:fault_localization_repair:0000",
+      "label": "ipgraph:pipelined_fft_64:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:9de2e6721e6ad6fd436e9e142784be471bb3eb5858ced14f5e12fc2e10550502"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:fault_localization_repair:0001",
+      "label": "ipgraph:pipelined_fft_64:fault_localization_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:047f894e6be37245d8fc985620d912aa335e642523501e9e8b9354f84c255b42"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:functional_timing_understanding:0000",
+      "label": "ipgraph:pipelined_fft_64:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:6cb376188b90a209a3b26cc1ef6926d123c6ea725b261d111a1852a7769a4635"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:hierarchical_integration:0000",
+      "label": "ipgraph:pipelined_fft_64:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:064d8b3350f36a8c804e8570a27a36d39b0b34fe807ecb28b5ce0da813460cd5"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:hierarchical_integration:0001",
+      "label": "ipgraph:pipelined_fft_64:hierarchical_integration:0001",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:20f01db48cc4d3a6fcfec7ceabc995ba67825e94c903b327a3f0b22042634587"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:pipelined_fft_64:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:e0d6023aacb95d0f4755538bf6c9aad940a94eab771da67a79023f967c3eb3a8"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:pipelined_fft_64:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:01b03d35303e00f58d4bca9b1e59614868a2a061efd8e81632a359a2cf2a3d67"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:interface_modification:0000",
+      "label": "ipgraph:pipelined_fft_64:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:dfbf02362b276a342ccdbbde32ce6afd0653c94bcd0c480404ffb464e6f587d3"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:interface_modification:0001",
+      "label": "ipgraph:pipelined_fft_64:interface_modification:0001",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:18d9f9ea828a683e5d9d0b3cc24a7adf092e3deee5fbdf14c5c07b77622603e9"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:reuse_integration:0000",
+      "label": "ipgraph:pipelined_fft_64:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:4645ee8ab04deccf39788ef05eae33393c7c5faf1ddcf39106752c100c3c5229"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:tool_result_analysis:0000",
+      "label": "ipgraph:pipelined_fft_64:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:7da715ba6ca992ada86e1db59a27b6f78d5f0112cde4a078771119117d05b1d9"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:verification_generation:0000",
+      "label": "ipgraph:pipelined_fft_64:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:653db88a5aeaa5e77b668921b3b2e64a52552067fea7ab2f4e7a3d1ce5f89f3e"
+      ],
+      "id": "task:ipgraph:pipelined_fft_64:verification_generation:0001",
+      "label": "ipgraph:pipelined_fft_64:verification_generation:0001",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:f0e5e3e6f5e407c32f149f3b2d0857e2dfd46b61ff7c2541d0e041122d73665d"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:f0e5e3e6f5e407c32f149f3b2d0857e2dfd46b61ff7c2541d0e041122d73665d"
+      ],
+      "id": "testbench:tb/tb_usfft64_2b.sv",
+      "label": "tb_usfft64_2b.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073",
+        "sha256:7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa",
+        "sha256:8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073",
+        "sha256:7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa",
+        "sha256:8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "verification_obligation:000",
+      "label": "full output frame",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "verification_obligation:001",
+      "label": "bit-exact golden match vs original Verilog",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "verification_obligation:002",
+      "label": "spectral peak at stimulus bin",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:0bd86faa2703a2d86f3ff8b499fe6a42e39da6da23a67b2549f34894777f9266"
+      ],
+      "id": "verification_obligation:003",
+      "label": "no overflow",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "pipelined_fft_64",
+  "project_revision": "0bd86faa2703a2d8",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pipelined_fft_64. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pipelined_fft_64. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in pipelined_fft_64. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:cross_module_repair:0002"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Given a future failing regression for pipelined_fft_64, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Given a future failing regression for pipelined_fft_64, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:fault_localization_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of pipelined_fft_64. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Create a DesignGraph integration plan for pipelined_fft_64 that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Create a DesignGraph integration plan for pipelined_fft_64 that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:hierarchical_integration:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Generate or complete synthesizable SystemVerilog for pipelined_fft_64 from its released design contracts. Preserve the hierarchy and interfaces of BUFRAM64C1, CNORM, FFT8, MPU707, RAM2x64C_1, RAM64, ROTATOR64, USFFT64_2B, WROM64, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of pipelined_fft_64, including the roles of BUFRAM64C1, CNORM, FFT8, MPU707, RAM2x64C_1, RAM64, ROTATOR64, USFFT64_2B, WROM64. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Plan a cross-module interface modification for pipelined_fft_64. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Plan a cross-module interface modification for pipelined_fft_64. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:interface_modification:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Design a minimal wrapper plan to reuse pipelined_fft_64 in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for pipelined_fft_64. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pipelined_fft_64. It must exercise the obligation: full output frame and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:verification_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:pipelined_fft_64",
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "pipelined_fft_64",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for pipelined_fft_64. It must exercise the obligation: full output frame and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "0bd86faa2703a2d8",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:BUFRAM64C1",
+        "module:CNORM",
+        "module:FFT8",
+        "module:MPU707",
+        "module:RAM2x64C_1",
+        "module:RAM64",
+        "module:ROTATOR64",
+        "module:USFFT64_2B",
+        "module:WROM64"
+      ],
+      "task_id": "ipgraph:pipelined_fft_64:verification_generation:0001"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:32c90e70e8cad65ba35be6c4b154b81b5365b66059ed38b91171a6bf6f2f3073",
+      "sha256:7dcdb01be2f108c445bf4dd18d9fa92ae150f4d29fdbe86cdbc3969d5e0ba6aa",
+      "sha256:8c1c3cff06191262669531250b43e9fe43e6ca121b2161bb6c98b7b2aa908fef"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

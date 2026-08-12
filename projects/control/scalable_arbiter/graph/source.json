@@ -1,0 +1,28 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [
+    "DiagCode(CouldNotOpenIncludeFile)",
+    "DiagCode(CouldNotOpenIncludeFile)"
+  ],
+  "project_id": "scalable_arbiter",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 1,
+    "diagnostic_count": 5,
+    "error_codes": {
+      "DiagCode(ValueMustBePositive)": 4
+    },
+    "error_count": 4,
+    "status": "partial_with_diagnostics",
+    "top_instances": [
+      "arbiter_x2"
+    ]
+  },
+  "source_files": [
+    "include/functions.svh",
+    "rtl/blocks/arbiter.sv"
+  ]
+}

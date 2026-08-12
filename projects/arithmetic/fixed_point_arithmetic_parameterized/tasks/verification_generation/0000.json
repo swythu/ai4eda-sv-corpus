@@ -1,0 +1,52 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "medium",
+  "family": "verification_generation",
+  "input_nodes": [
+    "project:fixed_point_arithmetic_parameterized",
+    "module:qadd",
+    "module:qdiv",
+    "module:qmult"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "fixed_point_arithmetic_parameterized",
+  "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for fixed_point_arithmetic_parameterized. It must exercise the obligation: same-sign and mixed-sign sign-magnitude addition and define explicit failure checks.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "68aa4e09982aea62",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:qadd",
+    "module:qdiv",
+    "module:qmult"
+  ],
+  "task_id": "ipgraph:fixed_point_arithmetic_parameterized:verification_generation:0000"
+}

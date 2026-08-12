@@ -1,0 +1,1 @@
+{"project":"pipelined_mac","category":"arithmetic","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["signed arithmetic","pipeline latency","clock enable stalls","accumulator clear"],"expert_review":"pending","trainable":false}

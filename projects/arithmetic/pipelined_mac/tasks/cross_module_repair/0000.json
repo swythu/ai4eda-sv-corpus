@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "hard",
+  "family": "cross_module_repair",
+  "input_nodes": [
+    "project:pipelined_mac",
+    "module:pipelined_mac"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "pipelined_mac",
+  "prompt": "Localize and repair a hypothetical cross-module protocol failure in pipelined_mac. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "dc7ba3fc4d9afa0a",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:pipelined_mac"
+  ],
+  "task_id": "ipgraph:pipelined_mac:cross_module_repair:0000"
+}

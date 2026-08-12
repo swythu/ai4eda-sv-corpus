@@ -1,0 +1,1171 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:16d46c3c5fc1dc7921c37d5541bbb199711b045ab3076560cea0c19099258ab1",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "16d46c3c5fc1dc7921c37d5541bbb199711b045ab3076560cea0c19099258ab1"
+    },
+    {
+      "artifact_id": "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+    },
+    {
+      "artifact_id": "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/register_file.sv",
+      "release_status": "source_released",
+      "sha256": "7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+    },
+    {
+      "artifact_id": "sha256:ae128acb9769e794b22c5f16450e6bb594375db3ec639265b3010a81d13d7c0e",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "ae128acb9769e794b22c5f16450e6bb594375db3ec639265b3010a81d13d7c0e"
+    },
+    {
+      "artifact_id": "sha256:0fb52342ff6d27e1f8ae19c9843624e400b6667359647b4bfbc8317812590a7f",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "0fb52342ff6d27e1f8ae19c9843624e400b6667359647b4bfbc8317812590a7f"
+    },
+    {
+      "artifact_id": "sha256:2f046e82e887c5b7d6649dc9f63511faa7a15a5af778998c66cd2f515d0a2d90",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "2f046e82e887c5b7d6649dc9f63511faa7a15a5af778998c66cd2f515d0a2d90"
+    },
+    {
+      "artifact_id": "sha256:179c31cfe9b9201ce78dffa2924412340b5a655ef825a2fce0ea6e92ceda81c2",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "179c31cfe9b9201ce78dffa2924412340b5a655ef825a2fce0ea6e92ceda81c2"
+    },
+    {
+      "artifact_id": "sha256:5ddba600e2ad7125e32f45b41311e29ad0608b4f54e2992aacd2963a195ae765",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "5ddba600e2ad7125e32f45b41311e29ad0608b4f54e2992aacd2963a195ae765"
+    },
+    {
+      "artifact_id": "sha256:f013aad26ed1ae8fc409a33ca51855184db52ec039858334e9ad2a24a258474a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "f013aad26ed1ae8fc409a33ca51855184db52ec039858334e9ad2a24a258474a"
+    },
+    {
+      "artifact_id": "sha256:af76d8ce8cf320c0411e69b9637472e655c6b522cfb3bd86aa5d525f786841f7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "af76d8ce8cf320c0411e69b9637472e655c6b522cfb3bd86aa5d525f786841f7"
+    },
+    {
+      "artifact_id": "sha256:8d1dd24c5cfd6456df2047134b4402440c0340a3771a559ab187edf7d0d1941b",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "8d1dd24c5cfd6456df2047134b4402440c0340a3771a559ab187edf7d0d1941b"
+    },
+    {
+      "artifact_id": "sha256:ac3b5277e204432e7783bc94dca807d24f333fc04350576e21b336ba2ea4d6ef",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_register_file.sv",
+      "release_status": "source_released",
+      "sha256": "ac3b5277e204432e7783bc94dca807d24f333fc04350576e21b336ba2ea4d6ef"
+    },
+    {
+      "artifact_id": "sha256:ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:project-contains-register_file",
+      "source": "project:register_file",
+      "target": "module:register_file",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:16d46c3c5fc1dc7921c37d5541bbb199711b045ab3076560cea0c19099258ab1"
+      ],
+      "id": "edge:project-license",
+      "source": "project:register_file",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:register_file",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:register_file",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:register_file",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:register_file",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:register_file",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "edge:project-source",
+      "source": "project:register_file",
+      "target": "source_revision:59077338384daa14",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0fb52342ff6d27e1f8ae19c9843624e400b6667359647b4bfbc8317812590a7f"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-fault_localization_repair-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:2f046e82e887c5b7d6649dc9f63511faa7a15a5af778998c66cd2f515d0a2d90"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-functional_timing_understanding-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:179c31cfe9b9201ce78dffa2924412340b5a655ef825a2fce0ea6e92ceda81c2"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-hierarchical_rtl_generation-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:5ddba600e2ad7125e32f45b41311e29ad0608b4f54e2992aacd2963a195ae765"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-hierarchy_dependency_analysis-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f013aad26ed1ae8fc409a33ca51855184db52ec039858334e9ad2a24a258474a"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-reuse_integration-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:af76d8ce8cf320c0411e69b9637472e655c6b522cfb3bd86aa5d525f786841f7"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-tool_result_analysis-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8d1dd24c5cfd6456df2047134b4402440c0340a3771a559ab187edf7d0d1941b"
+      ],
+      "id": "edge:project-task-ipgraph-register_file-verification_generation-0000",
+      "source": "project:register_file",
+      "target": "task:ipgraph:register_file:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ac3b5277e204432e7783bc94dca807d24f333fc04350576e21b336ba2ea4d6ef"
+      ],
+      "id": "edge:project-testbench-20",
+      "source": "project:register_file",
+      "target": "testbench:tb/tb_register_file.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-clock-clk_i",
+      "source": "module:register_file",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-parameter-AddrWidth",
+      "source": "module:register_file",
+      "target": "parameter:register_file.AddrWidth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-parameter-Depth",
+      "source": "module:register_file",
+      "target": "parameter:register_file.Depth",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-parameter-Width",
+      "source": "module:register_file",
+      "target": "parameter:register_file.Width",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-parameter-ZeroRegister",
+      "source": "module:register_file",
+      "target": "parameter:register_file.ZeroRegister",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-clk_i",
+      "source": "module:register_file",
+      "target": "port:register_file.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-raddr_a_i",
+      "source": "module:register_file",
+      "target": "port:register_file.raddr_a_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-raddr_b_i",
+      "source": "module:register_file",
+      "target": "port:register_file.raddr_b_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-rdata_a_o",
+      "source": "module:register_file",
+      "target": "port:register_file.rdata_a_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-rdata_b_o",
+      "source": "module:register_file",
+      "target": "port:register_file.rdata_b_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-waddr_i",
+      "source": "module:register_file",
+      "target": "port:register_file.waddr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-wdata_i",
+      "source": "module:register_file",
+      "target": "port:register_file.wdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "edge:register_file-port-we_i",
+      "source": "module:register_file",
+      "target": "port:register_file.we_i",
+      "type": "contains"
+    }
+  ],
+  "graph_id": "ip-etg:register_file:59077338384daa14",
+  "graph_sha256": "b49783307710c3bd1f95f1c73ebaf4eecd3d83c50c46afb2f99a886535cd6987",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "register_file"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "attributes": {
+        "path": "rtl/register_file.sv"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "module:register_file",
+      "label": "register_file",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "parameter:register_file.AddrWidth",
+      "label": "AddrWidth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "parameter:register_file.Depth",
+      "label": "Depth",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "parameter:register_file.Width",
+      "label": "Width",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "parameter:register_file.ZeroRegister",
+      "label": "ZeroRegister",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[AddrWidth-1:0] raddr_a_i",
+        "direction": "input",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.raddr_a_i",
+      "label": "raddr_a_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "raddr_b_i",
+        "direction": "inout",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.raddr_b_i",
+      "label": "raddr_b_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic[Width-1:0] rdata_a_o",
+        "direction": "output",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.rdata_a_o",
+      "label": "rdata_a_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "rdata_b_o",
+        "direction": "inout",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.rdata_b_o",
+      "label": "rdata_b_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[AddrWidth-1:0] waddr_i",
+        "direction": "input",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.waddr_i",
+      "label": "waddr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic[Width-1:0] wdata_i",
+        "direction": "input",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.wdata_i",
+      "label": "wdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "we_i",
+        "direction": "inout",
+        "module": "register_file"
+      },
+      "evidence_refs": [
+        "sha256:7fa92955492583a88bb49c6c062a2d9581fd9b10af70d200faf9610910b31e9f"
+      ],
+      "id": "port:register_file.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "memory",
+        "compile_order": [
+          "rtl/register_file.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "register_file"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:register_file",
+      "label": "register_file",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:59077338384daa14",
+      "label": "59077338384daa14",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:0fb52342ff6d27e1f8ae19c9843624e400b6667359647b4bfbc8317812590a7f"
+      ],
+      "id": "task:ipgraph:register_file:fault_localization_repair:0000",
+      "label": "ipgraph:register_file:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:2f046e82e887c5b7d6649dc9f63511faa7a15a5af778998c66cd2f515d0a2d90"
+      ],
+      "id": "task:ipgraph:register_file:functional_timing_understanding:0000",
+      "label": "ipgraph:register_file:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:179c31cfe9b9201ce78dffa2924412340b5a655ef825a2fce0ea6e92ceda81c2"
+      ],
+      "id": "task:ipgraph:register_file:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:register_file:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:5ddba600e2ad7125e32f45b41311e29ad0608b4f54e2992aacd2963a195ae765"
+      ],
+      "id": "task:ipgraph:register_file:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:register_file:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:f013aad26ed1ae8fc409a33ca51855184db52ec039858334e9ad2a24a258474a"
+      ],
+      "id": "task:ipgraph:register_file:reuse_integration:0000",
+      "label": "ipgraph:register_file:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:af76d8ce8cf320c0411e69b9637472e655c6b522cfb3bd86aa5d525f786841f7"
+      ],
+      "id": "task:ipgraph:register_file:tool_result_analysis:0000",
+      "label": "ipgraph:register_file:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:8d1dd24c5cfd6456df2047134b4402440c0340a3771a559ab187edf7d0d1941b"
+      ],
+      "id": "task:ipgraph:register_file:verification_generation:0000",
+      "label": "ipgraph:register_file:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ac3b5277e204432e7783bc94dca807d24f333fc04350576e21b336ba2ea4d6ef"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:ac3b5277e204432e7783bc94dca807d24f333fc04350576e21b336ba2ea4d6ef"
+      ],
+      "id": "testbench:tb/tb_register_file.sv",
+      "label": "tb_register_file.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "verification_obligation:000",
+      "label": "two independent combinational reads",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "verification_obligation:001",
+      "label": "synchronous write",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "verification_obligation:002",
+      "label": "same-cycle bypass",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:59077338384daa14fdc50676fb73527c6d311c5b5b5d33ff1b9aebcd38e60de4"
+      ],
+      "id": "verification_obligation:003",
+      "label": "hardwired zero register",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "register_file",
+  "project_revision": "59077338384daa14",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Given a future failing regression for register_file, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of register_file. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Generate or complete synthesizable SystemVerilog for register_file from its released design contracts. Preserve the hierarchy and interfaces of register_file, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of register_file, including the roles of register_file. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Design a minimal wrapper plan to reuse register_file in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for register_file. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:register_file",
+        "module:register_file"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "register_file",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for register_file. It must exercise the obligation: two independent combinational reads and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "59077338384daa14",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:register_file"
+      ],
+      "task_id": "ipgraph:register_file:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:ab0c1d027da93e2c54b4fb63d8652bab9bdf183632bffdb6742610b4422e85ad"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

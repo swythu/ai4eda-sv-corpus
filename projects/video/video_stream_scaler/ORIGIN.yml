@@ -1,0 +1,8 @@
+name: "video_stream_scaler"
+category: "video"
+upstream_project: "https://opencores.org/projects/video_stream_scaler"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/video_and_media/video_stream_scaler"
+license_expression: "LGPL-2.1-or-later"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

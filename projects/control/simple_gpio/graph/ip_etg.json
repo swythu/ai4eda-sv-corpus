@@ -1,0 +1,1149 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:bcae15550d0678aa63e35c040b3d923c6f93eb69d39ff619a64e43591abec81d",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "bcae15550d0678aa63e35c040b3d923c6f93eb69d39ff619a64e43591abec81d"
+    },
+    {
+      "artifact_id": "sha256:cb8e6aca13a4cfbf8d0b920efd8a2b71328359227db21dc0d5f3d883f94856c9",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "include/timescale.svh",
+      "release_status": "metadata_only",
+      "sha256": "cb8e6aca13a4cfbf8d0b920efd8a2b71328359227db21dc0d5f3d883f94856c9"
+    },
+    {
+      "artifact_id": "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+    },
+    {
+      "artifact_id": "sha256:493778f22c61f2d9167f9aa0a5e2787508c48c444062178d334f6533ab42d055",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "493778f22c61f2d9167f9aa0a5e2787508c48c444062178d334f6533ab42d055"
+    },
+    {
+      "artifact_id": "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/top/simple_gpio.sv",
+      "release_status": "metadata_only",
+      "sha256": "bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+    },
+    {
+      "artifact_id": "sha256:f01ab02c477778bbe8a6fd6a62f551da40abc223b27cd1bf66ef28374017f03a",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "f01ab02c477778bbe8a6fd6a62f551da40abc223b27cd1bf66ef28374017f03a"
+    },
+    {
+      "artifact_id": "sha256:d5e1c00da2737670aeac7ac27e21c7ce81e0d6f0cbf349588f0332895b9f465e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "d5e1c00da2737670aeac7ac27e21c7ce81e0d6f0cbf349588f0332895b9f465e"
+    },
+    {
+      "artifact_id": "sha256:86a1caff80b2c5841255ae418d3e145a9132daaed60ebdc6aa1e928c9019a16e",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "86a1caff80b2c5841255ae418d3e145a9132daaed60ebdc6aa1e928c9019a16e"
+    },
+    {
+      "artifact_id": "sha256:70b1733d7f6d58a2d7a8a1c9097e282f7ebd1ed97a65a19086f051c6a697b4aa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "70b1733d7f6d58a2d7a8a1c9097e282f7ebd1ed97a65a19086f051c6a697b4aa"
+    },
+    {
+      "artifact_id": "sha256:284ffe79c86fd849c24bd24da9672daefe241590f697dfe68ca6cbbe32bf81fa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "284ffe79c86fd849c24bd24da9672daefe241590f697dfe68ca6cbbe32bf81fa"
+    },
+    {
+      "artifact_id": "sha256:1a9b79bf65d6ee122c38190390cbb253eb3c847f9f992cc39259209dbb4cf170",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "1a9b79bf65d6ee122c38190390cbb253eb3c847f9f992cc39259209dbb4cf170"
+    },
+    {
+      "artifact_id": "sha256:9e442141caa209df87fb81fe1c6c4e985e4120757ac8aa1a78a7cf6d2b7db012",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "9e442141caa209df87fb81fe1c6c4e985e4120757ac8aa1a78a7cf6d2b7db012"
+    },
+    {
+      "artifact_id": "sha256:71101cdf832f18fca2f5a63d1391eaa1f6d9137cb5c3fd045e4022f0504e8732",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "71101cdf832f18fca2f5a63d1391eaa1f6d9137cb5c3fd045e4022f0504e8732"
+    },
+    {
+      "artifact_id": "sha256:b8a9993221485cd2f9bd9b96ada9a9ac3a8ab505e5ed6bf48a2a735440de3ccd",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_simple_gpio.sv",
+      "release_status": "metadata_only",
+      "sha256": "b8a9993221485cd2f9bd9b96ada9a9ac3a8ab505e5ed6bf48a2a735440de3ccd"
+    },
+    {
+      "artifact_id": "sha256:fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa",
+      "license_expression": "LicenseRef-OpenCores-Permissive",
+      "media_type": "application/json",
+      "path": "validation/baseline_result.json",
+      "release_status": "metadata_only",
+      "sha256": "fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:project-contains-simple_gpio",
+      "source": "project:simple_gpio",
+      "target": "module:simple_gpio",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bcae15550d0678aa63e35c040b3d923c6f93eb69d39ff619a64e43591abec81d"
+      ],
+      "id": "edge:project-license",
+      "source": "project:simple_gpio",
+      "target": "license:LicenseRef-OpenCores-Permissive",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:simple_gpio",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:simple_gpio",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:simple_gpio",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:simple_gpio",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "edge:project-source",
+      "source": "project:simple_gpio",
+      "target": "source_revision:1eb1841635f9d67b",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d5e1c00da2737670aeac7ac27e21c7ce81e0d6f0cbf349588f0332895b9f465e"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-fault_localization_repair-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:86a1caff80b2c5841255ae418d3e145a9132daaed60ebdc6aa1e928c9019a16e"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-functional_timing_understanding-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:70b1733d7f6d58a2d7a8a1c9097e282f7ebd1ed97a65a19086f051c6a697b4aa"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-hierarchical_rtl_generation-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:284ffe79c86fd849c24bd24da9672daefe241590f697dfe68ca6cbbe32bf81fa"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-hierarchy_dependency_analysis-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1a9b79bf65d6ee122c38190390cbb253eb3c847f9f992cc39259209dbb4cf170"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-reuse_integration-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9e442141caa209df87fb81fe1c6c4e985e4120757ac8aa1a78a7cf6d2b7db012"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-tool_result_analysis-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:71101cdf832f18fca2f5a63d1391eaa1f6d9137cb5c3fd045e4022f0504e8732"
+      ],
+      "id": "edge:project-task-ipgraph-simple_gpio-verification_generation-0000",
+      "source": "project:simple_gpio",
+      "target": "task:ipgraph:simple_gpio:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:b8a9993221485cd2f9bd9b96ada9a9ac3a8ab505e5ed6bf48a2a735440de3ccd"
+      ],
+      "id": "edge:project-testbench-18",
+      "source": "project:simple_gpio",
+      "target": "testbench:tb/tb_simple_gpio.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-clock-clk_i",
+      "source": "module:simple_gpio",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-ack_o",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-adr_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-clk_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-cyc_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-dat_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-dat_o",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-gpio",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.gpio",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-rst_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.rst_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-stb_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-port-we_i",
+      "source": "module:simple_gpio",
+      "target": "port:simple_gpio.we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "edge:simple_gpio-reset-rst_i",
+      "source": "module:simple_gpio",
+      "target": "reset_domain:rst_i",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:simple_gpio:1eb1841635f9d67b",
+  "graph_sha256": "c1f3fe2c4d971f42eaf74322eaa95d1588f6ba851cd0ce6493b9f42a7dad47fb",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "simple_gpio"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-OpenCores-Permissive",
+      "label": "LicenseRef-OpenCores-Permissive",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "attributes": {
+        "path": "rtl/top/simple_gpio.sv"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "module:simple_gpio",
+      "label": "simple_gpio",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data input output ack_o;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.ack_o",
+      "label": "ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// strobe input adr_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.adr_i",
+      "label": "adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// number of GPIOs // 8bit WISHBONE bus slave interface input clk_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// reset (asynchronous active low) input cyc_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.cyc_i",
+      "label": "cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// write enable input [ 7:0] dat_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.dat_i",
+      "label": "dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// data output output [ 7:0] dat_o;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.dat_o",
+      "label": "dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// normal bus termination // GPIO pins inout [io:1] gpio;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.gpio",
+      "label": "gpio",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// clock input rst_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.rst_i",
+      "label": "rst_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// cycle input stb_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.stb_i",
+      "label": "stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "// address adr_i[1] input we_i;",
+        "direction": "none",
+        "module": "simple_gpio"
+      },
+      "evidence_refs": [
+        "sha256:bf2c6278d28389e7a3a64fab1d12298934c2b23895d6d92daa10a4ace6a5223c"
+      ],
+      "id": "port:simple_gpio.we_i",
+      "label": "we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "control",
+        "compile_order": [
+          "include/timescale.svh",
+          "rtl/top/simple_gpio.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "simple_gpio"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:simple_gpio",
+      "label": "simple_gpio",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "simple_gpio"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_i",
+      "label": "rst_i",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:1eb1841635f9d67b",
+      "label": "1eb1841635f9d67b",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:d5e1c00da2737670aeac7ac27e21c7ce81e0d6f0cbf349588f0332895b9f465e"
+      ],
+      "id": "task:ipgraph:simple_gpio:fault_localization_repair:0000",
+      "label": "ipgraph:simple_gpio:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:86a1caff80b2c5841255ae418d3e145a9132daaed60ebdc6aa1e928c9019a16e"
+      ],
+      "id": "task:ipgraph:simple_gpio:functional_timing_understanding:0000",
+      "label": "ipgraph:simple_gpio:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:70b1733d7f6d58a2d7a8a1c9097e282f7ebd1ed97a65a19086f051c6a697b4aa"
+      ],
+      "id": "task:ipgraph:simple_gpio:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:simple_gpio:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:284ffe79c86fd849c24bd24da9672daefe241590f697dfe68ca6cbbe32bf81fa"
+      ],
+      "id": "task:ipgraph:simple_gpio:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:simple_gpio:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:1a9b79bf65d6ee122c38190390cbb253eb3c847f9f992cc39259209dbb4cf170"
+      ],
+      "id": "task:ipgraph:simple_gpio:reuse_integration:0000",
+      "label": "ipgraph:simple_gpio:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:9e442141caa209df87fb81fe1c6c4e985e4120757ac8aa1a78a7cf6d2b7db012"
+      ],
+      "id": "task:ipgraph:simple_gpio:tool_result_analysis:0000",
+      "label": "ipgraph:simple_gpio:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:71101cdf832f18fca2f5a63d1391eaa1f6d9137cb5c3fd045e4022f0504e8732"
+      ],
+      "id": "task:ipgraph:simple_gpio:verification_generation:0000",
+      "label": "ipgraph:simple_gpio:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:b8a9993221485cd2f9bd9b96ada9a9ac3a8ab505e5ed6bf48a2a735440de3ccd"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:b8a9993221485cd2f9bd9b96ada9a9ac3a8ab505e5ed6bf48a2a735440de3ccd"
+      ],
+      "id": "testbench:tb/tb_simple_gpio.sv",
+      "label": "tb_simple_gpio.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "verification_obligation:000",
+      "label": "Wishbone register access",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "verification_obligation:001",
+      "label": "bidirectional GPIO",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1eb1841635f9d67bdb28ea81c4779c978769597b3134c7eb685c264c71d25915"
+      ],
+      "id": "verification_obligation:002",
+      "label": "input synchronizer",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "simple_gpio",
+  "project_revision": "1eb1841635f9d67b",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Given a future failing regression for simple_gpio, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of simple_gpio. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Generate or complete synthesizable SystemVerilog for simple_gpio from its released design contracts. Preserve the hierarchy and interfaces of simple_gpio, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of simple_gpio, including the roles of simple_gpio. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Design a minimal wrapper plan to reuse simple_gpio in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for simple_gpio. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:simple_gpio",
+        "module:simple_gpio"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "simple_gpio",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for simple_gpio. It must exercise the obligation: Wishbone register access and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1eb1841635f9d67b",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:simple_gpio"
+      ],
+      "task_id": "ipgraph:simple_gpio:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:fbef13217ea4670288176ff3ec2f5a2ea838a431554876b1985b70c834126baa"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

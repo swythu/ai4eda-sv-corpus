@@ -1,0 +1,22 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "fir_filter",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 1,
+    "diagnostic_count": 0,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "fir_filter"
+    ]
+  },
+  "source_files": [
+    "rtl/fir_filter.sv"
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:43e808c3d9dd12e5d35d979cf27f28b769a3f8f267560b4fb228cb61511f3f63",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "source_released",
+      "sha256": "43e808c3d9dd12e5d35d979cf27f28b769a3f8f267560b4fb228cb61511f3f63"
+    },
+    {
+      "artifact_id": "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "source_released",
+      "sha256": "1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+    },
+    {
+      "artifact_id": "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/wishbone_apb_bridge.sv",
+      "release_status": "source_released",
+      "sha256": "aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+    },
+    {
+      "artifact_id": "sha256:445c4489b9708a38389c2efcd779e3997e0ebc25f984fe98fb108151edcdafc9",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "source_released",
+      "sha256": "445c4489b9708a38389c2efcd779e3997e0ebc25f984fe98fb108151edcdafc9"
+    },
+    {
+      "artifact_id": "sha256:9b653ddcad5f8345d38c6d836cad44dd3ccc65616b555119a1562d76b11a2336",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "source_released",
+      "sha256": "9b653ddcad5f8345d38c6d836cad44dd3ccc65616b555119a1562d76b11a2336"
+    },
+    {
+      "artifact_id": "sha256:6d424bd8d98814a511af0dfaa2f52a3a8c80889a42be3b974a3d7e4b326d4876",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "source_released",
+      "sha256": "6d424bd8d98814a511af0dfaa2f52a3a8c80889a42be3b974a3d7e4b326d4876"
+    },
+    {
+      "artifact_id": "sha256:d249464d621057663957c137da9a3ba9b0e5e3ebff780541bd06630ce01af13a",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "d249464d621057663957c137da9a3ba9b0e5e3ebff780541bd06630ce01af13a"
+    },
+    {
+      "artifact_id": "sha256:0555351b2d92d8263a563659757152bbb595f68e5d03c6987be5538445f872c8",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "0555351b2d92d8263a563659757152bbb595f68e5d03c6987be5538445f872c8"
+    },
+    {
+      "artifact_id": "sha256:40335151806589c5ad16ca1e2ae5d01ab66f9b2d681e53c76575c986e98a5ff7",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "source_released",
+      "sha256": "40335151806589c5ad16ca1e2ae5d01ab66f9b2d681e53c76575c986e98a5ff7"
+    },
+    {
+      "artifact_id": "sha256:881b8d606a3d72fb006da9ff1370df1bea967cf5195d9ebcb9b5921f783b4702",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "source_released",
+      "sha256": "881b8d606a3d72fb006da9ff1370df1bea967cf5195d9ebcb9b5921f783b4702"
+    },
+    {
+      "artifact_id": "sha256:1c7c1acfea27925ccdfe966020d574c77f10682d1540c8549b9042f95441df47",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "source_released",
+      "sha256": "1c7c1acfea27925ccdfe966020d574c77f10682d1540c8549b9042f95441df47"
+    },
+    {
+      "artifact_id": "sha256:8aec454902811c580c20f254d5383e35a685a06e50ad6029b21e81bffbe93350",
+      "license_expression": "Apache-2.0",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_wishbone_apb_bridge.sv",
+      "release_status": "source_released",
+      "sha256": "8aec454902811c580c20f254d5383e35a685a06e50ad6029b21e81bffbe93350"
+    },
+    {
+      "artifact_id": "sha256:c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5",
+      "license_expression": "Apache-2.0",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "source_released",
+      "sha256": "c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:project-contains-wishbone_apb_bridge",
+      "source": "project:wishbone_apb_bridge",
+      "target": "module:wishbone_apb_bridge",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:43e808c3d9dd12e5d35d979cf27f28b769a3f8f267560b4fb228cb61511f3f63"
+      ],
+      "id": "edge:project-license",
+      "source": "project:wishbone_apb_bridge",
+      "target": "license:Apache-2.0",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:wishbone_apb_bridge",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:wishbone_apb_bridge",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:wishbone_apb_bridge",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:wishbone_apb_bridge",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "edge:project-source",
+      "source": "project:wishbone_apb_bridge",
+      "target": "source_revision:1f3896444ac7ce46",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9b653ddcad5f8345d38c6d836cad44dd3ccc65616b555119a1562d76b11a2336"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-fault_localization_repair-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:6d424bd8d98814a511af0dfaa2f52a3a8c80889a42be3b974a3d7e4b326d4876"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-functional_timing_understanding-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:d249464d621057663957c137da9a3ba9b0e5e3ebff780541bd06630ce01af13a"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-hierarchical_rtl_generation-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0555351b2d92d8263a563659757152bbb595f68e5d03c6987be5538445f872c8"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-hierarchy_dependency_analysis-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:40335151806589c5ad16ca1e2ae5d01ab66f9b2d681e53c76575c986e98a5ff7"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-reuse_integration-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:881b8d606a3d72fb006da9ff1370df1bea967cf5195d9ebcb9b5921f783b4702"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-tool_result_analysis-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:1c7c1acfea27925ccdfe966020d574c77f10682d1540c8549b9042f95441df47"
+      ],
+      "id": "edge:project-task-ipgraph-wishbone_apb_bridge-verification_generation-0000",
+      "source": "project:wishbone_apb_bridge",
+      "target": "task:ipgraph:wishbone_apb_bridge:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:8aec454902811c580c20f254d5383e35a685a06e50ad6029b21e81bffbe93350"
+      ],
+      "id": "edge:project-testbench-29",
+      "source": "project:wishbone_apb_bridge",
+      "target": "testbench:tb/tb_wishbone_apb_bridge.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-clock-clk_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "clock_domain:clk_i",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-clk_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.clk_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-paddr_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.paddr_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-penable_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.penable_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-prdata_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.prdata_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-pready_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.pready_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-psel_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.psel_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-pslverr_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.pslverr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-pstrb_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.pstrb_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-pwdata_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.pwdata_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-pwrite_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.pwrite_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-rst_ni",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.rst_ni",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_ack_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_ack_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_adr_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_adr_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_cyc_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_cyc_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_dat_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_dat_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_dat_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_dat_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_err_o",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_err_o",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_sel_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_sel_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_stb_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_stb_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-port-wb_we_i",
+      "source": "module:wishbone_apb_bridge",
+      "target": "port:wishbone_apb_bridge.wb_we_i",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "edge:wishbone_apb_bridge-reset-rst_ni",
+      "source": "module:wishbone_apb_bridge",
+      "target": "reset_domain:rst_ni",
+      "type": "reset_by"
+    }
+  ],
+  "graph_id": "ip-etg:wishbone_apb_bridge:1f3896444ac7ce46",
+  "graph_sha256": "0b3c4cdfacc5581d3b7964a95c7128990448502d86a0b3f8c86802ea3badb290",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "wishbone_apb_bridge"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk_i",
+      "label": "clk_i",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "source_released"
+      },
+      "evidence_refs": [],
+      "id": "license:Apache-2.0",
+      "label": "Apache-2.0",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "attributes": {
+        "path": "rtl/wishbone_apb_bridge.sv"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "module:wishbone_apb_bridge",
+      "label": "wishbone_apb_bridge",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.clk_i",
+      "label": "clk_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] paddr_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.paddr_o",
+      "label": "paddr_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic penable_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.penable_o",
+      "label": "penable_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] prdata_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.prdata_i",
+      "label": "prdata_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic pready_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.pready_i",
+      "label": "pready_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic psel_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.psel_o",
+      "label": "psel_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic pslverr_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.pslverr_i",
+      "label": "pslverr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [3:0] pstrb_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.pstrb_o",
+      "label": "pstrb_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] pwdata_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.pwdata_o",
+      "label": "pwdata_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic pwrite_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.pwrite_o",
+      "label": "pwrite_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_ni",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.rst_ni",
+      "label": "rst_ni",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic wb_ack_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_ack_o",
+      "label": "wb_ack_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] wb_adr_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_adr_i",
+      "label": "wb_adr_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_cyc_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_cyc_i",
+      "label": "wb_cyc_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [31:0] wb_dat_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_dat_i",
+      "label": "wb_dat_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [31:0] wb_dat_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_dat_o",
+      "label": "wb_dat_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic wb_err_o",
+        "direction": "output",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_err_o",
+      "label": "wb_err_o",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [3:0] wb_sel_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_sel_i",
+      "label": "wb_sel_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_stb_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_stb_i",
+      "label": "wb_stb_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic wb_we_i",
+        "direction": "input",
+        "module": "wishbone_apb_bridge"
+      },
+      "evidence_refs": [
+        "sha256:aeaea9d5e706517f61bb0792f4a371106802e3efe072b6c37cef39da003bbd8d"
+      ],
+      "id": "port:wishbone_apb_bridge.wb_we_i",
+      "label": "wb_we_i",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "interconnect",
+        "compile_order": [
+          "rtl/wishbone_apb_bridge.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "wishbone_apb_bridge"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:wishbone_apb_bridge",
+      "label": "wishbone_apb_bridge",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "protocol_contract:wishbone",
+      "label": "Wishbone",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "wishbone_apb_bridge"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_ni",
+      "label": "rst_ni",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:1f3896444ac7ce46",
+      "label": "1f3896444ac7ce46",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:9b653ddcad5f8345d38c6d836cad44dd3ccc65616b555119a1562d76b11a2336"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:fault_localization_repair:0000",
+      "label": "ipgraph:wishbone_apb_bridge:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:6d424bd8d98814a511af0dfaa2f52a3a8c80889a42be3b974a3d7e4b326d4876"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:functional_timing_understanding:0000",
+      "label": "ipgraph:wishbone_apb_bridge:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:d249464d621057663957c137da9a3ba9b0e5e3ebff780541bd06630ce01af13a"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:wishbone_apb_bridge:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:0555351b2d92d8263a563659757152bbb595f68e5d03c6987be5538445f872c8"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:wishbone_apb_bridge:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:40335151806589c5ad16ca1e2ae5d01ab66f9b2d681e53c76575c986e98a5ff7"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:reuse_integration:0000",
+      "label": "ipgraph:wishbone_apb_bridge:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:881b8d606a3d72fb006da9ff1370df1bea967cf5195d9ebcb9b5921f783b4702"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:tool_result_analysis:0000",
+      "label": "ipgraph:wishbone_apb_bridge:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "easy",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:1c7c1acfea27925ccdfe966020d574c77f10682d1540c8549b9042f95441df47"
+      ],
+      "id": "task:ipgraph:wishbone_apb_bridge:verification_generation:0000",
+      "label": "ipgraph:wishbone_apb_bridge:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:8aec454902811c580c20f254d5383e35a685a06e50ad6029b21e81bffbe93350"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:8aec454902811c580c20f254d5383e35a685a06e50ad6029b21e81bffbe93350"
+      ],
+      "id": "testbench:tb/tb_wishbone_apb_bridge.sv",
+      "label": "tb_wishbone_apb_bridge.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "verification_obligation:000",
+      "label": "setup/access phases",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "verification_obligation:001",
+      "label": "wait states",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "verification_obligation:002",
+      "label": "read and write response",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:1f3896444ac7ce460348b7f1133c6bb011245e5d2ebfc0c0654f66d3ff3f8ce7"
+      ],
+      "id": "verification_obligation:003",
+      "label": "APB error propagation",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "wishbone_apb_bridge",
+  "project_revision": "1f3896444ac7ce46",
+  "release_policy": "source_released",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Given a future failing regression for wishbone_apb_bridge, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of wishbone_apb_bridge. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Generate or complete synthesizable SystemVerilog for wishbone_apb_bridge from its released design contracts. Preserve the hierarchy and interfaces of wishbone_apb_bridge, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of wishbone_apb_bridge, including the roles of wishbone_apb_bridge. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Design a minimal wrapper plan to reuse wishbone_apb_bridge in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for wishbone_apb_bridge. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "easy",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:wishbone_apb_bridge",
+        "module:wishbone_apb_bridge"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "wishbone_apb_bridge",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for wishbone_apb_bridge. It must exercise the obligation: setup/access phases and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "1f3896444ac7ce46",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "dev",
+      "target_nodes": [
+        "module:wishbone_apb_bridge"
+      ],
+      "task_id": "ipgraph:wishbone_apb_bridge:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:c1b0ef7f3e22b34b95c4244d9f9bd3c5e14120b5146865935883ff2fc67350b5"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "binary_to_bcd",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 2,
+    "diagnostic_count": 15,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "bcd_to_binary",
+      "binary_to_bcd"
+    ]
+  },
+  "source_files": [
+    "rtl/top/bcd_to_binary.sv",
+    "rtl/top/binary_to_bcd.sv"
+  ]
+}

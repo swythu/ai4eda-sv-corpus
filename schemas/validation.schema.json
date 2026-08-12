@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://swythu.github.io/ai4eda-sv-corpus/schemas/validation.schema.json",
+  "title": "AI4EDA project validation summary",
+  "type": "object",
+  "required": ["quality_level", "compile", "elaboration", "lint", "simulation", "mutation", "expert_review"],
+  "properties": {
+    "quality_level": {"enum": ["Q0", "Q1", "Q2", "Q3", "Q4"]},
+    "compile": {"enum": ["pass", "fail", "not_run"]},
+    "elaboration": {"enum": ["pass", "fail", "not_run"]},
+    "lint": {"enum": ["pass", "fail", "not_run"]},
+    "simulation": {"enum": ["pass", "fail", "smoke_pass", "not_run"]},
+    "mutation": {
+      "type": "object",
+      "required": ["status", "killed", "total"],
+      "properties": {
+        "status": {"enum": ["pass", "fail", "not_run"]},
+        "killed": {"type": "integer", "minimum": 0},
+        "total": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "expert_review": {
+      "type": "object",
+      "required": ["status", "reviewers"],
+      "properties": {
+        "status": {"enum": ["pass", "fail", "pending", "not_required"]},
+        "reviewers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    },
+    "evidence_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "additionalProperties": false
+}

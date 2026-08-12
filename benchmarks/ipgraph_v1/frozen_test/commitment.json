@@ -1,0 +1,20 @@
+{
+  "family_counts": {
+    "cross_module_repair": 7,
+    "fault_localization_repair": 9,
+    "functional_timing_understanding": 5,
+    "hierarchical_integration": 5,
+    "hierarchical_rtl_generation": 5,
+    "hierarchy_dependency_analysis": 5,
+    "interface_modification": 5,
+    "reuse_integration": 5,
+    "tool_result_analysis": 6,
+    "verification_generation": 9
+  },
+  "project_commitment_sha256": "162dfa492b4102324ab9c52b3f2fc30e2b22d02b6124780b46ed39590349209c",
+  "project_count": 5,
+  "schema_version": "ipgraph-frozen-commitment/v1",
+  "status": "withheld_until_post_evaluation",
+  "task_count": 61,
+  "task_set_sha256": "f50aa9eab6dd8da4b6ef504b81e8deabf050643413a0235f2813fadcfb18da71"
+}

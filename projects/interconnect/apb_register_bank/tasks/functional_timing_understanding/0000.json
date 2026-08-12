@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "easy",
+  "family": "functional_timing_understanding",
+  "input_nodes": [
+    "project:apb_register_bank",
+    "module:apb_register_bank"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "apb_register_bank",
+  "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of apb_register_bank. Ground every claim in the provided graph and permitted artifacts.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "aeed458a7a42d92e",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:apb_register_bank"
+  ],
+  "task_id": "ipgraph:apb_register_bank:functional_timing_understanding:0000"
+}

@@ -1,0 +1,226 @@
+{
+  "assignment_sha256": "6327db46e8fe73af0cb4b3e6e806bb638e539ccbfda5b754aecb2553bcb59b51",
+  "counts": {
+    "dev": 6,
+    "frozen_test": 5,
+    "public_test": 5,
+    "train": 24
+  },
+  "dev": [
+    {
+      "project_id": "pipelined_fft_64",
+      "project_revision": "0bd86faa2703a2d8",
+      "upstream_group": "opencores.org/projects/usfft64_2b"
+    },
+    {
+      "project_id": "reset_synchronizer",
+      "project_revision": "ca6d07c99344acc1",
+      "upstream_group": "repository-authored:reset_synchronizer"
+    },
+    {
+      "project_id": "scalable_arbiter",
+      "project_revision": "42ec8116d639ae85",
+      "upstream_group": "opencores.org/projects/scalable_arbiter"
+    },
+    {
+      "project_id": "sha_core",
+      "project_revision": "820141491d22fd9e",
+      "upstream_group": "opencores.org/projects/sha_core"
+    },
+    {
+      "project_id": "uart2bus",
+      "project_revision": "f40fbfd6e6377ed3",
+      "upstream_group": "opencores.org/projects/uart2bus"
+    },
+    {
+      "project_id": "wishbone_apb_bridge",
+      "project_revision": "1f3896444ac7ce46",
+      "upstream_group": "repository-authored:wishbone_apb_bridge"
+    }
+  ],
+  "frozen_project_commitment_sha256": "162dfa492b4102324ab9c52b3f2fc30e2b22d02b6124780b46ed39590349209c",
+  "frozen_test": [
+    {
+      "project_id": "dma_axi32",
+      "project_revision": "70f66869bdf811e9",
+      "upstream_group": "opencores.org/projects/dma_axi"
+    },
+    {
+      "project_id": "dma_axi64",
+      "project_revision": "9e13f7d5c135c1f4",
+      "upstream_group": "opencores.org/projects/dma_axi"
+    },
+    {
+      "project_id": "oc_axi_bfm",
+      "project_revision": "c6857cfad167d07c",
+      "upstream_group": "opencores.org/projects/oc_axi_bfm"
+    },
+    {
+      "project_id": "rv32i_microcore",
+      "project_revision": "53289c9ab9bc84e9",
+      "upstream_group": "repository-authored:rv32i_microcore"
+    },
+    {
+      "project_id": "wb_flash",
+      "project_revision": "f4046197646a8ebd",
+      "upstream_group": "opencores.org/projects/wb_flash"
+    }
+  ],
+  "prohibitions": [
+    "do not train on dev, public_test, or frozen_test projects",
+    "do not publish frozen prompts, gold artifacts, tests, or mutants before confirmatory evaluation"
+  ],
+  "public_test": [
+    {
+      "project_id": "axi_lite_slice",
+      "project_revision": "5562620791aaf025",
+      "upstream_group": "repository-authored:axi_lite_slice"
+    },
+    {
+      "project_id": "fir_filter",
+      "project_revision": "e6dddfe6a4a0d274",
+      "upstream_group": "repository-authored:fir_filter"
+    },
+    {
+      "project_id": "ready_valid_checker",
+      "project_revision": "7ecc4956b7292b2d",
+      "upstream_group": "repository-authored:ready_valid_checker"
+    },
+    {
+      "project_id": "simple_pic",
+      "project_revision": "0022c96b3a1a9bd8",
+      "upstream_group": "opencores.org/projects/simple_pic"
+    },
+    {
+      "project_id": "xge_mac",
+      "project_revision": "c621123cb106fb69",
+      "upstream_group": "opencores.org/projects/xge_mac"
+    }
+  ],
+  "release_target": "v0.1.0",
+  "schema_version": "ipgraph-splits-lock/v1",
+  "split_commitment_sha256": "4246847de55f94af2524bf4ff97d425dd257775f1c7943317dab6405b57c35b6",
+  "status": "project_splits_locked",
+  "train": [
+    {
+      "project_id": "apb_register_bank",
+      "project_revision": "aeed458a7a42d92e",
+      "upstream_group": "repository-authored:apb_register_bank"
+    },
+    {
+      "project_id": "apbtoaes128",
+      "project_revision": "f90705a281c58436",
+      "upstream_group": "opencores.org/projects/apbtoaes128"
+    },
+    {
+      "project_id": "binary_to_bcd",
+      "project_revision": "b158c502f7422dd7",
+      "upstream_group": "opencores.org/projects/binary_to_bcd"
+    },
+    {
+      "project_id": "cdc_handshake",
+      "project_revision": "05b05f29bb8dd334",
+      "upstream_group": "repository-authored:cdc_handshake"
+    },
+    {
+      "project_id": "cdc_ufifo",
+      "project_revision": "105cbddd2bda2b7d",
+      "upstream_group": "opencores.org/projects/cdc_ufifo"
+    },
+    {
+      "project_id": "configurable_crc_core",
+      "project_revision": "8250891a7b8b6d57",
+      "upstream_group": "opencores.org/projects/configurable_crc_core"
+    },
+    {
+      "project_id": "ecc_ram",
+      "project_revision": "85559fcb89a7f77b",
+      "upstream_group": "github.com/lowRISC/opentitan"
+    },
+    {
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "project_revision": "68aa4e09982aea62",
+      "upstream_group": "opencores.org/projects/fixed_point_arithmetic_parameterized"
+    },
+    {
+      "project_id": "i2c",
+      "project_revision": "56836dcd13c6c722",
+      "upstream_group": "opencores.org/projects/i2c"
+    },
+    {
+      "project_id": "ima_adpcm_enc_dec",
+      "project_revision": "cfb656f75b5cb6cb",
+      "upstream_group": "opencores.org/projects/ima_adpcm_enc_dec"
+    },
+    {
+      "project_id": "logicprobe",
+      "project_revision": "025633701d1585af",
+      "upstream_group": "opencores.org/projects/logicprobe"
+    },
+    {
+      "project_id": "ot_sram_1p",
+      "project_revision": "b027ca4652a67213",
+      "upstream_group": "github.com/lowRISC/opentitan"
+    },
+    {
+      "project_id": "ot_sram_2p",
+      "project_revision": "e75e30cfd65cf41e",
+      "upstream_group": "github.com/lowRISC/opentitan"
+    },
+    {
+      "project_id": "pid_controller",
+      "project_revision": "de6aef362242980a",
+      "upstream_group": "opencores.org/projects/pid_controller"
+    },
+    {
+      "project_id": "pipelined_mac",
+      "project_revision": "dc7ba3fc4d9afa0a",
+      "upstream_group": "repository-authored:pipelined_mac"
+    },
+    {
+      "project_id": "pit",
+      "project_revision": "ef4068ee86dc4174",
+      "upstream_group": "opencores.org/projects/pit"
+    },
+    {
+      "project_id": "ready_valid_fifo",
+      "project_revision": "7ed626e903a35ff3",
+      "upstream_group": "repository-authored:ready_valid_fifo"
+    },
+    {
+      "project_id": "register_file",
+      "project_revision": "59077338384daa14",
+      "upstream_group": "github.com/lowRISC/opentitan"
+    },
+    {
+      "project_id": "rtfsimpleuart",
+      "project_revision": "f7186e92e3974a21",
+      "upstream_group": "opencores.org/projects/rtfsimpleuart"
+    },
+    {
+      "project_id": "simple_gpio",
+      "project_revision": "1eb1841635f9d67b",
+      "upstream_group": "opencores.org/projects/simple_gpio"
+    },
+    {
+      "project_id": "skid_buffer",
+      "project_revision": "cf8f739a0a186a6d",
+      "upstream_group": "repository-authored:skid_buffer"
+    },
+    {
+      "project_id": "tiny_spi",
+      "project_revision": "c62b0b916e93caea",
+      "upstream_group": "opencores.org/projects/tiny_spi"
+    },
+    {
+      "project_id": "versatile_fifo",
+      "project_revision": "c1dea52c6728cb5d",
+      "upstream_group": "opencores.org/projects/versatile_fifo"
+    },
+    {
+      "project_id": "video_stream_scaler",
+      "project_revision": "31d11a0b0755f896",
+      "upstream_group": "opencores.org/projects/video_stream_scaler"
+    }
+  ]
+}

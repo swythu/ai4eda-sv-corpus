@@ -1,0 +1,8 @@
+name: ready_valid_checker
+category: verification
+upstream_project: repository-authored
+upstream_revision: v0.1.0
+license_expression: Apache-2.0
+license_evidence: "Repository-authored verification IP under Apache-2.0."
+modification_status: "Original synthesizable ready/valid protocol checker."
+public_export_decision: source_released

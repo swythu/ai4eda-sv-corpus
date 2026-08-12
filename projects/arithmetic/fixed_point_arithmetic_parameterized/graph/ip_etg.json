@@ -1,0 +1,1864 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "sha256:7bf93fe6037ad30e0cde4d738fa63e725e868c500017437462a7d47ac85a8247",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/yaml",
+      "path": "ORIGIN.yml",
+      "release_status": "metadata_only",
+      "sha256": "7bf93fe6037ad30e0cde4d738fa63e725e868c500017437462a7d47ac85a8247"
+    },
+    {
+      "artifact_id": "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "metadata.json",
+      "release_status": "metadata_only",
+      "sha256": "68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+    },
+    {
+      "artifact_id": "sha256:5c201392fe6f353f3529549198202c4599699bf4ce5fd33fc905d1d6c0bb5e0b",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-diff",
+      "path": "refactor.patch",
+      "release_status": "metadata_only",
+      "sha256": "5c201392fe6f353f3529549198202c4599699bf4ce5fd33fc905d1d6c0bb5e0b"
+    },
+    {
+      "artifact_id": "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/qadd.sv",
+      "release_status": "metadata_only",
+      "sha256": "f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+    },
+    {
+      "artifact_id": "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/qdiv.sv",
+      "release_status": "metadata_only",
+      "sha256": "74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+    },
+    {
+      "artifact_id": "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "rtl/blocks/qmult.sv",
+      "release_status": "metadata_only",
+      "sha256": "ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+    },
+    {
+      "artifact_id": "sha256:d80bb1a50286d9843676f1d45ecdcd655f2b08f9ab2fb8386cc890dbf25fffe1",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/octet-stream",
+      "path": "scripts/run.sh",
+      "release_status": "metadata_only",
+      "sha256": "d80bb1a50286d9843676f1d45ecdcd655f2b08f9ab2fb8386cc890dbf25fffe1"
+    },
+    {
+      "artifact_id": "sha256:c8e5d6ebe56c951dd7072d1d489f3e6c72bfcbfe64e797a2feb8351899c937d9",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "c8e5d6ebe56c951dd7072d1d489f3e6c72bfcbfe64e797a2feb8351899c937d9"
+    },
+    {
+      "artifact_id": "sha256:234cd3f02930b9b17b8927ecccd2d55bc618e09c01b3755940cbf36df9ea207d",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/cross_module_repair/0001.json",
+      "release_status": "metadata_only",
+      "sha256": "234cd3f02930b9b17b8927ecccd2d55bc618e09c01b3755940cbf36df9ea207d"
+    },
+    {
+      "artifact_id": "sha256:e0091086d6990c5519aff3f3d64350a962cb2d98dfc5ce5518b284191155b38e",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/fault_localization_repair/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e0091086d6990c5519aff3f3d64350a962cb2d98dfc5ce5518b284191155b38e"
+    },
+    {
+      "artifact_id": "sha256:9fe4142750e17d00a8ad583e570dbcb230d8aaf42ad1a92ab65be2a8626c0748",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/functional_timing_understanding/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "9fe4142750e17d00a8ad583e570dbcb230d8aaf42ad1a92ab65be2a8626c0748"
+    },
+    {
+      "artifact_id": "sha256:934da50fa745ac433ac018caac512d875e735b002ebe6e004a43a3eaddb2c703",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "934da50fa745ac433ac018caac512d875e735b002ebe6e004a43a3eaddb2c703"
+    },
+    {
+      "artifact_id": "sha256:e6a074fc6e39decb496d7557c639d10f60ec0aa55f59a2e187addfab2561aceb",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchical_rtl_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e6a074fc6e39decb496d7557c639d10f60ec0aa55f59a2e187addfab2561aceb"
+    },
+    {
+      "artifact_id": "sha256:ddd61ad0790d54c9025eb52f189c7eea6340f8f690e027b98b7dcd4034414584",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/hierarchy_dependency_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "ddd61ad0790d54c9025eb52f189c7eea6340f8f690e027b98b7dcd4034414584"
+    },
+    {
+      "artifact_id": "sha256:539fc3260e694e86fee6b970f5e730e23a7448b341191d1214745e5d6f8b44a1",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/interface_modification/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "539fc3260e694e86fee6b970f5e730e23a7448b341191d1214745e5d6f8b44a1"
+    },
+    {
+      "artifact_id": "sha256:0c8ffbd3d0810ada70eb005cfc5f8a0783c357d36943e21113333d2ae56458fd",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/reuse_integration/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "0c8ffbd3d0810ada70eb005cfc5f8a0783c357d36943e21113333d2ae56458fd"
+    },
+    {
+      "artifact_id": "sha256:48cf00572c46875bcd91ef13d3bc51f1d9fd0cc673c8729c97d76800a671215e",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/tool_result_analysis/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "48cf00572c46875bcd91ef13d3bc51f1d9fd0cc673c8729c97d76800a671215e"
+    },
+    {
+      "artifact_id": "sha256:e21dd1c73ca80ecc8f130ecb53b528941c56298bbb6dcbf3fb0554d87575a65d",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "tasks/verification_generation/0000.json",
+      "release_status": "metadata_only",
+      "sha256": "e21dd1c73ca80ecc8f130ecb53b528941c56298bbb6dcbf3fb0554d87575a65d"
+    },
+    {
+      "artifact_id": "sha256:69827fb76c8af8c01ddfeca558981704943ebf591590cd538a6fd5413f1956ef",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "text/x-systemverilog",
+      "path": "tb/tb_fixed_point.sv",
+      "release_status": "metadata_only",
+      "sha256": "69827fb76c8af8c01ddfeca558981704943ebf591590cd538a6fd5413f1956ef"
+    },
+    {
+      "artifact_id": "sha256:4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3",
+      "license_expression": "LicenseRef-Unknown",
+      "media_type": "application/json",
+      "path": "validation/result.json",
+      "release_status": "metadata_only",
+      "sha256": "4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3"
+    }
+  ],
+  "edges": [
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:project-contains-qadd",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "module:qadd",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:project-contains-qdiv",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "module:qdiv",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:project-contains-qmult",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "module:qmult",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:7bf93fe6037ad30e0cde4d738fa63e725e868c500017437462a7d47ac85a8247"
+      ],
+      "id": "edge:project-license",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "license:LicenseRef-Unknown",
+      "type": "constrained_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-obligation-000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "verification_obligation:000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-obligation-001",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "verification_obligation:001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-obligation-002",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "verification_obligation:002",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-obligation-003",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "verification_obligation:003",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-obligation-004",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "verification_obligation:004",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3"
+      ],
+      "id": "edge:project-regression",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "tool_run:project_regression",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "edge:project-source",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "source_revision:68aa4e09982aea62",
+      "type": "derived_from"
+    },
+    {
+      "evidence_refs": [
+        "sha256:c8e5d6ebe56c951dd7072d1d489f3e6c72bfcbfe64e797a2feb8351899c937d9"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-cross_module_repair-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:234cd3f02930b9b17b8927ecccd2d55bc618e09c01b3755940cbf36df9ea207d"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-cross_module_repair-0001",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0001",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e0091086d6990c5519aff3f3d64350a962cb2d98dfc5ce5518b284191155b38e"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-fault_localization_repair-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:fault_localization_repair:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:9fe4142750e17d00a8ad583e570dbcb230d8aaf42ad1a92ab65be2a8626c0748"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-functional_timing_understanding-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:functional_timing_understanding:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:934da50fa745ac433ac018caac512d875e735b002ebe6e004a43a3eaddb2c703"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-hierarchical_integration-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchical_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e6a074fc6e39decb496d7557c639d10f60ec0aa55f59a2e187addfab2561aceb"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-hierarchical_rtl_generation-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchical_rtl_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ddd61ad0790d54c9025eb52f189c7eea6340f8f690e027b98b7dcd4034414584"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-hierarchy_dependency_analysis-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchy_dependency_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:539fc3260e694e86fee6b970f5e730e23a7448b341191d1214745e5d6f8b44a1"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-interface_modification-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:interface_modification:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:0c8ffbd3d0810ada70eb005cfc5f8a0783c357d36943e21113333d2ae56458fd"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-reuse_integration-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:reuse_integration:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:48cf00572c46875bcd91ef13d3bc51f1d9fd0cc673c8729c97d76800a671215e"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-tool_result_analysis-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:tool_result_analysis:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:e21dd1c73ca80ecc8f130ecb53b528941c56298bbb6dcbf3fb0554d87575a65d"
+      ],
+      "id": "edge:project-task-ipgraph-fixed_point_arithmetic_parameterized-verification_generation-0000",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "task:ipgraph:fixed_point_arithmetic_parameterized:verification_generation:0000",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:69827fb76c8af8c01ddfeca558981704943ebf591590cd538a6fd5413f1956ef"
+      ],
+      "id": "edge:project-testbench-33",
+      "source": "project:fixed_point_arithmetic_parameterized",
+      "target": "testbench:tb/tb_fixed_point.sv",
+      "type": "verified_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:qadd-parameter-N",
+      "source": "module:qadd",
+      "target": "parameter:qadd.N",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:qadd-parameter-Q",
+      "source": "module:qadd",
+      "target": "parameter:qadd.Q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:qadd-port-a",
+      "source": "module:qadd",
+      "target": "port:qadd.a",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:qadd-port-b",
+      "source": "module:qadd",
+      "target": "port:qadd.b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "edge:qadd-port-c",
+      "source": "module:qadd",
+      "target": "port:qadd.c",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-clock-clk",
+      "source": "module:qdiv",
+      "target": "clock_domain:clk",
+      "type": "clocked_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-parameter-N",
+      "source": "module:qdiv",
+      "target": "parameter:qdiv.N",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-parameter-Q",
+      "source": "module:qdiv",
+      "target": "parameter:qdiv.Q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-busy",
+      "source": "module:qdiv",
+      "target": "port:qdiv.busy",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-clk",
+      "source": "module:qdiv",
+      "target": "port:qdiv.clk",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-complete",
+      "source": "module:qdiv",
+      "target": "port:qdiv.complete",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-divide_by_zero",
+      "source": "module:qdiv",
+      "target": "port:qdiv.divide_by_zero",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-dividend",
+      "source": "module:qdiv",
+      "target": "port:qdiv.dividend",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-divisor",
+      "source": "module:qdiv",
+      "target": "port:qdiv.divisor",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-quotient_out",
+      "source": "module:qdiv",
+      "target": "port:qdiv.quotient_out",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-rst_n",
+      "source": "module:qdiv",
+      "target": "port:qdiv.rst_n",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-port-start",
+      "source": "module:qdiv",
+      "target": "port:qdiv.start",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "edge:qdiv-reset-rst_n",
+      "source": "module:qdiv",
+      "target": "reset_domain:rst_n",
+      "type": "reset_by"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:qmult-parameter-N",
+      "source": "module:qmult",
+      "target": "parameter:qmult.N",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:qmult-parameter-Q",
+      "source": "module:qmult",
+      "target": "parameter:qmult.Q",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:qmult-port-a",
+      "source": "module:qmult",
+      "target": "port:qmult.a",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:qmult-port-b",
+      "source": "module:qmult",
+      "target": "port:qmult.b",
+      "type": "contains"
+    },
+    {
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "edge:qmult-port-c",
+      "source": "module:qmult",
+      "target": "port:qmult.c",
+      "type": "contains"
+    }
+  ],
+  "graph_id": "ip-etg:fixed_point_arithmetic_parameterized:68aa4e09982aea62",
+  "graph_sha256": "6d5954273456929c79f95af12de1dd48f52e895acccc5810be8908678c1ddf37",
+  "nodes": [
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "qdiv"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "clock_domain:clk",
+      "label": "clk",
+      "type": "clock_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "origin_evidence_present": true,
+        "release_status": "metadata_only"
+      },
+      "evidence_refs": [],
+      "id": "license:LicenseRef-Unknown",
+      "label": "LicenseRef-Unknown",
+      "type": "license",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/qadd.sv"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "module:qadd",
+      "label": "qadd",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/qdiv.sv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "module:qdiv",
+      "label": "qdiv",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "attributes": {
+        "path": "rtl/blocks/qmult.sv"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "module:qmult",
+      "label": "qmult",
+      "type": "module",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qadd"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "parameter:qadd.N",
+      "label": "N",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qadd"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "parameter:qadd.Q",
+      "label": "Q",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "parameter:qdiv.N",
+      "label": "N",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "parameter:qdiv.Q",
+      "label": "Q",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qmult"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "parameter:qmult.N",
+      "label": "N",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "module": "qmult"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "parameter:qmult.Q",
+      "label": "Q",
+      "type": "parameter",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] a",
+        "direction": "input",
+        "module": "qadd"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "port:qadd.a",
+      "label": "a",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] b",
+        "direction": "input",
+        "module": "qadd"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "port:qadd.b",
+      "label": "b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [N-1:0] c",
+        "direction": "output",
+        "module": "qadd"
+      },
+      "evidence_refs": [
+        "sha256:f009eb28cb54fdb51332e2e26f57cedb2e0120716caf6fc2d12005f8e1fb1dd7"
+      ],
+      "id": "port:qadd.c",
+      "label": "c",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic busy",
+        "direction": "output",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.busy",
+      "label": "busy",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic clk",
+        "direction": "input",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.clk",
+      "label": "clk",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic complete",
+        "direction": "output",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.complete",
+      "label": "complete",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic divide_by_zero",
+        "direction": "output",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.divide_by_zero",
+      "label": "divide_by_zero",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] dividend",
+        "direction": "input",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.dividend",
+      "label": "dividend",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] divisor",
+        "direction": "input",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.divisor",
+      "label": "divisor",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [N-1:0] quotient_out",
+        "direction": "output",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.quotient_out",
+      "label": "quotient_out",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic rst_n",
+        "direction": "input",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.rst_n",
+      "label": "rst_n",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic start",
+        "direction": "input",
+        "module": "qdiv"
+      },
+      "evidence_refs": [
+        "sha256:74f3d472c2ee3a66db5d04a3145c891cd42e598c2d1da5d718dcef721d2ae0c6"
+      ],
+      "id": "port:qdiv.start",
+      "label": "start",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] a",
+        "direction": "input",
+        "module": "qmult"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "port:qmult.a",
+      "label": "a",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "input logic [N-1:0] b",
+        "direction": "input",
+        "module": "qmult"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "port:qmult.b",
+      "label": "b",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "declaration": "output logic [N-1:0] c",
+        "direction": "output",
+        "module": "qmult"
+      },
+      "evidence_refs": [
+        "sha256:ef6c20375be209c1342c368a54dd80a0f6a949e3bad6c1e38327a4a153cf527a"
+      ],
+      "id": "port:qmult.c",
+      "label": "c",
+      "type": "port",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "category": "arithmetic",
+        "compile_order": [
+          "rtl/blocks/qadd.sv",
+          "rtl/blocks/qdiv.sv",
+          "rtl/blocks/qmult.sv"
+        ],
+        "compile_order_inference": "deterministic source order; project run script is validation authority",
+        "extractor": "pyslang-9.1.0",
+        "pyslang_elaboration_status": "pass",
+        "top_module_candidates": [
+          "qadd",
+          "qdiv",
+          "qmult"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "project:fixed_point_arithmetic_parameterized",
+      "label": "fixed_point_arithmetic_parameterized",
+      "type": "project",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "metadata-and-port-name-candidate"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "protocol_contract:native-module-interface",
+      "label": "native-module-interface",
+      "type": "protocol_contract",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "inference": "port-name-candidate",
+        "modules": [
+          "qdiv"
+        ]
+      },
+      "evidence_refs": [],
+      "id": "reset_domain:rst_n",
+      "label": "rst_n",
+      "type": "reset_domain",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "metadata_sha256": "68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      },
+      "evidence_refs": [],
+      "id": "source_revision:68aa4e09982aea62",
+      "label": "68aa4e09982aea62",
+      "type": "source_revision",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:c8e5d6ebe56c951dd7072d1d489f3e6c72bfcbfe64e797a2feb8351899c937d9"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "cross_module_repair"
+      },
+      "evidence_refs": [
+        "sha256:234cd3f02930b9b17b8927ecccd2d55bc618e09c01b3755940cbf36df9ea207d"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0001",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0001",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "fault_localization_repair"
+      },
+      "evidence_refs": [
+        "sha256:e0091086d6990c5519aff3f3d64350a962cb2d98dfc5ce5518b284191155b38e"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:fault_localization_repair:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:fault_localization_repair:0000",
+      "type": "repair_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "functional_timing_understanding"
+      },
+      "evidence_refs": [
+        "sha256:9fe4142750e17d00a8ad583e570dbcb230d8aaf42ad1a92ab65be2a8626c0748"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:functional_timing_understanding:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:functional_timing_understanding:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "hard",
+        "family": "hierarchical_integration"
+      },
+      "evidence_refs": [
+        "sha256:934da50fa745ac433ac018caac512d875e735b002ebe6e004a43a3eaddb2c703"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchical_integration:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:hierarchical_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchical_rtl_generation"
+      },
+      "evidence_refs": [
+        "sha256:e6a074fc6e39decb496d7557c639d10f60ec0aa55f59a2e187addfab2561aceb"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchical_rtl_generation:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:hierarchical_rtl_generation:0000",
+      "type": "generation_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "hierarchy_dependency_analysis"
+      },
+      "evidence_refs": [
+        "sha256:ddd61ad0790d54c9025eb52f189c7eea6340f8f690e027b98b7dcd4034414584"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:hierarchy_dependency_analysis:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:hierarchy_dependency_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "interface_modification"
+      },
+      "evidence_refs": [
+        "sha256:539fc3260e694e86fee6b970f5e730e23a7448b341191d1214745e5d6f8b44a1"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:interface_modification:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:interface_modification:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "reuse_integration"
+      },
+      "evidence_refs": [
+        "sha256:0c8ffbd3d0810ada70eb005cfc5f8a0783c357d36943e21113333d2ae56458fd"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:reuse_integration:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:reuse_integration:0000",
+      "type": "reuse_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "tool_result_analysis"
+      },
+      "evidence_refs": [
+        "sha256:48cf00572c46875bcd91ef13d3bc51f1d9fd0cc673c8729c97d76800a671215e"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:tool_result_analysis:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:tool_result_analysis:0000",
+      "type": "understand_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "difficulty": "medium",
+        "family": "verification_generation"
+      },
+      "evidence_refs": [
+        "sha256:e21dd1c73ca80ecc8f130ecb53b528941c56298bbb6dcbf3fb0554d87575a65d"
+      ],
+      "id": "task:ipgraph:fixed_point_arithmetic_parameterized:verification_generation:0000",
+      "label": "ipgraph:fixed_point_arithmetic_parameterized:verification_generation:0000",
+      "type": "verification_task",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:69827fb76c8af8c01ddfeca558981704943ebf591590cd538a6fd5413f1956ef"
+      ],
+      "attributes": {},
+      "evidence_refs": [
+        "sha256:69827fb76c8af8c01ddfeca558981704943ebf591590cd538a6fd5413f1956ef"
+      ],
+      "id": "testbench:tb/tb_fixed_point.sv",
+      "label": "tb_fixed_point.sv",
+      "type": "testbench",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [
+        "sha256:4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3"
+      ],
+      "attributes": {
+        "status": "pass"
+      },
+      "evidence_refs": [
+        "sha256:4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3"
+      ],
+      "id": "tool_run:project_regression",
+      "label": "project regression",
+      "type": "tool_run",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "verification_obligation:000",
+      "label": "same-sign and mixed-sign sign-magnitude addition",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "verification_obligation:001",
+      "label": "signed fixed-point multiplication",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "verification_obligation:002",
+      "label": "multi-cycle restoring division",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "verification_obligation:003",
+      "label": "busy/complete handshake",
+      "type": "verification_obligation",
+      "visibility": "public"
+    },
+    {
+      "artifact_refs": [],
+      "attributes": {
+        "source": "metadata"
+      },
+      "evidence_refs": [
+        "sha256:68aa4e09982aea62434d4b4f4a68d6f6f9ac1ded6d89229cb698780a2ca5291d"
+      ],
+      "id": "verification_obligation:004",
+      "label": "divide-by-zero response",
+      "type": "verification_obligation",
+      "visibility": "public"
+    }
+  ],
+  "project_id": "fixed_point_arithmetic_parameterized",
+  "project_revision": "68aa4e09982aea62",
+  "release_policy": "metadata_only",
+  "schema_version": "ip-etg/v1",
+  "tasks": [
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in fixed_point_arithmetic_parameterized. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "cross_module_repair",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Localize and repair a hypothetical cross-module protocol failure in fixed_point_arithmetic_parameterized. Restrict modifications to the fault module and direct adapter, and require the complete project regression after the patch.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:cross_module_repair:0001"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "fault_localization_repair",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Given a future failing regression for fixed_point_arithmetic_parameterized, rank likely fault modules from graph evidence, request the minimum missing diagnostic evidence, and propose a constrained patch protocol that preserves all existing regressions.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:fault_localization_repair:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "functional_timing_understanding",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of fixed_point_arithmetic_parameterized. Ground every claim in the provided graph and permitted artifacts.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:functional_timing_understanding:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "hard",
+      "family": "hierarchical_integration",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Create a DesignGraph integration plan for fixed_point_arithmetic_parameterized that reuses its existing hierarchy instead of flattening or rewriting it. Include compile order and per-module verification obligations.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:hierarchical_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchical_rtl_generation",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Generate or complete synthesizable SystemVerilog for fixed_point_arithmetic_parameterized from its released design contracts. Preserve the hierarchy and interfaces of qadd, qdiv, qmult, reuse existing modules, and require the project regression as the oracle.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:hierarchical_rtl_generation:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "hierarchy_dependency_analysis",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Recover and explain the module dependency and instantiation hierarchy of fixed_point_arithmetic_parameterized, including the roles of qadd, qdiv, qmult. Identify graph evidence for each dependency.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:hierarchy_dependency_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "interface_modification",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Plan a cross-module interface modification for fixed_point_arithmetic_parameterized. Enumerate every affected module, instance, port, connection, test, and regression obligation before proposing edits.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:interface_modification:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "reuse_integration",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Design a minimal wrapper plan to reuse fixed_point_arithmetic_parameterized in a larger SystemVerilog subsystem. Preserve the existing IP and describe parameter, clock, reset, and interface adaptation requirements.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:reuse_integration:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "tool_result_analysis",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Interpret the compile, lint, elaboration, and simulation evidence for fixed_point_arithmetic_parameterized. State exactly what is established, what remains unverified, and which next deterministic check has the highest value.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:tool_result_analysis:0000"
+    },
+    {
+      "allowed_context": [
+        "project_metadata",
+        "released_graph",
+        "released_rtl",
+        "public_validation_summary"
+      ],
+      "difficulty": "medium",
+      "family": "verification_generation",
+      "input_nodes": [
+        "project:fixed_point_arithmetic_parameterized",
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "oracle": {
+        "gold_release": "not_in_alpha",
+        "kind": "graph_and_tool_contract",
+        "required_checks": [
+          "schema",
+          "compile_if_code",
+          "lint_if_code",
+          "project_regression_if_patch"
+        ]
+      },
+      "output_contract": {
+        "format": "structured_json_or_systemverilog_as_requested",
+        "must_cite_graph_node_ids": true,
+        "must_not_modify_tests": true
+      },
+      "project_id": "fixed_point_arithmetic_parameterized",
+      "prompt": "Generate a self-checking verification plan and synthesizable-interface testbench strategy for fixed_point_arithmetic_parameterized. It must exercise the obligation: same-sign and mixed-sign sign-magnitude addition and define explicit failure checks.",
+      "provenance": {
+        "derivation": "deterministic-v0.1-template",
+        "project_revision": "68aa4e09982aea62",
+        "review_status": "pending"
+      },
+      "quality": {
+        "expert_reviewed": false,
+        "mutation_validated": false,
+        "tool_validated": false
+      },
+      "release_tier": "public",
+      "schema_version": "ip-task/v1",
+      "split": "train",
+      "target_nodes": [
+        "module:qadd",
+        "module:qdiv",
+        "module:qmult"
+      ],
+      "task_id": "ipgraph:fixed_point_arithmetic_parameterized:verification_generation:0000"
+    }
+  ],
+  "validation": {
+    "compile": "pass",
+    "elaboration": "pass",
+    "evidence_refs": [
+      "sha256:4ad67c39e656bc2be72c629fafb7d40d0ad652387c228f604402b24a9f44b9f3"
+    ],
+    "expert_review": {
+      "reviewers": [],
+      "status": "pending"
+    },
+    "lint": "pass",
+    "mutation": {
+      "killed": 0,
+      "status": "not_run",
+      "total": 0
+    },
+    "quality_level": "Q2",
+    "simulation": "pass"
+  }
+}

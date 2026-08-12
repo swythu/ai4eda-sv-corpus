@@ -1,0 +1,8 @@
+name: "uart2bus"
+category: "communication"
+upstream_project: "https://opencores.org/projects/uart2bus"
+local_source_provenance: "data/ipdb/opencores/refactored/systemverilog/communication_peripherals/uart2bus"
+license_expression: "BSD-2-Clause"
+license_evidence: "Original copyright/license headers retained in RTL; unresolved licenses are explicitly marked; see LICENSES and NOTICE.md."
+modification_status: "Modified SystemVerilog derivative; see refactor patch and metadata."
+public_export_decision: "included"

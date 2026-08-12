@@ -1,0 +1,48 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "easy",
+  "family": "functional_timing_understanding",
+  "input_nodes": [
+    "project:cdc_ufifo",
+    "module:cdc_ufifo"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "cdc_ufifo",
+  "prompt": "Explain the synthesizable function, state evolution, latency, clock/reset behavior, and externally visible protocol of cdc_ufifo. Ground every claim in the provided graph and permitted artifacts.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "105cbddd2bda2b7d",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:cdc_ufifo"
+  ],
+  "task_id": "ipgraph:cdc_ufifo:functional_timing_understanding:0000"
+}

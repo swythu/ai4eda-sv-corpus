@@ -1,0 +1,24 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "ima_adpcm_enc_dec",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 2,
+    "diagnostic_count": 2,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "ima_adpcm_dec",
+      "ima_adpcm_enc"
+    ]
+  },
+  "source_files": [
+    "rtl/blocks/ima_adpcm_dec.sv",
+    "rtl/blocks/ima_adpcm_enc.sv"
+  ]
+}

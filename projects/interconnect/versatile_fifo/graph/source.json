@@ -1,0 +1,23 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "versatile_fifo",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 2,
+    "diagnostic_count": 0,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "async_fifo_dw_simplex_top"
+    ]
+  },
+  "source_files": [
+    "rtl/blocks/async_fifo_core.sv",
+    "rtl/blocks/async_fifo_dw_simplex_top.sv"
+  ]
+}

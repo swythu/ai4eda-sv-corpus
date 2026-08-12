@@ -1,0 +1,32 @@
+{
+  "extractor": "pyslang-9.1.0",
+  "manual_overrides": "graph/overrides.json",
+  "parse_diagnostics": [],
+  "project_id": "apbtoaes128",
+  "schema_version": "ip-etg-source/v1",
+  "semantic_elaboration": {
+    "attempted": true,
+    "authority": "project regression remains authoritative for Q1/Q2",
+    "compilation_units": 11,
+    "diagnostic_count": 14,
+    "error_codes": {},
+    "error_count": 0,
+    "status": "pass",
+    "top_instances": [
+      "aes_ip"
+    ]
+  },
+  "source_files": [
+    "rtl/legacy/aes_core.v",
+    "rtl/legacy/control_unit.v",
+    "rtl/legacy/data_swap.v",
+    "rtl/legacy/datapath.v",
+    "rtl/legacy/host_interface.v",
+    "rtl/legacy/key_expander.v",
+    "rtl/legacy/mix_columns.v",
+    "rtl/legacy/sBox.v",
+    "rtl/legacy/sBox_8.v",
+    "rtl/legacy/shift_rows.v",
+    "rtl/top/aes_ip.sv"
+  ]
+}

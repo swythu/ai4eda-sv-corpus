@@ -1,0 +1,8 @@
+{
+  "project": "pipelined_fft_64",
+  "status": "pass",
+  "compile": "pass",
+  "simulation": "pass",
+  "test_level": "self_checking_functional",
+  "checks": ["full output frame", "spectral peak at stimulus bin", "spurious-free response", "no overflow"]
+}

@@ -1,0 +1,9 @@
+name: "ecc_ram"
+category: "memory"
+upstream_project: "https://github.com/lowRISC/opentitan"
+upstream_revision: "49df6acde4f81ce6e945153456373846f76379d9f"
+upstream_files: ["hw/ip/prim_generic/rtl/prim_ram_1p.sv", "hw/ip/prim/rtl/prim_secded* files"]
+license_expression: "Apache-2.0"
+license_evidence: "OpenTitan source files carry SPDX-License-Identifier: Apache-2.0."
+modification_status: "Dependency-closed 32-bit SECDED RAM derivative with explicit injection ports for validation."
+public_export_decision: "source_released"

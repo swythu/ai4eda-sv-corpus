@@ -1,0 +1,50 @@
+{
+  "allowed_context": [
+    "project_metadata",
+    "released_graph",
+    "released_rtl",
+    "public_validation_summary"
+  ],
+  "difficulty": "medium",
+  "family": "hierarchy_dependency_analysis",
+  "input_nodes": [
+    "project:versatile_fifo",
+    "module:async_fifo_core",
+    "module:async_fifo_dw_simplex_top"
+  ],
+  "oracle": {
+    "gold_release": "not_in_alpha",
+    "kind": "graph_and_tool_contract",
+    "required_checks": [
+      "schema",
+      "compile_if_code",
+      "lint_if_code",
+      "project_regression_if_patch"
+    ]
+  },
+  "output_contract": {
+    "format": "structured_json_or_systemverilog_as_requested",
+    "must_cite_graph_node_ids": true,
+    "must_not_modify_tests": true
+  },
+  "project_id": "versatile_fifo",
+  "prompt": "Recover and explain the module dependency and instantiation hierarchy of versatile_fifo, including the roles of async_fifo_core, async_fifo_dw_simplex_top. Identify graph evidence for each dependency.",
+  "provenance": {
+    "derivation": "deterministic-v0.1-template",
+    "project_revision": "c1dea52c6728cb5d",
+    "review_status": "pending"
+  },
+  "quality": {
+    "expert_reviewed": false,
+    "mutation_validated": false,
+    "tool_validated": false
+  },
+  "release_tier": "public",
+  "schema_version": "ip-task/v1",
+  "split": "train",
+  "target_nodes": [
+    "module:async_fifo_core",
+    "module:async_fifo_dw_simplex_top"
+  ],
+  "task_id": "ipgraph:versatile_fifo:hierarchy_dependency_analysis:0000"
+}

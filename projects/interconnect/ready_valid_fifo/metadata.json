@@ -1,0 +1,1 @@
+{"project":"ready_valid_fifo","category":"interconnect","status":"pass","license_expression":"Apache-2.0","validation":"compile_simulation_lint_pass","verification_checks":["ordered delivery","backpressure stability","simultaneous push/pop","full and empty boundaries"],"expert_review":"pending","trainable":false}
