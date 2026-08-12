@@ -13,9 +13,11 @@ from ipgraph_common import ROOT, sha256_file
 
 
 ROOT_FILES = (
+    ".gitattributes", ".gitignore", "LICENSE",
     "README.md", "README_zh-CN.md", "DATASET_CARD.md", "LICENSE_POLICY.md",
     "CONTRIBUTING.md", "CITATION.cff", "NOTICE.md", "VALIDATION.md",
-    "manifest.json", "requirements-dev.txt",
+    "manifest.json", "requirements-dev.txt", "EXCLUDED_PROJECTS.json",
+    "validation_summary.json",
 )
 ROOT_DIRS = ("schemas", "catalog", "benchmarks", "reviews", "tools", "docs", "LICENSES", ".github")
 METADATA_PATHS = ("IP_CARD.md", "ORIGIN.yml", "metadata.json", "graph", "tasks")
